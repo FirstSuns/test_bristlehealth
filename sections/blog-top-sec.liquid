@@ -1,0 +1,165 @@
+<div class="blogstopics">
+  <div class="blogstopics_upper">
+  <div class="container-medium">
+    <div class="top-content">
+      <div class="leftcon">
+    <h2 class="title lora-font">{{ section.settings.title }}</h2>
+   <p>{{ section.settings.subtitle }}</p>
+      </div>
+      <div class="rightcon">
+        <h2>What would you like to read?</h2>
+    <form method="get" action="/search">
+    <input type="hidden" name="type" value="article" />
+    <input type="text" name="q" placeholder="Search articles..." />
+      <div class="search-btn-form">
+    <input  type="submit" value="Search" />
+  {% render 'right-arrow-new' %}
+      </div>
+</form>
+      </div>
+    </div></div>
+    <div class="blog_topics">
+       <div class="container-medium">
+      <h6>EXPLORE BY TOPIC</h6>
+          <div class="blog_topics_inner">
+       {% for block in section.blocks %}
+         {% if block.type == 'topic' %}
+           <a href="{{ block.settings.link }}">
+           <div class="topic_wrap" style="background:{{ block.settings.color }};color:{{ block.settings.textcolor }}; ">
+            <div class="topic_wrap_text"> {{ block.settings.topic }}</div>
+             <span class="topic_wrap_icon">
+               <span class="topic_wrap_icon_inner">
+                 {% comment %}
+                     <?xml version="1.0" ?><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="fill:{{ block.settings.arrowcolor }};border-color:{{ block.settings.arrowcolor }}"><title/><g data-name="Layer 2" id="Layer_2"><path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"/></g></svg>
+ {% endcomment %}
+           <svg  style="fill:{{ block.settings.arrowcolor }};" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path style="fill:{{ block.settings.arrowcolor }};" d="M10.6484 20.2132C5.1281 20.2071 0.6545 15.7335 0.648438 10.2132V10.0132C0.758369 4.51768 5.28302 0.141109 10.7791 0.214033C16.2752 0.286957 20.6821 4.78204 20.6462 10.2785C20.6103 15.7749 16.145 20.2121 10.6484 20.2132ZM10.6484 2.21315C6.23016 2.21315 2.64844 5.79487 2.64844 10.2132C2.64844 14.6314 6.23016 18.2132 10.6484 18.2132C15.0667 18.2132 18.6484 14.6314 18.6484 10.2132C18.6435 5.79693 15.0647 2.21811 10.6484 2.21315ZM10.6484 15.2132L9.23844 13.8032L11.8184 11.2132H5.64844V9.21315H11.8184L9.23844 6.62315L10.6484 5.21315L15.6484 10.2132L10.6484 15.2132Z" fill="white"/>
+</svg>
+
+               </span>
+             </span>
+           </div>
+           </a>
+         {% endif %}
+       {% endfor %}
+    </div></div> </div></div>
+    <div class="container-large">
+      <div class="related-article-main">
+<div class="related-articles">
+  <h6>Most Popular</h6>
+  <ul>
+{% for block in section.blocks  %}
+  {% if block.type == 'text' %}
+  {% assign article = articles[block.settings.article] %}
+      <li>
+        <img
+                srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                  {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                  {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                  {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                  {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                  {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                  {{ article.image | image_url }} {{ article.image.width }}w"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                src="{{ article.image | image_url: width: 1100 }}"
+                loading="eager"
+                width="{{ article.image.width }}"
+                height="{{ article.image.height }}"
+                alt="{{ article.image.alt | escape }}">
+        <div class="article-info-main">
+        <a href="{{ article.url }}" class="title"><p>{{ article.title }}</p></a>
+      <a href="{{ article.url }}" class="readmore"><p>Read More
+      <?xml version="1.0" ?><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style=""><title/><g data-name="Layer 2" id="Layer_2"><path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"/></g></svg>
+      </p></a>
+        </div>
+      </li>
+    {% endif %}
+{% endfor %}
+</ul>
+</div>
+ </div></div>
+ 
+</div>
+{%  render 'podcast-newsletter' %}
+
+      <style>
+        body.page-blog .blog_topics .blog_topics_inner a span.topic_wrap_icon svg {
+    fill: {{ block.settings.arrowcolor }};
+}
+      </style>
+  
+{% schema %}
+  {
+    "name": "Blog Top Section",
+    "settings": [
+      {
+        "type":"text",
+        "id":"title",
+        "label":"Title"
+      },
+       {
+        "type":"textarea",
+        "id":"subtitle",
+        "label":"Sub Title"
+      }
+    ],
+    "blocks":[
+       {
+        "type":"topic",
+        "name":"Topics",
+        "settings":[
+           {
+            "type":"text",
+            "id":"topic",
+            "label":"Topic"
+          },
+            {
+            "type":"url",
+            "id":"link",
+            "label":"Link"
+          },
+          {
+            "type":"color",
+            "id":"color",
+            "label":"Bg Color"
+          },
+          {
+            "type":"color",
+            "id":"textcolor",
+            "label":"Text Color"
+          },
+           {
+            "type":"color",
+            "id":"arrowcolor",
+            "label":"Arrow Color",
+             "default":"#fff"
+          }
+         
+        ]
+      },
+       {
+        "type":"text",
+        "name":"Popular Posts",
+        "settings":[
+           {
+            "type":"article",
+            "id":"article",
+            "label":"Article"
+          }
+         
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name":"Blog Top Section"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

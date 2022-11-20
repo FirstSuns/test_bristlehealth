@@ -2,26 +2,26 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top_mobile  }}px;
+    padding-bottom: {{ section.settings.padding_bottom_mobile  }}px;
   }
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 768px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
 {%- endstyle -%}
-
-<div class="image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
+<div class="{% if page.handle == 'providers' %}prov_sec {% endif %}image-with-text-main  {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %} ">
+<div class="image-with-text image-with-text--{{ section.settings.content_layout }} container-large isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
-        {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}
-      >
+        {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}>
         {%- if section.settings.image != blank -%}
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
+        
           {{ section.settings.image | image_url: width: 1500 | image_tag:
             loading: 'lazy',
             sizes: sizes,
@@ -37,31 +37,64 @@
         {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when 'heading' -%}
-              <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                {{ block.settings.heading | escape }}
+              <h2 class="{% if block.settings.heading_size != 'h0' and page.handle == 'providers' %}acctitle {% endif %}image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                {{ block.settings.heading  }}
+            {% if page.handle == 'providers' and block.settings.heading_size != 'h0' %} {% render 'plus-icon' %}{% endif %}
               </h2>
             {%- when 'caption' -%}
               <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
             {%- when 'text' -%}
-              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              <div class=" {% if page.handle == 'providers' and block.settings.heading_size != 'h0' %}show{% endif %} image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+            
             {%- when 'button' -%}
+            {%  if forloop.index == 3 %}
+            <div class="btnwrap">
+              {% endif %}
               {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="btn-custom-list-wc button-primary-blue button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
+             {%  if forloop.index == 4 %}
+            </div>
+               {% endif %}
           {%- endcase -%}
         {%- endfor -%}
       </div>
     </div>
   </div>
 </div>
+</div>
 
+<style>
+div#shopify-section-template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05 svg {
+    display: none;
+}
+ 
+  @media screen and (max-width: 768px) {
+    
+  .prov_sec .image-with-text__text, .prov_sec .image-with-text__media-item{
+    display:none;
+  }
+   .shopify-section .prov_sec.active .image-with-text__text, .shopify-section .prov_sec.active .image-with-text__media-item{
+    display:block;
+  }
+div#shopify-section-template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05 .image-with-text__text, div#shopify-section-template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05 .image-with-text__media-item {
+     display:block; 
+    }
+  
+  }
+</style>
 {% schema %}
 {
   "name": "t:sections.image-with-text.name",
   "class": "section",
   "settings": [
+    {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
     {
       "type": "image_picker",
       "id": "image",
@@ -256,6 +289,26 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+     {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top padding Mobile",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom padding Mobile",
+      "default": 28
     }
   ],
   "blocks": [
@@ -373,7 +426,7 @@
     {
       "type": "button",
       "name": "t:sections.image-with-text.blocks.button.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "text",
@@ -386,6 +439,11 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+         {
+          "type": "checkbox",
+          "id": "outlined_button",
+          "label": "Outlined Button"
         }
       ]
     }

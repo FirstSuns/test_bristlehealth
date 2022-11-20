@@ -1,0 +1,584 @@
+{
+  "sections": {
+    "main": {
+      "type": "breath-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cd9b555b-82b5-4fa6-a9ac-25b9f58a7150": {
+      "type": "banner-with-as-seen-on",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/629e16497121d413485e0a46_background_image.webp",
+        "title": "Take the guesswork out of your oral health",
+        "subtext": "Get insight into the root cause of bad breath, tooth decay, gum inflammation, and other conditions with an at-home oral microbiome test. Receive personalized product, hygiene, and diet recommendations to start improving your health.",
+        "btn_label": "Improve your oral health",
+        "btn_link": "",
+        "heading": "As seen on",
+        "icons": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/us.png?v=1665721276\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/yahoo-img.png?v=1665721276\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/business-img.png?v=1665721276\">"
+      }
+    },
+    "96beebe8-308c-480f-ad46-bfffc64afa02": {
+      "type": "how-works",
+      "blocks": {
+        "3a3c4844-866b-49fe-8cbe-92fcf8005b7f": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62a1c330b4e4f150f5174caa_Group_279305.webp",
+            "title": "Order your test",
+            "desc": "We’ll send you a kit, collect a saliva sample at home, and mail it back to our lab."
+          }
+        },
+        "896fed38-519c-477d-8553-bf9c96d5996f": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62b2034a4330e42743002e8d_Recommendations_-_iPad_mockup_6.18_1_-p-1600.webp",
+            "title": "View results",
+            "desc": "Get your oral health report card with a breakdown of the bacteria and fungi in your mouth."
+          }
+        },
+        "6e81963b-6fa1-413e-a9f5-c3dca23976ea": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62ce2d646ac31551da98e689_Ellipse_31.webp",
+            "title": "Start improving",
+            "desc": "Receive personalized diet, lifestyle, hygiene, and oral care product recommendations."
+          }
+        },
+        "065237df-3fde-45a3-ae66-c64af77a35a6": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/625b00ae28e1024fbd7dc794_Ellipse_29.webp",
+            "title": "Meet your coach",
+            "desc": "Our oral health experts will talk you through your results and care plan."
+          }
+        },
+        "7d8affad-24ef-453a-9c16-fdb2f8ccc0b8": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62cf2cb272191e35d0d6e25f_gum_inflam-p-500_89a82e8c-afc2-4240-ac21-bbc0f874c923.webp",
+            "title": "Monitor over time",
+            "desc": "Track how changes you make improve your health through recurrent testing."
+          }
+        }
+      },
+      "block_order": [
+        "3a3c4844-866b-49fe-8cbe-92fcf8005b7f",
+        "896fed38-519c-477d-8553-bf9c96d5996f",
+        "6e81963b-6fa1-413e-a9f5-c3dca23976ea",
+        "065237df-3fde-45a3-ae66-c64af77a35a6",
+        "7d8affad-24ef-453a-9c16-fdb2f8ccc0b8"
+      ],
+      "settings": {
+        "custom_class": "five-tiles",
+        "title": "How it works",
+        "btn_label": "Get your kit",
+        "link": "shopify:\/\/products\/single-test"
+      }
+    },
+    "7008e3b3-83b3-4829-a5f3-ce174812c43e": {
+      "type": "customer-review",
+      "settings": {
+        "content": "\"I believe the oral microbiome is the new frontier of health! With Bristle, you can easily learn about your unique oral microbiome, receive personalized recommendations, track your changes over time, and <b>take charge of not only your dental health, but your overall wellness.<\/b> Whether you’re a biohacker or health enthusiast, you need to get Bristle now!!\"",
+        "image": "shopify:\/\/shop_images\/62fdc975166de54a3c9cdda1_headshot_3.png",
+        "name": "Melanie Avalon",
+        "desg": "Biohacking Expert"
+      }
+    },
+    "85ed835b-1ea9-4083-b891-17154078538f": {
+      "type": "fullwidth-text-image",
+      "blocks": {
+        "template--15943051051165__85ed835b-1ea9-4083-b891-17154078538f-16659980483a2971c1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Bristle test can help identify the root cause of symptoms, including:",
+            "heading_size": "h1"
+          }
+        },
+        "template--15943051051165__85ed835b-1ea9-4083-b891-17154078538f-16659980483a2971c1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<div class=\"w-layout-grid hm-card-grid\">\n<div id=\"w-node-_0d2fdce2-ee7e-4fe2-9e1f-f91b0465c651-8267b0d9\" class=\"hm-card-content\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/6278f26db1c98bb248a81fec_check-mark.svg?v=1665660726\" loading=\"lazy\" alt=\"\" class=\"mark-yellow\"><div class=\"hm-card-text\">Chronic bad breath<\/div>\n<\/div>\n<div id=\"w-node-_0d2fdce2-ee7e-4fe2-9e1f-f91b0465c655-8267b0d9\" class=\"hm-card-content\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/6278f26db1c98bb248a81fec_check-mark.svg?v=1665660726\" loading=\"lazy\" alt=\"\" class=\"mark-yellow\"><div class=\"hm-card-text\">Gut inflammation<\/div>\n<\/div>\n<div id=\"w-node-_0d2fdce2-ee7e-4fe2-9e1f-f91b0465c659-8267b0d9\" class=\"hm-card-content\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/6278f26db1c98bb248a81fec_check-mark.svg?v=1665660726\" loading=\"lazy\" alt=\"\" class=\"mark-yellow\"><div class=\"hm-card-text\">Tongue coating<\/div>\n<\/div>\n<div id=\"w-node-_0d2fdce2-ee7e-4fe2-9e1f-f91b0465c65d-8267b0d9\" class=\"hm-card-content\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/6278f26db1c98bb248a81fec_check-mark.svg?v=1665660726\" loading=\"lazy\" alt=\"\" class=\"mark-yellow\"><div class=\"hm-card-text\">Burning mouth<\/div>\n<\/div>\n<div id=\"w-node-_0d2fdce2-ee7e-4fe2-9e1f-f91b0465c661-8267b0d9\" class=\"hm-card-content\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/6278f26db1c98bb248a81fec_check-mark.svg?v=1665660726\" loading=\"lazy\" alt=\"\" class=\"mark-yellow\"><div class=\"hm-card-text\">Inflamed gums<\/div>\n<\/div>\n<div id=\"w-node-_0d2fdce2-ee7e-4fe2-9e1f-f91b0465c665-8267b0d9\" class=\"hm-card-content\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/6278f26db1c98bb248a81fec_check-mark.svg?v=1665660726\" loading=\"lazy\" alt=\"\" class=\"mark-yellow\"><div class=\"hm-card-text\">Weird taste<\/div>\n<\/div>\n<div id=\"w-node-_0d2fdce2-ee7e-4fe2-9e1f-f91b0465c669-8267b0d9\" class=\"hm-card-content\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/6278f26db1c98bb248a81fec_check-mark.svg?v=1665660726\" loading=\"lazy\" alt=\"\" class=\"mark-yellow\"><div class=\"hm-card-text\">Tooth decay<\/div>\n<\/div>\n<\/div>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15943051051165__85ed835b-1ea9-4083-b891-17154078538f-16659980483a2971c1-0",
+        "template--15943051051165__85ed835b-1ea9-4083-b891-17154078538f-16659980483a2971c1-1"
+      ],
+      "settings": {
+        "custom_class": "image-text-full-width-inner-pg",
+        "heading": "Good health starts with a healthy mouth.",
+        "image": "shopify:\/\/shop_images\/1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b313e99d-d436-4734-86f3-72e846f396b5": {
+      "type": "oral-health",
+      "blocks": {
+        "9b024951-436c-49d4-9a9e-0b1b976ee63e": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/623efa948a2b16cd0f2fd692_intermedia_2x_1.png",
+            "desc": "The mouth is home to the second largest microbiome in your body with trillions of microbes, some beneficial and others harmful."
+          }
+        },
+        "e39cfc72-49ce-462a-ac4b-1217f8c246fe": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/623efa94c942372ac8b41f99_Asset_35_2x_1.png",
+            "desc": "Each individual has between 100 - 200 bacterial species in their mouth on average, and factors like nutrition & hygiene determine which species you have."
+          }
+        },
+        "c1a8e4f7-d602-468a-bb00-7e02757fbeed": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/623efa9404df017a750e37d5_comprehensive_2x_1.png",
+            "desc": "Most oral diseases and conditions are caused by an overabundance of harmful microbes."
+          }
+        }
+      },
+      "block_order": [
+        "9b024951-436c-49d4-9a9e-0b1b976ee63e",
+        "e39cfc72-49ce-462a-ac4b-1217f8c246fe",
+        "c1a8e4f7-d602-468a-bb00-7e02757fbeed"
+      ],
+      "settings": {
+        "heading": "Your oral health is driven by your <b>oral microbiome<\/b>"
+      }
+    },
+    "d1f3ced8-8f2a-4332-af64-2810341e689e": {
+      "type": "overall-health",
+      "blocks": {
+        "8613aac0-96d4-4fd7-a1b1-092d364ee0f3": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62cdd75c0a0550a222533fb3_icons-03.webp",
+            "title": "Cognitive decline"
+          }
+        },
+        "544e9361-ab51-4a6a-8fb8-c5fcb4ce6c2f": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62cdd783287a5ce7f757e797_icons-05.webp",
+            "title": "Adverse pregnancy outcomes"
+          }
+        },
+        "0206314c-7ecd-4d7f-aa6f-9e47e0c5347e": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62cdd7a441b6854efc30930e_icons-04.webp",
+            "title": "Respiratory conditions"
+          }
+        },
+        "7822ff23-e1db-4b86-9f29-4f68bb02893e": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62cdd7ba48943eeb2b524120_icons-06.webp",
+            "title": "Cardiovascular diseases"
+          }
+        },
+        "6486336a-3bd9-4f00-bf87-96b30db05d06": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62cdd7d124b9d8bd52fdfffa_icons-07.webp",
+            "title": "Diabetes"
+          }
+        },
+        "354ac005-2583-448f-ba42-5528c95e2cc0": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62cdd7f29a63547167b32ab6_icons-08.webp",
+            "title": "Gastrointestinal inflammation"
+          }
+        }
+      },
+      "block_order": [
+        "8613aac0-96d4-4fd7-a1b1-092d364ee0f3",
+        "544e9361-ab51-4a6a-8fb8-c5fcb4ce6c2f",
+        "0206314c-7ecd-4d7f-aa6f-9e47e0c5347e",
+        "7822ff23-e1db-4b86-9f29-4f68bb02893e",
+        "6486336a-3bd9-4f00-bf87-96b30db05d06",
+        "354ac005-2583-448f-ba42-5528c95e2cc0"
+      ],
+      "settings": {
+        "heading": "Your oral microbiome impacts your <b>overall health<\/b>",
+        "content": "Oral bacteria are associated with a range of systemic and chronic conditions including:"
+      }
+    },
+    "e544615e-658e-4f2d-9a5d-de1018420fde": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15943051051165__e544615e-658e-4f2d-9a5d-de1018420fde-16659985147d187fe7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Optimizing your oral health is <em><strong>critical <\/strong><\/em>to gut, brain, heart, and whole-body health & wellness.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15943051051165__e544615e-658e-4f2d-9a5d-de1018420fde-16659985147d187fe7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start optimizing today",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15943051051165__e544615e-658e-4f2d-9a5d-de1018420fde-16659985147d187fe7-0",
+        "template--15943051051165__e544615e-658e-4f2d-9a5d-de1018420fde-16659985147d187fe7-2"
+      ],
+      "settings": {
+        "custom_class": "rich-text-inner-pg",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1dd452cf-c34b-43f8-a3d1-b215f2f7ef9e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15943051051165__1dd452cf-c34b-43f8-a3d1-b215f2f7ef9e-1665998577aaabe5fd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test your oral microbiome",
+            "heading_size": "h1"
+          }
+        },
+        "template--15943051051165__1dd452cf-c34b-43f8-a3d1-b215f2f7ef9e-1665998577aaabe5fd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Measure the 100+ beneficial and harmful oral bacteria and fungi in your mouth.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15943051051165__1dd452cf-c34b-43f8-a3d1-b215f2f7ef9e-1665998577aaabe5fd-0",
+        "template--15943051051165__1dd452cf-c34b-43f8-a3d1-b215f2f7ef9e-1665998577aaabe5fd-1"
+      ],
+      "settings": {
+        "custom_class": "custom-image-with-text",
+        "image": "shopify:\/\/shop_images\/62cde5201aeb3330ca738198_product_image_4dd2959b-1d68-4e8a-aa79-ab02436fe836.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 76,
+        "padding_bottom": 36,
+        "padding_top_mobile": 70,
+        "padding_bottom_mobile": 28
+      }
+    },
+    "688d119c-31c6-4c33-8aa3-233a585a8bf4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15943051051165__688d119c-31c6-4c33-8aa3-233a585a8bf4-1665998577aaabe5fd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get your oral health report card",
+            "heading_size": "h1"
+          }
+        },
+        "template--15943051051165__688d119c-31c6-4c33-8aa3-233a585a8bf4-1665998577aaabe5fd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With scores for tooth decay, gum inflammation, halitosis (bad breath), gut inflammation, and beneficial bacteria.<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15943051051165__688d119c-31c6-4c33-8aa3-233a585a8bf4-1665998577aaabe5fd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "See a sample report",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15943051051165__688d119c-31c6-4c33-8aa3-233a585a8bf4-1665998577aaabe5fd-0",
+        "template--15943051051165__688d119c-31c6-4c33-8aa3-233a585a8bf4-1665998577aaabe5fd-1",
+        "template--15943051051165__688d119c-31c6-4c33-8aa3-233a585a8bf4-1665998577aaabe5fd-2"
+      ],
+      "settings": {
+        "custom_class": "custom-image-with-text",
+        "image": "shopify:\/\/shop_images\/62cf2c57f9449c6baa4a559c_ipad_mockup_with_conditions_6.13-p-1600.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    },
+    "0236549f-78dc-420f-9475-c195ccac1344": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15943051051165__0236549f-78dc-420f-9475-c195ccac1344-1665998627f6798753-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Identify what’s driving your health status and symptoms",
+            "heading_size": "h1"
+          }
+        },
+        "template--15943051051165__0236549f-78dc-420f-9475-c195ccac1344-1665998627f6798753-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get a breakdown of every bacterial species detected in your saliva, including a description of how it influences your health.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15943051051165__0236549f-78dc-420f-9475-c195ccac1344-1665998627f6798753-0",
+        "template--15943051051165__0236549f-78dc-420f-9475-c195ccac1344-1665998627f6798753-1"
+      ],
+      "settings": {
+        "custom_class": "custom-image-with-text",
+        "image": "shopify:\/\/shop_images\/62cf2c659652ac969a821f06_Snippet_Mock_-_Bacteria_2_-p-1600_23963b21-4ea7-4021-bb75-bc1e1f743351.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    },
+    "69072ea9-a663-4b28-a53f-0f1c7627d0ff": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15943051051165__69072ea9-a663-4b28-a53f-0f1c7627d0ff-16659987532fa001c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Optimize your routine",
+            "heading_size": "h1"
+          }
+        },
+        "template--15943051051165__69072ea9-a663-4b28-a53f-0f1c7627d0ff-16659987532fa001c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Receive a personalized diet, hygiene, and oral care product plan plus 1:1 coaching with a Bristle health expert.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15943051051165__69072ea9-a663-4b28-a53f-0f1c7627d0ff-16659987532fa001c5-0",
+        "template--15943051051165__69072ea9-a663-4b28-a53f-0f1c7627d0ff-16659987532fa001c5-1"
+      ],
+      "settings": {
+        "custom_class": "custom-image-with-text",
+        "image": "shopify:\/\/shop_images\/62cf2c9925a01d5693edb16b_recs-p-1600_e072fb13-ed5a-494b-a7b3-8ad24c0ba6af.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    },
+    "9e9197b1-5fd5-4d66-901c-74c1bdc960f0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15943051051165__9e9197b1-5fd5-4d66-901c-74c1bdc960f0-166599881416f6e45e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Track your progress",
+            "heading_size": "h1"
+          }
+        },
+        "template--15943051051165__9e9197b1-5fd5-4d66-901c-74c1bdc960f0-166599881416f6e45e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With subscription testing, quantifiably monitor how changes you make impact your oral health scores and microbiome.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15943051051165__9e9197b1-5fd5-4d66-901c-74c1bdc960f0-166599881416f6e45e-0",
+        "template--15943051051165__9e9197b1-5fd5-4d66-901c-74c1bdc960f0-166599881416f6e45e-1"
+      ],
+      "settings": {
+        "custom_class": "custom-image-with-text",
+        "image": "shopify:\/\/shop_images\/new4_d9f9b052-778d-4499-86c6-0dc984b9eb7b.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    },
+    "c3955f68-93b5-46db-b4c4-6960e18bb8b8": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15943051051165__c3955f68-93b5-46db-b4c4-6960e18bb8b8-1665998883c41c49e1-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "c071a583-8a8a-4d68-9db7-6ce219683ec8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "We believe good health starts with a healthy mouth. The Bristle Oral Health Test shows you the levels of good and bad bacteria in your saliva, with personalized insights to optimize and maintain your oral health."
+          }
+        },
+        "template--15943051051165__c3955f68-93b5-46db-b4c4-6960e18bb8b8-1665998883c41c49e1-2": {
+          "type": "price",
+          "settings": {}
+        },
+        "a05f8f2b-2876-43cb-99ef-dfc06bec8a44": {
+          "type": "button",
+          "settings": {
+            "btn_label": "Get your kit",
+            "btn_link": "shopify:\/\/products\/single-test",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15943051051165__c3955f68-93b5-46db-b4c4-6960e18bb8b8-1665998883c41c49e1-1",
+        "c071a583-8a8a-4d68-9db7-6ce219683ec8",
+        "template--15943051051165__c3955f68-93b5-46db-b4c4-6960e18bb8b8-1665998883c41c49e1-2",
+        "a05f8f2b-2876-43cb-99ef-dfc06bec8a44"
+      ],
+      "settings": {
+        "custom_class": "featured-product-inner-pg",
+        "product": "single-test",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e6e22024-0918-43e7-842d-c0b1ab66313f": {
+      "type": "dentist",
+      "blocks": {
+        "a8e237a9-5d3d-4cd3-a958-a466607da655": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e0428ba8d31edc3f6209b4_img-5-_1.png",
+            "title": "Dr. Roshan Parikh, DDS",
+            "desg": "President at dntl bar",
+            "desc": "Former Head of Dentistry, Walmart, Chief Strategy Officer, DSO Strategy, LLC"
+          }
+        },
+        "d82a1608-742b-42f8-8aa2-f4ccc3499c29": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e0429684d5a9c509f587df_618073d63cb4692d61df313b_Feldman.png",
+            "title": "Dr. Bonnie Feldman, DDS",
+            "desg": "General Dentist and Founder of Autoimmune Connect",
+            "desc": "International speaker, consultant, and writer with a focus on the oral microbiome's connection to systemic disease"
+          }
+        },
+        "3b69fe42-21c1-4980-ac04-8fb8a47b5c16": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e042990b8182784615007d_img-3-bristle-_1.png",
+            "title": "Dr. Jonathan Levine, DDS",
+            "desg": "Founder of GLO Science, Oral Health Expert, Social Entrepreneur",
+            "desc": "Former Associate Professor at NYU School of Dentistry and co-founder of the GLO GOOD Foundation"
+          }
+        },
+        "737f60c4-c377-4d3a-8056-2c20f83cdfc1": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e042993c6d4877dc827586_img-1-btisdtle-_1.png",
+            "title": "Dr. Mark Burhenne, DDS",
+            "desg": "Family Dentist and Founder of AskTheDentist.com",
+            "desc": "Former Chief Dental Officer at Quip and best selling author"
+          }
+        },
+        "6c0db8dc-1168-4fa1-834d-f376f78a4443": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e042a2a8d31e552a621a0d_621fba879a7423b24aa5c9ea_Eric2525252520Headshot-p-500.jpg",
+            "title": "Dr. Eric Pulver, DDS",
+            "desg": "Oral & Maxillofacial Surgeon and Chief Dental Officer at Denti.Ai",
+            "desc": "Former Director of Oral & Maxillofacial Surgery at the University of Chicago Hospitals and team surgeon for the Chicago Blackhawks"
+          }
+        }
+      },
+      "block_order": [
+        "a8e237a9-5d3d-4cd3-a958-a466607da655",
+        "d82a1608-742b-42f8-8aa2-f4ccc3499c29",
+        "3b69fe42-21c1-4980-ac04-8fb8a47b5c16",
+        "737f60c4-c377-4d3a-8056-2c20f83cdfc1",
+        "6c0db8dc-1168-4fa1-834d-f376f78a4443"
+      ],
+      "settings": {
+        "title": "RECOMMENDED BY LEADING DENTISTS"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cd9b555b-82b5-4fa6-a9ac-25b9f58a7150",
+    "96beebe8-308c-480f-ad46-bfffc64afa02",
+    "7008e3b3-83b3-4829-a5f3-ce174812c43e",
+    "85ed835b-1ea9-4083-b891-17154078538f",
+    "b313e99d-d436-4734-86f3-72e846f396b5",
+    "d1f3ced8-8f2a-4332-af64-2810341e689e",
+    "e544615e-658e-4f2d-9a5d-de1018420fde",
+    "1dd452cf-c34b-43f8-a3d1-b215f2f7ef9e",
+    "688d119c-31c6-4c33-8aa3-233a585a8bf4",
+    "0236549f-78dc-420f-9475-c195ccac1344",
+    "69072ea9-a663-4b28-a53f-0f1c7627d0ff",
+    "9e9197b1-5fd5-4d66-901c-74c1bdc960f0",
+    "c3955f68-93b5-46db-b4c4-6960e18bb8b8",
+    "e6e22024-0918-43e7-842d-c0b1ab66313f"
+  ]
+}

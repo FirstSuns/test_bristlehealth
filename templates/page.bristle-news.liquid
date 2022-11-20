@@ -1,0 +1,49 @@
+<div class="page-header">
+  <div class="page-width">
+      <h2>{{ page.title }}</h2>
+    <p>{{ page.content }}</p>
+  </div>
+</div>
+{% section 'bristle-news' %}
+{% section 'badbreath' %}
+{% section 'bristle-research' %}
+{% section 'oral-care' %}
+{% section 'oral-microbiome' %}
+{% section 'oralhealth' %}
+{% section 'systemic-health' %}
+
+
+
+<div class="custom-blog-newsletter">
+<div class="page-width">
+<div class="blog-newsletter-inner section display-custom wf-section">
+  <div class="container-custom-left"></div><div class="container-custom"><div class="form-block-blog w-form">
+    {% form 'customer', class: 'newsletter-form' %}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+    <h3 class="form-heading">Join our community</h3>
+      <div class="form-text">Want helpful tips and research digests delivered directly to your inbox? Sign up here.
+</div>
+    {% if page.handle == 'bristle-news' %}<span class="form-title">Full Name</span>{% endif %}
+    <input type="text" class="text-field-blog w-input" maxlength="256" name="contact[name]" data-name="Name 2" placeholder="Full name" id="name-2">
+        {% if page.handle == 'bristle-news' %}<span class="form-title">Email</span>{% endif %}
+      <input type="email" class="text-field-blog w-input" maxlength="256" name="contact[email]" data-name="Email 3" placeholder="Email address" id="email-3" required="">
+      <label class="w-checkbox checkbox-field-blog">
+        <input type="checkbox" id="checkbox-2" name="contact[blog]" data-name="Checkbox 2" class="w-checkbox-input checkbox-blog">
+        <span class="checkbox-label-blog w-form-label" for="checkbox-2">I agree to receive other communications from Bristle.</span>
+      </label>
+    <p class="unsub">You can unsubscribe from these communications at any time.</p>
+      <input type="submit" value="Sign up" data-wait="Please wait..." id="Blog-Email-Sign-Up" class="sign-up-button w-button">
+    
+              {%- if form.posted_successfully? -%}
+                <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+              {%- endif -%}
+            {% endform %}
+            
+<!--     <div class="success-message-blog w-form-done" tabindex="-1" role="region" aria-label="Email Form 2 success">
+      <div class="thank-you">Thank you! Your submission has been received!</div>
+    </div>
+    <div class="w-form-fail" tabindex="-1" role="region" aria-label="Email Form 2 failure">
+      <div class="error-text">Oops! Something went wrong while submitting the form.</div>
+    </div> -->
+  </div></div><div class="container-custom-right"></div></div>
+  </div></div>

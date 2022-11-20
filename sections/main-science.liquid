@@ -1,0 +1,99 @@
+<div class="section padding-hero wf-section sciene-banner-sec">
+  <div class="container-medium">
+    <div class="science-hero">
+      {%- if section.settings.title != blank -%}
+      <div id="w-node-_75917646-4b15-926f-72e9-f301878dc33c-0c67b0d2" class="hero-heading-wrapper-sci bm">
+        <h1 class="h1-sci">{{ section.settings.title }}</h1>
+      </div>
+      {%- endif -%}
+      {%- if section.settings.image != blank -%}
+      <div class="science-hero-image-wrapper">
+        <figure><img src="{{ section.settings.image | img_url: 'master' }}" alt="" title="" /></figure>
+      </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+ <script>
+     $(window).scroll(function() {
+  var offseH =  parseInt($(".oral_health_wrap").offset().top);
+  var innerHMain = parseInt($(".oral_health_wrap").innerHeight() / 3);
+  var innerH = offseH - innerHMain;
+  var innerH1 = innerH + innerHMain;
+  var innerH2 = innerH1 + innerHMain;
+ if($(this).scrollTop() > innerH && $(this).scrollTop() < innerH1){
+   $('.oral_health_wrap').css({"background":"rgba(255, 255, 255)"});
+   $('.science-oral-microbiome-section').css({"background":"rgba(255, 255, 255)"});
+ }if($(this).scrollTop() > innerH1 && $(this).scrollTop() < innerH2){
+   $('.oral_health_wrap').css({"background":"rgba(159, 158, 155)"});
+   $('.science-oral-microbiome-section').css({"background":"rgba(159, 158, 155)"});
+ }if($(this).scrollTop() > innerH2){
+   $('.oral_health_wrap').css({"background":"rgba(159, 158, 155)"});
+   $('.science-oral-microbiome-section').css({"background":"rgba(159, 158, 155)"});
+ }
+
+  var offseH1 =  parseInt($(".science-oral-microbiome-section").offset().top);
+  var innerHMain1 = parseInt($(".science-oral-microbiome-section").innerHeight() / 5);
+  var innerH1 = offseH1 - innerHMain1;
+  var innerH11 = innerH1 + innerHMain1;
+  var innerH21 = innerH11 + innerHMain1;
+  var innerH31 = innerH21 + innerHMain1;
+  var innerH41 = innerH31 + innerHMain1;
+ if($(this).scrollTop() > innerH1 && $(this).scrollTop() < innerH11){
+   $('.science-oral-microbiome-section').css({"background":"rgba(49, 49, 49)"});
+   $('.oral_health_wrap').css({"background":"rgba(49, 49, 49)"});
+ }if($(this).scrollTop() > innerH11 && $(this).scrollTop() < innerH21){
+   $('.science-oral-microbiome-section').css({"background":"rgba(85, 85, 84)"});
+   $('.oral_health_wrap').css({"background":"rgba(85, 85, 84)"});
+ }if($(this).scrollTop() > innerH21 && $(this).scrollTop() < innerH31){
+   $('.science-oral-microbiome-section').css({"background":"rgba(179, 178, 174)"});
+   $('.oral_health_wrap').css({"background":"rgba(179, 178, 174)"});
+ }if($(this).scrollTop() > innerH31 && $(this).scrollTop() < innerH41){
+   $('.science-oral-microbiome-section').css({"background":"rgba(226, 224, 219)"});
+   $('.oral_health_wrap').css({"background":"rgba(226, 224, 219)"});
+ }if($(this).scrollTop() > innerH41){
+   $('.science-oral-microbiome-section').css({"background":"rgba(255, 255, 255)"});
+   $('.oral_health_wrap').css({"background":"rgba(255, 255, 255)"});
+ }
+
+  var effectH = parseInt($(".spit-happens-section").offset().top - 100);
+  if($(this).scrollTop() > effectH){
+    $('.spit-happens-section .spit-happens .spit-happens-wrap h5').addClass('active')
+  }
+  
+});
+  </script>
+  <style>
+    .oral_health_wrap,.science-oral-microbiome-section{transition:0.5s all ease-in-out;-webkit-transition:0.5s all ease-in-out;-o-transition:0.5s all ease-in-out;-moz-transition:0.5s all ease-in-out;-ms-transition:0.5s all ease-in-out;}
+  </style>
+
+{% schema %}
+  {
+    "name": "Science",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Science",
+        "category": "Science"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "b0dcdba2-378e-4067-8b09-3060aac4e6f3": {
+      "type": "author-image",
+      "settings": {
+        "author_image": "shopify:\/\/shop_images\/62e041c8a97288891c482d7c_Ellipse-1.png",
+        "author_image2": "shopify:\/\/shop_images\/62e0427ab91c0d7d852e1825_Ellipse-1-_1_-_1.png",
+        "author_image3": "shopify:\/\/shop_images\/62e0427b8001238cfd2d3385_Ellipse-1-_2.png",
+        "author_image4": "shopify:\/\/shop_images\/62e0426f0d1cbf473f2b9321_Ellipse-1-_3.png",
+        "author_image5": "shopify:\/\/shop_images\/62e0426ee9d9200a66688ea7_Ellipse-1-_4.png",
+        "author_image6": "shopify:\/\/shop_images\/62e0426d2b1a74224c212e09_Ellipse-1-_5.png",
+        "author_image7": "shopify:\/\/shop_images\/62e04260e9d9200f2f6889fc_Ellipse-1-_6.png",
+        "author_image8": "shopify:\/\/shop_images\/62e0426088d47dd0d2076180_Group-1-_9.png",
+        "author_image10": "shopify:\/\/shop_images\/62e04261f6d06274dd07170d_Ellipse-1-_7.png"
+      }
+    },
+    "main": {
+      "type": "author-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "27fe2db2-e7b9-44cb-8c52-c6febd81ba2d": {
+      "type": "author-posts",
+      "settings": {
+        "blog1": "david-lin",
+        "blog2": "brian-maurer",
+        "blog3": "jenny-to",
+        "blog4": "mary-walsh",
+        "blog5": "danny-grannick",
+        "blog6": "iman-zayed",
+        "blog7": "cass-nelson-dooley",
+        "blog8": "",
+        "blog9": "alyssa-carrier",
+        "blog10": "jenna-gress-smith"
+      }
+    }
+  },
+  "order": [
+    "b0dcdba2-378e-4067-8b09-3060aac4e6f3",
+    "main",
+    "27fe2db2-e7b9-44cb-8c52-c6febd81ba2d"
+  ]
+}

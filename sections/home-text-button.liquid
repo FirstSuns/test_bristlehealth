@@ -1,0 +1,47 @@
+<div class="home-text-button-section">
+  <div class="container">
+    <div class="home-text-button">
+      {%- if section.settings.title != blank -%}
+      <h2>{{ section.settings.title }}</h2>
+      {%- endif -%}
+      {%- if section.settings.btn_link != blank and section.settings.btn_title != blank -%}
+      <a href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Home Text Button",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Text Button",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

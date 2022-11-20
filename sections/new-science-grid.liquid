@@ -1,0 +1,106 @@
+<div class="new-science-grid-section">
+  <div class="container-large">
+    {%- if section.settings.title != blank -%}
+    <div class="new-science-grid-title">
+      <h2 class="lora-font">{{ section.settings.title }}</h2>
+    </div>
+    {%- endif -%} </div>
+    <div class="container-large bottom-container">
+    <div class="new-science-grid">
+      {%- for block in section.blocks -%}
+      <div class="new-science-grid-wrap">
+        {%- if block.settings.image != blank -%}
+     <div class="new-science-grid-section-img"> <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="{{ block.settings.image | img_url: 'master' }}"
+                      src="{{ block.settings.image | img_url: 'master' }}"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy"></div>
+          {%- endif -%}
+          {%- if block.settings.title != blank -%}
+        <h4>{{ block.settings.title }}</h4>
+          {%- endif -%}
+          {%- if block.settings.desc != blank -%}
+        <p>{{ block.settings.desc }}</p>
+          {%- endif -%}
+      </div>
+      {%- endfor -%}
+    </div>
+    {%- if section.settings.btn_link != blank and section.settings.btn_title != blank -%}
+    <div class="new-science-grid-btn">
+      <a class="btn btn-primary btn-medium" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+    </div>
+    {%- endif -%}
+  </div>
+</div>
+
+<script>
+  var winWidth = $(window).width();
+  if(winWidth < 769){
+$('.new-science-grid-section .new-science-grid').slick({
+  dots: true,
+  arrows:false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true
+});
+    }
+  </script>
+{% schema %}
+  {
+    "name": "New Science Grid",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Grid",
+        "name": "Grid",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Science Grid",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,44 @@
+<div class="related-article-main">
+  {% assign related_posts = "" %}
+{% assign bhandle = blog.handle %}
+{% assign curr_article = article.handle %}
+<ul class="related-articles">
+  <h2>More good reads</h2>
+  
+{% for article in blogs.[bhandle].articles limit:3  %}
+ 
+    {% capture post %}
+      {% if curr_article != article.handle %}
+      <li>
+        <img
+                srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                  {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                  {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                  {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                  {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                  {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                  {{ article.image | image_url }} {{ article.image.width }}w"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                src="{{ article.image | image_url: width: 1100 }}"
+                loading="eager"
+                width="{{ article.image.width }}"
+                height="{{ article.image.height }}"
+                alt="{{ article.image.alt | escape }}">
+        <div class="article-info-main">
+        <a href="{{ article.url }}" class="title"><p>{{ article.title }}</p></a>
+      <a href="{{ article.url }}" class="readmore"><p>Read More
+      {% render 'right-arrow' %}
+      </p></a>
+        </div>
+      </li>
+        {% endif %}
+    {% endcapture %}
+    {% assign related_posts = related_posts | append:post %}
+{% endfor %}
+</ul>
+{% if related_posts.size > 0 %}
+  <ul class="related-article-inner"> {{ related_posts }} </ul>
+{% else %}
+ <span class="no-post"> No related posts!</span>
+{% endif %}
+                                                                 </div>

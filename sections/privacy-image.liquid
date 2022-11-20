@@ -1,0 +1,38 @@
+<div bind="64a2b19e-ba08-bb82-9eb7-815d02dc7f2e" class="section padding-custom1 background-mobile wf-section">
+  <div class="w-layout-grid section-grid">
+    <div id="w-node-_64a2b19e-ba08-bb82-9eb7-815d02dc7f30-02dc7f2e" class="empty-div"></div>
+    <div id="w-node-_64a2b19e-ba08-bb82-9eb7-815d02dc7f31-02dc7f2e" class="bg-wrapper background-color-lightgrey"></div>
+  </div>
+  {% assign product = all_products[section.settings.product] %}
+  <div class="_2-column-grid-content">
+    <img src="{{ product.featured_image | img_url: 'master' }}" loading="lazy" id="w-node-_64a2b19e-ba08-bb82-9eb7-815d02dc7f33-02dc7f2e" srcset="{{ product.featured_image | img_url: 'master' }}" sizes="(max-width: 479px) 81vw, (max-width: 991px) 88vw, 50vw" alt="" class="image-grid-full-width">
+    <div class="content justify-center padding-custom1">
+      <h3>{{ product.title }}</h3>
+      <p class="text-size-regular text-margin-1-5rem">{{ product.description | strip_html }}</p>
+      <h5 class="margin-custom4">{{ product.price | money }}</h5><div class="button-wrapper">
+        <a id="Bristle-Test-Section-CTA" data-analytics="Product Viewed" href="{{ product.url }}" class="button-primary-blue button-large w-button">Get your kit</a></div></div></div></div>
+
+{% schema %}
+  {
+    "name": "Privacy Image",
+    "settings": [
+      {
+        "type": "product",
+        "id": "product",
+        "label": "Product"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Privacy Image",
+        "category": "Images"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

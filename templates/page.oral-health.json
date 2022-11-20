@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-oral-health",
+      "blocks": {
+        "2430f72a-71ba-4e1c-b692-7bbc89c18261": {
+          "type": "Text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/621fba879a74231e11a5c8cf_icon_8c389680-68f6-47fc-ac7c-75f3cfa76656.webp",
+            "desc": "Our mouths are home to trillions of bacteria, known as our oral microbiome"
+          }
+        },
+        "ff5a9592-37c6-4f51-a1e7-8a002824c976": {
+          "type": "Text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/621fba879a742387a0a5c8cd_icon_1.webp",
+            "desc": "We use genomics to measure the bacteria - good and bad - in your saliva"
+          }
+        },
+        "6ed19b60-faf7-49a2-8a62-191832c2795e": {
+          "type": "Text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/621fba879a742318a3a5c8ce_icon_2.webp",
+            "desc": "We make lifestyle and product recommendations to help improve your health"
+          }
+        }
+      },
+      "block_order": [
+        "2430f72a-71ba-4e1c-b692-7bbc89c18261",
+        "ff5a9592-37c6-4f51-a1e7-8a002824c976",
+        "6ed19b60-faf7-49a2-8a62-191832c2795e"
+      ],
+      "settings": {
+        "title": "The <span class=\"blue-color\">science<\/span> of a healthy smile",
+        "bg_img": "shopify:\/\/shop_images\/621fba879a742309a5a5c8b2_protect-bg.webp"
+      }
+    },
+    "4f550a32-de16-4b4f-a0ed-9a00f1d992b7": {
+      "type": "oral-health-text",
+      "blocks": {
+        "04bc6d5a-e4cc-4b64-8c7f-e465b976213d": {
+          "type": "text",
+          "settings": {
+            "custom_class": "",
+            "title": "What is oral health?",
+            "desc": "<p>Oral health is more than just pearly white teeth - it recognizes oral health as an important component of overall health. We<a href=\"https:\/\/www.bristlehealth.com\/post\/providing-patients-a-voice-for-oral-health\">empower patients to understand their oral health<\/a>to prevent diseases and reduce their need for procedural care. We believe that by tackling the root cause of oral disease - pathogenic bacteria - and the factors that lead to them, we can deliver a proactive, prevention-first standard of care.<\/p>",
+            "text_color": "#6b7280",
+            "text_position": "left"
+          }
+        },
+        "a6dcdc55-22ba-47e0-b671-6a40ce9c1cfb": {
+          "type": "text",
+          "settings": {
+            "custom_class": "right-bg-effect",
+            "title": "Why is oral health important?",
+            "desc": "<p>Our mouths play a key role in our daily lives. They let us eat, drink, breathe, sing, say “hello”, smile, laugh, and cry.<br\/><br\/>Our mouths also play an important role in our health. Individuals with oral disease face an increased risk of<a href=\"https:\/\/www.bristlehealth.com\/post\/how-oral-bacteria-can-affect-our-bodies\">heart disease, diabetes, adverse pregnancy outcomes, and Alzheimer’s disease<\/a>.<\/p>",
+            "text_color": "#303030",
+            "text_position": "right"
+          }
+        },
+        "60ff8308-ad5e-40fa-ad5f-ff6828603d2a": {
+          "type": "text",
+          "settings": {
+            "custom_class": "",
+            "title": "Where does the oral microbiome come in?",
+            "desc": "<p>When our<a href=\"https:\/\/www.bristlehealth.com\/post\/what-is-your-oral-microbiome\">oral microbiome<\/a>is balanced, it helps break down our food, produce vitamins, and fight off infection.<br\/><br\/>When it’s unbalanced, harmful species grow in number and cause disease. The identity and abundance of these bacteria drive the onset and severity of the disease.<\/p>",
+            "text_color": "#6b7280",
+            "text_position": "left"
+          }
+        },
+        "d39be8a7-f271-4cc5-a80b-abbc8fb23c48": {
+          "type": "text",
+          "settings": {
+            "custom_class": "",
+            "title": "Why Bristle?",
+            "desc": "<p>Bristle comprehensively profiles the oral microbiome to identify and quantify all of the bacteria in your mouth. We can detect the buildup of disease-causing bacteria before they cause damage, and match you with the treatments and lifestyle recommendations best for you.<br\/><br\/>Our platform is tailored to each person's risk factors - including their diet, hygiene, lifestyle, medical history, and oral microbiome - and gives you actionable steps you can take to improve your health.  <\/p>",
+            "text_color": "#303030",
+            "text_position": "right"
+          }
+        }
+      },
+      "block_order": [
+        "04bc6d5a-e4cc-4b64-8c7f-e465b976213d",
+        "a6dcdc55-22ba-47e0-b671-6a40ce9c1cfb",
+        "60ff8308-ad5e-40fa-ad5f-ff6828603d2a",
+        "d39be8a7-f271-4cc5-a80b-abbc8fb23c48"
+      ],
+      "settings": {
+        "desc": "We're building a new kind of oral healthcare that focuses on preventing disease instead of reactively treating it - <span class=\"red-color\">made for you, delivered to you, and owned by you.<\/span>"
+      }
+    },
+    "5b10576c-f8cb-4351-857e-926c7dbae282": {
+      "type": "privacy-image",
+      "settings": {
+        "product": "single-test"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4f550a32-de16-4b4f-a0ed-9a00f1d992b7",
+    "5b10576c-f8cb-4351-857e-926c7dbae282"
+  ]
+}

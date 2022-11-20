@@ -1,0 +1,59 @@
+<div class="podcast-article-detail-section">
+  <div class="container">
+    <div class="podcast-article-detail">
+          {% if article.title != blank %}
+    <h4>{{ article.title }}</h4>
+  {% endif %}
+      {{ article.metafields.custom.iframe }}
+  {% if article.image != blank %}
+  <figure><img srcset="
+                          {% if article.image.width >= 495 %}{{ article.image | image_url: width: 495 }} 495w,{% endif %}
+                          {% if article.image.width >= 518 %}{{ article.image | image_url: width: 518 }} 518w,{% endif %}
+                          {% if article.image.width >= 644 %}{{ article.image | image_url: width: 644 }} 644w,{% endif %}
+                          {% if article.image.width >= 768 %}{{ article.image | image_url: width: 768 }} 768w,{% endif %}
+                          {% if article.image.width >= 830 %}{{ article.image | image_url: width: 830 }} 830w,{% endif %}
+                          {% if article.image.width >= 960 %}{{ article.image | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ article.image | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ article.image.alt | escape }}"
+                        loading="lazy" /></figure>
+    {% endif %}
+   <div class="podcast-inner-data">
+
+  <div class="podcast-time-main">
+  <div class="podcast-time">
+    {% if article.metafields.custom.auther != blank %}
+  <p>{{ article.metafields.custom.auther }}</p>
+  {% endif %}
+  {% if article.metafields.custom.blog_time != blank %}
+    <h5>{{ article.metafields.custom.blog_time }}</h5>
+    {% endif %}
+  </div></div>
+   </div>
+    </div>
+
+    <div class="podcast-article-detail-part">
+      {{ article.content }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Podcast Article",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enabled_podcast_article",
+        "label": "Show Podcast Article",
+        "default": true
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

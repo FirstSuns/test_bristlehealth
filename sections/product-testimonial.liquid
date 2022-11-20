@@ -1,0 +1,127 @@
+<div class="product-testimonial-section custom_testimonials">
+  <div class="page-width">
+    <div class="product-testimonial custom_testimonials_main">
+      <div class="product-testimonial-left left_content">
+        {%- if section.settings.title != blank -%}
+        <h1>{{ section.settings.title }}</h1>
+        {%- endif -%}
+        {%- if section.settings.desc != blank -%}
+        <p>{{ section.settings.desc }}</p>
+        {%- endif -%}
+      </div>
+      <div class="product-testimonial-right rightcontent">
+        <div class="testimonial-top-quote"><svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H7V2.87526C6.88333 6.32558 6.66167 8.716 6.335 10.0465C5.705 12.6173 4.32833 14.6018 2.205 16L0.49 13.9027C1.12 13.4292 1.72667 12.5835 2.31 11.3658C2.91667 10.1705 3.24333 8.6709 3.29 6.86681L0 6.42706V0Z" fill="#232536"></path>
+<path d="M11 0H18V2.87526C17.8833 6.32558 17.6617 8.716 17.335 10.0465C16.705 12.6173 15.3283 14.6018 13.205 16L11.49 13.9027C12.12 13.4292 12.7267 12.5835 13.31 11.3658C13.9167 10.1705 14.2433 8.6709 14.29 6.86681L11 6.42706V0Z" fill="#232536"></path>
+</svg>
+</div>
+        <ul class="product-testimonial-slider testimonial_slides">
+          {%- for block in section.blocks -%}
+          <li>
+            <div class="quote_data  product-testimonial-desc">
+            {%- if block.settings.desc != blank -%}
+            <p class="testi_content">{{ block.settings.desc }}</p>
+              {%- endif -%}
+              <div class="product-testimonial-auther bottom_content">
+                {%- if block.settings.image != blank -%}
+                  <img srcset="
+                          {% if block.settings.image.width >= 495 %}{{ block.settings.image | image_url: width: 495 }} 495w,{% endif %}
+                          {% if block.settings.image.width >= 518 %}{{ block.settings.image | image_url: width: 518 }} 518w,{% endif %}
+                          {% if block.settings.image.width >= 644 %}{{ block.settings.image | image_url: width: 644 }} 644w,{% endif %}
+                          {% if block.settings.image.width >= 768 %}{{ block.settings.image | image_url: width: 768 }} 768w,{% endif %}
+                          {% if block.settings.image.width >= 830 %}{{ block.settings.image | image_url: width: 830 }} 830w,{% endif %}
+                          {% if block.settings.image.width >= 960 %}{{ block.settings.image | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ block.settings.image | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        loading="lazy" />
+                {%- endif -%}
+                <div class="product-testimonial-auther-wrap nameinfo">
+                  {%- if block.settings.auther_title != blank -%}
+                  <span>{{ block.settings.auther_title }}</span>
+                  {%- endif -%}
+                  {%- if block.settings.auther_position != blank -%}
+                  <small>{{ block.settings.auther_position }}</small>
+                  {%- endif -%}
+                </div>
+                {% if block.settings.logo != blank %}
+                <figure class="img-benefits">
+                  <img srcset="
+                          {% if block.settings.logo.width >= 100 %}{{ block.settings.logo | image_url: width: 100 }} 495w,{% endif %}
+                          {% if block.settings.logo.width >= 518 %}{{ block.settings.logo | image_url: width: 518 }} 518w,{% endif %}
+                          {% if block.settings.logo.width >= 644 %}{{ block.settings.logo | image_url: width: 644 }} 644w,{% endif %}
+                          {% if block.settings.logo.width >= 768 %}{{ block.settings.logo | image_url: width: 768 }} 768w,{% endif %}
+                          {% if block.settings.logo.width >= 830 %}{{ block.settings.logo | image_url: width: 830 }} 830w,{% endif %}
+                          {% if block.settings.logo.width >= 960 %}{{ block.settings.logo | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ block.settings.logo | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ block.settings.logo.alt | escape }}"
+                        loading="lazy" /></figure>
+               {%- endif -%}
+              </div>
+            </div>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Product Testimonial",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "desc",
+        "label": "Description"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Testimonial",
+        "name": "Testimonial",
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "auther_title",
+            "label": "Auther Heading"
+          },
+          {
+            "type": "text",
+            "id": "auther_position",
+            "label": "Auther Position"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

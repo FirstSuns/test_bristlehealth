@@ -1,0 +1,80 @@
+<div class="how-it-icon-text-section">
+  <div class="container">
+    <div class="how-it-icon-text">
+      {%- if section.settings.title != blank -%}
+      <h2>{{ section.settings.title }}</h2>
+      {%- endif -%}
+      <div class="how-it-icon-text-part">
+        <img src="{{ section.settings.bg_img | img_url: 'master' }}" class="added-image1">
+        {%- for block in section.blocks -%}
+        <div class="how-it-icon-text-wrap">
+          {%- if block.settings.icon != blank -%}
+          <h4>{{ block.settings.icon }}</h4>
+          {%- endif -%}
+          {%- if block.settings.title != blank -%}
+          <h5>{{ block.settings.title }}</h5>
+          {%- endif -%}
+          {%- if block.settings.sub_title != blank -%}
+          <p>{{ block.settings.sub_title }}</p>
+          {%- endif -%}
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "How It Icon Text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "bg_img",
+        "label": "Background Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Icon",
+        "name": "Icon",
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "icon",
+            "label": "Icon"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "sub_title",
+            "label": "Sub Heading"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "How It Icon Text",
+        "category": "Icon"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

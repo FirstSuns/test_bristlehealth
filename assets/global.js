@@ -945,3 +945,63 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+
+
+           
+$(document).ready(function(){
+  $('.slide-for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   adaptiveHeight: true,
+    
+   asNavFor: '.slide-nav'
+ });
+ $('.slide-nav').slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   asNavFor: '.slide-for',
+   dots: false,
+   arrows:false,
+   focusOnSelect: true,
+   
+    responsive: [
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2
+      }
+    }
+    ]
+ });
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

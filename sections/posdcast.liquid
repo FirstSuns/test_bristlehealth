@@ -1,0 +1,102 @@
+<div class="podcast-banner section padding-hero wf-section"><div class="container-medium"><div class="podcast-hero"><h1 class="podcast-hero-heading">Podcasts</h1></div></div><div data-w-id="96c068c8-0728-f710-fb86-63cf3461fbde" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="podcast-bg-image"></div></div>
+
+<div class="podcast-main-section">
+  <div class="container-large">
+    <div class="podcast-main">
+      {% assign blog = blogs[section.settings.blog] %}
+      {% for article in blog.articles limit:999 %}
+      <div class="podcast-main-part">
+        {% if article.image != blank %}
+        <figure><a href="{{ article.url }}"><img srcset="
+                          {% if article.image.width >= 195 %}{{ article.image | image_url: width: 195 }} 195w,{% endif %}
+                          {% if article.image.width >= 218 %}{{ article.image | image_url: width: 218 }} 218w,{% endif %}
+                          {% if article.image.width >= 844 %}{{ article.image | image_url: width: 844 }} 844w,{% endif %}
+                          {% if article.image.width >= 368 %}{{ article.image | image_url: width: 368 }} 368w,{% endif %}
+                          {% if article.image.width >= 430 %}{{ article.image | image_url: width: 430 }} 430w,{% endif %}
+                          {% if article.image.width >= 560 %}{{ article.image | image_url: width: 560 }} 560w{% endif %}"
+                        src="{{ article.image | image_url: width: 384, height: 384 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ article.image.alt | escape }}"
+                        loading="lazy" /></a></figure>
+          {% endif %}
+         <div class="podcast-inner-data">
+          {% if article.title != blank %}
+          <h4><a href="{{ article.url }}">{{ article.title }}</a></h4>
+        {% endif %}
+        {% if article.metafields.custom.auther != blank %}
+        <p>{{ article.metafields.custom.auther }}</p>
+        {% endif %}
+        <div class="podcast-time">
+          {% if article.metafields.custom.blog_time != blank %}
+    <h5>{{ article.metafields.custom.blog_time }}</h5>
+    {% endif %}
+          <a href="{{ article.url }}">Listen  →</a>
+        </div></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% include 'podcast-newsletter' %}
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Podcast",
+    "settings": [
+      {
+        "type": "blog",
+        "id": "blog",
+        "label": "Blog"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Podcast",
+        "name": "Podcast",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          },
+          {
+            "type": "text",
+            "id": "time",
+            "label": "Time"
+          },
+          {
+            "type": "text",
+            "id": "btn_title",
+            "label": "Button Heading"
+          },
+          {
+            "type": "url",
+            "id": "btn_link",
+            "label": "Button Links"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

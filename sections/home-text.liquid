@@ -1,0 +1,62 @@
+<div class="home-text-section">
+  <div class="container">
+    <div class="home-text">
+      <div class="home-text-left">
+        {%- if section.settings.title_01 != blank -%}
+        <h2>{{ section.settings.title_01 }}</h2>
+        {%- endif -%}
+        {%- if section.settings.desc_01 != blank -%}
+        <p>{{ section.settings.desc_01 }}</p>
+        {%- endif -%}
+      </div>
+      <div class="home-text-right">
+        {%- if section.settings.title_02 != blank -%}
+        <h2>{{ section.settings.title_02 }}</h2>
+        {%- endif -%}
+        {%- if section.settings.desc_02 != blank -%}
+        <p>{{ section.settings.desc_02 }}</p>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Home Text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title_01",
+        "label": "Heading 01"
+      },
+      {
+        "type": "textarea",
+        "id": "desc_01",
+        "label": "Description 01"
+      },
+      {
+        "type": "text",
+        "id": "title_02",
+        "label": "Heading 02"
+      },
+      {
+        "type": "textarea",
+        "id": "desc_02",
+        "label": "Description 02"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Text",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

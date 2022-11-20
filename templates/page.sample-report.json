@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-sample-report",
+      "blocks": {
+        "a5d7293b-7e2b-4da6-a875-6bd997491c76": {
+          "type": "Image",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/634656e349c32e1bc401612c_Scores_Section_current_-p-2000.png"
+          }
+        },
+        "4f253769-80b1-4e5c-877d-f07607f189f5": {
+          "type": "Image",
+          "settings": {
+            "title": "Personalized product recommendations to optimize your hygiene routine",
+            "image": "shopify:\/\/shop_images\/63464e208a4161a410b6a3eb_Group_279436_1_-p-2000.png"
+          }
+        },
+        "fb7c072a-b73f-43b9-b13b-845ffbf5b6e7": {
+          "type": "Image",
+          "settings": {
+            "title": "A full breakdown of your oral microbiome",
+            "image": "shopify:\/\/shop_images\/63464eac1e54e1abe373d157_Group_279437-p-2000.png"
+          }
+        },
+        "c6f8f81a-ebb2-40a9-8583-04be34eac47c": {
+          "type": "Image",
+          "settings": {
+            "title": "Track your improvements",
+            "image": "shopify:\/\/shop_images\/63465482e9108b44836fb78d_Group_279443_2_-p-2000.png"
+          }
+        }
+      },
+      "block_order": [
+        "a5d7293b-7e2b-4da6-a875-6bd997491c76",
+        "4f253769-80b1-4e5c-877d-f07607f189f5",
+        "fb7c072a-b73f-43b9-b13b-845ffbf5b6e7",
+        "c6f8f81a-ebb2-40a9-8583-04be34eac47c"
+      ],
+      "settings": {
+        "title": "Understand & improve your oral health with Bristle",
+        "left_desc": "<p>We created our<a href=\"https:\/\/www.bristlehealth.com\/product-archived-feb-7\">Oral Health Test<\/a>to help you understand, measure, and improve your oral health.<\/p><p>Our test identifies & measures the good bacteria in your saliva that contribute to better oral health - plus the ones that increase your risk for conditions including cavities, gum disease, and bad breath.<\/p>",
+        "right_desc": "<p>Take control of your oral health with personalized diet, hygiene, and product recommendations focused on helping your microbial heroes and eliminating the villains.<\/p><p>Below are real results from one of the founders of Bristle. Take a look!<\/p>"
+      }
+    },
+    "25f26b05-9d61-4c36-b0a5-b5882b91f6d5": {
+      "type": "privacy-image",
+      "settings": {
+        "product": "single-test"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "25f26b05-9d61-4c36-b0a5-b5882b91f6d5"
+  ]
+}

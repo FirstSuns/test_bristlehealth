@@ -1,0 +1,176 @@
+<div class="section padding-top-after-navbar wf-section about_us_banner">
+  <div class="container-hero-3 display-flex">
+    <div class="container-hero-grid">
+      {%- if section.settings.banner_title != blank -%}
+      <h1 id="w-node-_5bdeb136-4c08-6b4e-2ee4-fea3b6cf4983-c567b006" class="hero-3-heading">{{ section.settings.banner_title }}</h1>
+      {%- endif -%}
+      <div class="hero-content-wrapper">
+        {%- if section.settings.banner_img != blank -%}
+        {{ section.settings.banner_img }}
+        {%- endif -%}
+        {%- if section.settings.banner_desc != blank -%}
+        <div class="hero-3-text">
+          {{ section.settings.banner_desc }}
+          
+        </div>
+        {%- endif -%}
+      </div></div></div></div>
+
+<div class="section background-color-lightgrey wf-section about_us_bottom_sections">
+  <div class="container-medium padding-custom1">
+    <div class="w-layout-grid content-grid">
+      {%- if section.settings.grid_left != blank -%}
+      <p id="w-node-_1b271362-91b3-6f3d-4bb1-8037c03e6afd-c567b006" class="text-size-regular line-height-custom1">{{ section.settings.grid_left }}</p>
+      {%- endif -%}
+      {%- if section.settings.grid_right != blank -%}
+      <p id="w-node-_535123d3-9c1b-c6bf-58e1-d86c204ab8f2-c567b006" class="text-size-regular">{{ section.settings.grid_right }}</p>
+      {%- endif -%}
+      {%- if section.settings.full_desc != blank -%}
+      <div id="w-node-c0274680-0c76-2757-ba66-98c039c672b9-c567b006" class="custom-block">
+        <div class="white-bg"></div>
+        <div id="w-node-_28c18f09-913f-c3fe-6538-6477b350fd74-c567b006" class="we-believe-wrapper">
+          <p class="text-color-white text-size-custom">{{ section.settings.full_desc }}</p>
+        </div></div>
+      {%- endif -%}
+      <div id="w-node-_87cd753b-ed98-e564-38c3-ca3eb502c270-c567b006" class="text-collect-wrapper">
+         
+      {%- if section.settings.bottom_desc_upper != blank -%}
+        <div class="text-collect-wrapper_mobile_only">
+          <p class="text-size-regular">{{ section.settings.bottom_desc_upper }}</p>
+           </div>
+        {%- endif -%}
+        
+        {%- if section.settings.bottom_desc != blank -%}
+          <p class="text-size-regular">{{ section.settings.bottom_desc }}</p>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section wf-section about_us_bottom_sections_two">
+  <div class="container-medium margin-custom8">
+    {%- if section.settings.founder_title != blank -%}
+    <h6 class="h6-extra-margin">{{ section.settings.founder_title }}</h6>
+    {%- endif -%}
+    <div class="w-layout-grid founders-grid">
+      {%- for block in section.blocks -%}
+      <div id="w-node-_8ac808b3-d484-fa93-67ec-d1ce38ba42c8-c567b006" class="founders-card {% if block.settings.enabled_align_right %}align-right{% endif %}">
+        {%- if block.settings.title != blank -%}
+        <div class="card-text-background">
+          <div class="founders-name">{{ block.settings.title }}</div>
+        </div>
+        {%- endif -%}
+        {%- if block.settings.image != blank -%}
+        <div class="card-image-wrapper">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+        </div>
+        {%- endif -%}
+      </div>
+      {%- endfor -%}
+    </div></div></div>
+
+    
+
+      
+
+
+{% schema %}
+  {
+    "name": "About",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Banner About"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_img",
+        "label": "Banner Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_title",
+        "label": "Banner Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "banner_desc",
+        "label": "Banner Description"
+      },
+      {
+        "type": "header",
+        "content": "Grid Description"
+      },
+      {
+        "type": "textarea",
+        "id": "grid_left",
+        "label": "Left Description"
+      },
+      {
+        "type": "textarea",
+        "id": "grid_right",
+        "label": "Right Description"
+      },
+      {
+        "type": "textarea",
+        "id": "full_desc",
+        "label": "Full Description"
+      },
+      {
+        "type": "textarea",
+        "id": "bottom_desc_upper",
+        "label": "Bottom Description Mobile"
+      },
+      {
+        "type": "textarea",
+        "id": "bottom_desc",
+        "label": "Bottom Description"
+      },
+      {
+        "type": "header",
+        "content": "Founder"
+      },
+      {
+        "type": "text",
+        "id": "founder_title",
+        "label": "Founder Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "checkbox",
+            "id": "enabled_align_right",
+            "label": "Block align Right"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "About",
+        "category": "About"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

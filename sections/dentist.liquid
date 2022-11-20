@@ -1,0 +1,75 @@
+<div class="dentist_wrap">
+  <div class="page-width">
+    <p class="title">{{ section.settings.title }}<p>
+      <div class="dentist_slides">
+    {% for block in section.blocks %}
+      <div class="inner_data">
+        <img srcset="{% if block.settings.img.width >= 295 %}{{ block.settings.img | image_url: width: 295 }} 295w,{% endif %}
+                          {% if block.settings.img.width >= 264 %}{{ block.settings.img | image_url: width: 264 }} 264w,{% endif %}
+                          {% if block.settings.img.width >= 644 %}{{ block.settings.img | image_url: width: 644 }} 644w,{% endif %}
+                          {% if block.settings.img.width >= 768 %}{{ block.settings.img | image_url: width: 768 }} 768w,{% endif %}
+                          {% if block.settings.img.width >= 830 %}{{ block.settings.img | image_url: width: 830 }} 830w,{% endif %}
+                          {% if block.settings.img.width >= 960 %}{{ block.settings.img | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ block.settings.img | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ block.settings.img.alt | escape }}"
+                        loading="lazy" />
+      <h3>{{ block.settings.title }}</h3>
+        <small>{{ block.settings.desg }}</small>
+      <p>{{ block.settings.desc }}</p>
+      </div>
+      {% endfor %}
+      </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Dentist",
+    "settings": [
+      {
+        "type":"text",
+        "id":"title",
+        "label":"Title"
+      }
+    ],
+    "blocks":[
+       {
+        "type":"text",
+        "name":"Content",
+        "settings":[
+           {
+            "type":"image_picker",
+            "id":"img",
+            "label":"Image"
+          },
+          {
+            "type":"text",
+            "id":"title",
+            "label":"Title"
+          },
+           {
+            "type":"text",
+            "id":"desg",
+            "label":"Designation"
+          },
+          {
+            "type":"textarea",
+            "id":"desc",
+            "label":"Description"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name":"Dentist"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

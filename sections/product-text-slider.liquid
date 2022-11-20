@@ -1,0 +1,143 @@
+<section class="section background-color-lightgrey wf-section product-slider-page">
+  <div class="container-large">
+    <div class="am-wrapper left-padding">
+      {%- if section.settings.title != blank -%}
+      <div class="hb-title-wraoper">
+        <h2 id="How-we-help" class="hb-title">{{ section.settings.title }}</h2>
+      </div>
+      {%- endif -%}
+      <div class="am-scroll">
+        <div class="am-scroll-animation">
+          <div class="w-layout-grid am-grid-new">
+            <div class="am-scroll-inner">
+            <div id="w-node-e23a485d-09ac-cccb-92d5-e2b1a3fa646b-8f67b096" class="am-image-wrapper is-mob-hidden _50">
+              {%- for block in section.blocks -%}
+              {%- if block.settings.image != blank -%}
+                <img srcset="
+                          {% if block.settings.image.width >= 495 %}{{ block.settings.image | image_url: width: 495 }} 495w,{% endif %}
+                          {% if block.settings.image.width >= 518 %}{{ block.settings.image | image_url: width: 518 }} 518w,{% endif %}
+                          {% if block.settings.image.width >= 644 %}{{ block.settings.image | image_url: width: 644 }} 644w,{% endif %}
+                          {% if block.settings.image.width >= 768 %}{{ block.settings.image | image_url: width: 768 }} 768w,{% endif %}
+                          {% if block.settings.image.width >= 830 %}{{ block.settings.image | image_url: width: 830 }} 830w,{% endif %}
+                          {% if block.settings.image.width >= 960 %}{{ block.settings.image | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ block.settings.image | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        loading="lazy" id="product-text-slide-{{ forloop.index }}" />
+              {%- endif -%}
+              {%- endfor -%}
+            </div>
+ 
+               <div class="am-contents-inner">
+			   {%- for block in section.blocks -%}
+				   <div class="am-contents-inner-inner" data-id="product-text-slide-{{ forloop.index }}">
+                {% if block.settings.title != blank %}
+                <h3 class="heading-benefits">{{ block.settings.title }}</h3>
+                  {%- endif -%}
+                {% if block.settings.desc != blank %}
+                <p class="paragraph-33">{{ block.settings.desc }}</p>
+                {%- endif -%}
+                </div> {%- endfor -%}</div></div>
+
+            
+            <div id="w-node-e23a485d-09ac-cccb-92d5-e2b1a3fa646f-8f67b096" class="hide-desk div-block-91 width">
+              {%- for block in section.blocks -%}
+              <div data-id="product-text-slide-{{ forloop.index }}" data-w-id="e23a485d-09ac-cccb-92d5-e2b1a3fa6470" class="am-contents">
+                {%- if block.settings.image != blank -%}
+                <img srcset="
+                          {% if block.settings.image.width >= 495 %}{{ block.settings.image | image_url: width: 495 }} 495w,{% endif %}
+                          {% if block.settings.image.width >= 518 %}{{ block.settings.image | image_url: width: 518 }} 518w,{% endif %}
+                          {% if block.settings.image.width >= 644 %}{{ block.settings.image | image_url: width: 644 }} 644w,{% endif %}
+                          {% if block.settings.image.width >= 768 %}{{ block.settings.image | image_url: width: 768 }} 768w,{% endif %}
+                          {% if block.settings.image.width >= 830 %}{{ block.settings.image | image_url: width: 830 }} 830w,{% endif %}
+                          {% if block.settings.image.width >= 960 %}{{ block.settings.image | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ block.settings.image | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        loading="lazy" />
+                {%- endif -%}
+                <div class="am-contents-inner">
+				   <div class="am-contents-inner-inner"><div class="am-contents-inner-inner-inner">
+                {% if block.settings.title != blank %}
+                <h3 class="heading-benefits">{{ block.settings.title }}</h3>
+                  {%- endif -%}
+                {% if block.settings.desc != blank %}
+                <p class="paragraph-33">{{ block.settings.desc }}</p>
+                {%- endif -%}
+             </div>    </div>
+                </div>
+              </div>
+              {%- endfor -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script>
+     $(window).scroll(function() 
+{
+  var offseH =  parseInt($(".am-scroll").offset().top + 300);
+  var innerHMain = parseInt($(".am-scroll").innerHeight() / 3);
+  var innerH = offseH - innerHMain;
+  var innerH1 = innerH + innerHMain;
+  var innerH2 = innerH1 + innerHMain;
+ if($(this).scrollTop() > innerH && $(this).scrollTop() < innerH1){
+   $('#product-text-slide-1').show();
+   $('#product-text-slide-2').hide();
+   $('#product-text-slide-3').hide();
+ }if($(this).scrollTop() > innerH1 && $(this).scrollTop() < innerH2){
+   $('#product-text-slide-1').hide();
+   $('#product-text-slide-2').show();
+   $('#product-text-slide-3').hide();
+ }if($(this).scrollTop() > innerH2){
+   $('#product-text-slide-1').hide();
+   $('#product-text-slide-2').hide();
+   $('#product-text-slide-3').show();
+ }
+});
+  </script>
+
+{% schema %}
+  {
+    "name": "Product Text Slider",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Text",
+        "type": "Text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

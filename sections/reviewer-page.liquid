@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width page-width--narrow section-{{ section.id }}-padding review-page-main">
+  {% if section.settings.david_img != blank or section.settings.chris_img != blank or section.settings.bonnie_img != blank %}
+  <div class="author_img">
+    {% if page.handle contains 'david' %}
+      <img srcset="{% if section.settings.david_img.width >=295 %}{{ section.settings.david_img | image_url: width: 295 }} 295w,{% endif %}
+                          {% if section.settings.david_img.width >= 350 %}{{ section.settings.david_img | image_url: width: 350 }} 350w,{% endif %}
+                          {% if section.settings.david_img.width >= 444 %}{{ section.settings.david_img | image_url: width: 444 }} 444w,{% endif %}
+                          {% if section.settings.david_img.width >= 768 %}{{ section.settings.david_img | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.david_img.width >= 830 %}{{ section.settings.david_img | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.david_img.width >= 960 %}{{ section.settings.david_img | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.david_img | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.david_img.alt | escape }}"
+                        loading="lazy" />
+    {% elsif page.handle contains 'chris' %}
+      <img srcset="{% if section.settings.chris_img.width >=295 %}{{ section.settings.chris_img | image_url: width: 295 }} 295w,{% endif %}
+                          {% if section.settings.chris_img.width >= 350 %}{{ section.settings.chris_img | image_url: width: 350 }} 350w,{% endif %}
+                          {% if section.settings.chris_img.width >= 444 %}{{ section.settings.chris_img | image_url: width: 444 }} 444w,{% endif %}
+                          {% if section.settings.chris_img.width >= 768 %}{{ section.settings.chris_img | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.chris_img.width >= 830 %}{{ section.settings.chris_img | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.chris_img.width >= 960 %}{{ section.settings.chris_img | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.chris_img | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.chris_img.alt | escape }}"
+                        loading="lazy" />
+       {% elsif page.handle contains 'bonnie' %}
+      <img srcset="{% if section.settings.bonnie_img.width >=295 %}{{ section.settings.bonnie_img | image_url: width: 295 }} 295w,{% endif %}
+                          {% if section.settings.bonnie_img.width >= 350 %}{{ section.settings.bonnie_img | image_url: width: 350 }} 350w,{% endif %}
+                          {% if section.settings.bonnie_img.width >= 444 %}{{ section.settings.bonnie_img | image_url: width: 444 }} 444w,{% endif %}
+                          {% if section.settings.bonnie_img.width >= 768 %}{{ section.settings.bonnie_img | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.bonnie_img.width >= 830 %}{{ section.settings.bonnie_img | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.bonnie_img.width >= 960 %}{{ section.settings.bonnie_img | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.bonnie_img | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.bonnie_img.alt | escape }}"
+                        loading="lazy" />
+    {% endif %}
+  </div>
+  {% endif %}
+  <p class="custom_text">Author</p>
+  <h1 class="main-page-title page-title h0">
+    {{ page.title | escape }}
+  </h1>
+  <div class="rte">
+    {{ page.content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-page.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type":"image_picker",
+      "id":"david_img",
+      "label":"David Image"
+    },
+     {
+      "type":"image_picker",
+      "id":"chris_img",
+      "label":"Chris Image"
+    },
+     {
+      "type":"image_picker",
+      "id":"bonnie_img",
+      "label":"Bonnie Image"
+    }
+  ]
+}
+{% endschema %}

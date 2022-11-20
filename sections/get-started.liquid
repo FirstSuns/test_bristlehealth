@@ -1,0 +1,54 @@
+<div bind="2d0a6530-04aa-72a8-7e67-b74409be472e" class="get-started_section wf-section">
+  <div class="container w-container">
+    {% if section.settings.icon != blank %}
+    <div bind="092cd303-0b6e-c72d-ff64-19f7e2631c46" class="html-embed-4 w-embed">
+      {{ section.settings.icon }}
+    </div>
+    {{ section.settings.icon }}
+      {% endif %}
+      {% if section.settings.icon != blank %}
+    <h2 class="get-started_title">{{ section.settings.title }}</h2>
+    {% endif %}
+     {% if section.settings.btn_link != blank and section.settings.btn_title != blank %}
+    <a data-analytics="Product Viewed" href="{{ section.settings.btn_link }}" class="button-3 button-center w-button">{{ section.settings.btn_title }}</a></div>
+  {% endif %}
+</div>
+
+{% schema %}
+  {
+    "name": "Get Started",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "icon",
+        "label": "Icon"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,98 @@
+{%- if section.settings.title != blank or section.settings.subtext != blank or section.settings.heading != blank -%}
+<style>
+  .as_seenon {
+    background-image: url({{ section.settings.img | img_url:'master' }});
+}
+  @media screen and (max-width: 768px) {    
+{% if section.settings.img_mobile != blank  %}
+.as_seenon {
+    background-image: url({{ section.settings.img_mobile | img_url:'master' }});
+}
+  {% else  %}
+  .as_seenon {
+    background-image: url({{ section.settings.img | img_url:'master' }});
+}
+   {% endif %} 
+  }
+</style>
+
+<div class="as_seenon" >
+  <div class="container-large">
+    <div class="left_content">
+      <h1>{{ section.settings.title }}</h1>
+      <p>{{ section.settings.subtext }}</p>
+    <div class="as_seenon_link"  > <a href="{{ section.settings.btn_link }}">{{ section.settings.btn_label }}</a></div>
+  {%- if section.settings.heading != blank or section.settings.icons != blank -%}
+      <div class="svgicons">
+        <h3>{{ section.settings.heading }}</h3>
+        <div class="seen_icons">
+          {{ section.settings.icons }}
+        </div>
+      </div>
+    {%- endif -%}
+    </div>
+  </div>
+</div>
+  {%- endif -%}
+{% schema %}
+  {
+    "name": "Banner with As seen on",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"img",
+        "label":"Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"img_mobile",
+        "label":"Image for Mobile"
+      },
+      {
+        "type":"text",
+        "id":"title",
+        "label":"Title"
+      },
+      {
+        "type":"text",
+        "id":"subtext",
+        "label":"Sub Text"       
+      },
+      {
+        "type":"text",
+        "id":"btn_label",
+        "label":"Button Label"
+      },
+      {
+        "type":"url",
+        "id":"btn_link",
+        "label":"Button Link"
+      },
+      {
+        "type":"header",
+        "content":"As seen on"
+      },
+      {
+        "type":"text",
+        "id":"heading",
+        "label":"Heading"
+      },
+      {
+        "type":"html",
+        "id":"icons",
+        "label":"SVG Icon"
+      }
+    ],
+    "presets":[
+      {
+        "name":"Bannner with as seen on"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

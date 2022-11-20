@@ -1,0 +1,144 @@
+<div class="faq-main-section">
+  <div class="container">
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq-main">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'Faq' -%}
+          {% assign main_t = block.settings.main_title | append: ',' %}
+          {% assign main_temp = main_temp | append: main_t %}
+        {%- endif -%}
+      {%- endfor -%}
+      {% assign main_temp_uni = main_temp | split: ',' | uniq %}
+      {%- for tit in main_temp_uni -%}
+      <div class="faq-main-part">
+        <h2>{{ tit }}</h2>
+        {% for block in section.blocks %}
+          {%- if block.type == 'Faq' -%}
+          {% if tit == block.settings.main_title %}
+            {% if block.settings.title != blank and block.settings.desc != blank %}
+        <div class="faq-main-wrap">
+          {% if block.settings.title != blank %}
+          <h4><span></span>{{ block.settings.title }}</h4>
+          {%- endif -%}
+              {% if block.settings.desc != blank %}
+          <p>{{ block.settings.desc }}</p>
+          {%- endif -%}
+        </div>
+            {%- endif -%}
+        {%- endif -%}
+          {%- endif -%}
+          {%- endfor -%}
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<script>
+  $('.faq-main-wrap h4').on('click', function(e){
+    e.preventDefault();
+    $(this).parents('.faq-main-wrap').toggleClass('active');
+  })
+</script>
+
+<style>
+.faq-main .faq-main-wrap p {
+    margin-left: 60px;
+}
+  .container{max-width:1000px;width:100%;margin:0 auto;padding:0 30px;}
+  .faq-main-section{width:100%;padding:80px 0;}
+  .faq-main-section h1{font-size:40px;line-height:40px;color:#303030;text-align:center;padding:12px 0;    margin: 0;     font-weight: 500;}
+  .faq-main-section h2{margin-top:2.5rem;margin-bottom:1.25rem;font-size:30px;text-align:center;line-height:35px;position:relative;padding:0 0 15px;    margin-top: 0;}
+  .faq-main-section h2:after{content:'';width:100%;max-width:80px;margin:0 auto;height:2px;background:#2458ff;position:absolute;bottom:0;left:0;right:0;}
+  .faq-main{width:100%;}
+  .faq-main-part{width:100%;padding:30px 0;}
+  .faq-main-wrap{width:100%;border-bottom:1px solid #d9dbe9;padding:15px 0;margin:0;}
+  .faq-main-wrap h4{font-size:22px;line-height:44px;color:#333;margin:0;padding:7px 0;cursor:pointer;}
+  .faq-main-wrap p{display:none;margin:25px 0;font-size:16px;line-height:24px;}
+  .faq-main-wrap h4 span{position:relative;background:rgba(239, 240, 246);height:44px;width:40px;border-radius:12px;display:inline-block;margin-right:24px;vertical-align:middle;}
+.faq-main-wrap h4 span:after{content:'';width:2px;height:18px;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);background:rgba(119, 121, 144);}
+.faq-main-wrap h4 span:before{content:'';width:18px;height:2px;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);background:rgba(119, 121, 144);}
+.faq-main-wrap.active p{display:block;}
+.faq-main-wrap.active h4 span:after{display:none;}
+.faq-main-wrap.active  h4 span , .faq-main-wrap:hover  h4 span{
+	background: rgb(20, 20, 43);
+}
+  .faq-main-wrap:hover h4 span:after , .faq-main-wrap:hover h4 span:before {
+    background: #fff;
+}
+  .faq-main-wrap h4 {
+    position: relative;
+        padding-left: 60px;
+
+}
+  .faq-main-wrap h4 span {
+    position: absolute;
+    left: 0;
+}
+@media screen and (max-width: 767px) {
+    .faq-main-section h1 {
+      font-size: 36px;
+  }
+  .faq-main .faq-main-wrap p {
+    margin-left: 0;
+}
+  .faq-main-wrap h4 span {
+    margin-right: 14px;
+}
+  .faq-main-wrap h4 {
+    font-size: 18px;
+    line-height: initial;
+}
+  .faq-main-wrap h4 span {
+    height: 35px;
+    width: 35px;
+}
+  .faq-main-wrap h4 span:before {
+    width: 16px;
+}
+  .faq-main-wrap h4 span:after {
+    height: 16px;
+}
+  .faq-main .faq-main-wrap p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+}
+</style>
+
+
+{% schema %}
+  {
+    "name": "FAQ",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "Faq",
+        "name": "Faq",
+        "settings": [
+          {
+            "type": "text",
+            "id": "main_title",
+            "label": "Main Heading"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

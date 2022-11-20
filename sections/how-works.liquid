@@ -1,0 +1,95 @@
+<div class="how_works {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
+  <div class="page-width">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="inner_data_main_main">
+     <div class="inner_data_main">
+    {% for block in section.blocks %}
+      <div class="inner_data">
+        <img srcset="{% if block.settings.img.width >= 95 %}{{ block.settings.img | image_url: width: 95 }} 95w,{% endif %}
+                          {% if block.settings.img.width >= 518 %}{{ block.settings.img | image_url: width: 518 }} 518w,{% endif %}
+                          {% if block.settings.img.width >= 644 %}{{ block.settings.img | image_url: width: 644 }} 644w,{% endif %}
+                          {% if block.settings.img.width >= 768 %}{{ block.settings.img | image_url: width: 768 }} 768w,{% endif %}
+                          {% if block.settings.img.width >= 830 %}{{ block.settings.img | image_url: width: 830 }} 830w,{% endif %}
+                          {% if block.settings.img.width >= 960 %}{{ block.settings.img | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ block.settings.img | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ block.settings.img.alt | escape }}"
+                        loading="lazy" />
+         <div class="inner_data_right">
+      <h3>{{ block.settings.title }}</h3>
+      <p>{{ block.settings.desc }}</p>
+         </div>
+      </div>
+      {% endfor %} 
+       
+       </div>
+    <div class="horizonatl_line"></div>
+    </div>
+       {% if section.settings.btn_label != blank %}  
+      <div class="how_works_btn"> <a class="button-primary-blue " href="{{ section.settings.link }}">{{ section.settings.btn_label }}</a>
+      </div>
+    {% endif %}
+     
+  </div> 
+</div>
+{% schema %}
+  {
+    "name": "How it works",
+    "settings": [
+      {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
+      {
+        "type":"text",
+        "id":"title",
+        "label":"Title"
+      },
+      {
+        "type":"text",
+        "id":"btn_label",
+        "label":"Button Label"
+      },
+      {
+        "type":"url",
+        "id":"link",
+        "label":"Link"
+      }
+    ],
+    "blocks":[
+      {
+        "type":"text",
+        "name":"Content",
+        "settings":[
+           {
+            "type":"image_picker",
+            "id":"img",
+            "label":"Image"
+          },
+          {
+            "type":"text",
+            "id":"title",
+            "label":"Title"
+          },
+          {
+            "type":"textarea",
+            "id":"desc",
+            "label":"Description"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name":"How it works"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

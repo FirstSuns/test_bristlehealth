@@ -1,0 +1,110 @@
+<div class="news-science-text-list-section">
+  <div class="container-large">
+    <div class="news-science-text-list">
+      {%- for block in section.blocks -%}
+      <div class="news-science-text-list-wrap">
+        {%- if block.settings.image != blank -%}
+        <div class="news-science-text-list-left">
+        <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if block.settings.image.width >= 50 %}{{ block.settings.image | image_url: width: 254 }} 254w,{% endif %}
+                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | image_url: width: 374 }} 374w,{% endif %}
+                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | image_url: width: 404 }} 404w,{% endif %}
+                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | image_url: width: 562 }} 562w,{% endif %}
+    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if block.settings.image.width >= 900 %}{{ block.settings.image | image_url: width: 900 }} 900w,{% endif %}
+                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | image_url: 'master' }}"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy">
+        </div>
+        {%- endif -%}
+        <div class="news-science-text-list-right">
+          {%- if block.settings.title != blank -%}
+          <h4>{{ block.settings.title }}</h4>
+          {%- endif -%}
+          {%- if block.settings.desc != blank -%}
+          <p>{{ block.settings.desc }}</p>
+          {%- endif -%}
+        </div>
+      </div>
+      {%- endfor -%}
+    
+    </div>
+      <div class="news-science-text-list-btn">
+      {%- if section.settings.btn_title != blank and section.settings.btn_link != blank -%}
+      <a class="btn btn-primary btn-large" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+<script>
+  var winWidth = $(window).width();
+  if(winWidth < 769){
+$('.news-science-text-list').slick({
+  dots: true,
+  arrows:false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true
+});
+    }
+  </script>
+{% schema %}
+  {
+    "name": "New Science Text List",
+    "settings": [
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Text",
+        "type": "Text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Science Text List",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,156 @@
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-article-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-featured-blog.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-article-card.css' | asset_url | stylesheet_tag }}</noscript>
+
+{{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width author-page-main-post">
+  <h2 class="article_by">Articles by {{ page.title }}</h2>
+  {% if page.handle contains 'david' %}
+    {% assign author = section.settings.blog1 %}
+     {% elsif page.handle contains 'brian' %}
+    {% assign author = section.settings.blog2 %}
+     {% elsif page.handle contains 'jenny' %}
+    {% assign author = section.settings.blog3 %}
+     {% elsif page.handle contains 'mary' %}
+    {% assign author = section.settings.blog4 %}
+     {% elsif page.handle contains 'danny' %}
+    {% assign author = section.settings.blog5 %}
+     {% elsif page.handle contains 'iman' %}
+    {% assign author = section.settings.blog6 %}
+     {% elsif page.handle contains 'cass' %}
+    {% assign author = section.settings.blog7 %}
+     {% elsif page.handle contains 'kimberly' %}
+    {% assign author = section.settings.blog8 %}
+     {% elsif page.handle contains 'alyssa' %}
+    {% assign author = section.settings.blog9 %}
+      {% elsif page.handle contains 'jenna' %}
+    {% assign author = section.settings.blog10 %}
+    {% endif %}
+    {%- for article in author.articles -%}
+            <div class="author__post grid_item article">
+              <div class="leftimg">
+                <img
+                srcset="{%- if article.image.src.width >= 165 -%}{{ article.image.src | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if article.image.src.width >= 360 -%}{{ article.image.src | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if article.image.src.width >= 533 -%}{{ article.image.src | image_url: width: 533 }} 533w,{%- endif -%}
+                  {%- if article.image.src.width >= 720 -%}{{ article.image.src | image_url: width: 720 }} 720w,{%- endif -%}
+                  {%- if article.image.src.width >= 1000 -%}{{ article.image.src | image_url: width: 1000 }} 1000w,{%- endif -%}
+                  {%- if article.image.src.width >= 1500 -%}{{ article.image.src | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ article.image.src | image_url }} {{ article.image.src.width }}w"
+                src="{{ article.image.src | image_url: width: 533 }}"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                alt="{{ article.image.src.alt | escape }}"
+                class="motion-reduce"
+                {% unless lazy_load == false %}loading="lazy"{% endunless %}
+                width="{{ article.image.width }}"
+                height="{{ article.image.height }}"
+              >
+              </div>
+              <div class="rightcontent">
+                <a href="{{ article.url }}" class="full-unstyled-link">
+               <h2> {{ article.title }}</h2>
+              </a>
+                <div class="excerpt">{{ article.excerpt }}</div>
+                  <a href="{{ article.url }}" class="full-unstyled-link read-article-link">Read article</a>
+              </div>
+            </div>
+  {%- endfor -%}
+  <div id="pagination-container"></div>
+</div>
+
+<script>
+$(function(){
+  var items = $(".author__post");
+    var numItems = items.length;
+    var perPage = 6;
+
+    items.slice(perPage).hide();
+
+    $('#pagination-container').pagination({
+        items: numItems,
+        itemsOnPage: perPage,
+        prevText: "< Prev",
+        nextText: "Next >",
+        onPageClick: function (pageNumber) {
+            var showFrom = perPage * (pageNumber - 1);
+            var showTo = showFrom + perPage;
+            items.hide().slice(showFrom, showTo).show();
+        }
+    });
+  // $('#pagination-container .next').insertAfter('#pagination-container .prev');
+  // $(document).on('click','.next,.prev,.page-link',function(){
+  //   $('#pagination-container .next').insertAfter('#pagination-container .prev');
+  // });
+})
+</script>
+{% schema %}
+{
+  "name": "t:sections.featured-blog.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blog1",
+      "label": "David Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog2",
+      "label": "Brian Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog3",
+      "label": "Jenny Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog4",
+      "label": "Mary Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog5",
+      "label": "Danny Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog6",
+      "label": "Iman Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog7",
+      "label": "Cass Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog8",
+      "label": "Kimberly Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog9",
+      "label": "Alyssa Blog"
+    },
+     {
+      "type": "blog",
+      "id": "blog10",
+      "label": "Jenna Blog"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Author Posts"
+     
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,136 @@
+<div class="home-icon-text-section">
+  <div class="container">
+    <div class="home-icon-text-title">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+    <div class="home-icon-text">
+      {%- for block in section.blocks -%}
+      <div class="home-icon-text-wrap">
+        {%- if block.settings.image != blank -%}
+       <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if block.settings.image.width >= 84 %}{{ block.settings.image | image_url: width: 84 }} 84w,{% endif %}
+                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | image_url: width: 374 }} 374w,{% endif %}
+                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | image_url: width: 404 }} 404w,{% endif %}
+                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | image_url: width: 562 }} 562w,{% endif %}
+    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if block.settings.image.width >= 900 %}{{ block.settings.image | image_url: width: 900 }} 900w,{% endif %}
+                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | image_url: 'master' }}"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy">
+        {%- endif -%}
+        {%- if block.settings.title != blank -%}
+        <h4>{{ block.settings.title }}</h4>
+        {%- endif -%}
+        {%- if block.settings.desc != blank -%}
+        <p>{{ block.settings.desc }}</p>
+        {%- endif -%}
+      </div>
+      {%- endfor -%}
+     
+    </div>
+     {%- if section.settings.btn_link != blank and section.settings.btn_title != blank -%}
+      <div class="home-icon-btn">
+        <a class="btn btn-primary btn-medium" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+      </div>
+      {%- endif -%}
+  </div>
+</div>
+
+<script>
+
+
+
+mobileOnlySlider(".home-icon-text-section .home-icon-text", true, false, 768);
+
+function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
+  var slider = $($slidername);
+  var settings = {
+    mobileFirst: true,
+    dots: $dots,
+    arrows: $arrows,
+    responsive: [
+      {
+        breakpoint: $breakpoint,
+        settings: "unslick"
+      }
+    ]
+  };
+
+  slider.slick(settings);
+
+  $(window).on("resize", function () {
+    if ($(window).width() > $breakpoint) {
+      return;
+    }
+    if (!slider.hasClass("slick-initialized")) {
+      return slider.slick(settings);
+    }
+  });
+} // Mobile Only Slider
+  
+</script>
+
+{% schema %}
+  {
+    "name": "Home Icon Text",
+    "settings": [
+      {
+        "type": "html",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Icon",
+        "name": "Icon",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Icon Text",
+        "category": "Icon"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

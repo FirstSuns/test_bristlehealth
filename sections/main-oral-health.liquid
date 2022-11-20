@@ -1,0 +1,84 @@
+<div class="main-oral-health-section">
+
+    <div class="main-oral-health">
+      {%- if section.settings.title != blank -%}
+   <div class="main-oral-health-top">   <h2>{{ section.settings.title }}</h2> </div>
+      {%- endif -%}
+      <div class="main-oral-health-section-inner">
+        <div class="container">
+      <div class="main-oral-health-part">
+        <img src="{{ section.settings.bg_img | img_url: 'master' }}" class="added-image">
+        {%- for block in section.blocks -%}
+        <div class="main-oral-health-wrap">
+          {%- if block.settings.icon != blank -%}
+         <img
+                      id="Thumbnail-{{ section.id }}-0" class=""
+                      srcset="
+                        {% if block.settings.icon.width >= 50 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+                        {% if block.settings.icon.width >= 374 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+                        {% if block.settings.icon.width >= 404 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+                        {% if block.settings.icon.width >= 562 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+    {% if block.settings.icon.width >= 1400 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+    {% if block.settings.icon.width >= 1200 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+    {% if block.settings.icon.width >= 900 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+                        {% if block.settings.icon.width >= 1608 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+                        {% if block.settings.icon.width >= 1824 %}{{ block.settings.icon | img_url: 'master' }},{% endif %}
+                        {% if block.settings.icon.width >= 1916 %}{{ block.settings.icon | img_url: 'master' }},{% endif %},
+                        {{ block.settings.icon | img_url: 'master' }} {{ block.settings.icon.width }}w"
+                      src="{{ block.settings.icon | img_url: 'master' }}"
+                      alt="{{ block.settings.icon.alt | escape }}"
+                      loading="lazy">
+          {%- endif -%}
+          {%- if block.settings.desc != blank -%}
+          <p>{{ block.settings.desc }}</p>
+          {%- endif -%}
+        </div>
+        {%- endfor -%}
+      </div>
+    </div> </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Main Oral Health",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "bg_img",
+        "label": "Background Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

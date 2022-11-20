@@ -1,0 +1,95 @@
+<div class="new-science-img-text-grid-blog-section">
+  <div class="container-large">
+    <div class="new-science-img-text-grid-blog">
+      {%- for block in section.blocks -%}
+      <div class="new-science-img-text-grid-blog-wrap">
+        {%- if block.settings.image != blank -%}
+        <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if block.settings.image.width >= 254 %}{{ block.settings.image | image_url: width: 254 }} 254w,{% endif %}
+                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | image_url: width: 374 }} 374w,{% endif %}
+                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | image_url: width: 404 }} 404w,{% endif %}
+                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | image_url: width: 562 }} 562w,{% endif %}
+    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if block.settings.image.width >= 900 %}{{ block.settings.image | image_url: width: 900 }} 900w,{% endif %}
+                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | image_url: 'master' }}"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy">
+        {%- endif -%}
+        {%- if block.settings.title != blank -%}
+        <h4><a href="{{ block.settings.btn_url }}">{{ block.settings.title }}</a></h4>
+        {%- endif -%}
+        {%- if block.settings.btn_url != blank and block.settings.btn_title != blank -%}
+        <a class="link" href="{{ block.settings.btn_url }}">{{ block.settings.btn_title }}</a>
+        {%- endif -%}
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<script>
+  var winWidth = $(window).width();
+  if(winWidth < 769){
+$('.new-science-img-text-grid-blog-section .new-science-img-text-grid-blog').slick({
+  dots: true,
+  arrows:false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+    }
+  </script>
+{% schema %}
+  {
+    "name": "New Science Img Grid Blog",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "Image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "btn_title",
+            "label": "Button Heading"
+          },
+          {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Science Img Grid Blog",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

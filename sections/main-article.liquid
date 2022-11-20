@@ -1,15 +1,46 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
-
-<article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="article-template defaulttemp" itemscope itemtype="http://schema.org/BlogPosting">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">
           {% render block %}
         </div>
+
+            {%- when 'title'-%}
+     <div class="top-header">
+          <header class="article-header" {{ block.shopify_attributes }}>
+            <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
+       {%- if block.settings.blog_show_author -%}
+              <div class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                {% if blog.handle contains "david-lin" 
+                  or blog.handle contains "jenna-gress-smith" 
+                  or blog.handle contains "brian-maurer" 
+                  or blog.handle contains "jenny-to" 
+                  or blog.handle contains "mary-walsh" 
+                  or blog.handle contains "danny-grannick" 
+                  or blog.handle contains "iman-zayed" 
+                  or blog.handle contains "cass-nelson-dooley" 
+                  or blog.handle contains "alyssa-carrier" %}
+                  <span itemprop="name"> {{ blog.title }},{{ article.metafields.custom.designation }}</span>
+                {% else %}
+                  <span itemprop="name">{{ article.author }},{{ article.metafields.custom.designation }}</span>
+                {% endif %}
+              </div>
+            {%- endif -%}
+            {%- if block.settings.blog_show_date -%}
+              <div class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'date' }}</div>
+            {%- endif -%}
+      {% comment %} <div class="blog-review">Reviewed by: David Lin, PhD</div> {% endcomment %}
+           
+      {% if article.metafields.custom.blog_time != blank %}
+        <div class="timing">{{ article.metafields.custom.blog_time }}</div>
+        {% endif %}
+          </header>
       {%- when 'featured_image'-%}
         {%- if article.image -%}
-          <div class="article-template__hero-container" {{ block.shopify_attributes }}>
+          <div class="article-template__hero-container" {{ block.shopify_attributes }} style="background-image:url({{ article.image | image_url: width: 1100 }});">
+		  {% comment %}
             <div class="article-template__hero-{{ block.settings.image_height }} media"
               itemprop="image"
               {% if block.settings.image_height == 'adapt' and article.image %} style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"{% endif %}
@@ -29,22 +60,12 @@
                 height="{{ article.image.height }}"
                 alt="{{ article.image.alt | escape }}">
             </div>
+			{% endcomment %}
           </div>
+                </div>
+</div>
         {%- endif -%}
-
-        {%- when 'title'-%}
-          <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
-            <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
-            {%- if block.settings.blog_show_date -%}
-              <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'date' }}</span>
-            {%- endif -%}
-            {%- if block.settings.blog_show_author -%}
-              <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ article.author }}</span>
-              </span>
-            {%- endif -%}
-          </header>
-
+ 
         {%- when 'content'-%}
           <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
               {{ article.content }}
@@ -91,13 +112,14 @@
           </div>
     {%- endcase -%}
   {%- endfor -%}
-
+{% comment %}
   <div class="article-template__back element-margin-top center">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
       <span class="icon-wrap">{% render 'icon-arrow' %}</span>
       {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
     </a>
   </div>
+  {% endcomment %}
   {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">
       <div id="comments" class="page-width page-width--narrow">

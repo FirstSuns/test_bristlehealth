@@ -1,0 +1,114 @@
+<div class="science-oral-microbiome-section">
+  <div class="container">
+    <div class="science-oral-microbiome-title">
+      {%- if section.settings.title != blank -%}
+      <h2>{{ section.settings.title }}</h2>
+      {%- endif -%}
+      {%- if section.settings.sub_title != blank -%}
+      <p>{{ section.settings.sub_title }}</p>
+      {%- endif -%}
+    </div>
+    <div class="science-oral-microbiome">
+      {%- for block in section.blocks -%}
+      <div class="science-oral-microbiome-wrap">
+        {%- if block.settings.icon != blank -%}
+        <figure>{{ block.settings.icon }}</figure>
+        {%- else -%}
+          {%- if block.settings.image != blank -%}
+          <figure><img src="{{ block.settings.image | img_url: 'master' }}"></figure>
+            {%- endif -%}
+        {%- endif -%}
+		<div class="science-oral-microbiome-faq-desc">
+        {%- if block.settings.desc != blank -%}
+        <p>{{ block.settings.desc }}</p>
+        {%- endif -%}
+        <div class="science-oral-microbiome-faq">
+          {%- if block.settings.faq_title != blank -%}
+          <h4><span class="main-text-faq">{{ block.settings.faq_title }}</span>
+            <span class="faq-icon"></span>
+          </h4>
+          {%- endif -%}
+          {%- if block.settings.faq_desc != blank -%}
+          <div class="science-oral-microbiome-desc">
+            {{ block.settings.faq_desc }}
+          </div>
+          {%- endif -%}
+        </div></div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+</script>
+<script>
+$(document).ready(function(){
+  $(".science-oral-microbiome-section .science-oral-microbiome  h4").click(function(){
+    // $(".science-oral-microbiome-section .science-oral-microbiome .science-oral-microbiome-desc").slideToggle();
+    $(this).toggleClass('active');
+  });
+});
+</script>
+{% schema %}
+  {
+    "name": "Science Oral Microbiome",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Sub Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "icon",
+            "label": "Icon"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          },
+          {
+            "type": "text",
+            "id": "faq_title",
+            "label": "Faq Heading"
+          },
+          {
+            "type": "html",
+            "id": "faq_desc",
+            "label": "Faq Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Science Oral Microbiome",
+        "category": "Science Oral Microbiome"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

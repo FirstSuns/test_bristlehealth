@@ -1,0 +1,77 @@
+<div class="science-image-text-section">
+  <div class="container">
+    <div class="science-image-text">
+      <div class="science-image-text-left">
+      {%- if section.settings.image != blank -%}
+      <figure <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if section.settings.image.width >= 50 %}{{ section.settings.image | image_url: width: 254 }} 254w,{% endif %}
+                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | image_url: width: 374 }} 374w,{% endif %}
+                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | image_url: width: 404 }} 404w,{% endif %}
+                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | image_url: width: 562 }} 562w,{% endif %}
+    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if section.settings.image.width >= 900 %}{{ section.settings.image | image_url: width: 900 }} 900w,{% endif %}
+                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+                      src="{{ section.settings.image | image_url: 'master' }}"
+                      alt="{{ section.settings.image.alt | escape }}"
+                      loading="lazy"></figure>
+      {%- endif -%}
+      </div>
+      <div class="science-image-text-right">
+        {%- if section.settings.title != blank -%}
+        <p>{{ section.settings.title }}</p>
+        {%- endif -%}
+        {%- if section.settings.btn_title != blank -%}
+        <a class="button-primary-blue" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Science Image Text",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Science Image Text",
+        "category": "Science Image Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,73 @@
+<div class="how-it-works-cost-section">
+  <div class="container">
+    <div class="how-it-works-cost">
+      {%- if section.settings.image != blank -%}
+      <div class="how-it-works-cost-left">
+        <img
+                      id="Thumbnail-{{ section.id }}-0" class=""
+                      srcset="
+                        {% if section.settings.image.width >= 50 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+    {% if section.settings.image.width >= 900 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | img_url: 'master' }},{% endif %},
+                        {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
+                      src="{{ section.settings.image | img_url: 'master' }}"
+                      alt="{{ section.settings.image.alt | escape }}"
+                      loading="lazy">
+      </div>
+      {%- endif -%}
+      <div class="how-it-works-cost-right">
+        {%- if section.settings.title != blank -%}
+        <h2>{{ section.settings.title }}</h2>
+        {%- endif -%}
+        {%- if section.settings.desc != blank -%}
+        <div class="how-it-works-cost-desc">
+          {{ section.settings.desc }}
+        </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "How It Works Cost",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "html",
+        "id": "desc",
+        "label": "Description"
+      }
+    ],
+    "presets": [
+      {
+        "name": "How It Works Cost",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

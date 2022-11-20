@@ -1,0 +1,63 @@
+<div class="customer_revier">
+  <div class="page-width">
+    <div class="customer_revier_inner">
+    <div class="rev_content">
+      {{ section.settings.content }}
+    </div>
+    <div class="right_info">
+      <img srcset="
+                          {% if section.settings.image.width >= 495 %}{{ section.settings.image | image_url: width: 495 }} 495w,{% endif %}
+                          {% if section.settings.image.width >= 518 %}{{ section.settings.image | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.image.width >= 644 %}{{ section.settings.image | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.image.width >= 768 %}{{ section.settings.image | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.image.width >= 830 %}{{ section.settings.image | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.image.width >= 960 %}{{ section.settings.image | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.image | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.image.alt | escape }}"
+                        loading="lazy" />
+      <div class="revinfo">
+        <p>{{ section.settings.name }}</p>
+        <small>{{ section.settings.desg }}</small>
+      </div>
+    </div></div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Customer Reviews",
+    "settings": [
+      {
+        "type":"html",
+        "id":"content",
+        "label":"Content"
+      },
+      {
+        "type":"image_picker",
+        "id":"image",
+        "label":"Image"
+      },
+      {
+        "type":"text",
+        "id":"name",
+        "label":"Name"
+      },
+      {
+        "type":"text",
+        "id":"desg",
+        "label":"Designation"
+      }
+    ],
+    "presets":[
+      {
+        "name":"Customer Reviews"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

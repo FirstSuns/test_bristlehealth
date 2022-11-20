@@ -1,0 +1,610 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ddb12667-4d31-458a-b6c8-e521ee7f61e4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15968824754333__ddb12667-4d31-458a-b6c8-e521ee7f61e4-166806574289d3417b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enhance care with oral <span class=\"red-color\"> microbiome testing<\/span>",
+            "heading_size": "h0"
+          }
+        },
+        "template--15968824754333__ddb12667-4d31-458a-b6c8-e521ee7f61e4-166806574289d3417b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get critical health insights and elevate your care with comprehensive oral microbiome testing.<br\/><br\/>Receive dedicated support and discounted pricing to offer Bristle to your patients.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15968824754333__ddb12667-4d31-458a-b6c8-e521ee7f61e4-166806574289d3417b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up or Log In",
+            "button_link": "https:\/\/shop.bristlehealth.com\/account\/login?return_url=%2Faccount",
+            "outlined_button": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__ddb12667-4d31-458a-b6c8-e521ee7f61e4-166806574289d3417b-0",
+        "template--15968824754333__ddb12667-4d31-458a-b6c8-e521ee7f61e4-166806574289d3417b-1",
+        "template--15968824754333__ddb12667-4d31-458a-b6c8-e521ee7f61e4-166806574289d3417b-2"
+      ],
+      "settings": {
+        "custom_class": "enhance-care",
+        "image": "shopify:\/\/shop_images\/Group_8.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "4d0c7fa4-e0dd-4d2c-849c-7fc404087de5": {
+      "type": "providers-video",
+      "blocks": {
+        "template--15968824754333__4d0c7fa4-e0dd-4d2c-849c-7fc404087de5-166807394877a35aea-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Meet the next generation of oral health",
+            "heading_size": "h1"
+          }
+        },
+        "template--15968824754333__4d0c7fa4-e0dd-4d2c-849c-7fc404087de5-166807394877a35aea-1": {
+          "type": "text",
+          "settings": {
+            "text": "Bristle is the first and only comprehensive salivary test to analyze the entire oral microbiome, including all 700+ unique species of bacteria found in the mouth. \n<p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_5.png?v=1667811405\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\ndo eiusmod.<\/p>\n<p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_6.png?v=1667811420\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\ndo eiusmod.<\/p>\n<p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_7.png?v=1667811428\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\ndo eiusmod.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15968824754333__4d0c7fa4-e0dd-4d2c-849c-7fc404087de5-166807394877a35aea-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn the science",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__4d0c7fa4-e0dd-4d2c-849c-7fc404087de5-166807394877a35aea-0",
+        "template--15968824754333__4d0c7fa4-e0dd-4d2c-849c-7fc404087de5-166807394877a35aea-1",
+        "template--15968824754333__4d0c7fa4-e0dd-4d2c-849c-7fc404087de5-166807394877a35aea-2"
+      ],
+      "settings": {
+        "custom_class": "next-generation",
+        "title": "Meet the<span class=\"red-color\"> next generation <\/span>of oral health",
+        "video": "https:\/\/www.youtube.com\/embed\/TIlLIIQhHnk",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 38,
+        "padding_bottom_mobile": 38
+      }
+    },
+    "d5923537-7bd6-48ef-978e-3e9e65369450": {
+      "type": "our-test",
+      "settings": {
+        "enabled_our_test": true,
+        "heading": "<span class=\"red-color\">Our test<\/span> vs. other salivary tests",
+        "oure_test": "<table class=\"our-test-section-table\">\n  <tr>\n    <th><\/th>\n    <th>Bristle<\/th>\n    <th>Direct Diagnostics HR5 Test<\/th>\n      <th>OralDNA OralRisk Caries<\/th>\n    <th>OralDNA MyPeriodPlan<\/th>\n    <th>OralDNA OralRisk Canadida<\/th>\n  <\/tr>\n  <tr>\n    <td>Price<\/td>\n    <td>$99 - $119<\/td>\n    <td>$65<\/td>\n    <td>$70<\/td>\n    <td>$110<\/td>\n    <td>$55<\/td>\n  <\/tr>\n  <tr>\n    <td>Bacteria Detected<\/td>\n    <td>All 700+<\/td>\n    <td>5<\/td>\n    <td>3<\/td>\n    <td>11<\/td>\n    <td>None<\/td>\n  <\/tr>\n  <tr>\n    <td>Fungi Detected<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#2458FF\"><\/path>\n<path d=\"M17.0041 9.12804L11.4895 14.1832L9.06973 11.7635C8.97364 11.664 8.8587 11.5846 8.73161 11.53C8.60453 11.4754 8.46784 11.4467 8.32953 11.4455C8.19122 11.4443 8.05405 11.4706 7.92603 11.523C7.79801 11.5754 7.68171 11.6527 7.58391 11.7505C7.4861 11.8483 7.40875 11.9647 7.35638 12.0927C7.304 12.2207 7.27765 12.3579 7.27885 12.4962C7.28005 12.6345 7.30879 12.7712 7.36338 12.8983C7.41797 13.0253 7.49733 13.1403 7.59682 13.2364L10.7218 16.3614C10.9116 16.5512 11.1674 16.6605 11.4359 16.6663C11.7043 16.6721 11.9646 16.5741 12.1624 16.3926L18.4124 10.6635C18.6161 10.4767 18.7371 10.2167 18.749 9.94068C18.761 9.66465 18.6627 9.39519 18.476 9.19158C18.2892 8.98797 18.0292 8.86689 17.7532 8.85497C17.4772 8.84306 17.2077 8.94128 17.0041 9.12804Z\" fill=\"#2458FF\"><\/path>\n<\/svg>\n<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#F75F37\"><\/path>\n<line x1=\"9.01972\" y1=\"7.70296\" x2=\"16.7036\" y2=\"16.4846\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<line x1=\"1\" y1=\"-1\" x2=\"12.6687\" y2=\"-1\" transform=\"matrix(-0.658505 0.752577 0.752577 0.658505 17.5857 7.60889)\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<\/svg>\n<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#F75F37\"><\/path>\n<line x1=\"9.01972\" y1=\"7.70296\" x2=\"16.7036\" y2=\"16.4846\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<line x1=\"1\" y1=\"-1\" x2=\"12.6687\" y2=\"-1\" transform=\"matrix(-0.658505 0.752577 0.752577 0.658505 17.5857 7.60889)\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<\/svg>\n<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#F75F37\"><\/path>\n<line x1=\"9.01972\" y1=\"7.70296\" x2=\"16.7036\" y2=\"16.4846\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<line x1=\"1\" y1=\"-1\" x2=\"12.6687\" y2=\"-1\" transform=\"matrix(-0.658505 0.752577 0.752577 0.658505 17.5857 7.60889)\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<\/svg>\n<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#2458FF\"><\/path>\n<path d=\"M17.0041 9.12804L11.4895 14.1832L9.06973 11.7635C8.97364 11.664 8.8587 11.5846 8.73161 11.53C8.60453 11.4754 8.46784 11.4467 8.32953 11.4455C8.19122 11.4443 8.05405 11.4706 7.92603 11.523C7.79801 11.5754 7.68171 11.6527 7.58391 11.7505C7.4861 11.8483 7.40875 11.9647 7.35638 12.0927C7.304 12.2207 7.27765 12.3579 7.27885 12.4962C7.28005 12.6345 7.30879 12.7712 7.36338 12.8983C7.41797 13.0253 7.49733 13.1403 7.59682 13.2364L10.7218 16.3614C10.9116 16.5512 11.1674 16.6605 11.4359 16.6663C11.7043 16.6721 11.9646 16.5741 12.1624 16.3926L18.4124 10.6635C18.6161 10.4767 18.7371 10.2167 18.749 9.94068C18.761 9.66465 18.6627 9.39519 18.476 9.19158C18.2892 8.98797 18.0292 8.86689 17.7532 8.85497C17.4772 8.84306 17.2077 8.94128 17.0041 9.12804Z\" fill=\"#2458FF\"><\/path>\n<\/svg>\n<\/td>\n  <\/tr>\n  <tr>\n    <td>Conditions Reported<\/td>\n    <td>4<\/td>\n    <td>0<\/td>\n    <td>1<\/td>\n    <td>1<\/td>\n     <td>1<\/td>\n  <\/tr>\n  <tr>\n    <td>Analysis Method<\/td>\n    <td>Shutgun Metagenomic Sequencing<\/td>\n    <td>qPCR<\/td>\n    <td>qPCR<\/td>\n    <td>qPCR<\/td>\n    <td>qPCR<\/td>\n  <\/tr>\n  <tr>\n    <td>Patient-Friendly Results &amp; Education<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#2458FF\"><\/path>\n<path d=\"M17.0041 9.12804L11.4895 14.1832L9.06973 11.7635C8.97364 11.664 8.8587 11.5846 8.73161 11.53C8.60453 11.4754 8.46784 11.4467 8.32953 11.4455C8.19122 11.4443 8.05405 11.4706 7.92603 11.523C7.79801 11.5754 7.68171 11.6527 7.58391 11.7505C7.4861 11.8483 7.40875 11.9647 7.35638 12.0927C7.304 12.2207 7.27765 12.3579 7.27885 12.4962C7.28005 12.6345 7.30879 12.7712 7.36338 12.8983C7.41797 13.0253 7.49733 13.1403 7.59682 13.2364L10.7218 16.3614C10.9116 16.5512 11.1674 16.6605 11.4359 16.6663C11.7043 16.6721 11.9646 16.5741 12.1624 16.3926L18.4124 10.6635C18.6161 10.4767 18.7371 10.2167 18.749 9.94068C18.761 9.66465 18.6627 9.39519 18.476 9.19158C18.2892 8.98797 18.0292 8.86689 17.7532 8.85497C17.4772 8.84306 17.2077 8.94128 17.0041 9.12804Z\" fill=\"#2458FF\"><\/path>\n<\/svg>\n<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#F75F37\"><\/path>\n<line x1=\"9.01972\" y1=\"7.70296\" x2=\"16.7036\" y2=\"16.4846\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<line x1=\"1\" y1=\"-1\" x2=\"12.6687\" y2=\"-1\" transform=\"matrix(-0.658505 0.752577 0.752577 0.658505 17.5857 7.60889)\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<\/svg>\n<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#F75F37\"><\/path>\n<line x1=\"9.01972\" y1=\"7.70296\" x2=\"16.7036\" y2=\"16.4846\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<line x1=\"1\" y1=\"-1\" x2=\"12.6687\" y2=\"-1\" transform=\"matrix(-0.658505 0.752577 0.752577 0.658505 17.5857 7.60889)\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<\/svg>\n<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#F75F37\"><\/path>\n<line x1=\"9.01972\" y1=\"7.70296\" x2=\"16.7036\" y2=\"16.4846\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<line x1=\"1\" y1=\"-1\" x2=\"12.6687\" y2=\"-1\" transform=\"matrix(-0.658505 0.752577 0.752577 0.658505 17.5857 7.60889)\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<\/svg>\n<\/td>\n    <td>\n<svg width=\"25\" height=\"25\" viewbox=\"0 0 25 25\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M12.5001 1.0415C10.2338 1.0415 8.01849 1.71352 6.13418 2.97258C4.24986 4.23164 2.78122 6.02119 1.91397 8.11492C1.04671 10.2087 0.8198 12.5126 1.26192 14.7352C1.70404 16.9579 2.79535 18.9996 4.39782 20.6021C6.0003 22.2046 8.04198 23.2959 10.2647 23.738C12.4874 24.1801 14.7913 23.9532 16.885 23.086C18.9787 22.2187 20.7683 20.7501 22.0273 18.8657C23.2864 16.9814 23.9584 14.7661 23.9584 12.4998C23.9548 9.462 22.7465 6.54961 20.5984 4.40153C18.4503 2.25345 15.5379 1.04509 12.5001 1.0415ZM12.5001 21.8748C10.6459 21.8748 8.83333 21.325 7.29162 20.2949C5.74991 19.2647 4.54829 17.8006 3.83872 16.0875C3.12914 14.3744 2.94349 12.4894 3.30522 10.6709C3.66696 8.8523 4.55984 7.18183 5.87096 5.87071C7.18208 4.55959 8.85254 3.66671 10.6711 3.30498C12.4897 2.94324 14.3747 3.1289 16.0877 3.83847C17.8008 4.54804 19.265 5.74966 20.2951 7.29137C21.3253 8.83308 21.8751 10.6456 21.8751 12.4998C21.8723 14.9854 20.8837 17.3684 19.1262 19.1259C17.3686 20.8835 14.9856 21.8721 12.5001 21.8748Z\" fill=\"#F75F37\"><\/path>\n<line x1=\"9.01972\" y1=\"7.70296\" x2=\"16.7036\" y2=\"16.4846\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<line x1=\"1\" y1=\"-1\" x2=\"12.6687\" y2=\"-1\" transform=\"matrix(-0.658505 0.752577 0.752577 0.658505 17.5857 7.60889)\" stroke=\"#F75F37\" stroke-width=\"2\" stroke-linecap=\"round\"><\/line>\n<\/svg>\n<\/td>\n  <\/tr>\n<\/table>"
+      }
+    },
+    "92c36026-0c5f-493a-adc6-cd5b17b8f15c": {
+      "type": "providers-dentist",
+      "blocks": {
+        "d56b27b4-85b3-40f7-8ce2-2914cb7a67c7": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Mask_group_df178acf-8987-4c67-ba9d-9633cf6e28b7.png",
+            "title": "Dr. Roshan Ipsum",
+            "desg": "President at the dental bar",
+            "desc": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\nlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.\nlaboris nisi ut aliquip ex ea commodo consequat.”",
+            "logo": "shopify:\/\/shop_images\/63499d0ab7be8f17462ba6f3_NoPo_Logo-p-500.png"
+          }
+        },
+        "7f244790-df68-4847-ad2d-7ef061318b37": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Mask_group_1.png",
+            "title": "Dr. Bonnie Feldman, DDS",
+            "desg": "General Dentist and Founder of Autoimmune Connect",
+            "desc": "International speaker, consultant, and writer with a focus on the oral microbiome's connection to systemic disease"
+          }
+        },
+        "1de5cd6e-464f-4c69-ad87-a3a00a2f6b12": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Mask_group_2.png",
+            "title": "Dr. Jonathan Levine, DDS",
+            "desg": "Founder of GLO Science, Oral Health Expert, Social Entrepreneur",
+            "desc": "Former Associate Professor at NYU School of Dentistry and co-founder of the GLO GOOD Foundation"
+          }
+        },
+        "cf77a715-7e0c-49df-93ca-947f415a08ae": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Mask_group_3.png",
+            "title": "Dr. Mark Burhenne, DDS",
+            "desg": "Family Dentist and Founder of AskTheDentist.com",
+            "desc": "Former Chief Dental Officer at Quip and best selling author"
+          }
+        }
+      },
+      "block_order": [
+        "d56b27b4-85b3-40f7-8ce2-2914cb7a67c7",
+        "7f244790-df68-4847-ad2d-7ef061318b37",
+        "1de5cd6e-464f-4c69-ad87-a3a00a2f6b12",
+        "cf77a715-7e0c-49df-93ca-947f415a08ae"
+      ],
+      "settings": {
+        "title": "Hear from<span class=\"red-color\"> other dentists<\/span> using Bristle"
+      }
+    },
+    "7bc29cd5-aaa1-4014-ae33-b4f9795da92a": {
+      "type": "fullwidth-text-image",
+      "blocks": {
+        "template--15968824754333__7bc29cd5-aaa1-4014-ae33-b4f9795da92a-166807696925c284f8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Getting Started",
+            "heading_size": "h2"
+          }
+        },
+        "template--15968824754333__7bc29cd5-aaa1-4014-ae33-b4f9795da92a-166807696925c284f8-1": {
+          "type": "text",
+          "settings": {
+            "text": "Follow these steps to create your account with Bristle and implement oral microbiome testing:\n<ul>\n<li>Create your account by clicking the button below - it's free to sign up.\n<\/li>\n<li>Order kits at discounted pricing through your portal.\n<\/li>\n<li>Register kits online before collecting a sample.\n<\/li>\n<li>Collect a 0.5mL saliva sample and send it back to our lab using a prepaid envelope.\n<\/li>\n<li>Receive results online in 2 weeks.\n<\/li>\n<\/ul>",
+            "text_style": "body"
+          }
+        },
+        "template--15968824754333__7bc29cd5-aaa1-4014-ae33-b4f9795da92a-166807696925c284f8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Create your free account",
+            "button_link": "https:\/\/shop.bristlehealth.com\/account\/login?return_url=%2Faccount"
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__7bc29cd5-aaa1-4014-ae33-b4f9795da92a-166807696925c284f8-0",
+        "template--15968824754333__7bc29cd5-aaa1-4014-ae33-b4f9795da92a-166807696925c284f8-1",
+        "template--15968824754333__7bc29cd5-aaa1-4014-ae33-b4f9795da92a-166807696925c284f8-2"
+      ],
+      "settings": {
+        "custom_class": "getting-start no-margin",
+        "heading": "",
+        "image": "shopify:\/\/shop_images\/Mask_group_3f91b3f8-231c-4031-82d7-c695bfa133c6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 84,
+        "padding_bottom": 84
+      }
+    },
+    "d77fb619-c6a1-4b04-8f8f-15fed735d4ef": {
+      "type": "home-icon-text",
+      "blocks": {
+        "106cc545-4be0-4408-81a0-d7bf927c91ae": {
+          "type": "Icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_29.png",
+            "title": "Differentiate and grow your practice",
+            "desc": "Be at the forefront of oral health & care by offering the most advanced test available."
+          }
+        },
+        "4fca9c1e-53f9-42bf-9e23-a47601491af6": {
+          "type": "Icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_30.png",
+            "title": "Expand and personalize your care",
+            "desc": "Incorporate whole-body health insights and microbe-specific recommendations into your care."
+          }
+        },
+        "8adbfd87-28b4-4146-9c80-c5e2d00f37af": {
+          "type": "Icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_31.png",
+            "title": "Increase treatment acceptance",
+            "desc": "Provide objective, quantifiable data to your patients around their oral health. Build trust and get buy-in for the care they need."
+          }
+        }
+      },
+      "block_order": [
+        "106cc545-4be0-4408-81a0-d7bf927c91ae",
+        "4fca9c1e-53f9-42bf-9e23-a47601491af6",
+        "8adbfd87-28b4-4146-9c80-c5e2d00f37af"
+      ],
+      "settings": {
+        "title": "<h1>Transform oral health throughthe <span class=\"red-color\">oral microbiome<\/span>\n<\/h1>\n<p>Just like routine blood work, saliva testing is critical to understanding key risk factors for oral &amp; overall health\nconditions and improving outcomes.\n<\/p>",
+        "btn_title": "Get Started",
+        "btn_link": "#"
+      }
+    },
+    "d8594160-7ec0-407b-8943-65abff82c02d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15968824754333__d8594160-7ec0-407b-8943-65abff82c02d-16680791355efbdb8c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How can you use <span class=\"red-color\">Bristle?<\/span><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15968824754333__d8594160-7ec0-407b-8943-65abff82c02d-16680791355efbdb8c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bristle empowers you with knowledge to level up care and drive better outcomes<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__d8594160-7ec0-407b-8943-65abff82c02d-16680791355efbdb8c-0",
+        "template--15968824754333__d8594160-7ec0-407b-8943-65abff82c02d-16680791355efbdb8c-1"
+      ],
+      "settings": {
+        "custom_class": "how-use",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "ebd073a9-6c42-4bab-8fe7-ee9c7db823f7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15968824754333__ebd073a9-6c42-4bab-8fe7-ee9c7db823f7-16680792018ab48fab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Develop an oral health baseline",
+            "heading_size": "h2"
+          }
+        },
+        "template--15968824754333__ebd073a9-6c42-4bab-8fe7-ee9c7db823f7-16680792018ab48fab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get a complete picture of oral health from a single saliva sample with insights into:<\/p><p>• Gum inflammation<\/p><p>• Tooth decay<\/p><p>• Halitosis<\/p><p>• Gut dysbiosis<\/p><p>• Beneficial bacteria<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__ebd073a9-6c42-4bab-8fe7-ee9c7db823f7-16680792018ab48fab-0",
+        "template--15968824754333__ebd073a9-6c42-4bab-8fe7-ee9c7db823f7-16680792018ab48fab-1"
+      ],
+      "settings": {
+        "custom_class": "normal-text",
+        "image": "shopify:\/\/shop_images\/image_32.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "616fcb97-0b74-4f31-8fed-21be039b94bb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15968824754333__616fcb97-0b74-4f31-8fed-21be039b94bb-1668079508a83f3a38-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Identify the root-cause of conditions",
+            "heading_size": "h2"
+          }
+        },
+        "template--15968824754333__616fcb97-0b74-4f31-8fed-21be039b94bb-1668079508a83f3a38-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Identify and quantify <strong>all 700+ bacterial species<\/strong> in a sample to understand oral health using the most advanced sequencing technology available, shotgun metagenomics.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__616fcb97-0b74-4f31-8fed-21be039b94bb-1668079508a83f3a38-0",
+        "template--15968824754333__616fcb97-0b74-4f31-8fed-21be039b94bb-1668079508a83f3a38-1"
+      ],
+      "settings": {
+        "custom_class": "normal-text",
+        "image": "shopify:\/\/shop_images\/Mask_group_1_39db4d8d-edb1-42fd-b41d-4621f02f65f2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "b06c5ca6-74ab-4e19-839a-a960f06115b4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15968824754333__b06c5ca6-74ab-4e19-839a-a960f06115b4-1668079617b4336121-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Develop personalized care plans",
+            "heading_size": "h2"
+          }
+        },
+        "template--15968824754333__b06c5ca6-74ab-4e19-839a-a960f06115b4-1668079617b4336121-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__b06c5ca6-74ab-4e19-839a-a960f06115b4-1668079617b4336121-0",
+        "template--15968824754333__b06c5ca6-74ab-4e19-839a-a960f06115b4-1668079617b4336121-1"
+      ],
+      "settings": {
+        "custom_class": "normal-text",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-10-27_at_20.40_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "7de842d7-413d-4bd9-98d2-bbaf94499840": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15968824754333__7de842d7-413d-4bd9-98d2-bbaf94499840-1668079733bb799d04-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Monitor and adapt over time",
+            "heading_size": "h2"
+          }
+        },
+        "template--15968824754333__7de842d7-413d-4bd9-98d2-bbaf94499840-1668079733bb799d04-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Monitor oral health over time with recurrent testing, measure the efficacy of treatments, and work with patients on changes to improve outcomes.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "bf1d920d-5221-4ffb-8428-b4631ce25f5f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up",
+            "button_link": "\/account\/register",
+            "outlined_button": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__7de842d7-413d-4bd9-98d2-bbaf94499840-1668079733bb799d04-0",
+        "template--15968824754333__7de842d7-413d-4bd9-98d2-bbaf94499840-1668079733bb799d04-1",
+        "bf1d920d-5221-4ffb-8428-b4631ce25f5f"
+      ],
+      "settings": {
+        "custom_class": "normal-text",
+        "image": "shopify:\/\/shop_images\/image_33.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "702cd3b6-566b-4a98-8099-36350bb0ce3f": {
+      "type": "providers-video",
+      "blocks": {
+        "template--15968824754333__702cd3b6-566b-4a98-8099-36350bb0ce3f-1668139442f6c0e712-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul class=\"main-ul-text mbslides\">\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_32_1.png?v=1668139572\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_32_1.png?v=1668139572\" loading=\"lazy\">\n<div class=\"li-right\"> <b>Backed by science<\/b><p>Our test was developed through research with the University of Pacific Dugoni School of Dentistry under an independent review board. Our science is backed by decades of research and over 200 scientific studies.\n<\/p>\n<\/div>\n<\/li>\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_32_1.png?v=1668139572\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_32_1.png?v=1668139572\" loading=\"lazy\"><div class=\"li-right\"> <b>Clinical grade quality<\/b><p>Testing is performed in a U.S. CLIA-certified laboratory to ensure accuracy and validity of results.\n<\/p>\n<\/div>\n<\/li>\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_32_1.png?v=1668139572\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_32_1.png?v=1668139572\" loading=\"lazy\"><div class=\"li-right\"> <b>Accessible &amp; effective testing<\/b><p>Testing is as simple as spitting in a tube and mailing it back to our lab. Our report is patient-friendly with clear results and our pricing allows for recurrent testing to monitor over time &amp; assess treatment efficacy.\n<\/p>\n<\/div>\n<\/li>\n<\/ul>",
+            "text_style": "body"
+          }
+        },
+        "template--15968824754333__702cd3b6-566b-4a98-8099-36350bb0ce3f-1668139442f6c0e712-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read our white paper",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__702cd3b6-566b-4a98-8099-36350bb0ce3f-1668139442f6c0e712-1",
+        "template--15968824754333__702cd3b6-566b-4a98-8099-36350bb0ce3f-1668139442f6c0e712-2"
+      ],
+      "settings": {
+        "custom_class": "best-in-tech",
+        "title": "Best in class <span class=\"red-color\">technology<\/span>",
+        "video": "",
+        "image": "shopify:\/\/shop_images\/image_35.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 68,
+        "padding_bottom": 68,
+        "padding_top_mobile": 58,
+        "padding_bottom_mobile": 56
+      }
+    },
+    "b6da2979-4f8f-4575-8afa-5b8c1a57ce05": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05-166813999396a8b39e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Good health starts witha <span class=\"red-color\"> healthy mouth <\/span>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05-166813999396a8b39e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us in our mission to reinvent oral health: patient-first, prevention-focused and personalized.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05-166813999396a8b39e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get started",
+            "button_link": "#",
+            "outlined_button": false
+          }
+        },
+        "1e6191ae-3ac5-491c-99d6-326524a5b04b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact our team",
+            "button_link": "#",
+            "outlined_button": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05-166813999396a8b39e-0",
+        "template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05-166813999396a8b39e-1",
+        "template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05-166813999396a8b39e-2",
+        "1e6191ae-3ac5-491c-99d6-326524a5b04b"
+      ],
+      "settings": {
+        "custom_class": "no-margin good-health",
+        "image": "shopify:\/\/shop_images\/Mask_group_2_e9e42e00-811a-455b-86aa-1d6464f747b5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 38,
+        "padding_bottom_mobile": 38
+      }
+    },
+    "f88703a2-8f66-4513-9269-641248ce0e9c": {
+      "type": "home-team",
+      "blocks": {
+        "dc37a989-acb6-43a0-98e8-2488aa44f0fe": {
+          "type": "Team",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "title": "Dr. Roshan Ipsum",
+            "sub_title": "President at the dental bar"
+          }
+        },
+        "8b6c549d-0cfb-4722-9618-01dbf8151aad": {
+          "type": "Team",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_1.png",
+            "title": "Dr. Bonnie Feldman, DDS",
+            "sub_title": "General Dentist and Founder of Autoimmune Connect"
+          }
+        },
+        "dc09bc05-f5d5-4930-9598-d79cb9b83ab2": {
+          "type": "Team",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_2.png",
+            "title": "Dr. Jonathan Levine, DDS",
+            "sub_title": "Founder of GLO Science, Oral Health Expert, Social Entrepreneur"
+          }
+        },
+        "1bd3b723-684d-4e82-b9c5-3fba06771242": {
+          "type": "Team",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_3.png",
+            "title": "Dr. Mark Burhenne, DDS",
+            "sub_title": "Family Dentist and Founder of AskTheDentist.com"
+          }
+        }
+      },
+      "block_order": [
+        "dc37a989-acb6-43a0-98e8-2488aa44f0fe",
+        "8b6c549d-0cfb-4722-9618-01dbf8151aad",
+        "dc09bc05-f5d5-4930-9598-d79cb9b83ab2",
+        "1bd3b723-684d-4e82-b9c5-3fba06771242"
+      ],
+      "settings": {
+        "title": "Recommended by <span class=\"red-color\">leaders <\/span>in the industry"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ddb12667-4d31-458a-b6c8-e521ee7f61e4",
+    "4d0c7fa4-e0dd-4d2c-849c-7fc404087de5",
+    "d5923537-7bd6-48ef-978e-3e9e65369450",
+    "92c36026-0c5f-493a-adc6-cd5b17b8f15c",
+    "7bc29cd5-aaa1-4014-ae33-b4f9795da92a",
+    "d77fb619-c6a1-4b04-8f8f-15fed735d4ef",
+    "d8594160-7ec0-407b-8943-65abff82c02d",
+    "ebd073a9-6c42-4bab-8fe7-ee9c7db823f7",
+    "616fcb97-0b74-4f31-8fed-21be039b94bb",
+    "b06c5ca6-74ab-4e19-839a-a960f06115b4",
+    "7de842d7-413d-4bd9-98d2-bbaf94499840",
+    "702cd3b6-566b-4a98-8099-36350bb0ce3f",
+    "b6da2979-4f8f-4575-8afa-5b8c1a57ce05",
+    "f88703a2-8f66-4513-9269-641248ce0e9c"
+  ]
+}

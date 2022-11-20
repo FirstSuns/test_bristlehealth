@@ -1,0 +1,94 @@
+<div class="oral-health-text-section-main">
+<div class="oral-health-text-section">
+  <div class="container">
+    <div class="oral-health-text">
+      {%- for block in section.blocks -%}
+      <div class="oral-health-text-wrap {{ block.settings.text_position }}-section  {% if block.settings.custom_class != blank  %} {{ block.settings.custom_class }} {% endif %}">
+        {%- if block.settings.title != blank -%}
+        <h2>{{ block.settings.title }}</h2>
+        {%- endif -%}
+       <div class="text" style="color:  {{ block.settings.text_color }} ;"> {{ block.settings.desc }} </div>
+      </div>
+
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{%- if section.settings.desc != blank -%}
+<div class="oral-health-desc">
+
+  {{ section.settings.desc }}
+  
+</div>
+{%- endif -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Oral Health Text",
+    "settings": [
+      
+      {
+        "type": "html",
+        "id": "desc",
+        "label": "Description"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "text",
+        "settings": [
+          {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "desc",
+            "label": "Description"
+          },
+          {
+            "type": "color",
+            "id": "text_color",
+            "label": "Description text color"
+          },
+          {
+            "type": "select",
+            "id": "text_position",
+            "label": "Text Position",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Oral Health Text",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

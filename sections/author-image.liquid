@@ -1,0 +1,194 @@
+<div class="page-width page-width--narrow author-page-main author-page-main-image">
+
+<div class="author_image">
+  {% if page.handle contains 'david' and section.settings.author_image != blank %}
+  <img srcset="
+                          {% if section.settings.author_image.width >= 395 %}{{ section.settings.author_image | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image.width >= 518 %}{{ section.settings.author_image | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image.width >= 644 %}{{ section.settings.author_image | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image.width >= 768 %}{{ section.settings.author_image | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image.width >= 830 %}{{ section.settings.author_image | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image.width >= 960 %}{{ section.settings.author_image | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'brian' and section.settings.author_image2 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image2.width >= 395 %}{{ section.settings.author_image2 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image2.width >= 518 %}{{ section.settings.author_image2 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image2.width >= 644 %}{{ section.settings.author_image2 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image2.width >= 768 %}{{ section.settings.author_image2 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image2.width >= 830 %}{{ section.settings.author_image2 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image2.width >= 960 %}{{ section.settings.author_image2 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image2 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image2.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'jenny' and section.settings.author_image3 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image3.width >= 395 %}{{ section.settings.author_image3 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image3.width >= 518 %}{{ section.settings.author_image3 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image3.width >= 644 %}{{ section.settings.author_image3 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image3.width >= 768 %}{{ section.settings.author_image3 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image3.width >= 830 %}{{ section.settings.author_image3 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image3.width >= 960 %}{{ section.settings.author_image3 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image3 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image3.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'mary' and section.settings.author_image4 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image4.width >= 395 %}{{ section.settings.author_image4 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image4.width >= 518 %}{{ section.settings.author_image4 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image4.width >= 644 %}{{ section.settings.author_image4 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image4.width >= 768 %}{{ section.settings.author_image4 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image4.width >= 830 %}{{ section.settings.author_image4 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image4.width >= 960 %}{{ section.settings.author_image4 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image4 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image4.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'danny' and section.settings.author_image5 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image5.width >= 395 %}{{ section.settings.author_image5 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image5.width >= 518 %}{{ section.settings.author_image5 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image5.width >= 644 %}{{ section.settings.author_image5 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image5.width >= 768 %}{{ section.settings.author_image5 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image5.width >= 830 %}{{ section.settings.author_image5 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image5.width >= 960 %}{{ section.settings.author_image5 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image5 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image5.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'iman' and section.settings.author_image6 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image6.width >= 395 %}{{ section.settings.author_image6 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image6.width >= 518 %}{{ section.settings.author_image6 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image6.width >= 644 %}{{ section.settings.author_image6 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image6.width >= 768 %}{{ section.settings.author_image6 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image6.width >= 830 %}{{ section.settings.author_image6 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image6.width >= 960 %}{{ section.settings.author_image6 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image6 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image6.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'cass' and section.settings.author_image7 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image7.width >= 395 %}{{ section.settings.author_image7 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image7.width >= 518 %}{{ section.settings.author_image7 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image7.width >= 644 %}{{ section.settings.author_image7 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image7.width >= 768 %}{{ section.settings.author_image7 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image7.width >= 830 %}{{ section.settings.author_image7 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image7.width >= 960 %}{{ section.settings.author_image7 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image7 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image7.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'kimberly' and section.settings.author_image8 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image8.width >= 395 %}{{ section.settings.author_image8 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image8.width >= 518 %}{{ section.settings.author_image8 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image8.width >= 644 %}{{ section.settings.author_image8 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image8.width >= 768 %}{{ section.settings.author_image8 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image8.width >= 830 %}{{ section.settings.author_image8 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image8.width >= 960 %}{{ section.settings.author_image8 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image8 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'alyssa' and section.settings.author_image9 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image9.width >= 395 %}{{ section.settings.author_image9 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image9.width >= 518 %}{{ section.settings.author_image9 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image9.width >= 644 %}{{ section.settings.author_image9 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image9.width >= 768 %}{{ section.settings.author_image9 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image9.width >= 830 %}{{ section.settings.author_image9 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image9.width >= 960 %}{{ section.settings.author_image9 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image9 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image9.alt | escape }}"
+                        loading="lazy" />
+  {% elsif page.handle contains 'jenna' and section.settings.author_image10 != blank %}
+      <img srcset="
+                          {% if section.settings.author_image10.width >= 395 %}{{ section.settings.author_image10 | image_url: width: 395 }} 395w,{% endif %}
+                          {% if section.settings.author_image10.width >= 518 %}{{ section.settings.author_image10 | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.author_image10.width >= 644 %}{{ section.settings.author_image10 | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.author_image10.width >= 768 %}{{ section.settings.author_image10 | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.author_image10.width >= 830 %}{{ section.settings.author_image10 | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.author_image10.width >= 960 %}{{ section.settings.author_image10 | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.author_image10 | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.author_image10.alt | escape }}"
+                        loading="lazy" />
+  {% endif %}
+</div>
+</div>
+{% schema %}
+  {
+    "name": "Author Image",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"author_image",
+        "label":"David Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image2",
+        "label":"Brian Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image3",
+        "label":"Jenny Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image4",
+        "label":"Mary Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image5",
+        "label":"Danny Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image6",
+        "label":"Iman Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image7",
+        "label":"Cass Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image8",
+        "label":"Kimberly Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image9",
+        "label":"Alyssa Image"
+      },
+      {
+        "type":"image_picker",
+        "id":"author_image10",
+        "label":"Jenna Image"
+      }
+    ],
+    "presets":[
+      {
+        "name": "Author Image"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

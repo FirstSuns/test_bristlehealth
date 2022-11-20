@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "reviewer-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "david_img": "shopify:\/\/shop_images\/62e041c8a97288891c482d7c_Ellipse-1.png",
+        "chris_img": "shopify:\/\/shop_images\/62e041c7e6bf69633d935f81_Ellipse-1-_9.png",
+        "bonnie_img": "shopify:\/\/shop_images\/62e041c7f6c8f234e9e853d8_Ellipse-1-_8_1.png"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

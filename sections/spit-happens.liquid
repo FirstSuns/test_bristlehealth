@@ -1,0 +1,75 @@
+<div class="spit-happens-section">
+  <div class="container-large">
+    <div class="spit-happens-title">
+      {%- if section.settings.title != blank -%}
+      <h2>{{ section.settings.title }}</h2>
+      {%- endif -%}
+      {%- if section.settings.sub_title != blank -%}
+      <h4>{{ section.settings.sub_title }}</h4>
+      {%- endif -%}
+    </div>
+    <div class="spit-happens">
+      {%- for block in section.blocks -%}
+      <div class="spit-happens-wrap">
+        {%- if block.settings.title != blank -%}
+        <h5>{{ block.settings.title }}</h5>
+        {%- endif -%}
+        {%- if block.settings.desc != blank -%}
+        <p>{{ block.settings.desc }}</p>
+        {%- endif -%}
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+  
+
+
+
+{% schema %}
+  {
+    "name": "Spit Happens",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Sub Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Spit Happens",
+        "category": "Spit Happens"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

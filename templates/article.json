@@ -3,23 +3,17 @@
     "main": {
       "type": "main-article",
       "blocks": {
-        "featured_image": {
-          "type": "featured_image",
-          "settings": {
-            "image_height": "adapt"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
             "blog_show_date": true,
-            "blog_show_author": false
+            "blog_show_author": true
           }
         },
-        "share": {
-          "type": "share",
+        "featured_image": {
+          "type": "featured_image",
           "settings": {
-            "share_label": "Share"
+            "image_height": "adapt"
           }
         },
         "content": {
@@ -28,15 +22,62 @@
         }
       },
       "block_order": [
-        "featured_image",
         "title",
-        "share",
+        "featured_image",
         "content"
       ],
       "settings": {}
+    },
+    "ab2f4479-869b-4004-85d5-7c18a6a8fd55": {
+      "type": "featured-product",
+      "blocks": {
+        "50a848be-087c-4852-a763-a615c1825100": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2 class=\"desktitle product__title h1\">Take the guesswork out of your oral health\n<\/h2>"
+          }
+        },
+        "a53460d6-1831-4b61-adbc-2cc7bdac7d16": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Gain insight into the root cause of bad breath, tooth decay, gum inflammation, and other conditions with our at-home oral microbiome test. Receive personalized product, hygiene, and diet recommendations to start improving your health."
+          }
+        },
+        "template--15935261966493__ab2f4479-869b-4004-85d5-7c18a6a8fd55-16663562845cbd3e7f-2": {
+          "type": "price",
+          "settings": {}
+        },
+        "d1a9cc32-67ba-4394-b470-a69cb7a5e878": {
+          "type": "button",
+          "settings": {
+            "btn_label": "Get your Kit",
+            "btn_link": "shopify:\/\/products\/single-test",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "50a848be-087c-4852-a763-a615c1825100",
+        "a53460d6-1831-4b61-adbc-2cc7bdac7d16",
+        "template--15935261966493__ab2f4479-869b-4004-85d5-7c18a6a8fd55-16663562845cbd3e7f-2",
+        "d1a9cc32-67ba-4394-b470-a69cb7a5e878"
+      ],
+      "settings": {
+        "custom_class": "",
+        "product": "single-test",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ab2f4479-869b-4004-85d5-7c18a6a8fd55"
   ]
 }

@@ -1,0 +1,96 @@
+<div class="main-sample-report-section">
+  <div class="page-width">
+    <div class="main-sample-report-desc">
+      {%- if section.settings.title != blank -%}
+      <h2>{{ section.settings.title }}</h2>
+      {%- endif -%}
+      <div class="main-sample-report-desc-inner">
+      {%- if section.settings.left_desc != blank -%}
+      <div class="main-sample-report-desc-left">
+        {{ section.settings.left_desc }}
+      </div>
+        {%- endif -%}
+      {%- if section.settings.right_desc != blank -%}
+      <div class="main-sample-report-desc-right">
+        {{ section.settings.right_desc }}
+      </div>
+      {%- endif -%}
+    </div> </div>
+  </div>
+  {% for block in section.blocks %}
+  {% if block.settings.title != blank %}
+  <div class="main-sample-report-title">
+    <div class="page-width">
+    <h4>{{ block.settings.title }}</h4>
+    </div>
+  </div>
+  {%- endif -%}
+  {% if block.settings.image != blank %}
+  <div class="main-sample-report-img">
+    <div class="container">
+    <figure>
+    <img srcset="
+                          {% if block.settings.image.width >= 1095 %}{{ block.settings.image | image_url: width: 1095 }} 1095w,{% endif %}
+                          {% if block.settings.image.width >= 1218 %}{{ block.settings.image | image_url: width: 1218 }} 1218w,{% endif %}
+                          {% if block.settings.image.width >= 1440 %}{{ block.settings.image | image_url: width: 1440 }} 1440w,{% endif %}
+                          {% if block.settings.image.width >= 1530 %}{{ block.settings.image | image_url: width: 1530 }} 1530w,{% endif %}
+                          {% if block.settings.image.width >= 1630 %}{{ block.settings.image | image_url: width: 1630 }} 1630w,{% endif %}
+                          {% if block.settings.image.width >= 1960 %}{{ block.settings.image | image_url: width: 1960 }} 1960w{% endif %}"
+                        src="{{ block.settings.image | image_url: width: 1920, height: 1920 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ article.image.alt | escape }}"
+                        loading="lazy" />
+    </figure>
+    </div>
+  </div>
+  {%- endif -%}
+    {%- endfor -%}
+</div>
+
+
+{% schema %}
+  {
+    "name": "Main Sample Report",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "left_desc",
+        "label": "Left Description"
+      },
+      {
+        "type": "richtext",
+        "id": "right_desc",
+        "label": "Right Description"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

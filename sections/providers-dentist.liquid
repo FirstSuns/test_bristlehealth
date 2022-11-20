@@ -1,0 +1,81 @@
+<div class="dentist_wrap">
+  <div class="container-large">
+    <h2 class="title">{{ section.settings.title }}</h2>
+      <div class="provider_dentist_slides">
+    {% for block in section.blocks %}
+      <div class="inner_data">
+        <div class="leftdata">
+         <p>{{ block.settings.desc }}</p>
+        <h3>{{ block.settings.title }}</h3>
+        <small>{{ block.settings.desg }}</small>
+      {% if block.settings.logo != blank %}
+          <img srcset="{{ block.settings.logo | img_url:'master' }}" src="{{ block.settings.img |  img_url:'master' }}" loading="lazy">
+          {% endif %}
+        </div>
+        <div class="rightdata">
+        <img srcset=""
+                        src="{{ block.settings.img | image_url: master }}"
+                        alt="{{ block.settings.img.alt | escape }}"
+                        loading="lazy" />
+        </div>
+      </div>
+      {% endfor %}
+      </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Provider Dentist",
+    "settings": [
+      {
+        "type":"text",
+        "id":"title",
+        "label":"Title"
+      }
+    ],
+    "blocks":[
+       {
+        "type":"text",
+        "name":"Content",
+        "settings":[
+           {
+            "type":"image_picker",
+            "id":"img",
+            "label":"Image"
+          },
+          {
+            "type":"text",
+            "id":"title",
+            "label":"Title"
+          },
+           {
+            "type":"text",
+            "id":"desg",
+            "label":"Designation"
+          },
+          {
+            "type":"textarea",
+            "id":"desc",
+            "label":"Description"
+          },
+          {
+            "type":"image_picker",
+            "id":"logo",
+            "label":"Logo"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name":"Provider Dentist"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

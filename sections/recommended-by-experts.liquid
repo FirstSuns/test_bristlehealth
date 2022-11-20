@@ -1,0 +1,93 @@
+<div class="recommended-by-experts-section {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
+  <div class="container-large">
+    <div class="recommended-by-experts">
+      {%- if section.settings.title != blank -%}
+      <h4>{{ section.settings.title }}</h4>
+      {%- endif -%}
+      <ul class="recommended-by-experts-part">
+        <li>
+          <div class="recommended-by-experts-desc">
+            {%- if section.settings.desc != blank -%}
+            <p>{{ section.settings.desc }}</p>
+            {%- endif -%}
+            <div class="recommended-by-experts-auther">
+              <div class="recommended-by-experts-wrap">
+                {%- if section.settings.auther_title != blank -%}
+                <h5>{{ section.settings.auther_title }}</h5>
+                {%- endif -%}
+                {%- if section.settings.auther_position != blank -%}
+                <h6>{{ section.settings.auther_position }}</h6>
+                {%- endif -%}
+              </div>
+              {%- if section.settings.auther_image != blank -%}
+              <figure>
+                <img srcset="
+                          {% if section.settings.auther_image.width >= 140 %}{{ section.settings.auther_image | image_url: width: 140 }} 140w,{% endif %}
+                          {% if section.settings.auther_image.width >= 518 %}{{ section.settings.auther_image | image_url: width: 518 }} 518w,{% endif %}
+                          {% if section.settings.auther_image.width >= 644 %}{{ section.settings.auther_image | image_url: width: 644 }} 644w,{% endif %}
+                          {% if section.settings.auther_image.width >= 768 %}{{ section.settings.auther_image | image_url: width: 768 }} 768w,{% endif %}
+                          {% if section.settings.auther_image.width >= 830 %}{{ section.settings.auther_image | image_url: width: 830 }} 830w,{% endif %}
+                          {% if section.settings.auther_image.width >= 960 %}{{ section.settings.auther_image | image_url: width: 960 }} 960w{% endif %}"
+                        src="{{ section.settings.auther_image | image_url: width: 684, height: 684 }}"
+                        sizes="(min-width: 1200px) calc((1200px - 19.5rem) / 12), (min-width: 750px) calc((100vw - 16.5rem) / 8), calc((100vw - 8rem) / 5)"
+                        alt="{{ section.settings.auther_image.alt | escape }}"
+                        loading="lazy" /></figure>
+              {%- endif -%}
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Recommended By Experts",
+    "settings": [
+      {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "desc",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "auther_title",
+        "label": "Auther Heading"
+      },
+      {
+        "type": "text",
+        "id": "auther_position",
+        "label": "Auther Position"
+      },
+      {
+        "type": "image_picker",
+        "id": "auther_image",
+        "label": "Auther Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Recommended By Experts",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

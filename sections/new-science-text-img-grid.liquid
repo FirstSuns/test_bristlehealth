@@ -1,0 +1,162 @@
+<div class="new-science-text-img-grid-section bbbbb">
+  <div class="container-large">
+    <div class="new-science-text-img-grid-title">
+      {%- if section.settings.title != blank -%}
+      <h2 class="lora-font">{{ section.settings.title }}</h2>
+      {%- endif -%}
+      {%- if section.settings.sub_title != blank -%}
+      <p>{{ section.settings.sub_title }}</p>
+      {%- endif -%}
+    </div>
+    <div class="new-science-text-img-grid grid-new">
+      {%- if section.settings.image != blank -%}
+      <div class="new-science-text-img-grid-left grid-item-new">
+       <img
+                      id="Thumbnail-{{ section.id }}-0" class="mobile_hide"
+                      srcset="
+                        {% if section.settings.image.width >= 50 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+    {% if section.settings.image.width >= 900 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image | img_url: 'master' }},{% endif %}
+                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | img_url: 'master' }},{% endif %},
+                        {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
+                      src="{{ section.settings.image | img_url: 'master' }}"
+                      alt="{{ section.settings.image.alt | escape }}"
+                      loading="lazy">
+         <img
+                      id="Thumbnail-{{ section.id }}-0" class="desktop_hide"
+            srcset="
+                        {% if section.settings.image_mob.width >= 50 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+                        {% if section.settings.image_mob.width >= 374 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+                        {% if section.settings.image_mob.width >= 404 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+                        {% if section.settings.image_mob.width >= 562 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+    {% if section.settings.image_mob.width >= 1400 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+    {% if section.settings.image_mob.width >= 1200 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+    {% if section.settings.image_mob.width >= 900 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+                        {% if section.settings.image_mob.width >= 1608 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+                        {% if section.settings.image_mob.width >= 1824 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %}
+                        {% if section.settings.image_mob.width >= 1916 %}{{ section.settings.image_mob | img_url: 'master' }} ,{% endif %},
+                        {{ section.settings.image_mob | img_url: 'master' }} {{ section.settings.image_mob.width }}w"
+                      src="{{ section.settings.image_mob | img_url: 'master' }}"
+                      loading="lazy">
+        
+      </div>
+      {%- endif -%}
+      <div class="new-science-text-img-grid-right grid-item-new">
+        {%- for block in section.blocks -%}
+        <div class="new-science-text-img-grid-wrap">
+          {%- if block.settings.image != blank -%}
+          <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if block.settings.image.width >= 50 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+    {% if block.settings.image.width >= 900 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %}
+                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | img_url: 'master' }} ,{% endif %},
+                        {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | img_url: 'master' }}"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy">
+          {%- endif -%}
+          <div class="new-science-text-img-grid-text">
+            {%- if block.settings.title != blank -%}
+            <h4>{{ block.settings.title }}</h4>
+            {%- endif -%}
+            {%- if block.settings.desc != blank -%}
+            <p>{{ block.settings.desc }}</p>
+            {%- endif -%}
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var winWidth = $(window).width();
+  if(winWidth < 769){
+$('.new-science-text-img-grid-section .new-science-text-img-grid-right').slick({
+  dots: true,
+  arrows:false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+    }
+  </script>
+
+{% schema %}
+  {
+    "name": "New Science Text Img Grid",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Sub Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+            "type": "image_picker",
+            "id": "image_mob",
+            "label": "Mobile Image"
+          }
+    ],
+    "blocks": [
+      {
+        "type": "Text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Science Text Img Grid",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

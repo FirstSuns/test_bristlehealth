@@ -42,8 +42,9 @@
   >
 {%- endif -%}
 
-<section class="color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
-  <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
+<section class="{% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}  color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
+  <div class="container section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
+      <h2 class="mobile_title product__title h1">{{ product.title }}</h2>
     <div class="featured-product product grid grid--1-col gradient color-{{ section.settings.color_scheme }} product--{{ section.settings.media_position }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
         <media-gallery
@@ -52,26 +53,54 @@
           aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
           data-desktop-layout="stacked"
         >
+          
           <div id="GalleryViewer-{{ section.id }}" class="product__media-list">
-            {%- if product.selected_or_first_available_variant.featured_media != null -%}
-              {%- assign media = product.selected_or_first_available_variant.featured_media -%}
-              <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
-                {% render 'product-thumbnail', media: media, position: 'featured', loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: false, media_width: 0.5 %}
-              </div>
-            {%- endif -%}
-            {%- liquid
-              assign media_to_render = product.featured_media.id
-              for variant in product.variants
-                assign media_to_render = media_to_render | append: variant.featured_media.id | append: ' '
-              endfor
-            -%}
-            {%- for media in product.media -%}
-              {%- if media_to_render contains media.id and media.id != product.selected_or_first_available_variant.featured_media.id -%}
+           <ul class="slide-for">
+                {%- for media in product.images -%}
                 <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
-                  {% render 'product-thumbnail', media: media, position: forloop.index, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: false, media_width: 0.5 %}
+                   <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if media.width >= 175 %}{{ media | image_url: width: 400 }} 400w,{% endif %}
+                        {% if media.width >= 374 %}{{ media | image_url: width: 374 }} 374w,{% endif %}
+                        {% if media.width >= 404 %}{{ media | image_url: width: 404 }} 404w,{% endif %}
+                        {% if media.width >= 562 %}{{ media | image_url: width: 562 }} 562w,{% endif %}
+    {% if media.width >= 1400 %}{{ media | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if media.width >= 1200 %}{{ media | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if media.width >= 900 %}{{ media | image_url: width: 900 }} 900w,{% endif %}
+                        {% if media.width >= 1608 %}{{ media | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if media.width >= 1824 %}{{ media | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if media.width >= 1916 %}{{ media | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ media | image_url }} {{ media.width }}w"
+                      src="{{ media | image_url: 'master' }}"
+                      alt="{{ media.alt | escape }}"
+                      loading="lazy">
                 </div>
-              {%- endif -%}
-            {%- endfor -%}
+                  {%- endfor -%}
+        </ul>
+        <ul class="slide-nav">
+              {%- for media in product.images -%}
+                  <li class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
+                     <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if media.width >= 175 %}{{ media | image_url: width: 400 }} 400w,{% endif %}
+                        {% if media.width >= 374 %}{{ media | image_url: width: 374 }} 374w,{% endif %}
+                        {% if media.width >= 404 %}{{ media | image_url: width: 404 }} 404w,{% endif %}
+                        {% if media.width >= 562 %}{{ media | image_url: width: 562 }} 562w,{% endif %}
+    {% if media.width >= 1400 %}{{ media | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if media.width >= 1200 %}{{ media | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if media.width >= 900 %}{{ media | image_url: width: 900 }} 900w,{% endif %}
+                        {% if media.width >= 1608 %}{{ media | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if media.width >= 1824 %}{{ media | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if media.width >= 1916 %}{{ media | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ media | image_url }} {{ media.width }}w"
+                      src="{{ media | image_url: 'master' }}"
+                      alt="{{ media.alt | escape }}"
+                      loading="lazy">
+                  </li>
+              {%- endfor -%}
+        </ul>
           </div>
           {%- if first_3d_model -%}
             <button
@@ -95,6 +124,7 @@
 
           {%- for block in section.blocks -%}
             {%- case block.type -%}
+              
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'text' -%}
@@ -104,8 +134,9 @@
                 >
                   {{- block.settings.text -}}
                 </p>
+              {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
               {%- when 'title' -%}
-                <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                <h2 class="desktitle product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                   {%- if product.title != blank -%}
                     {{ product.title | escape }}
                   {%- else -%}
@@ -216,8 +247,9 @@
                     >
                       {%- for option in product.options_with_values -%}
                         <fieldset class="js product-form__input">
-                          <legend class="form__label">{{ option.name }}</legend>
+<!--                           <legend class="form__label">{{ option.name }}</legend> -->
                           {%- for value in option.values -%}
+                            <div class="featured-prod-opt">
                             <input
                               type="radio"
                               id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -229,8 +261,32 @@
                               {% endif %}
                             >
                             <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                              {{ value }}
+                              <h5>{{ value }}</h5>
+                            {%- if value == 'Measure your oral health' -%}
+                            <p>Test your oral microbiome & get your improvement plan</p>
+                              {%- elsif value == 'Reset your oral microbiome' -%}
+                            <p>Test -> improve -> retest with coaching along the way</p>
+                              {%- endif -%}
                             </label>
+                             {%- if value == 'Measure your oral health' -%}
+                            <div class="featured-price-var">
+                            {%- for variant in product.variants -%}
+                              {%- if variant.title == 'Measure your oral health' -%}
+                            {{ variant.price | money }}
+                                {%- endif -%}
+                              {%- endfor -%}
+                            </div>
+                               {%- endif -%}
+                            {%- if value == 'Reset your oral microbiome' -%}
+                            <div class="featured-price-var">
+                            {%- for variant in product.variants -%}
+                              {%- if variant.title == 'Reset your oral microbiome' -%}
+                            {{ variant.price | money }}
+                                {%- endif -%}
+                              {%- endfor -%}
+                            </div>
+                            {%- endif -%}
+                            </div>
                           {%- endfor -%}
                         </fieldset>
                       {%- endfor -%}
@@ -338,17 +394,15 @@
                           type="hidden"
                           name="id"
                           value="{{ product.selected_or_first_available_variant.id }}"
-                          disabled
-                        >
+                          disabled>
                         <div class="product-form__buttons">
                           <button
                             type="submit"
                             name="add"
-                            class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+                            class="btn btn-primary btn-large product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
                             {% if product.selected_or_first_available_variant.available == false %}
                               disabled
-                            {% endif %}
-                          >
+                            {% endif %}>
                             <span>
                               {%- if product.selected_or_first_available_variant.available -%}
                                 {{ 'products.product.add_to_cart' | t }}
@@ -363,8 +417,7 @@
                                 role="presentation"
                                 class="spinner"
                                 viewBox="0 0 66 66"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
+                                xmlns="http://www.w3.org/2000/svg">
                                 <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                               </svg>
                             </div>
@@ -390,6 +443,12 @@
                     </div>
                   {%- endif -%}
                 </div>
+              {%- when 'description' -%}
+              {%- if product.description != blank -%}
+                <div class="product__description rte quick-add-hidden">
+                  <p>{{ product.description | strip_html }}</p>
+                </div>
+              {%- endif -%}
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'rating' -%}
@@ -428,8 +487,23 @@
                     </span>
                   </p>
                 {%- endif -%}
+              {% when 'button' %}
+              <div class="custom_btn desk">
+                <a href="{{ block.settings.btn_link }}" class="btn-custom-list-wc">{{ block.settings.btn_label }}</a>
+              {% if  block.settings.btn_label2!= blank %}
+              <a href="{{ block.settings.btn_link2 }}" class="btn-custom-list-wc">{{ block.settings.btn_label2 }}</a>
+                {% endif %}
+              </div>
+              {% when 'mobbutton' %}
+              <div class="custom_btn mob">
+                <a href="{{ block.settings.mob_link }}" class="btn-custom-list-wc">{{ block.settings.mob_label }}</a>
+              {% if  block.settings.mob_label2!= blank %}
+              <a href="{{ block.settings.mob_link2 }}" class="btn-custom-list-wc">{{ block.settings.mob_label2 }}</a>
+                {% endif %}
+              </div>
             {%- endcase -%}
           {%- endfor -%}
+          {% comment %}
           <a
             {% if product == blank %}
               role="link" aria-disabled="true"
@@ -441,6 +515,7 @@
             {{ 'products.product.view_full_details' | t }}
             {% render 'icon-arrow' %}
           </a>
+          {% endcomment %}
         </div>
       </div>
       {%- if section.settings.media_position == 'right' -%}
@@ -452,19 +527,53 @@
             data-desktop-layout="stacked"
           >
             <div id="GalleryViewer-{{ section.id }}-right" class="product__media-list">
-              {%- if product.selected_or_first_available_variant.featured_media != null -%}
-                {%- assign media = product.selected_or_first_available_variant.featured_media -%}
+
+        <ul class="slide-for">
+                {%- for media in product.images -%}
                 <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
-                  {% render 'product-thumbnail', media: media, position: 'featured', loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: false, media_width: 0.5 %}
+                  <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if media.width >= 175 %}{{ media | image_url: width: 400 }} 400w,{% endif %}
+                        {% if media.width >= 374 %}{{ media | image_url: width: 374 }} 374w,{% endif %}
+                        {% if media.width >= 404 %}{{ media | image_url: width: 404 }} 404w,{% endif %}
+                        {% if media.width >= 562 %}{{ media | image_url: width: 562 }} 562w,{% endif %}
+    {% if media.width >= 1400 %}{{ media | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if media.width >= 1200 %}{{ media | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if media.width >= 900 %}{{ media | image_url: width: 900 }} 900w,{% endif %}
+                        {% if media.width >= 1608 %}{{ media | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if media.width >= 1824 %}{{ media | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if media.width >= 1916 %}{{ media | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ media | image_url }} {{ media.width }}w"
+                      src="{{ media | image_url: 'master' }}"
+                      alt="{{ media.alt | escape }}"
+                      loading="lazy">
                 </div>
-              {%- endif -%}
-              {%- for media in product.media -%}
-                {%- if media_to_render contains media.id and media.id != product.selected_or_first_available_variant.featured_media.id -%}
-                  <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
-                    {% render 'product-thumbnail', media: media, position: forloop.index, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: false, media_width: 0.5 %}
-                  </div>
-                {%- endif -%}
+                  {%- endfor -%}
+        </ul>
+        <ul class="slide-nav">
+              {%- for media in product.images -%}
+                  <li class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
+                     <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if media.width >= 175 %}{{ media | image_url: width: 400 }} 400w,{% endif %}
+                        {% if media.width >= 374 %}{{ media | image_url: width: 374 }} 374w,{% endif %}
+                        {% if media.width >= 404 %}{{ media | image_url: width: 404 }} 404w,{% endif %}
+                        {% if media.width >= 562 %}{{ media | image_url: width: 562 }} 562w,{% endif %}
+    {% if media.width >= 1400 %}{{ media | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if media.width >= 1200 %}{{ media | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if media.width >= 900 %}{{ media | image_url: width: 900 }} 900w,{% endif %}
+                        {% if media.width >= 1608 %}{{ media | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if media.width >= 1824 %}{{ media | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if media.width >= 1916 %}{{ media | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ media | image_url }} {{ media.width }}w"
+                      src="{{ media | image_url: 'master' }}"
+                      alt="{{ media.alt | escape }}"
+                      loading="lazy">
+                  </li>
               {%- endfor -%}
+        </ul>
             </div>
             {%- if first_3d_model -%}
               <button
@@ -664,6 +773,17 @@
       ]
     },
     {
+      "type":"thumbimage",
+      "name":"Image",
+      "settings":[
+        {
+        "type":"image_picker",
+          "id":"image",
+          "label":"Thumb Image"
+        }
+      ]
+    },
+    {
       "type": "title",
       "name": "t:sections.featured-product.blocks.title.name",
       "limit": 1,
@@ -728,6 +848,7 @@
       "name": "t:sections.featured-product.blocks.buy_buttons.name",
       "limit": 1,
       "settings": [
+  
         {
           "type": "checkbox",
           "id": "show_dynamic_checkout",
@@ -736,6 +857,11 @@
           "info": "t:sections.featured-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
         }
       ]
+    },
+    {
+      "type": "description",
+      "name": "t:sections.main-product.blocks.description.name",
+      "limit": 1
     },
     {
       "type": "share",
@@ -779,9 +905,66 @@
           "content": "t:sections.featured-product.blocks.rating.settings.paragraph.content"
         }
       ]
+    },
+    {
+      "type":"button",
+      "name":"Custom Button desktop",
+      "settings":[
+        {
+          "type":"text",
+          "id":"btn_label",
+          "label":"Button Label"
+        },
+        {
+          "type":"url",
+          "id":"btn_link",
+          "label":"Button Link"
+        },
+         {
+          "type":"text",
+          "id":"btn_label2",
+          "label":"Button Label2"
+        },
+        {
+          "type":"url",
+          "id":"btn_link2",
+          "label":"Button Link2"
+        }
+      ]
+    },
+    {
+      "type":"mobbutton",
+      "name":"Custom Button Mobile",
+      "settings":[
+        {
+          "type":"text",
+          "id":"mob_label",
+          "label":"Button Label"
+        },
+        {
+          "type":"url",
+          "id":"mob_link",
+          "label":"Button Link"
+        },
+         {
+          "type":"text",
+          "id":"mob_label2",
+          "label":"Button Label2"
+        },
+        {
+          "type":"url",
+          "id":"mob_link2",
+          "label":"Button Link2"
+        }
+      ]
     }
   ],
   "settings": [
+          {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
     {
       "type": "product",
       "id": "product",

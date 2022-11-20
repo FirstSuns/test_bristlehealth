@@ -1,0 +1,53 @@
+{%- if section.settings.enabled_our_test -%}
+ 
+  
+{%- endif -%}
+<div class="our-test-section">
+<div class="container-large container-xl">
+ <h2 class="title lora-font">{%- if section.settings.heading != blank -%}
+ {{ section.settings.heading }}
+  {%- endif -%}</h2>
+  {%- if section.settings.oure_test != blank -%}
+  <div class="our-test-section-tb">
+      <div class="our-test-section-tb-inner">
+        
+  {{ section.settings.oure_test }}
+         
+  </div></div>  {%- endif -%}
+</div>
+  </div>
+{% schema %}
+  {
+    "name": "Our Test",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enabled_our_test",
+        "label": "Show Our Test",
+        "default": true
+      },
+      {
+        "type": "html",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "html",
+        "id": "oure_test",
+        "label": "Our Test"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Our Test",
+        "category": "Our Test"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

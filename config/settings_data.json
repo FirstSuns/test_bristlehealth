@@ -1,0 +1,1862 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#303030",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#334fb4",
+    "gradient_accent_2": "",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "gradient_background_1": "",
+    "colors_background_2": "#f3f3f3",
+    "gradient_background_2": "",
+    "type_header_font": "assistant_n4",
+    "heading_scale": 100,
+    "type_body_font": "assistant_n4",
+    "body_scale": 100,
+    "page_width": 1200,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 8,
+    "spacing_grid_vertical": 8,
+    "buttons_border_thickness": 1,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 0,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 4,
+    "buttons_shadow_blur": 5,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 55,
+    "variant_pills_radius": 40,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_shadow_blur": 5,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 55,
+    "inputs_radius": 0,
+    "inputs_shadow_opacity": 0,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_blur": 5,
+    "card_style": "standard",
+    "card_image_padding": 0,
+    "card_text_alignment": "left",
+    "card_color_scheme": "background-2",
+    "card_border_thickness": 0,
+    "card_border_opacity": 10,
+    "card_corner_radius": 0,
+    "card_shadow_opacity": 0,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 4,
+    "card_shadow_blur": 5,
+    "collection_card_style": "standard",
+    "collection_card_image_padding": 0,
+    "collection_card_text_alignment": "left",
+    "collection_card_color_scheme": "background-2",
+    "collection_card_border_thickness": 0,
+    "collection_card_border_opacity": 10,
+    "collection_card_corner_radius": 0,
+    "collection_card_shadow_opacity": 0,
+    "collection_card_shadow_horizontal_offset": 0,
+    "collection_card_shadow_vertical_offset": 4,
+    "collection_card_shadow_blur": 5,
+    "blog_card_style": "standard",
+    "blog_card_image_padding": 0,
+    "blog_card_text_alignment": "left",
+    "blog_card_color_scheme": "background-2",
+    "blog_card_border_thickness": 0,
+    "blog_card_border_opacity": 10,
+    "blog_card_corner_radius": 0,
+    "blog_card_shadow_opacity": 0,
+    "blog_card_shadow_horizontal_offset": 0,
+    "blog_card_shadow_vertical_offset": 4,
+    "blog_card_shadow_blur": 5,
+    "text_boxes_border_thickness": 0,
+    "text_boxes_border_opacity": 10,
+    "text_boxes_radius": 0,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 4,
+    "text_boxes_shadow_blur": 5,
+    "media_border_thickness": 1,
+    "media_border_opacity": 5,
+    "media_radius": 0,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 4,
+    "media_shadow_blur": 5,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 0,
+    "popup_shadow_opacity": 0,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 4,
+    "popup_shadow_blur": 5,
+    "drawer_border_thickness": 1,
+    "drawer_border_opacity": 10,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 4,
+    "drawer_shadow_blur": 5,
+    "badge_position": "bottom left",
+    "badge_corner_radius": 40,
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "accent_icons": "text",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_linkedin_link": "https:\/\/linkedin.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_tiktok_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/621fba879a7423821ba5c89e_fav.png",
+    "currency_code_enabled": true,
+    "cart_type": "notification",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/Logo.png",
+          "logo_width": 150,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "btn_title_01": "Log in",
+          "btn_link_01": "\/account",
+          "btn_title_02": "Get your kit",
+          "btn_link_02": "#",
+          "menu_type_desktop": "dropdown",
+          "show_line_separator": false,
+          "enable_sticky_header": true,
+          "mobile_logo_position": "center",
+          "margin_bottom": 0,
+          "padding_top": 20,
+          "padding_bottom": 20
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Learn more",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Support",
+              "menu": "support"
+            }
+          },
+          "2dfbd5e6-f4cc-4aeb-a7aa-7be2b495268a": {
+            "type": "newsletter",
+            "settings": {
+              "heading": "Get the latest from Bristle",
+              "desc": ""
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "2dfbd5e6-f4cc-4aeb-a7aa-7be2b495268a"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": true,
+          "margin_top": 48,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "logo": "shopify:\/\/shop_images\/Logo.png",
+          "desc": "Bristle is for people who want to learn about their oral health and microbiome. Bristle tests are intended exclusively for wellness purposes. Bristle cannot provide you with medical or dental advice or diagnose you with any disease or condition. Any information provided by Bristle is not medical or dental advice and is not intended to replace the advice of your doctor or dentist"
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "{{ shop.brand.logo }}",
+          "logo_max_width": 100,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "faq": {
+        "type": "faq",
+        "blocks": {
+          "0e2a8789-cebd-452d-99c8-01bf043e091c": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "About Bristle",
+              "title": "What is Bristle?",
+              "desc": "The Bristle oral health test offers a comprehensive assessment of your overall oral health, including your risk factors for cavities, gum disease, and bad breath. By analyzing the identity and relative abundance of bacteria in your saliva, Bristle detects the root cause of oral disease and connections to other chronic illnesses. We also provide scientifically-backed product, diet, and lifestyle recommendations based on your unique oral microbiome."
+            }
+          },
+          "d4c4c4ff-27f1-4382-9a76-5b7cbadf889e": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "About Bristle",
+              "title": "Who is Bristle for?",
+              "desc": "Bristle is for anyone who is interested in understand and improving both their oral and overall health. You must be 18 years or older to purchase a Bristle test. A parent or legal guardian of a minor can purchase a test on their behalf."
+            }
+          },
+          "95d9ae91-a384-482d-b8d0-d3499dd79270": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "About Bristle",
+              "title": "What does Bristle's test look for?",
+              "desc": "Bristle profiles your oral microbiome - the makeup of bacteria, fungi, and viruses in your mouth. Some of these bacteria are beneficial to our health, while others are harmful and can increase our risk or cause disease."
+            }
+          },
+          "56345c73-2a5f-4005-9be6-b2fc9a53f7db": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "About Bristle",
+              "title": "How long does it take to get my results once I return my sample?",
+              "desc": "Results will be returned to you in 2 - 3 weeks from when you mail your sample back to our lab."
+            }
+          },
+          "4061339d-cf52-4028-ad06-b42860b92134": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "About Bristle",
+              "title": "Can I use my FSA or HSA for payment?",
+              "desc": "Bristle tests are eligible for reimbursement by most FSA and HSA plans. Since every plan is different, we advise that you check with your plan to confirm that the Bristle test is eligible. Contact us at support@bristlehealth.com to obtain an itemized receipt."
+            }
+          },
+          "f13e69e7-a1fe-457d-bb2c-b884b5d5edfa": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Orders and payment",
+              "title": "Where is Bristle available?",
+              "desc": "Bristle tests are available in all US states except NY. We plan to offer our test in NY state and internationally in the future, so please sign up for our newsletter here to stay updated and be the first to know when its available in your location!"
+            }
+          },
+          "c4154b1a-ace4-4ed7-a1b5-fdde226e217f": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Orders and payment",
+              "title": "When will I receive my test?",
+              "desc": "Orders ship within 1-2 days from purchase, and shipping usually takes 3 - 5 business days for delivery. We will provide you with updates on your order via email and you can track the shipment in your dashboard by clicking on the \"My Orders\" tab."
+            }
+          },
+          "11e7ca7e-da38-4186-b97d-700b2fc5f5d5": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Orders and payment",
+              "title": "Can I use my HSA\/FSA for payment?",
+              "desc": "Bristle tests are eligible for reimbursement by most FSA and HSA plans. Since every plan is different, we advise that you check with your plan to confirm that the Bristle test is eligible. Contact us at support@bristlehealth.com to obtain an itemized receipt."
+            }
+          },
+          "079a794e-3035-455f-bfe6-0873d15320d1": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Orders and payment",
+              "title": "Is Bristle covered by dental or medical insurance?",
+              "desc": "Bristle is not currently covered by insurance."
+            }
+          },
+          "3da29abe-6759-4df9-b0cf-3d08f91ff6fc": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Orders and payment",
+              "title": "Does Bristle offers refunds?",
+              "desc": "We offer a full refund for test kits if an order is canceled within twenty four (24) hours of purchase. If a refund is requested after 24 hours but within 14 days of purchase of an Oral Health Test, and if the sample is not returned to Bristle, we offer a refund in the amount of the test kit purchase price minus a $25 (USD) processing fee. The shipping and handling costs plus tax (if any and where applicable) are non-refundable. No refunds are available after 14 days of purchase. To request a refund, please send an email to the Bristle Care team at support@bristle.com with your order number. For our full refund policy, please view our terms of service."
+            }
+          },
+          "43abf48d-57e0-4cf2-94d2-da82aba4fcfe": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Collecting your sample",
+              "title": "How do I collect my sample?",
+              "desc": "Bristle profiles your oral microbiome by using a sample of your saliva. To provide your sample, you spit into a small tube containing a clear liquid solution that functions to stabilize your saliva. You mail back the tube to Bristle's laboratory using the prepaid envelope provided and results are returned online. Detailed step-by-step instructions of the sample collection process are included in each test kit and also available through your account dashboard after registering your kit."
+            }
+          },
+          "bbea326c-81e5-4dc2-838a-8d58e358654c": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Collecting your sample",
+              "title": "When is the best time to collect my sample?",
+              "desc": "In general, wait at least 30 minutes after eating, drinking, or smoking before providing your saliva sample. The best time to collect your sample is first thing in the morning, before you've done anything else."
+            }
+          },
+          "dd718e2c-a915-4fba-a371-becf0550fdfd": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Collecting your sample",
+              "title": "Does the kit expire?",
+              "desc": "Our collection kit stabilizes your saliva sample so that it can be properly tested after a period of time. We recommend that you collect and return your sample within 1 month of receiving the kit. After one month, we may cannot guarantee the quality of your sample and accuracy of your results."
+            }
+          },
+          "d415e995-2cc8-40e6-8e58-362bb71eab2f": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Collecting your sample",
+              "title": "What is the clear liquid in the collection kit?",
+              "desc": "This is called a \"buffer\" solution and helps preserve your sample after you send it back to us for analysis. We provide you with two collection tubes in each kit in case you spill the first one. Our buffer is non-toxic but we do not recommend consuming it."
+            }
+          },
+          "c19a345e-979a-439e-b0b6-2f4194582a2c": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Your results",
+              "title": "How long does it take to get my results?",
+              "desc": "Results will typically be returned to you in 2 - 3 weeks from when we receive your kit to our lab."
+            }
+          },
+          "37275df6-5b6a-4c5b-b1ee-1cc1a051d0ba": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Your results",
+              "title": "What do my results tell me?",
+              "desc": "At the highest level, your results will give you insight into your oral health status - based on your oral microbiome, clinical, and behavioral risk factors for disease. We boiled down this complex data into easy-to-understand scores related to cavities, gum disease, and bad breath. Digging into your report allows you to investigate the kinds of bacteria in your oral microbiome and what they do. We continually release new features and insights, so keep an eye out for updates and re-visit your report to see what news answers you can uncover!"
+            }
+          },
+          "48a13c3e-b2ed-48d4-af06-7140a61d4ea9": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Your results",
+              "title": "Can I share the results with my dentist or doctor?",
+              "desc": "Yes! We encourage you to discuss your results with your medical provider."
+            }
+          },
+          "9847b97d-321b-49fa-9231-2cb2c50bd83f": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Your results",
+              "title": "How do you determine my results?",
+              "desc": "Our collection kit stabilizes your saliva sample so that it can be properly tested after a period of time. We recommend that you collect and return your sample within 1 month of receiving the kit. After one month, we may cannot guarantee the quality of your sample and accuracy of your results."
+            }
+          },
+          "eb1d5383-af72-4b7d-9d81-e5a6cc8cd51e": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Your privacy",
+              "title": "How do you protect my personal information and data?",
+              "desc": "We fiercely protect your privacy every step of the way — we will never share your personal data without your consent. Even with consent, we will only ever share your data to advance oral health research or at your request. Bristle implements several physical and technical security measures to ensure confidentiality, integrity, security, and availability of Bristle and user data by employing industry standard safeguards such as de-identification, pseudonymization, encryption, and data segmentation. You control how your data is used, stored, and shared. For more information, see our full privacy policy here."
+            }
+          },
+          "bc1b9b03-3d30-493d-905e-68fcb45b12ec": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Your privacy",
+              "title": "Do you sell my data?",
+              "desc": "We will never sell your data. Our mission is to empower our users to better understand their oral health to lead healthier and happier lives.  We give you choices to control how your personal information is used, stored, or shared. You can request your data and sample be removed from your account by contacting support@bristlehealth.com.\nWant to learn more? Check out our terms of service here."
+            }
+          },
+          "a5d50f87-90cc-4fa1-a6af-dd920a3ad64c": {
+            "type": "Faq",
+            "settings": {
+              "main_title": "Your privacy",
+              "title": "Is Bristle CLIA compliant?",
+              "desc": "Yes — Bristle tests are analyzed in a U.S. laboratory that is certified by CLIA standards. A CLIA certified lab must meet strict quality standards and ensure both the accuracy and validity of your results."
+            }
+          }
+        },
+        "block_order": [
+          "0e2a8789-cebd-452d-99c8-01bf043e091c",
+          "d4c4c4ff-27f1-4382-9a76-5b7cbadf889e",
+          "95d9ae91-a384-482d-b8d0-d3499dd79270",
+          "56345c73-2a5f-4005-9be6-b2fc9a53f7db",
+          "4061339d-cf52-4028-ad06-b42860b92134",
+          "f13e69e7-a1fe-457d-bb2c-b884b5d5edfa",
+          "c4154b1a-ace4-4ed7-a1b5-fdde226e217f",
+          "11e7ca7e-da38-4186-b97d-700b2fc5f5d5",
+          "079a794e-3035-455f-bfe6-0873d15320d1",
+          "3da29abe-6759-4df9-b0cf-3d08f91ff6fc",
+          "43abf48d-57e0-4cf2-94d2-da82aba4fcfe",
+          "bbea326c-81e5-4dc2-838a-8d58e358654c",
+          "dd718e2c-a915-4fba-a371-becf0550fdfd",
+          "d415e995-2cc8-40e6-8e58-362bb71eab2f",
+          "c19a345e-979a-439e-b0b6-2f4194582a2c",
+          "37275df6-5b6a-4c5b-b1ee-1cc1a051d0ba",
+          "48a13c3e-b2ed-48d4-af06-7140a61d4ea9",
+          "9847b97d-321b-49fa-9231-2cb2c50bd83f",
+          "eb1d5383-af72-4b7d-9d81-e5a6cc8cd51e",
+          "bc1b9b03-3d30-493d-905e-68fcb45b12ec",
+          "a5d50f87-90cc-4fa1-a6af-dd920a3ad64c"
+        ],
+        "settings": {}
+      },
+      "get-started": {
+        "type": "get-started",
+        "settings": {
+          "icon": "<svg viewbox=\"0 0 123 99\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M38.6855 44.7195C38.6855 43.0844 40.0179 41.7588 41.6614 41.7588H59.5162C61.1596 41.7588 62.492 43.0844 62.492 44.7195C62.492 46.3547 61.1596 47.6803 59.5162 47.6803H41.6614C40.0179 47.6803 38.6855 46.3547 38.6855 44.7195Z\" fill=\"#EF5C61\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M60.5078 56.5623C60.5078 54.9272 61.8402 53.6016 63.4836 53.6016H85.3062C86.9497 53.6016 88.282 54.9272 88.282 56.5623C88.282 58.1974 86.9497 59.5231 85.3062 59.5231H63.4836C61.8402 59.5231 60.5078 58.1974 60.5078 56.5623Z\" fill=\"#EF5C61\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M36.7021 68.4056C36.7021 66.7705 38.0345 65.4448 39.678 65.4448H59.5167C61.1601 65.4448 62.4925 66.7705 62.4925 68.4056C62.4925 70.0407 61.1601 71.3663 59.5167 71.3663H39.678C38.0345 71.3663 36.7021 70.0407 36.7021 68.4056Z\" fill=\"#EF5C61\"><\/path>\n<path d=\"M12.324 12.6243C9.69707 15.4247 7.93549 19.8006 7.93549 25.9681C7.93549 31.3687 10.3121 48.2024 15.6555 63.6679C18.321 71.3831 21.625 78.4545 25.5295 83.5214C29.4555 88.6166 32.7339 92.0916 39.6774 92.0916C45.6291 92.0916 47.6921 91.0792 51.5807 90.1177C55.4693 89.1563 60.5081 88.3253 63.4839 88.3253C66.4597 88.3253 69.4355 88.1439 75.3871 80.2486C81.3387 72.3532 82.3307 66.2347 82.3307 57.5494C82.3307 48.8642 78.4157 42.6586 74.1561 36.8242C72.7514 34.9001 71.272 33.1623 69.6851 31.5203L74.1561 28.2565C76.8131 31.0594 79.2531 33.9674 81.3387 36.8242C86.1564 43.4231 88.2823 51.6279 88.2823 57.5494C88.2823 67.529 84.211 76.8425 79.3549 83.5214C76.9203 86.87 72.252 91.0518 69.4355 93.0785C66.7063 95.0425 66.6623 95.0523 63.4839 95.0523C60.4172 95.0523 57.6775 95.7351 54.0613 96.6361C53.7036 96.7253 53.3372 96.8167 52.961 96.9097C48.8657 97.9221 44.0324 99 37.6936 99C29.9737 99 23.861 94.3331 19.2317 88.3253C14.5806 82.2893 10.9411 74.3103 8.151 66.2347C2.58308 50.1189 0 32.4105 0 25.9681C0 18.3188 0.222295 9.86486 4.53888 5.26331C8.88102 0.634536 14.879 -0.678703 23.8065 0.308215C30.6034 1.05961 35.1326 2.33799 41.7752 5.39077C48.5541 8.50609 55.9912 12.9115 62.9074 18.1361L58.5242 22.0204C52.0493 17.1291 44.6879 13.4524 38.4476 10.5846C33.2666 8.20356 27.879 8.20356 24.7984 8.20356C19.8387 8.20356 14.9254 9.85114 12.324 12.6243Z\" fill=\"#EF5C61\"><\/path>\n<path d=\"M110.676 12.6243C113.303 15.4247 115.065 19.8006 115.065 25.9681C115.065 31.3687 112.688 48.2024 107.345 63.6679C104.679 71.3831 101.375 78.4545 97.4706 83.5214C93.5445 88.6166 89.4899 92.0916 85.3065 92.0916C79.9356 92.0916 76.2999 91.0792 72.4113 90.1177C72.0267 90.0226 71.1807 89.055 70.7905 88.9571L53.5646 93.0785C56.2938 95.0425 56.3378 95.0523 59.5162 95.0523C62.5828 95.0523 65.3226 95.7351 68.9388 96.6361C69.2965 96.7253 69.6629 96.8167 70.039 96.9097C74.1343 97.9221 78.9676 99 85.3065 99C93.0263 99 99.1391 94.3331 103.768 88.3253C108.419 82.2893 112.059 74.3103 114.849 66.2347C120.417 50.1189 123 32.4105 123 25.9681C123 18.3188 122.778 9.86486 118.461 5.26331C114.119 0.634536 108.121 -0.678703 99.1936 0.308215C92.3967 1.05961 87.8675 2.33799 81.2249 5.39077C74.446 8.50609 67.0089 12.9115 60.0927 18.1361C53.1878 23.3522 46.479 30.2252 41.6613 36.8242C36.8437 43.4231 34.7178 51.6279 34.7178 57.5494C34.7178 67.529 38.7891 76.5304 43.6452 83.2093L48.6049 80.2486C43.4061 73.0983 40.6694 66.2347 40.6694 57.5494C40.6694 48.8642 44.5844 42.6586 48.8439 36.8242C53.0775 31.025 57.9896 26.9203 64.4759 22.0204C70.9508 17.1291 78.3122 13.4524 84.5524 10.5846C89.7335 8.20356 95.1211 8.20356 98.2017 8.20356C103.161 8.20356 108.075 9.85114 110.676 12.6243Z\" fill=\"#EF5C61\"><\/path>\n<\/svg>",
+          "title": "Ready to get started?",
+          "btn_title": "Get your kit",
+          "btn_link": "\/product-march"
+        }
+      },
+      "privacy-image": {
+        "type": "privacy-image",
+        "settings": {
+          "product": "single-test"
+        }
+      },
+      "posdcast": {
+        "type": "posdcast",
+        "settings": {
+          "blog": "podcast"
+        }
+      },
+      "bristle-news": {
+        "type": "bristle-news",
+        "blocks": {
+          "28350b8b-f308-4308-8656-0a7727469166": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/bristle-joins-y-combinator-winter-21-batch-1"
+            }
+          },
+          "2370e70a-fa88-4cd2-8b03-a49df8ce7f43": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/providing-patients-a-voice-for-oral-health-pun-intended"
+            }
+          },
+          "2c678219-cf6f-4748-bcb1-0b9c2d1722d1": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/reddit-ama-with-bristle-founders"
+            }
+          },
+          "79bba1e6-8264-426a-ab9d-d3fcec81a0ca": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/bristle-raises-3m-for-first-at-home-oral-microbiome-test"
+            }
+          },
+          "9672cda3-3388-4df7-9264-a885b83ec586": {
+            "type": "article",
+            "settings": {
+              "article": "news\/wendy-s-journey-with-bristle"
+            }
+          }
+        },
+        "block_order": [
+          "28350b8b-f308-4308-8656-0a7727469166",
+          "2370e70a-fa88-4cd2-8b03-a49df8ce7f43",
+          "2c678219-cf6f-4748-bcb1-0b9c2d1722d1",
+          "79bba1e6-8264-426a-ab9d-d3fcec81a0ca",
+          "9672cda3-3388-4df7-9264-a885b83ec586"
+        ],
+        "settings": {}
+      },
+      "badbreath": {
+        "type": "badbreath",
+        "blocks": {
+          "73457451-faee-4d64-aaa1-a15c6edc4553": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/halitosis-bad-breath-causes-and-treatments"
+            }
+          },
+          "f68b51e1-d2e8-4869-8919-6e81a355f800": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-causes-bad-breath-and-what-to-do-about-it"
+            }
+          },
+          "ea6185dc-6b85-4ec5-bb7b-abfb4b60afff": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/how-to-cure-chronic-bad-breath-permanently"
+            }
+          },
+          "21485920-2667-4dd4-adba-f6241214a84a": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-adderall-make-your-breath-smell-bad"
+            }
+          },
+          "7522cd70-9cea-43d0-96d1-d3ab6287c0c5": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/best-probiotics-for-bad-breath"
+            }
+          },
+          "8122ac0b-5770-4fc0-9f2f-f6952a5e828f": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/is-bad-breath-contagious"
+            }
+          },
+          "2da7a37c-8cdf-4105-addb-46f1a7157139": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/do-cavities-cause-bad-breath"
+            }
+          },
+          "b1b68dc5-8453-4430-8643-06fabffd13df": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-get-rid-of-bad-breath"
+            }
+          },
+          "2940af4b-5212-4c90-b5a6-a3b43735a0cd": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-tell-if-you-have-bad-breath"
+            }
+          },
+          "c7134eba-f1fb-4a6c-a6e7-41df5fbbacad": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-tea-tree-oil-help-bad-breath"
+            }
+          },
+          "c094b8b4-2e57-4328-bf0c-5fec53cdfc21": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/why-does-my-breath-smell-bad-even-after-brushing"
+            }
+          },
+          "e756ddec-a205-421b-8200-94e2d1e4d965": {
+            "type": "article",
+            "settings": {
+              "article": "iman-zayed\/does-gingivitis-cause-bad-breath"
+            }
+          },
+          "2e15991d-17b1-4dbf-ae26-5e4e07500da8": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/best-gum-for-bad-breath"
+            }
+          }
+        },
+        "block_order": [
+          "73457451-faee-4d64-aaa1-a15c6edc4553",
+          "f68b51e1-d2e8-4869-8919-6e81a355f800",
+          "ea6185dc-6b85-4ec5-bb7b-abfb4b60afff",
+          "21485920-2667-4dd4-adba-f6241214a84a",
+          "7522cd70-9cea-43d0-96d1-d3ab6287c0c5",
+          "8122ac0b-5770-4fc0-9f2f-f6952a5e828f",
+          "2da7a37c-8cdf-4105-addb-46f1a7157139",
+          "b1b68dc5-8453-4430-8643-06fabffd13df",
+          "2940af4b-5212-4c90-b5a6-a3b43735a0cd",
+          "c7134eba-f1fb-4a6c-a6e7-41df5fbbacad",
+          "c094b8b4-2e57-4328-bf0c-5fec53cdfc21",
+          "e756ddec-a205-421b-8200-94e2d1e4d965",
+          "2e15991d-17b1-4dbf-ae26-5e4e07500da8"
+        ],
+        "settings": {}
+      },
+      "bristle-research": {
+        "type": "bristle-research",
+        "blocks": {
+          "adf881bd-f1cf-4795-87b6-cb87b754e579": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/bristle-research-the-effect-of-flossing-on-the-oral-microbiome"
+            }
+          },
+          "babdb72c-d72c-42ca-9c67-1f148e2c3488": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/bristle-oral-health-test-white-paper"
+            }
+          },
+          "a94ad61d-9e21-4c14-a0ae-c5a7953916ec": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/bristle-research-are-electric-toothbrushes-actually-better-for-your-oral-microbiome-and-health"
+            }
+          },
+          "00cc4986-8bbe-4b8c-9392-b70d6de4ee1f": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/bristle-research-how-oral-microbiome-diversity-impacts-oral-health"
+            }
+          },
+          "9f424ac9-1239-4320-9d73-31e513179485": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/bristle-research-the-oral-microbiome-as-a-predictor-of-gum-disease"
+            }
+          },
+          "6f2bc580-9ad8-4694-b71f-3ce92861a0ef": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-we-research-our-recommendations"
+            }
+          },
+          "db495b22-ee41-4d14-9acf-572fedc6d685": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/super-teeth-probiotics-study"
+            }
+          }
+        },
+        "block_order": [
+          "adf881bd-f1cf-4795-87b6-cb87b754e579",
+          "babdb72c-d72c-42ca-9c67-1f148e2c3488",
+          "a94ad61d-9e21-4c14-a0ae-c5a7953916ec",
+          "00cc4986-8bbe-4b8c-9392-b70d6de4ee1f",
+          "9f424ac9-1239-4320-9d73-31e513179485",
+          "6f2bc580-9ad8-4694-b71f-3ce92861a0ef",
+          "db495b22-ee41-4d14-9acf-572fedc6d685"
+        ],
+        "settings": {}
+      },
+      "oral-care": {
+        "type": "oral-care",
+        "blocks": {
+          "847aee93-b6cf-4d2a-b50a-2670c985d0e9": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/a-guide-to-oral-probiotics-and-dental-probiotics"
+            }
+          },
+          "c7c976f5-e2b1-4c87-9460-d11b87b95489": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-keep-your-teeth-white"
+            }
+          },
+          "41b9130d-5684-41c9-862b-62277c88aba8": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/why-does-mouthwash-burn"
+            }
+          },
+          "36944cbe-7bb6-46c1-bef2-411233c4bdf7": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-oil-pulling-actually-work"
+            }
+          },
+          "04480944-e203-430f-ae04-9871fb141087": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-treat-gingivitis-at-home"
+            }
+          },
+          "ac099f9b-8838-4ece-bc5b-237914220dd9": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-often-should-you-get-your-teeth-cleaned"
+            }
+          },
+          "e587c68f-4cfc-4d41-860d-c5a9882a6f1f": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/top-7-dental-hygiene-tips"
+            }
+          },
+          "6d3b023d-485d-4568-8cf9-00e432bf14f5": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-causes-receding-gums-a-complete-guide"
+            }
+          },
+          "3a4391f3-58a1-435f-9b70-16037bf0d5ac": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/does-hydrogen-peroxide-kill-oral-thrush"
+            }
+          },
+          "9653f563-b833-4a9b-998e-74c54312e088": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/why-a-tongue-scraper-doesn-t-always-fix-bad-breath"
+            }
+          },
+          "638416e4-8d07-4ecf-bc29-040441cc79d9": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-often-should-you-change-your-toothbrush"
+            }
+          },
+          "cf2d4058-b421-44cc-8320-5b12836c429b": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-hydrogen-peroxide-kill-all-mouth-bacteria"
+            }
+          },
+          "a05c6f07-54bc-44fe-b401-f79b22d396c5": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-reverse-gingivitis"
+            }
+          },
+          "b246a03e-84b2-4408-accb-28bd108ccb1b": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/improve-your-oral-microbiome-part-1-diet"
+            }
+          },
+          "ee8d7897-597e-4317-8cbd-9cac6487981b": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-cure-bad-breath-from-the-throat"
+            }
+          },
+          "d5b84020-e758-45f1-b9ec-e649c1c5ec4e": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-clean-the-back-of-the-tongue"
+            }
+          },
+          "6ea59f87-69c2-4415-a966-f4520e81c708": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-are-cavities-treated-the-basics-explained"
+            }
+          },
+          "772c8a03-3f20-4005-8c26-a7d95db0e5bf": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-charcoal-toothpaste-work"
+            }
+          },
+          "ce614f15-604d-4bbe-a844-bb1c5f3c58ff": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/5-tips-for-a-healthy-mouth-why-it-can-impact-your-heart-health"
+            }
+          },
+          "45b1c4cb-7d88-4ccc-a23f-257ec0b1c880": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/prevent-tooth-decay-explore-the-oral-microbiome"
+            }
+          },
+          "0203358b-ab6d-4682-98be-2600ad3726fc": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-get-rid-of-bad-breath"
+            }
+          },
+          "366d5129-8734-4516-b9d2-f100c861c519": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-does-a-dental-cavity-look-like"
+            }
+          },
+          "e9f4250e-55b6-4f2e-866a-2be0efbb7368": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-reverse-periodontal-disease-naturally"
+            }
+          },
+          "07972b19-b8fa-4af5-87a7-cb4857e19a54": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-our-diets-can-affect-our-oral-health"
+            }
+          },
+          "d52ff7e1-70f7-4d7d-8fe5-eb3a0dd3fdf3": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/3-things-you-should-know-about-oral-probiotics"
+            }
+          },
+          "e4722e5e-7116-4646-a179-58dba891f5bb": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/how-alcohol-affects-bacteria-in-the-mouth"
+            }
+          },
+          "80091777-411d-46b2-ad53-2f4c9a8a22ac": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/5-causes-of-bleeding-gums-and-what-you-can-do-about-it"
+            }
+          },
+          "a52eef84-3f5e-40c7-b69a-79a7aa794cef": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/the-6-types-of-bad-breath-and-how-to-treat-them"
+            }
+          },
+          "f09488f6-9343-4ad9-8cbc-7bbb48998804": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-brush-and-floss-correctly"
+            }
+          },
+          "bb1d6cd1-8a63-4549-935b-e4ffc5d86222": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/why-do-my-gums-bleed-when-i-brush-my-teeth"
+            }
+          },
+          "0564fef3-fdf8-455d-a690-b700d69a043a": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/is-fluoride-bad-for-you"
+            }
+          },
+          "25d38531-afbc-4f8c-a18e-f94550e0a745": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-often-should-you-floss-tips-and-faqs"
+            }
+          },
+          "557e36d1-0d0c-40b0-b02c-ea8d3260469c": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-is-xylitol"
+            }
+          },
+          "391f678c-cac9-471f-9239-91f111c432e8": {
+            "type": "article",
+            "settings": {
+              "article": "cass-nelson-dooley\/are-essential-oils-safe-in-toothpaste-and-mouthwash"
+            }
+          },
+          "31e7b59e-814c-4c34-8023-77f16c89c3b8": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-tell-if-you-have-gingivitis"
+            }
+          },
+          "2c474d67-ad32-4fb4-b1ce-252d627128fd": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/why-oral-health-and-care"
+            }
+          },
+          "7681b6c1-ba98-45ed-bbe2-92400267fd17": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/4-easy-ways-to-improve-your-oral-health-at-home"
+            }
+          },
+          "00154cdb-d997-4f4f-9aa7-b523c948e434": {
+            "type": "article",
+            "settings": {
+              "article": "iman-zayed\/hydroxyapatite-a-new-age-alternative-to-fluoride"
+            }
+          }
+        },
+        "block_order": [
+          "847aee93-b6cf-4d2a-b50a-2670c985d0e9",
+          "c7c976f5-e2b1-4c87-9460-d11b87b95489",
+          "41b9130d-5684-41c9-862b-62277c88aba8",
+          "36944cbe-7bb6-46c1-bef2-411233c4bdf7",
+          "04480944-e203-430f-ae04-9871fb141087",
+          "ac099f9b-8838-4ece-bc5b-237914220dd9",
+          "e587c68f-4cfc-4d41-860d-c5a9882a6f1f",
+          "6d3b023d-485d-4568-8cf9-00e432bf14f5",
+          "3a4391f3-58a1-435f-9b70-16037bf0d5ac",
+          "9653f563-b833-4a9b-998e-74c54312e088",
+          "638416e4-8d07-4ecf-bc29-040441cc79d9",
+          "cf2d4058-b421-44cc-8320-5b12836c429b",
+          "a05c6f07-54bc-44fe-b401-f79b22d396c5",
+          "b246a03e-84b2-4408-accb-28bd108ccb1b",
+          "ee8d7897-597e-4317-8cbd-9cac6487981b",
+          "d5b84020-e758-45f1-b9ec-e649c1c5ec4e",
+          "6ea59f87-69c2-4415-a966-f4520e81c708",
+          "772c8a03-3f20-4005-8c26-a7d95db0e5bf",
+          "ce614f15-604d-4bbe-a844-bb1c5f3c58ff",
+          "45b1c4cb-7d88-4ccc-a23f-257ec0b1c880",
+          "0203358b-ab6d-4682-98be-2600ad3726fc",
+          "366d5129-8734-4516-b9d2-f100c861c519",
+          "e9f4250e-55b6-4f2e-866a-2be0efbb7368",
+          "07972b19-b8fa-4af5-87a7-cb4857e19a54",
+          "d52ff7e1-70f7-4d7d-8fe5-eb3a0dd3fdf3",
+          "e4722e5e-7116-4646-a179-58dba891f5bb",
+          "80091777-411d-46b2-ad53-2f4c9a8a22ac",
+          "a52eef84-3f5e-40c7-b69a-79a7aa794cef",
+          "f09488f6-9343-4ad9-8cbc-7bbb48998804",
+          "bb1d6cd1-8a63-4549-935b-e4ffc5d86222",
+          "0564fef3-fdf8-455d-a690-b700d69a043a",
+          "25d38531-afbc-4f8c-a18e-f94550e0a745",
+          "557e36d1-0d0c-40b0-b02c-ea8d3260469c",
+          "391f678c-cac9-471f-9239-91f111c432e8",
+          "31e7b59e-814c-4c34-8023-77f16c89c3b8",
+          "2c474d67-ad32-4fb4-b1ce-252d627128fd",
+          "7681b6c1-ba98-45ed-bbe2-92400267fd17",
+          "00154cdb-d997-4f4f-9aa7-b523c948e434"
+        ],
+        "settings": {}
+      },
+      "oral-microbiome": {
+        "type": "oral-microbiome",
+        "blocks": {
+          "7ee3aa1c-ff9d-4277-a221-4c4bef29540e": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/is-gum-disease-contagious"
+            }
+          },
+          "2c5c0ed0-558a-4b53-85a0-d74d6829314f": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/a-guide-to-oral-probiotics-and-dental-probiotics"
+            }
+          },
+          "c7435d79-962b-49a6-8479-7c71fd47dc3a": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/oral-health-and-cognitive-decline"
+            }
+          },
+          "376a6cc9-416e-4cd1-a976-bbb1f6e0c4c4": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-is-your-oral-microbiome"
+            }
+          },
+          "11a67474-bfdc-4561-85c1-2fe072592ab4": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/a-laymans-overview-of-microbiome-testing-methods"
+            }
+          },
+          "80f8efb4-0619-4f88-bdf9-32c21d468e8e": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-oil-pulling-actually-work"
+            }
+          },
+          "d72cf1a5-972f-4b12-ab4a-a57a4197fd3e": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/research-shows-that-infant-oral-microbiome-colonization-is-influenced-by-method-of-feeding"
+            }
+          },
+          "a86691a3-aa10-4e0c-bee2-95dd50202f90": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-causes-receding-gums-a-complete-guide"
+            }
+          },
+          "323c28ba-3c9a-408f-b230-e8d40647dcdc": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-hydrogen-peroxide-kill-all-mouth-bacteria"
+            }
+          },
+          "1154655d-a3f3-480c-ba0e-7440a2116c13": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/can-you-get-bacterial-vaginosis-bv-from-oral-sex"
+            }
+          },
+          "559f11ac-e6d7-47cc-a499-9c0f1ee67089": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/research-suggests-that-regular-use-of-mouthwash-is-associated-with-high-blood-pressure-and-hypertension"
+            }
+          },
+          "9170842f-f8c8-40e2-b446-8be7c17da8f0": {
+            "type": "article",
+            "settings": {
+              "article": "cass-nelson-dooley\/cavities-in-children-and-the-oral-microbiome"
+            }
+          },
+          "84ec96ff-d0b3-437c-b6a5-858925e4c6ad": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/microbe-monday-porphyromonas-gingivalis"
+            }
+          },
+          "ef73dd1b-3a94-4640-bb9b-2fc8e75e2e2b": {
+            "type": "article",
+            "settings": {
+              "article": "iman-zayed\/new-research-suggests-oral-microbiome-differences-in-patients-with-burning-mouth-syndrome"
+            }
+          },
+          "dbb543e3-026a-4dcf-b001-ad6836729c7a": {
+            "type": "article",
+            "settings": {
+              "article": "jenny-to\/the-oral-gut-axis-digestive-disorders-and-the-oral-microbiome"
+            }
+          },
+          "ff1ccc82-9a24-46f9-a85a-0aa53c24dcd8": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/improve-your-oral-microbiome-part-1-diet"
+            }
+          },
+          "270a5720-4287-456d-af7b-66bdd99e9e85": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/study-review-the-oral-microbiome-and-long-covid"
+            }
+          },
+          "e5a3f79b-a775-442f-b942-fddd09b4f7dc": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-oral-bacteria-can-affect-our-bodies"
+            }
+          },
+          "5baaf3dc-119a-46c1-9a4b-a7311593bbb4": {
+            "type": "article",
+            "settings": {
+              "article": "iman-zayed\/a-new-study-suggests-variations-in-the-oral-microbiome-are-associated-with-depression-in-young-adults"
+            }
+          },
+          "61422330-e5c8-4888-b8df-591949c6b597": {
+            "type": "article",
+            "settings": {
+              "article": "jenny-to\/cancer-and-your-oral-microbiome"
+            }
+          },
+          "1e961726-625a-4f40-a865-d75135552abe": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/prevent-tooth-decay-explore-the-oral-microbiome"
+            }
+          },
+          "a89dd92b-827b-4aef-b68e-5146049d00de": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/oral-health-before-during-and-after-pregnancy"
+            }
+          },
+          "446f37ac-5b88-4e40-afef-6eab3df569e9": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-is-gingivitis"
+            }
+          },
+          "706a2a28-08a7-47f2-b710-c96bf7b946c9": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-our-diets-can-affect-our-oral-health"
+            }
+          },
+          "c7cef04d-26f9-4e98-82aa-07d05300bb1b": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/understanding-your-oral-microbiome-gum-disease"
+            }
+          },
+          "1912d0bf-e5af-4e5b-9756-876e6f6399e1": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/how-alcohol-affects-bacteria-in-the-mouth"
+            }
+          },
+          "23e18533-05a5-4de3-a8ad-50eaf43f36be": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-bacteria-causes-gingivitis"
+            }
+          },
+          "6728e0dd-5ce5-4662-968f-7c0ceb6b65f3": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/the-6-types-of-bad-breath-and-how-to-treat-them"
+            }
+          },
+          "4d1a81a7-a82f-4313-a3e8-425e211a17f4": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/microbe-monday-streptococcus-gordonii"
+            }
+          },
+          "089c59b7-27cb-46cb-9113-486c99819107": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/oral-health-and-heart-disease"
+            }
+          },
+          "dd9b845b-df90-4ace-b3e5-85eb00404a12": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/what-is-oral-microbiome-dysbiosis"
+            }
+          },
+          "e41b12e6-a7cc-4d09-a48c-04c7e4669697": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/microbe-monday-treponema-denticola"
+            }
+          },
+          "2d4b4a77-1eb9-40a7-a185-e03e8e291c89": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/how-type-2-diabetes-impacts-your-oral-health-and-what-you-can-do-about-it"
+            }
+          },
+          "7f45db31-28c4-4a63-99b4-e9f690c5156a": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/about-our-test"
+            }
+          },
+          "6746c9ee-6611-4e48-b8aa-781b613618ea": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/type-1-diabetes-and-oral-health-care"
+            }
+          },
+          "3070e4a2-23da-4653-bc81-ff81e97bdb19": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/diabetes-your-oral-microbiome"
+            }
+          },
+          "9aacff3f-e6a2-4ef8-8fcc-1e83654f5b2c": {
+            "type": "article",
+            "settings": {
+              "article": "news\/the-5-most-abundant-and-common-oral-bacteria-and-what-they-mean-for-your-health"
+            }
+          }
+        },
+        "block_order": [
+          "7ee3aa1c-ff9d-4277-a221-4c4bef29540e",
+          "2c5c0ed0-558a-4b53-85a0-d74d6829314f",
+          "c7435d79-962b-49a6-8479-7c71fd47dc3a",
+          "376a6cc9-416e-4cd1-a976-bbb1f6e0c4c4",
+          "11a67474-bfdc-4561-85c1-2fe072592ab4",
+          "80f8efb4-0619-4f88-bdf9-32c21d468e8e",
+          "d72cf1a5-972f-4b12-ab4a-a57a4197fd3e",
+          "a86691a3-aa10-4e0c-bee2-95dd50202f90",
+          "323c28ba-3c9a-408f-b230-e8d40647dcdc",
+          "1154655d-a3f3-480c-ba0e-7440a2116c13",
+          "559f11ac-e6d7-47cc-a499-9c0f1ee67089",
+          "9170842f-f8c8-40e2-b446-8be7c17da8f0",
+          "84ec96ff-d0b3-437c-b6a5-858925e4c6ad",
+          "ef73dd1b-3a94-4640-bb9b-2fc8e75e2e2b",
+          "dbb543e3-026a-4dcf-b001-ad6836729c7a",
+          "ff1ccc82-9a24-46f9-a85a-0aa53c24dcd8",
+          "270a5720-4287-456d-af7b-66bdd99e9e85",
+          "e5a3f79b-a775-442f-b942-fddd09b4f7dc",
+          "5baaf3dc-119a-46c1-9a4b-a7311593bbb4",
+          "61422330-e5c8-4888-b8df-591949c6b597",
+          "1e961726-625a-4f40-a865-d75135552abe",
+          "a89dd92b-827b-4aef-b68e-5146049d00de",
+          "446f37ac-5b88-4e40-afef-6eab3df569e9",
+          "706a2a28-08a7-47f2-b710-c96bf7b946c9",
+          "c7cef04d-26f9-4e98-82aa-07d05300bb1b",
+          "1912d0bf-e5af-4e5b-9756-876e6f6399e1",
+          "23e18533-05a5-4de3-a8ad-50eaf43f36be",
+          "6728e0dd-5ce5-4662-968f-7c0ceb6b65f3",
+          "4d1a81a7-a82f-4313-a3e8-425e211a17f4",
+          "089c59b7-27cb-46cb-9113-486c99819107",
+          "dd9b845b-df90-4ace-b3e5-85eb00404a12",
+          "e41b12e6-a7cc-4d09-a48c-04c7e4669697",
+          "2d4b4a77-1eb9-40a7-a185-e03e8e291c89",
+          "7f45db31-28c4-4a63-99b4-e9f690c5156a",
+          "6746c9ee-6611-4e48-b8aa-781b613618ea",
+          "3070e4a2-23da-4653-bc81-ff81e97bdb19",
+          "9aacff3f-e6a2-4ef8-8fcc-1e83654f5b2c"
+        ],
+        "settings": {}
+      },
+      "oralhealth": {
+        "type": "oralhealth",
+        "blocks": {
+          "500ef084-82ff-4c2e-a1cb-62e4bfb9ed5d": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/is-gum-disease-contagious"
+            }
+          },
+          "0f342411-6519-4bac-9443-2309175c4855": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/a-guide-to-oral-probiotics-and-dental-probiotics"
+            }
+          },
+          "1f074791-6c21-4046-8eb1-2fa75e90dc41": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/why-does-mouthwash-burn"
+            }
+          },
+          "4f0dc875-d1e2-4778-947a-4e88a270871e": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/oral-health-and-cognitive-decline"
+            }
+          },
+          "fecc84fd-8e4b-4941-b78e-7de05446c925": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/do-nicotine-pouches-or-vaping-cause-gum-disease"
+            }
+          },
+          "7c9c6262-c15f-49f6-9d50-0a8148efccc9": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/are-some-people-more-prone-to-cavities"
+            }
+          },
+          "9bc758db-e7a7-4655-95c6-fa0d5070c580": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-oil-pulling-actually-work"
+            }
+          },
+          "80656c67-7561-4b42-83f4-d9339927da4f": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/how-do-you-know-if-you-have-gum-disease"
+            }
+          },
+          "0967ae33-bbde-4d8e-9436-bd8a919ed2b1": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-often-should-you-get-your-teeth-cleaned"
+            }
+          },
+          "7b9292c7-52c2-4efc-985a-66d4e8655ee3": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-causes-receding-gums-a-complete-guide"
+            }
+          },
+          "f43a3b85-4653-4f2c-b6cc-5b6706509ebb": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/burning-mouth-syndrome"
+            }
+          },
+          "7756cade-5af5-4296-9599-4f94bc43fde3": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/can-you-get-a-yeast-infection-from-oral-sex"
+            }
+          },
+          "6cca71f2-e9c5-43bb-93de-5a2be8557de7": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-often-should-you-change-your-toothbrush"
+            }
+          },
+          "6db4f9cb-9eda-4f27-be71-7dd3db4da95f": {
+            "type": "article",
+            "settings": {
+              "article": "cass-nelson-dooley\/cavities-in-children-and-the-oral-microbiome"
+            }
+          },
+          "7efc8294-063a-4129-b217-74a4f7e49788": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/improve-your-oral-microbiome-part-1-diet"
+            }
+          },
+          "33b0564c-8b64-4f8e-b99f-d429e28853ce": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-long-can-you-keep-your-teeth-with-periodontal-disease"
+            }
+          },
+          "8fbc8e2f-932b-4ca0-8591-19e1c0a58db4": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/is-gum-disease-genetic"
+            }
+          },
+          "a2414619-bf92-4dfa-98fb-28d0ce6b39a6": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/6-benefits-of-better-oral-health"
+            }
+          },
+          "5859f484-fbe9-4bf5-9e0a-462fc690b0a3": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-oral-bacteria-can-affect-our-bodies"
+            }
+          },
+          "3b70351b-07d8-4ac4-ae47-3ccc349d234d": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-are-cavities-treated-the-basics-explained"
+            }
+          },
+          "d32fdb30-0339-4ea8-8230-6162bc78038e": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/3-surprising-facts-about-gum-disease"
+            }
+          },
+          "ae3942f6-d6d7-4f1c-8e58-388f109ee23e": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/how-to-tell-if-you-have-a-cavity"
+            }
+          },
+          "21f1a355-1c28-4293-917b-320c5a60c05a": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/prevent-tooth-decay-explore-the-oral-microbiome"
+            }
+          },
+          "0cd92b6a-75af-460c-b44c-37096560a1b7": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-does-a-dental-cavity-look-like"
+            }
+          },
+          "911bed54-40df-43e5-bf72-58ca7d9bbcb6": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/oral-health-before-during-and-after-pregnancy"
+            }
+          },
+          "c882a064-a372-4f02-b40e-c04556b0b6ef": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/what-causes-my-gums-to-bleed"
+            }
+          },
+          "2e4b836c-9563-4cb0-9482-c1513a01fd12": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-is-gingivitis"
+            }
+          },
+          "4cf958a4-c40f-43ce-8961-4a4109ac059f": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-our-diets-can-affect-our-oral-health"
+            }
+          },
+          "1ad0aaa6-780c-4ab7-aba9-e3e7bc4891f2": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/understanding-your-oral-microbiome-gum-disease"
+            }
+          },
+          "03a17a54-bc3c-4a0d-a383-a835791dc16e": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/what-bacteria-causes-gingivitis"
+            }
+          },
+          "881532a8-19e1-4093-9b45-ae05112355af": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/can-periodontal-disease-be-cured"
+            }
+          },
+          "72f35344-1716-41a9-8550-6362c9cb51c5": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/why-do-i-always-get-cavities-despite-brushing-and-flossing"
+            }
+          },
+          "f0b7784b-f9a3-468e-8278-1370037bc576": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-to-brush-and-floss-correctly"
+            }
+          },
+          "786ffa9a-af0f-4fcf-a107-a2071c112f1e": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/oral-health-and-heart-disease"
+            }
+          },
+          "8e734afe-af19-4ff0-a016-7cac72144ce4": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/are-cavities-contagious"
+            }
+          },
+          "038be046-fe7b-48ef-9695-04fa0da862f0": {
+            "type": "article",
+            "settings": {
+              "article": "alyssa-carrier\/common-dental-problems-in-older-adults-and-how-to-prevent-them"
+            }
+          },
+          "e3a3d281-1cb9-4f59-a447-f451aa0b0573": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/is-fluoride-bad-for-you"
+            }
+          },
+          "6493d753-58d2-4540-8335-ef0ebd0bdd4d": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/how-type-2-diabetes-impacts-your-oral-health-and-what-you-can-do-about-it"
+            }
+          },
+          "c110274f-bd61-4c64-85c2-389b5be0eb91": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-often-should-you-floss-tips-and-faqs"
+            }
+          },
+          "9c8ab735-f212-4659-b7e4-dbed67173933": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/type-1-diabetes-and-oral-health-care"
+            }
+          },
+          "5a5381ca-3abf-40ec-9515-d709a68c4143": {
+            "type": "article",
+            "settings": {
+              "article": "iman-zayed\/does-gingivitis-cause-bad-breath"
+            }
+          },
+          "04c9c045-6b4a-4fec-990a-826254b08132": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/why-oral-health-and-care"
+            }
+          },
+          "78bb3bf4-6172-4405-806f-46470a300fa7": {
+            "type": "article",
+            "settings": {
+              "article": "jenna-gress-smith\/sleep-and-oral-health"
+            }
+          },
+          "4ec3d966-7ad0-4420-afe6-6383b6b34fd7": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/how-long-does-gingivitis-last"
+            }
+          }
+        },
+        "block_order": [
+          "500ef084-82ff-4c2e-a1cb-62e4bfb9ed5d",
+          "0f342411-6519-4bac-9443-2309175c4855",
+          "1f074791-6c21-4046-8eb1-2fa75e90dc41",
+          "4f0dc875-d1e2-4778-947a-4e88a270871e",
+          "fecc84fd-8e4b-4941-b78e-7de05446c925",
+          "7c9c6262-c15f-49f6-9d50-0a8148efccc9",
+          "9bc758db-e7a7-4655-95c6-fa0d5070c580",
+          "80656c67-7561-4b42-83f4-d9339927da4f",
+          "0967ae33-bbde-4d8e-9436-bd8a919ed2b1",
+          "7b9292c7-52c2-4efc-985a-66d4e8655ee3",
+          "f43a3b85-4653-4f2c-b6cc-5b6706509ebb",
+          "7756cade-5af5-4296-9599-4f94bc43fde3",
+          "6cca71f2-e9c5-43bb-93de-5a2be8557de7",
+          "6db4f9cb-9eda-4f27-be71-7dd3db4da95f",
+          "7efc8294-063a-4129-b217-74a4f7e49788",
+          "33b0564c-8b64-4f8e-b99f-d429e28853ce",
+          "8fbc8e2f-932b-4ca0-8591-19e1c0a58db4",
+          "a2414619-bf92-4dfa-98fb-28d0ce6b39a6",
+          "5859f484-fbe9-4bf5-9e0a-462fc690b0a3",
+          "3b70351b-07d8-4ac4-ae47-3ccc349d234d",
+          "d32fdb30-0339-4ea8-8230-6162bc78038e",
+          "ae3942f6-d6d7-4f1c-8e58-388f109ee23e",
+          "21f1a355-1c28-4293-917b-320c5a60c05a",
+          "0cd92b6a-75af-460c-b44c-37096560a1b7",
+          "911bed54-40df-43e5-bf72-58ca7d9bbcb6",
+          "c882a064-a372-4f02-b40e-c04556b0b6ef",
+          "2e4b836c-9563-4cb0-9482-c1513a01fd12",
+          "4cf958a4-c40f-43ce-8961-4a4109ac059f",
+          "1ad0aaa6-780c-4ab7-aba9-e3e7bc4891f2",
+          "03a17a54-bc3c-4a0d-a383-a835791dc16e",
+          "881532a8-19e1-4093-9b45-ae05112355af",
+          "72f35344-1716-41a9-8550-6362c9cb51c5",
+          "f0b7784b-f9a3-468e-8278-1370037bc576",
+          "786ffa9a-af0f-4fcf-a107-a2071c112f1e",
+          "8e734afe-af19-4ff0-a016-7cac72144ce4",
+          "038be046-fe7b-48ef-9695-04fa0da862f0",
+          "e3a3d281-1cb9-4f59-a447-f451aa0b0573",
+          "6493d753-58d2-4540-8335-ef0ebd0bdd4d",
+          "c110274f-bd61-4c64-85c2-389b5be0eb91",
+          "9c8ab735-f212-4659-b7e4-dbed67173933",
+          "5a5381ca-3abf-40ec-9515-d709a68c4143",
+          "04c9c045-6b4a-4fec-990a-826254b08132",
+          "78bb3bf4-6172-4405-806f-46470a300fa7",
+          "4ec3d966-7ad0-4420-afe6-6383b6b34fd7"
+        ],
+        "settings": {}
+      },
+      "systemic-health": {
+        "type": "systemic-health",
+        "blocks": {
+          "643ff463-9a7e-453b-aac0-91c90ad31f3c": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/oral-health-and-cognitive-decline"
+            }
+          },
+          "f9a9ace1-b776-415d-b9bc-de460c7e400c": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/do-nicotine-pouches-or-vaping-cause-gum-disease"
+            }
+          },
+          "34f88251-fb18-40b3-b34f-31dd3b2b9998": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/can-bacteria-in-the-oral-microbiome-cause-ibd"
+            }
+          },
+          "642d766b-364b-445f-9921-6a5089def6d8": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/is-breathing-through-your-mouth-bad"
+            }
+          },
+          "39c303ac-cea6-4d4f-a325-09e94a360cfa": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/can-you-get-a-yeast-infection-from-oral-sex"
+            }
+          },
+          "5118d8ae-f342-4f0d-8a4b-270c18da716c": {
+            "type": "article",
+            "settings": {
+              "article": "david-lin\/can-you-get-bacterial-vaginosis-bv-from-oral-sex"
+            }
+          },
+          "0024c8c5-7736-4be6-a37d-49015f38964d": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/does-adderall-make-your-breath-smell-bad"
+            }
+          },
+          "cb20dab3-a7a2-4d36-b88d-b2775318cf0a": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/can-stress-affect-oral-health"
+            }
+          },
+          "725ba418-2791-40ab-9ff0-d0658b77ccb9": {
+            "type": "article",
+            "settings": {
+              "article": "jenny-to\/the-oral-gut-axis-digestive-disorders-and-the-oral-microbiome"
+            }
+          },
+          "96eff372-3fe1-4772-8832-2be305e73f2c": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/6-benefits-of-better-oral-health"
+            }
+          },
+          "4bd316de-de6f-4f87-8217-3140a2b3bcd8": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/how-oral-bacteria-can-affect-our-bodies"
+            }
+          },
+          "9887e040-8a8b-4de3-988b-117172bdc1d8": {
+            "type": "article",
+            "settings": {
+              "article": "jenny-to\/cancer-and-your-oral-microbiome"
+            }
+          },
+          "2e422284-0fed-4ef8-9bca-7da42a2069dd": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/oral-health-before-during-and-after-pregnancy"
+            }
+          },
+          "8945ad30-4dcf-4f22-a8cb-457ee551ecf6": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/oral-health-and-heart-disease"
+            }
+          },
+          "9fb09632-de46-46df-a9a1-b8a965ea4c71": {
+            "type": "article",
+            "settings": {
+              "article": "brian-maurer\/is-fluoride-bad-for-you"
+            }
+          },
+          "9efe34ab-e66e-43fc-bbe8-3b00b88645b7": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/how-type-2-diabetes-impacts-your-oral-health-and-what-you-can-do-about-it"
+            }
+          },
+          "a9ea6937-446a-4cc2-b296-0dd5a34d68ad": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/type-1-diabetes-and-oral-health-care"
+            }
+          },
+          "2a48726e-d805-4b70-ad19-dae9aabb7feb": {
+            "type": "article",
+            "settings": {
+              "article": "mary-walsh\/diabetes-your-oral-microbiome"
+            }
+          },
+          "454b5c95-38b3-477a-84b6-0e2cf418b7dd": {
+            "type": "article",
+            "settings": {
+              "article": "danny-grannick\/why-oral-health-and-care"
+            }
+          },
+          "75a0fb87-930a-43b9-8c03-47a9c685958c": {
+            "type": "article",
+            "settings": {
+              "article": "jenna-gress-smith\/sleep-and-oral-health"
+            }
+          }
+        },
+        "block_order": [
+          "643ff463-9a7e-453b-aac0-91c90ad31f3c",
+          "f9a9ace1-b776-415d-b9bc-de460c7e400c",
+          "34f88251-fb18-40b3-b34f-31dd3b2b9998",
+          "642d766b-364b-445f-9921-6a5089def6d8",
+          "39c303ac-cea6-4d4f-a325-09e94a360cfa",
+          "5118d8ae-f342-4f0d-8a4b-270c18da716c",
+          "0024c8c5-7736-4be6-a37d-49015f38964d",
+          "cb20dab3-a7a2-4d36-b88d-b2775318cf0a",
+          "725ba418-2791-40ab-9ff0-d0658b77ccb9",
+          "96eff372-3fe1-4772-8832-2be305e73f2c",
+          "4bd316de-de6f-4f87-8217-3140a2b3bcd8",
+          "9887e040-8a8b-4de3-988b-117172bdc1d8",
+          "2e422284-0fed-4ef8-9bca-7da42a2069dd",
+          "8945ad30-4dcf-4f22-a8cb-457ee551ecf6",
+          "9fb09632-de46-46df-a9a1-b8a965ea4c71",
+          "9efe34ab-e66e-43fc-bbe8-3b00b88645b7",
+          "a9ea6937-446a-4cc2-b296-0dd5a34d68ad",
+          "2a48726e-d805-4b70-ad19-dae9aabb7feb",
+          "454b5c95-38b3-477a-84b6-0e2cf418b7dd",
+          "75a0fb87-930a-43b9-8c03-47a9c685958c"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#ffffff",
+      "colors_accent_1": "#121212",
+      "gradient_accent_1": "",
+      "colors_accent_2": "#334fb4",
+      "gradient_accent_2": "",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#ffffff",
+      "gradient_background_1": "",
+      "colors_background_2": "#f3f3f3",
+      "gradient_background_2": "",
+      "type_header_font": "assistant_n4",
+      "heading_scale": 100,
+      "type_body_font": "assistant_n4",
+      "body_scale": 100,
+      "page_width": 1200,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 8,
+      "spacing_grid_vertical": 8,
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 0,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 40,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 0,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "standard",
+      "card_image_padding": 0,
+      "card_text_alignment": "left",
+      "card_color_scheme": "background-2",
+      "card_border_thickness": 0,
+      "card_border_opacity": 10,
+      "card_corner_radius": 0,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "collection_card_style": "standard",
+      "collection_card_image_padding": 0,
+      "collection_card_text_alignment": "left",
+      "collection_card_color_scheme": "background-2",
+      "collection_card_border_thickness": 0,
+      "collection_card_border_opacity": 10,
+      "collection_card_corner_radius": 0,
+      "collection_card_shadow_opacity": 0,
+      "collection_card_shadow_horizontal_offset": 0,
+      "collection_card_shadow_vertical_offset": 4,
+      "collection_card_shadow_blur": 5,
+      "blog_card_style": "standard",
+      "blog_card_image_padding": 0,
+      "blog_card_text_alignment": "left",
+      "blog_card_color_scheme": "background-2",
+      "blog_card_border_thickness": 0,
+      "blog_card_border_opacity": 10,
+      "blog_card_corner_radius": 0,
+      "blog_card_shadow_opacity": 0,
+      "blog_card_shadow_horizontal_offset": 0,
+      "blog_card_shadow_vertical_offset": 4,
+      "blog_card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 0,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 1,
+      "media_border_opacity": 5,
+      "media_radius": 0,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 0,
+      "popup_shadow_opacity": 0,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 1,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 0,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 5,
+      "badge_position": "bottom left",
+      "badge_corner_radius": 40,
+      "sale_badge_color_scheme": "accent-2",
+      "sold_out_badge_color_scheme": "inverse",
+      "accent_icons": "text",
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": false,
+      "currency_code_enabled": true,
+      "cart_type": "notification",
+      "show_vendor": false,
+      "show_cart_note": false,
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "text": "Welcome to our store",
+                "text_alignment": "center",
+                "color_scheme": "background-1",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "color_scheme": "background-1",
+            "logo": "{{ shop.brand.logo }}",
+            "logo_width": 90,
+            "logo_position": "middle-left",
+            "menu": "main-menu",
+            "menu_type_desktop": "dropdown",
+            "show_line_separator": true,
+            "enable_sticky_header": true,
+            "mobile_logo_position": "center",
+            "margin_bottom": 0,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Quick links",
+                "menu": "footer"
+              }
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info",
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission",
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "color_scheme": "background-1",
+            "newsletter_enable": true,
+            "newsletter_heading": "Subscribe to our emails",
+            "show_social": true,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "payment_enable": true,
+            "margin_top": 48,
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "logo": "{{ shop.brand.logo }}",
+            "logo_max_width": 100,
+            "color_scheme": "background-1"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        }
+      }
+    }
+  }
+}

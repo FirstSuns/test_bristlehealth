@@ -1,0 +1,117 @@
+<div class="home-img-text-section {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %} ">
+  <div class="container">
+    <div class="home-img-text">
+      {%- if section.settings.image != blank -%}
+      <div class="home-img-text-left home-img-text-image">
+        <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if section.settings.image.width >= 254 %}{{ section.settings.image | image_url: width: 254 }} 254w,{% endif %}
+                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | image_url: width: 374 }} 374w,{% endif %}
+                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | image_url: width: 404 }} 404w,{% endif %}
+                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | image_url: width: 562 }} 562w,{% endif %}
+    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if section.settings.image.width >= 900 %}{{ section.settings.image | image_url: width: 900 }} 900w,{% endif %}
+                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+                      src="{{ section.settings.image | image_url: 'master' }}"
+                      alt="{{ section.settings.image.alt | escape }}"
+                      loading="lazy">
+      </div>
+        {%- endif -%}
+      <div class="home-img-text-right home-img-text-text">
+        {%- if section.settings.title != blank -%}
+        <h2>{{ section.settings.title }}</h2>
+        {%- endif -%}
+        {%- if section.settings.desc != blank -%}
+        {{ section.settings.desc }}
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="home-img-text-part">
+       <div class="container-large">
+      {%- if section.settings.bottom_title != blank -%}
+      <h2>{{ section.settings.bottom_title }}</h2>
+      {%- endif -%}
+      {%- if section.settings.btn_link != blank and section.settings.btn_title != blank -%}
+        <div class="mobile_hide">
+         <a class="btn btn-primary btn-large " href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+        </div>
+          {%- endif -%}
+        {%- if section.settings.btn_link != blank and section.settings.btn_title_mob != blank -%}
+       <div class="desktop_hide">
+         <a class="btn btn-primary btn-large" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title_mob }}</a>
+       </div>
+           {% else %}
+       
+           <a class="btn btn-primary btn-large" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+      {%- endif -%}
+    </div> </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Home Image Text",
+    "settings": [
+        {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
+      {
+      
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "html",
+        "id": "desc",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "bottom_title",
+        "label": "Bottom Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title_mob",
+        "label": "Button Heading Mobile"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Image Text",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,82 @@
+<div class="product-faq-section">
+  <div class="container-large">
+    <h2>FAQ'S</h2>
+    <div class="product-faq">
+      {%- if section.settings.title != blank -%}
+      <h2>{{ section.settings.title }}</h2>
+      {%- endif -%}
+      <div class="product-faq-part">
+        {%- for block in section.blocks -%}
+        <div class="product-faq-wrap">
+          {%- if block.settings.que != blank -%}
+          <h4>{{ block.settings.que }}
+          <span class="faq-sign"></span>  
+          </h4>
+          {%- endif -%}
+          {%- if block.settings.ans != blank -%}
+          <div class="product-faq-desc">
+            {{ block.settings.ans }}
+          </div>
+          {%- endif -%}
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .product-faq-desc,.product-faq-section .product-faq-part .product-faq-wrap.active h4 span.faq-sign:after{display:none;}
+  .product-faq-wrap.active .product-faq-desc{display:block;}
+  
+</style>
+<script>
+   $('.product-faq-wrap h4').on('click', function(e){
+    e.preventDefault();
+    if($(this).parents('.product-faq-wrap').hasClass('active')){
+      $(this).parents('.product-faq-wrap').removeClass('active');
+    }else{
+    $('.product-faq-wrap').removeClass('active');
+    $(this).parents('.product-faq-wrap').addClass('active');
+      }
+  });
+</script>
+
+
+
+{% schema %}
+  {
+    "name": "FAQ",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "FAQ",
+        "name": "FAQ",
+        "settings": [
+          {
+            "type": "text",
+            "id": "que",
+            "label": "Question"
+          },
+          {
+            "type": "textarea",
+            "id": "ans",
+            "label": "Answer"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

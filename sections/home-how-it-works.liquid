@@ -1,0 +1,316 @@
+<div class="home-how-it-works-section dddddd">
+  
+    {%- if section.settings.title != blank -%}
+      <div class="container">
+    <div class="home-how-it-works-title">
+      <h2>{{ section.settings.title }}</h2>
+    </div></div>
+      {%- endif -%}
+    <div class="home-how-it-works">
+       <div class="container">
+      <ul class="home-how-it-works-nav">
+        {%- for block in section.blocks -%}
+        <li data-id="how-id-work-{{ forloop.index }}">
+          <div class="home-how-it-works-top {{ block.settings.img_position }}">
+            {%- if block.settings.top_title != blank -%}
+            <h4>{{ block.settings.top_title }}</h4>
+            {%- endif -%}
+            {%- if block.settings.top_desc != blank -%}
+            <p>{{ block.settings.top_desc }}</p>
+            {%- endif -%}
+          </div>
+        </li>
+        {%- endfor -%}
+      </ul></div>
+      <ul class="home-how-it-works-for">
+        {%- for block in section.blocks -%}
+        <li id="how-id-work-{{ forloop.index }}">
+          <div class=" {% if block.settings.full_width_section != blank %} full_width_sec {% else %} container {% endif %} home-how-it-works-bottom {{ block.settings.img_position }}">
+          
+            <div class="desktop_show home-how-it-works-left home-how-it-works-image   {% if block.settings.image_text != blank %} image-with-text-main-sec{% endif %}">
+            {%- if block.settings.image != blank -%}
+               <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if block.settings.image.width >= 254 %}{{ block.settings.image | image_url: width: 254 }} 254w,{% endif %}
+                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | image_url: width: 374 }} 374w,{% endif %}
+                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | image_url: width: 404 }} 404w,{% endif %}
+                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | image_url: width: 562 }} 562w,{% endif %}
+    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if block.settings.image.width >= 900 %}{{ block.settings.image | image_url: width: 900 }} 900w,{% endif %}
+                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | image_url: 'master' }}"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy">
+              {%- endif -%}
+            {%- if block.settings.image_text != blank -%}
+              <div class="home-how-it-works-image-text">
+                {{ block.settings.image_text }}
+              </div>
+              {%- endif -%}
+          {% if block.settings.blog != blank %}
+<div class="home-how-it-works-products">
+  {% assign blog = blogs[block.settings.blog] %}
+  {% for article in blog.articles limit:4 %}
+  <div class="home-how-it-works-products-wrap">
+     <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if article.image.width >= 254 %}{{ article.image | image_url: width: 254 }} 254w,{% endif %}
+                        {% if article.image.width >= 374 %}{{ article.image | image_url: width: 374 }} 374w,{% endif %}
+                        {% if article.image.width >= 404 %}{{ article.image | image_url: width: 404 }} 404w,{% endif %}
+                        {% if article.image.width >= 562 %}{{ article.image | image_url: width: 562 }} 562w,{% endif %}
+    {% if article.image.width >= 1400 %}{{ article.image | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if article.image.width >= 1200 %}{{ article.image | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if article.image.width >= 900 %}{{ article.image | image_url: width: 900 }} 900w,{% endif %}
+                        {% if article.image.width >= 1608 %}{{ article.image | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if article.image.width >= 1824 %}{{ article.image | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if article.image.width >= 1916 %}{{ article.image | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ article.image | image_url }} {{ article.image.width }}w"
+                      src="{{ article.image | image_url: 'master' }}"
+                      alt="{{ article.image.alt | escape }}"
+                      loading="lazy">
+     <div class="home-how-it-works-products-wrap-inner">
+    <h4>{{ article.title }}</h4>
+    <p>{{ article.content | strip_html | truncatewords: 20 }}</p>
+     </div>
+  </div>
+     {% endfor %}
+</div>
+   
+            {% endif %}
+              
+            </div>
+            <div class="mobile_show home-how-it-works-left home-how-it-works-image   {% if block.settings.image_text != blank %} image-with-text-main-sec{% endif %}">
+         <div class="home-how-it-works-image-inner">
+           <h4><span class="h4-text-main">View full report</span><span class="h4-text-new">Hide full report</span> <span>{% render 'down-arrow' %}</span></h4>
+              <div class="view-report-data">
+          <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if block.settings.image.width >= 254 %}{{ block.settings.image | image_url: width: 254 }} 254w,{% endif %}
+                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | image_url: width: 374 }} 374w,{% endif %}
+                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | image_url: width: 404 }} 404w,{% endif %}
+                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | image_url: width: 562 }} 562w,{% endif %}
+    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
+    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
+    {% if block.settings.image.width >= 900 %}{{ block.settings.image | image_url: width: 900 }} 900w,{% endif %}
+                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
+                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
+                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
+                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | image_url: 'master' }}"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy">
+            {%- if block.settings.image_text != blank -%}
+              <div class="home-how-it-works-image-text">
+                {{ block.settings.image_text }}
+              </div>
+              {%- endif -%}</div>
+            </div>  </div>
+            <div class="home-how-it-works-right home-how-it-works-text">
+              {%- if block.settings.title != blank -%}
+              <h2>{{ block.settings.title }}</h2>
+              {%- endif -%}
+              {{ block.settings.desc }}
+          <div class="home-how-it-works-btn desktop_show">
+          <div class="home-how-it-works-btn-inner">
+            {%- if block.settings.btn_link_01 != blank and block.settings.btn_title_01 != blank -%}
+            <a class="btn btn-primary btn-large" href="{{ block.settings.btn_link_01 }}">{{ block.settings.btn_title_01 }}</a>
+            {%- endif -%}
+          {%- if block.settings.btn_link_02 != blank and block.settings.btn_title_02 != blank -%}
+            <a class="btn btn-secondary btn-large" href="{{ block.settings.btn_link_02 }}">{{ block.settings.btn_title_02 }}</a>
+            {%- endif -%}
+          </div> </div>
+            </div>
+                <div class="home-how-it-works-btn mobile_show">
+                  <div class="home-how-it-works-btn-inner">
+            {%- if block.settings.btn_link_01 != blank and block.settings.btn_title_01 != blank -%}
+            <a class="btn btn-primary btn-large" href="{{ block.settings.btn_link_01 }}">{{ block.settings.btn_title_01 }}</a>
+            {%- endif -%}
+          {%- if block.settings.btn_link_02 != blank and block.settings.btn_title_02 != blank -%}
+            <a class="btn btn-secondary btn-large" href="{{ block.settings.btn_link_02 }}">{{ block.settings.btn_title_02 }}</a>
+            {%- endif -%}
+          </div></div>
+          </div>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+
+</div>
+
+<script>
+  $(window).on("load resize",function(e){
+  var screenwidth = $( window ).outerWidth();
+	var containerwidth = $('.container').width();
+	var calculated = screenwidth - containerwidth;
+	var finalval = calculated/2;
+	$('.full_width_sec.home-how-it-works-bottom').css('padding-left',finalval+"px");
+    });
+
+           
+$(document).ready(function(){
+  $(".home-how-it-works-image-inner h4").click(function(){
+    
+    // $(".home-how-it-works-image-inner h4 + .view-report-data").slideToggle();
+    $(this).parent().children(".view-report-data").slideToggle(500); 
+       $(this).toggleClass("active");
+  });
+
+  
+  $('.home-how-it-works-nav li').on('click', function(){
+    var data_id = $(this).data('id');
+    $('.home-how-it-works-nav li').removeClass('active');
+    $(this).addClass('active');
+    $('.home-how-it-works-for li').removeClass('active');
+    $('.home-how-it-works-for li#'+data_id).addClass('active');
+  });
+    $('.home-how-it-works-nav li:first-child').trigger('click');
+ 
+   
+{% comment %}   $('.home-how-it-works-for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   adaptiveHeight: true,
+    
+   asNavFor: '.home-how-it-works-nav',
+   responsive: [
+      {
+          breakpoint: 769,
+          settings: "unslick"
+      }
+  ]
+    
+ });
+ 
+ $('.home-how-it-works-nav').slick({
+   slidesToShow: 4,
+   slidesToScroll: 1,
+   asNavFor: '.home-how-it-works-for',
+   dots: false,
+   arrows:false,
+   focusOnSelect: true,
+   
+    responsive: [
+      {
+          breakpoint: 769,
+          settings: "unslick"
+      }
+  ]
+ }); {% endcomment %}
+});
+</script>
+{% schema %}
+  {
+    "name": "Home How It Works",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Text",
+        "type": "Text",
+        "settings": [
+            {
+            "type": "checkbox",
+            "id": "full_width_section",
+            "label": "Full width Section"
+          },
+          {
+            "type": "text",
+            "id": "top_title",
+            "label": "Top Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "top_desc",
+            "label": "Top Description"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "desc",
+            "label": "Description"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "img_position",
+            "label": "Image Position",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ]
+          },
+          {
+            "type": "html",
+            "id": "image_text",
+            "label": "Image Text"
+          },
+          {
+            "type": "blog",
+            "id": "blog",
+            "label": "Blog"
+          },
+          {
+            "type": "text",
+            "id": "btn_title_01",
+            "label": "Button Heading 01"
+          },
+          {
+            "type": "url",
+            "id": "btn_link_01",
+            "label": "Button Link 01"
+          },
+          {
+            "type": "text",
+            "id": "btn_title_02",
+            "label": "Button Heading 02"
+          },
+          {
+            "type": "url",
+            "id": "btn_link_02",
+            "label": "Button Link 02"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home How It Works",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

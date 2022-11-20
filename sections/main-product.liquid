@@ -1,6 +1,6 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width section-{{ section.id }}-padding"
+  class="product-main section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -356,7 +356,7 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden">
-                  {{ product.description }}
+                  <p>{{ product.description | strip_html }}</p>
                 </div>
               {%- endif -%}
             {%- when 'custom_liquid' -%}
@@ -366,12 +366,16 @@
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
                     <div class="summary__title">
-                      {% render 'icon-accordion', icon: block.settings.icon %}
+<!--                       {% render 'icon-accordion', icon: block.settings.icon %} -->
+           
                       <h2 class="h4 accordion__title">
                         {{ block.settings.heading | default: block.settings.page.title }}
                       </h2>
                     </div>
-                    {% render 'icon-caret' %}
+             <svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 14 14" fill="none">
+<path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="#7f56d9"/>
+</svg>
+<!--                     {% render 'icon-caret' %} -->
                   </summary>
                   <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                     {{ block.settings.content }}
@@ -382,8 +386,7 @@
             {%- when 'quantity_selector' -%}
               <div
                 class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
-                {{ block.shopify_attributes }}
-              >
+                {{ block.shopify_attributes }}>
                 <label class="form__label" for="Quantity-{{ section.id }}">
                   {{ 'products.product.quantity.label' | t }}
                 </label>
@@ -616,7 +619,7 @@
                       >
                         <span>
                           {%- if product.selected_or_first_available_variant.available -%}
-                            {{ 'products.product.add_to_cart' | t }}
+                            Buy Now
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }}
                           {%- endif -%}
@@ -667,6 +670,12 @@
                   </template>
                 </pickup-availability>
               </div>
+
+            {%- if product.metafields.custom.free_shipping_text != blank -%}
+            <div class="product-free-shipping-parts">
+            {{ product.metafields.custom.free_shipping_text }}
+            </div>
+            {%- endif -%}
 
               <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
             {%- when 'rating' -%}
@@ -1492,7 +1501,7 @@
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.label"
         },
         {
-          "type": "richtext",
+          "type": "html",
           "id": "content",
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.content.label"
         },

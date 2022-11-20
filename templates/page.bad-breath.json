@@ -1,0 +1,406 @@
+{
+  "sections": {
+    "main": {
+      "type": "breath-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d4ea38d2-0cc9-4c68-ad22-4e032a69b130": {
+      "type": "banner-with-as-seen-on",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/629e16497121d413485e0a46_background_image.webp",
+        "title": "Identify and treat the root cause of your bad breath",
+        "subtext": "Test your saliva to identify the root-cause of bad breath. Get 1:1 coaching and a personalized care plan to get rid of it for good - all from home.",
+        "btn_label": "Fix your bad breath",
+        "btn_link": "#",
+        "heading": "As Seen On",
+        "icons": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/us.png?v=1665721276\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/yahoo-img.png?v=1665721276\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/business-img.png?v=1665721276\">"
+      }
+    },
+    "e18b0779-5819-4897-b3da-cb78e1ea9929": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15937061519517__e18b0779-5819-4897-b3da-cb78e1ea9929-1665579678b661d8e1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Struggling with bad breath?",
+            "heading_size": "h1"
+          }
+        },
+        "template--15937061519517__e18b0779-5819-4897-b3da-cb78e1ea9929-1665579678b661d8e1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There is no single cure for bad breath, but there is a better way to treat it than carrying around mints, mouthwash, and gum in your pocket 24\/7. Bristle takes the guesswork out of bad breath to help you get your confidence back.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15937061519517__e18b0779-5819-4897-b3da-cb78e1ea9929-1665579678b661d8e1-0",
+        "template--15937061519517__e18b0779-5819-4897-b3da-cb78e1ea9929-1665579678b661d8e1-1"
+      ],
+      "settings": {
+        "custom_class": "custom-image-with-text",
+        "image": "shopify:\/\/shop_images\/62ad1bffcd95dff009184a6c_DTS_Intimacy_Daniel_Faro80_5904-p-1600.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "984e69f6-9273-4cae-98d2-692c3867a671": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15937061519517__984e69f6-9273-4cae-98d2-692c3867a671-1665579732c20f4d88-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Root-cause care for bad breath",
+            "heading_size": "h1"
+          }
+        },
+        "template--15937061519517__984e69f6-9273-4cae-98d2-692c3867a671-1665579732c20f4d88-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Specific bacteria in your mouth or throat release byproducts that cause bad breath. Our test identifies and measures these bacteria to help you understand exactly what's causing it.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15937061519517__984e69f6-9273-4cae-98d2-692c3867a671-1665579732c20f4d88-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "See a sample report",
+            "button_link": "#"
+          }
+        },
+        "008f4a54-9b89-4aad-beae-60895895dc1e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get your test",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--15937061519517__984e69f6-9273-4cae-98d2-692c3867a671-1665579732c20f4d88-0",
+        "template--15937061519517__984e69f6-9273-4cae-98d2-692c3867a671-1665579732c20f4d88-1",
+        "template--15937061519517__984e69f6-9273-4cae-98d2-692c3867a671-1665579732c20f4d88-2",
+        "008f4a54-9b89-4aad-beae-60895895dc1e"
+      ],
+      "settings": {
+        "custom_class": "custom-image-with-text",
+        "image": "shopify:\/\/shop_images\/62ad1bffcd95dfade8184a73_Bristle_Product_and_Lifestyle_Combined_2_1_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "13d14f9b-f1b2-4e63-b3e3-9b670a9a959f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15937061519517__13d14f9b-f1b2-4e63-b3e3-9b670a9a959f-1665579732c20f4d88-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fix bad breath for good with personalized recommendations",
+            "heading_size": "h1"
+          }
+        },
+        "template--15937061519517__13d14f9b-f1b2-4e63-b3e3-9b670a9a959f-1665579732c20f4d88-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You'll receive data-backed diet, hygiene and product recommendations based on your results plus 1:1 coaching with our certified team for questions or support along the way.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15937061519517__13d14f9b-f1b2-4e63-b3e3-9b670a9a959f-1665579732c20f4d88-0",
+        "template--15937061519517__13d14f9b-f1b2-4e63-b3e3-9b670a9a959f-1665579732c20f4d88-1"
+      ],
+      "settings": {
+        "custom_class": "custom-image-with-text",
+        "image": "shopify:\/\/shop_images\/62b2034a4330e42743002e8d_Recommendations_-_iPad_mockup_6.18_1_-p-1600.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "6a483be9-1a1d-45b5-a29d-720a06f77d0e": {
+      "type": "how-works",
+      "blocks": {
+        "40f4fe82-d5ca-4192-90c3-6e114d678da6": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62a1c330b4e4f150f5174caa_Group_279305.webp",
+            "title": "Get your test",
+            "desc": "Collect your saliva sample and mail it to a certified lab with prepaid shipping."
+          }
+        },
+        "28b7c8d7-51ff-481b-8ad3-f8f88a8300a2": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/625b008722557e29e854835a_Group_279304.webp",
+            "title": "View your results",
+            "desc": "Get your oral health report card with a breakdown of the bacteria in your mouth."
+          }
+        },
+        "fd3fef95-dc28-4c28-8af6-e6d6b82cb071": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/625b00ae28e1024fbd7dc794_Ellipse_29.webp",
+            "title": "Meet your coach",
+            "desc": "Speak with our oral health experts to review your results."
+          }
+        },
+        "802a8546-4888-4482-a506-721ed07e757f": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/625b00ba7d15b77f5470a94d_Ellipse_30.webp",
+            "title": "Get your care plan",
+            "desc": "Get personalized oral care product recommendations and start improving your breath."
+          }
+        }
+      },
+      "block_order": [
+        "40f4fe82-d5ca-4192-90c3-6e114d678da6",
+        "28b7c8d7-51ff-481b-8ad3-f8f88a8300a2",
+        "fd3fef95-dc28-4c28-8af6-e6d6b82cb071",
+        "802a8546-4888-4482-a506-721ed07e757f"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "How it works",
+        "btn_label": "",
+        "link": ""
+      }
+    },
+    "f28c359d-66d9-4a11-aeab-c28483e09aaf": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1bb5b406-1e52-4456-8ec5-1ffd6a5c2f75": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "We believe good health starts with a healthy mouth. The Bristle Oral Health Test shows you the levels of good and bad bacteria in your saliva, with personalized insights to optimize and maintain your oral health."
+          }
+        },
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-2": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-3": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-4": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-5": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "9fbd59a3-e2dd-4f73-8f4a-d1323ebdb144": {
+          "type": "button",
+          "settings": {
+            "btn_label": "Get your Kit",
+            "btn_link": "shopify:\/\/products\/single-test",
+            "btn_label2": "",
+            "btn_link2": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-0",
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-1",
+        "1bb5b406-1e52-4456-8ec5-1ffd6a5c2f75",
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-2",
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-3",
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-4",
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-5",
+        "template--15937061519517__f28c359d-66d9-4a11-aeab-c28483e09aaf-16656366583e459698-6",
+        "9fbd59a3-e2dd-4f73-8f4a-d1323ebdb144"
+      ],
+      "settings": {
+        "custom_class": "",
+        "product": "single-test",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c6cf2f1e-6bd9-4d1a-8b84-9df1a8b46f8f": {
+      "type": "dentist",
+      "blocks": {
+        "8515c888-a55e-400f-ac0c-f5d57ed5d3c2": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e0428ba8d31edc3f6209b4_img-5-_1.png",
+            "title": "Dr. Roshan Parikh, DDS",
+            "desg": "President at dntl bar",
+            "desc": "Former Head of Dentistry, Walmart, Chief Strategy Officer, DSO Strategy, LLC"
+          }
+        },
+        "af4ffcf1-8757-4eac-a947-a297e67a3cfb": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e0429684d5a9c509f587df_618073d63cb4692d61df313b_Feldman.png",
+            "title": "Dr. Bonnie Feldman, DDS",
+            "desg": "General Dentist and Founder of Autoimmune Connect",
+            "desc": "International speaker, consultant, and writer with a focus on the oral microbiome's connection to systemic disease"
+          }
+        },
+        "d6cff25c-0067-4158-b8bb-fad618a372f8": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e042990b8182784615007d_img-3-bristle-_1.png",
+            "title": "Dr. Jonathan Levine, DDS",
+            "desg": "Founder of GLO Science, Oral Health Expert, Social Entrepreneur",
+            "desc": "Former Associate Professor at NYU School of Dentistry and co-founder of the GLO GOOD Foundation"
+          }
+        },
+        "66b37da5-6d80-45ff-8f22-571f04a8fb0d": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e042993c6d4877dc827586_img-1-btisdtle-_1.png",
+            "title": "Dr. Mark Burhenne, DDS",
+            "desg": "Family Dentist and Founder of AskTheDentist.com",
+            "desc": "Former Chief Dental Officer at Quip and best selling author"
+          }
+        },
+        "1680a69b-4318-41df-875a-9d516387b5b3": {
+          "type": "text",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62e042a2a8d31e552a621a0d_621fba879a7423b24aa5c9ea_Eric2525252520Headshot-p-500.jpg",
+            "title": "Dr. Eric Pulver, DDS",
+            "desg": "Oral & Maxillofacial Surgeon and Chief Dental Officer at Denti.Ai",
+            "desc": "Former Director of Oral & Maxillofacial Surgery at the University of Chicago Hospitals and team surgeon for the Chicago Blackhawks"
+          }
+        }
+      },
+      "block_order": [
+        "8515c888-a55e-400f-ac0c-f5d57ed5d3c2",
+        "af4ffcf1-8757-4eac-a947-a297e67a3cfb",
+        "d6cff25c-0067-4158-b8bb-fad618a372f8",
+        "66b37da5-6d80-45ff-8f22-571f04a8fb0d",
+        "1680a69b-4318-41df-875a-9d516387b5b3"
+      ],
+      "settings": {
+        "title": "RECOMMENDED BY LEADING DENTISTS"
+      }
+    },
+    "507a6566-58cf-4136-b0a3-9b82c5eddd7f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15937061519517__507a6566-58cf-4136-b0a3-9b82c5eddd7f-166563799009d19bc7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The <em><strong>first and only<\/strong><\/em><em> <\/em>comprehensive at-home approach to measure and combat the root cause of halitosis, empowering you to stop worrying about bad breath and start enjoying life again.<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15937061519517__507a6566-58cf-4136-b0a3-9b82c5eddd7f-166563799009d19bc7-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15937061519517__507a6566-58cf-4136-b0a3-9b82c5eddd7f-166563799009d19bc7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn about the science",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15937061519517__507a6566-58cf-4136-b0a3-9b82c5eddd7f-166563799009d19bc7-0",
+        "template--15937061519517__507a6566-58cf-4136-b0a3-9b82c5eddd7f-166563799009d19bc7-1",
+        "template--15937061519517__507a6566-58cf-4136-b0a3-9b82c5eddd7f-166563799009d19bc7-2"
+      ],
+      "settings": {
+        "custom_class": "custom-rich-text",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d4ea38d2-0cc9-4c68-ad22-4e032a69b130",
+    "e18b0779-5819-4897-b3da-cb78e1ea9929",
+    "984e69f6-9273-4cae-98d2-692c3867a671",
+    "13d14f9b-f1b2-4e63-b3e3-9b670a9a959f",
+    "6a483be9-1a1d-45b5-a29d-720a06f77d0e",
+    "f28c359d-66d9-4a11-aeab-c28483e09aaf",
+    "c6cf2f1e-6bd9-4d1a-8b84-9df1a8b46f8f",
+    "507a6566-58cf-4136-b0a3-9b82c5eddd7f"
+  ]
+}
