@@ -1,6 +1,6 @@
 <div class="science-img-text-section science-img-text-section-main {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
  
-{% if section.settings.narrow_sec != blank  %}   <div class="container-large"> {% endif %}
+{% if section.settings.narrow_sec != blank  %}   <div class="container"> {% endif %}
   <div class="science-img-text-section-inner">
     <div class="science-img-text grid-new">
       
@@ -46,7 +46,7 @@
         var winWidth = $(window).width();
   if(winWidth > 768){
   var screenwidth = $( window ).outerWidth();
-	var containerwidth = $('.container-large').width();
+	var containerwidth = $('.container').width();
 	var calculated = screenwidth - containerwidth;
 	var finalval = calculated/2;
 	$('.science-img-text-section.healthy-smile .science-img-text-section-inner').css('padding-left',finalval+"px");

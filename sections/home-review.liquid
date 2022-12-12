@@ -1,0 +1,84 @@
+<div class="home-review-section">
+  <div class="container">
+    <ul class="home-review-slider">
+      {%- for block in section.blocks -%}
+      <li class="home-review-list">
+        <div class="home-review">
+          <h4 class="review-stars">{%- include 'icon-star' -%}{%- include 'icon-star' -%}{%- include 'icon-star' -%}{%- include 'icon-star' -%}{%- include 'icon-star' -%}</h4>
+          {%- if block.settings.title != blank -%}
+          <h2 class="main-title">{{ block.settings.title }}</h2>
+          {%- endif -%}
+          {%- if block.settings.sub_title != blank -%}
+          <h6 class="place">{{ block.settings.sub_title }}</h6>
+          {%- endif -%}
+          {%- if block.settings.desc_title != blank -%}
+          <h3 class="sub-title">{{ block.settings.desc_title }}</h3>
+          {%- endif -%}
+          {%- if block.settings.desc != blank -%}
+       <p class="des read-more-review">{{ block.settings.desc }}</p><a href="#" class="read-more-review-btn read-more"><p>Read more</p></a>
+          {%- endif -%}
+        </div>
+      </li>
+        {%- endfor -%}
+    </ul>
+  </div>
+</div>
+
+<!--  $('.read-more-review-btn').on('click', function (e) {
+    e.preventDefault();
+    var read_m = $(this).text();
+    if(read_m == 'Read more'){
+      $(this).text('Read Less');
+    }else{
+      $(this).text('Read More');
+    }
+    $(this).parents('.home-review').toggleClass('active');
+  }) -->
+
+
+{% schema %}
+  {
+    "name": "Home Review",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "Review",
+        "name": "Review",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "sub_title",
+            "label": "Sub Heading"
+          },
+          {
+            "type": "text",
+            "id": "desc_title",
+            "label": "Description Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home Review",
+        "category": "Home Review"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

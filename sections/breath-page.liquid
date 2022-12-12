@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-
+ <style>main#MainContent .shopify-section:first-child{margin:0 !important;}</style>
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -18,12 +18,15 @@
   }
 {%- endstyle -%}
 {% if page.content != blank %}
+  
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
  
   <div class="rte">
     {{ page.content }}
   </div>
 </div>
+{% else %}
+  <style>main#MainContent .shopify-section:first-child{margin:0 !important;}</style>
 {% endif %}
 
 {% schema %}

@@ -1,6 +1,6 @@
 <div class="home-banner-section">
   <div class="">
-    <div class="home-banner">
+    <div class="home-banner" style="opacity:0;">
      
       <div class="home-banner-left">
         {%- if section.settings.title != blank -%}
@@ -17,17 +17,17 @@
       <div class="home-banner-right home-banner-image">
         <img
                       srcset="
-                        {% if section.settings.image.width >= 254 %}{{ section.settings.image | image_url: width: 254 }} 254w,{% endif %}
-                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | image_url: width: 374 }} 374w,{% endif %}
-                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | image_url: width: 404 }} 404w,{% endif %}
-                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | image_url: width: 562 }} 562w,{% endif %}
-    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
-    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
-    {% if section.settings.image.width >= 900 %}{{ section.settings.image | image_url: width: 900 }} 900w,{% endif %}
-                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
-                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
-                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
-                        {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+                        {% if section.settings.image.width >= 254 %}{{ section.settings.image | img_url: 'master' }} 254w,{% endif %}
+                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | img_url: 'master' }} 374w,{% endif %}
+                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | img_url: 'master' }} 404w,{% endif %}
+                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | img_url: 'master' }} 562w,{% endif %}
+    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | img_url: 'master' }} 1400w,{% endif %}
+    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | img_url: 'master' }} 1200w,{% endif %}
+    {% if section.settings.image.width >= 900 %}{{ section.settings.image | img_url: 'master' }} 900w,{% endif %}
+                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image | img_url: 'master' }} 1608w,{% endif %}
+                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image | img_url: 'master' }} 1824w,{% endif %}
+                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | img_url: 'master' }} 1916w,{% endif %},
+                        {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
                       src="{{ section.settings.image | img_url: 'master' }}"
                       alt="{{ section.settings.image.alt | escape }}"
                       loading="lazy">
@@ -38,12 +38,19 @@
 </div>
 
 <script>
-  $(window).on("load resize",function(e){
-  var screenwidth = $( window ).outerWidth();
+  function banner_w(){
+     var screenwidth = $( window ).outerWidth();
 	var containerwidth = $('.container').width();
 	var calculated = screenwidth - containerwidth;
 	var finalval = calculated/2;
 	$('.home-banner-section .home-banner').css('padding-left',finalval+"px");
+  }
+   $(document).ready(function(e){
+ banner_w();
+     $('.home-banner').css('opacity',1);
+    });
+  $(window).on("resize",function(e){
+ banner_w();
     });
 </script>
 

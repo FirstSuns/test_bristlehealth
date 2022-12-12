@@ -3,14 +3,14 @@
   
 {%- endif -%}
 <div class="our-test-section">
-<div class="container-large container-xl">
+<div class="container-large">
  <h2 class="title lora-font">{%- if section.settings.heading != blank -%}
  {{ section.settings.heading }}
   {%- endif -%}</h2>
   {%- if section.settings.oure_test != blank -%}
   <div class="our-test-section-tb">
       <div class="our-test-section-tb-inner">
-        
+      <div class="scroller-icon">  {% render 'hand-icon' %}</div>
   {{ section.settings.oure_test }}
          
   </div></div>  {%- endif -%}

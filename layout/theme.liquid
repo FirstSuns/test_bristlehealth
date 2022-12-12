@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>
+  <head>{% render 'pagefly-head' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -243,10 +243,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
+{% comment %}
+    <style>main#MainContent .shopify-section:first-child,main#MainContent .shopify-section:nth-child(2){margin:0 !important;}</style>
   
-
+{% endcomment %}
+ <style>main#MainContent .shopify-section:first-child{margin:0 !important;}</style>
   {% render 'judgeme_core' %}
+
+  {% render 'shogun-head' %}
 </head>
 
   <body class="gradient {{ template | handleize }} {{ template.name }}">
@@ -306,5 +310,12 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <style>
+      .home-how-it-works-section .home-how-it-works-for .home-how-it-works-bottom.right .home-how-it-works-image,
+      .home-how-it-works-section .home-how-it-works-for .home-how-it-works-bottom .home-how-it-works-image
+      {
+        {% comment %} display:none; {% endcomment %}
+      }
+    </style>
   </body>
 </html>

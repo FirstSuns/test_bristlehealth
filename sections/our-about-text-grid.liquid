@@ -1,0 +1,96 @@
+<div class="our-about-text-grid-section">
+  <div class="container">
+    <div class="our-about-text-grid-title">
+      {%- if section.settings.title != blank -%}
+      <h2 class="lora-font">{{ section.settings.title }}</h2>
+        {%- endif -%}
+      {%- if section.settings.desc != blank -%}
+      <p>{{ section.settings.desc }}</p>
+        {%- endif -%}
+    </div>
+    <div class="our-about-text-grid">
+      {% for block in section.blocks %}
+      <div class="our-about-text-grid-part">
+         <div class="our-about-text-grid-part-inner">
+        {%- if block.settings.title != blank -%}
+        <h2>{{ block.settings.title }}</h2>
+        {%- endif -%}
+        {%- if block.settings.sub_title != blank -%}
+        <h4>{{ block.settings.sub_title }}</h4>
+        {%- endif -%}
+        {%- if block.settings.desc != blank -%}
+        <p>{{ block.settings.desc }}</p>
+        {%- endif -%}
+      </div> </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  var winWidth = $(window).width();
+  if(winWidth < 769){
+$('.our-about-text-grid').slick({
+  dots: true,
+  arrows:false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+    }
+  </script>
+
+  
+{% schema %}
+  {
+    "name": "Our About Text Grid",
+    "settings": [
+      {
+        "type": "html",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "desc",
+        "label": "Description"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "sub_title",
+            "label": "Sub Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Our About Text Grid",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

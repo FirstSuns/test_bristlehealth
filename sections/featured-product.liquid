@@ -138,7 +138,7 @@
               {%- when 'title' -%}
                 <h2 class="desktitle product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                   {%- if product.title != blank -%}
-                    {{ product.title | escape }}
+                    {{ block.settings.title | escape }}
                   {%- else -%}
                     {{ 'onboarding.product_title' | t }}
                   {%- endif -%}
@@ -263,9 +263,10 @@
                             <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                               <h5>{{ value }}</h5>
                             {%- if value == 'Measure your oral health' -%}
-                            <p>Test your oral microbiome & get your improvement plan</p>
+                            <p>1X Oral Microbiome Test 
+                              <br>1X Personalized Care Plan</p>
                               {%- elsif value == 'Reset your oral microbiome' -%}
-                            <p>Test -> improve -> retest with coaching along the way</p>
+                            <p>Everything included above + One more follow-up test 6 months later + 2X Coaching calls + Ongoing accountability, advice & Support</p>
                               {%- endif -%}
                             </label>
                              {%- if value == 'Measure your oral health' -%}
@@ -788,6 +789,11 @@
       "name": "t:sections.featured-product.blocks.title.name",
       "limit": 1,
       "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
         {
           "type": "select",
           "id": "heading_size",

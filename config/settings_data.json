@@ -120,7 +120,7 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/621fba879a7423821ba5c89e_fav.png",
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
     "sections": {
@@ -132,14 +132,14 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Logo.png",
+          "logo": "shopify:\/\/shop_images\/Logo_23f58d6d-1daf-4855-95e4-e5f304527d00.png",
           "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "btn_title_01": "Log in",
           "btn_link_01": "\/account",
           "btn_title_02": "Get your kit",
-          "btn_link_02": "#",
+          "btn_link_02": "#shopify-section-template--15935262064797__3edec089-d01c-490d-8df4-dca04199ae98",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,
@@ -190,7 +190,7 @@
           "margin_top": 48,
           "padding_top": 0,
           "padding_bottom": 0,
-          "logo": "shopify:\/\/shop_images\/Logo.png",
+          "logo": "shopify:\/\/shop_images\/Logo_1.png",
           "desc": "Bristle is for people who want to learn about their oral health and microbiome. Bristle tests are intended exclusively for wellness purposes. Bristle cannot provide you with medical or dental advice or diagnose you with any disease or condition. Any information provided by Bristle is not medical or dental advice and is not intended to replace the advice of your doctor or dentist"
         }
       },

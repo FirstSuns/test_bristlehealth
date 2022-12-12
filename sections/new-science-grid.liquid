@@ -1,11 +1,11 @@
 <div class="new-science-grid-section">
-  <div class="container-large">
+  <div class="container">
     {%- if section.settings.title != blank -%}
     <div class="new-science-grid-title">
       <h2 class="lora-font">{{ section.settings.title }}</h2>
     </div>
     {%- endif -%} </div>
-    <div class="container-large bottom-container">
+    <div class="container bottom-container">
     <div class="new-science-grid">
       {%- for block in section.blocks -%}
       <div class="new-science-grid-wrap">
@@ -52,7 +52,7 @@ $('.new-science-grid-section .new-science-grid').slick({
     "name": "New Science Grid",
     "settings": [
       {
-        "type": "text",
+        "type": "html",
         "id": "title",
         "label": "Heading"
       },

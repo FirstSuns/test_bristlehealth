@@ -39,7 +39,7 @@
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top">
-	  <div class="page-width">
+	  <div class="container">
       {%- if section.blocks.size > 0 -%}
         {%- liquid
           if section.blocks.size == 9
@@ -474,7 +474,7 @@
       </div>
     </div> --> </div>
       <div class="bottom-footer-text">
-	  <div class="page-width">
+	  <div class="container">
         <div class="bottom-footer-text-inner">
         {%- if section.settings.logo != blank -%}
         <div class="bottom-footer-text-logo">

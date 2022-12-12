@@ -1,4 +1,4 @@
-<div class="home-real-improvement-section">
+<div class="home-real-improvement-section {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %} ">
   <div class="container">
     <div class="home-real-improvement-title">
       {%- if section.settings.title != blank -%}
@@ -15,17 +15,17 @@
           <img
                       id="Thumbnail-{{ section.id }}-0"
                       srcset="
-                        {% if section.settings.image.width >= 254 %}{{ section.settings.image | image_url: width: 254 }} 254w,{% endif %}
-                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | image_url: width: 374 }} 374w,{% endif %}
-                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | image_url: width: 404 }} 404w,{% endif %}
-                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | image_url: width: 562 }} 562w,{% endif %}
-    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
-    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
-    {% if section.settings.image.width >= 900 %}{{ section.settings.image | image_url: width: 900 }} 900w,{% endif %}
-                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
-                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
-                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
-                        {{ section.settings.image | image_url }} {{ block.settings.image.width }}w"
+                        {% if section.settings.image.width >= 254 %}{{ section.settings.image | img_url: 'master' }} 254w,{% endif %}
+                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | img_url: 'master' }} 374w,{% endif %}
+                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | img_url: 'master' }} 404w,{% endif %}
+                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | img_url: 'master' }} 562w,{% endif %}
+    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | img_url: 'master' }} 1400w,{% endif %}
+    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | img_url: 'master' }} 1200w,{% endif %}
+    {% if section.settings.image.width >= 900 %}{{ section.settings.image | img_url: 'master' }} 900w,{% endif %}
+                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image |  img_url: 'master' }} 1608w,{% endif %}
+                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image |  img_url: 'master' }} 1824w,{% endif %}
+                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | img_url: 'master' }} 1916w,{% endif %},
+                        {{ section.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
                       src="{{ section.settings.image | image_url: 'master' }}"
                       alt="{{ section.settings.image.alt | escape }}"
                       loading="lazy"></figure>
@@ -49,7 +49,12 @@
     "name": "Home Real Improvement",
     "settings": [
       {
-        "type": "text",
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
+      {
+        "type": "html",
         "id": "title",
         "label": "Heading"
       },

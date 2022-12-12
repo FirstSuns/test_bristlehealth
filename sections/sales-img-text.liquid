@@ -1,0 +1,85 @@
+<div class="sales-image-text-section">
+  <div class="">
+    <div class="sales-image-text">
+      <div class="sales-image-text-left">
+      {%- if section.settings.image != blank -%}
+     <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if section.settings.image.width >= 50 %}{{ section.settings.image | img_url: 'master' }} 254w,{% endif %}
+                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | img_url: 'master' }} 374w,{% endif %}
+                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | img_url: 'master' }} 404w,{% endif %}
+                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | img_url: 'master' }} 562w,{% endif %}
+    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | img_url: 'master' }} 1400w,{% endif %}
+    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | img_url: 'master' }} 1200w,{% endif %}
+    {% if section.settings.image.width >= 900 %}{{ section.settings.image | img_url: 'master' }} 900w,{% endif %}
+                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image | img_url: 'master' }} 1608w,{% endif %}
+                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image | img_url: 'master' }} 1824w,{% endif %}
+                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | img_url: 'master' }} 1916w,{% endif %},
+                        {{ section.settings.image | img_url: 'master' }} {{ section.settings.image.width }}w"
+                      src="{{ section.settings.image | img_url: 'master' }}"
+                      alt="{{ section.settings.image.alt | escape }}"
+                      loading="lazy">
+      {%- endif -%}
+      </div>
+      <div class="sales-image-text-right">
+        {%- if section.settings.title != blank -%}
+        <h2>{{ section.settings.title }}</h2>
+        {%- endif -%}
+        {%- if section.settings.desc != blank -%}
+        <p>{{ section.settings.desc }}</p>
+        {%- endif -%}
+        {%- if section.settings.btn_title != blank -%}
+        <a class="btn btn-primary" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Sales Image Text",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "desc",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Sales Image Text",
+        "category": "Sales Image Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

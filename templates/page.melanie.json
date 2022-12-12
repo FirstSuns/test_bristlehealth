@@ -223,7 +223,7 @@
         "template--15943051051165__e544615e-658e-4f2d-9a5d-de1018420fde-16659985147d187fe7-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Optimizing your oral health is <em><strong>critical <\/strong><\/em>to gut, brain, heart, and whole-body health & wellness.<\/p>",
+            "heading": "<p>Optimizing your oral health is <em><strong>critical <\/strong><\/em>to gut, brain, heart, and whole-body health &amp; wellness.<\/p>",
             "heading_size": "h1"
           }
         },
@@ -313,7 +313,8 @@
           "type": "button",
           "settings": {
             "button_label": "See a sample report",
-            "button_link": ""
+            "button_link": "",
+            "outlined_button": false
           }
         }
       },

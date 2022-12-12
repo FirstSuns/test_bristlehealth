@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 <div class="providers_sec image-with-text-main  {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %} ">
-<div class="image-with-text image-with-text--{{ section.settings.content_layout }} container-large isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
+<div class="image-with-text image-with-text--{{ section.settings.content_layout }} container isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
 {% if section.settings.title != blank %}
   <h2 class="top_heading">{{ section.settings.title }}</h2>
   {% endif %}
@@ -24,7 +24,8 @@
         {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}>
         {%- if section.settings.video != blank -%}
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
-        <iframe src="{{ section.settings.video }}?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" title="Welcome to Bristle"></iframe>
+       
+  <div class="iframe-wrapper"><iframe src="{{ section.settings.video }}?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" title="Welcome to Bristle"></iframe></div>
         {%- else -%}
           {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2){%- endcapture -%}
         

@@ -1,0 +1,114 @@
+<div class="sales-author-slider-section">
+  <div class="container">
+    {% if section.settings.title != blank %}
+    <div class="sales-author-slider-title">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+      {% endif %}
+    <ul class="sales-author-slider">
+      {% for block in section.blocks %}
+      <li>
+        <div class="sales-author-slider-part">
+          <div class="sales-author-slider-left">
+            {% if block.settings.desc != blank %}
+            <p><div class="sale-author-desc-list">{{ block.settings.desc }}</div><span class="read-more-dots">...</span></p>
+              
+            <div class="sales-read-more"><a href="#">Read More</a></div>
+              {% endif %}
+              {% if block.settings.title != blank %}
+            <h3>{{ block.settings.title }}</h3>
+              {% endif %}
+              {% if block.settings.sub_title != blank %}
+            <h4>{{ block.settings.sub_title }}</h4>
+              {% endif %}
+              {% if block.settings.logo != blank %}
+            <img src="{{ block.settings.logo | img_url: 'master' }}" />
+                {% endif %}
+          </div>
+          <div class="sales-author-slider-right">
+            {% if block.settings.image != blank %}
+              <img src="{{ block.settings.image | img_url: 'master' }}" />
+                {% endif %}
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="mobile-arrows">
+    <div class="prev"><img src="https://cdn.shopify.com/s/files/1/0527/7574/7741/t/12/assets/Vector%20(2).png?v=1670335778"></div>
+<div class="next"><img src="https://cdn.shopify.com/s/files/1/0527/7574/7741/t/12/assets/Vector%20(1).png?v=1670335770"></div></div>
+  </div>
+</div>
+
+<script>
+  $('.sales-read-more a').on('click', function(e){
+    e.preventDefault();
+    $(this).parents('.sales-author-slider-left').toggleClass('active');
+    var text = $(this).text();
+    if(text == 'Read More'){
+      $(this).text('Read Less');
+    }else{
+      $(this).text('Read More');
+    }
+  })
+</script>
+
+
+
+{% schema %}
+  {
+    "name": "Sales Author Slider",
+    "settings": [
+      {
+        "type": "html",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "sub_title",
+            "label": "Sub Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "desc",
+            "label": "Description"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Sales Author Slider",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

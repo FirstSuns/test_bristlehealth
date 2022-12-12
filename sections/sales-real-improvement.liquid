@@ -1,0 +1,102 @@
+<div class="home-real-improvement-section">
+  <div class="container">
+    <div class="home-real-improvement-title">
+      {%- if section.settings.desc != blank -%}
+      <h2>{{ section.settings.desc }}</h2>
+      {%- endif -%}
+    </div>
+    <div class="home-real-improvement">
+      {%- if section.settings.image != blank -%}
+      <div class="home-real-improvement-left">
+        <figure>
+          <img
+                      id="Thumbnail-{{ section.id }}-0"
+                      srcset="
+                        {% if section.settings.image.width >= 254 %}{{ section.settings.image | img_url: 'master' }} 254w,{% endif %}
+                        {% if section.settings.image.width >= 374 %}{{ section.settings.image | img_url: 'master' }} 374w,{% endif %}
+                        {% if section.settings.image.width >= 404 %}{{ section.settings.image | img_url: 'master' }} 404w,{% endif %}
+                        {% if section.settings.image.width >= 562 %}{{ section.settings.image | img_url: 'master' }} 562w,{% endif %}
+    {% if section.settings.image.width >= 1400 %}{{ section.settings.image | img_url: 'master' }} 1400w,{% endif %}
+    {% if section.settings.image.width >= 1200 %}{{ section.settings.image | img_url: 'master' }} 1200w,{% endif %}
+    {% if section.settings.image.width >= 900 %}{{ section.settings.image | img_url: 'master' }} 900w,{% endif %}
+                        {% if section.settings.image.width >= 1608 %}{{ section.settings.image |  img_url: 'master' }} 1608w,{% endif %}
+                        {% if section.settings.image.width >= 1824 %}{{ section.settings.image |  img_url: 'master' }} 1824w,{% endif %}
+                        {% if section.settings.image.width >= 1916 %}{{ section.settings.image | img_url: 'master' }} 1916w,{% endif %},
+                        {{ section.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                      src="{{ section.settings.image | image_url: 'master' }}"
+                      alt="{{ section.settings.image.alt | escape }}"
+                      loading="lazy"></figure>
+      </div>
+      {%- endif -%}
+      <div class="home-real-improvement-right">
+        {%- if section.settings.title != blank -%}
+      <h2>{{ section.settings.title }}</h2>
+      {%- endif -%}
+        {%- if section.settings.left_desc != blank -%}
+        <p>{{ section.settings.left_desc }}</p>
+          {%- endif -%}
+        {%- if section.settings.btn_link != blank and section.settings.btn_title != blank -%}
+        <a class="btn btn-primary btn-large" href="{{ section.settings.btn_link }}">
+          <span class="mobile-hide">{{ section.settings.btn_title }}</span>
+        <span class="desk-hide">{{ section.settings.btn_title_mobile }}</span></a>
+          {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Sales Real Improvement",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "desc",
+        "label": "Description"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "left_desc",
+        "label": "Left Description"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title_mobile",
+        "label": "Button Heading Mobile"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Sales Real Improvement",
+        "category": "text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

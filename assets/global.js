@@ -949,7 +949,51 @@ customElements.define('product-recommendations', ProductRecommendations);
 
 
            
-$(document).ready(function(){
+$(window).on('load',function(){
+   $('.sales-author-slider').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+     dots: true,
+     autoplay: true,
+  autoplaySpeed: 5000,
+   adaptiveHeight: true,
+     responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        arrows: true,
+        dots: false,
+        prevArrow: $('.prev'),
+	nextArrow: $('.next')
+      }
+    }
+  ]
+ });
+
+  $('.home-review-slider').slick({
+  slidesToShow: 3,
+   slidesToScroll: 1,
+   dots: false,
+   arrows:false,
+   focusOnSelect: true,
+     responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        dots: true,
+      }
+    },
+       {
+      breakpoint: 481,
+      settings: {
+        dots: true,
+        slidesToShow: 1
+      }
+    }
+  ]
+ });
   $('.slide-for').slick({
    slidesToShow: 1,
    slidesToScroll: 1,
@@ -976,6 +1020,10 @@ $(document).ready(function(){
     }
     ]
  });
+   if ($(window).width() < 769) {
+
+  $('.slide-for').slick('unslick').slick('reinit').slick();
+  }
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
@@ -983,6 +1031,23 @@ $(document).ready(function(){
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
 });
+  $('.home-review-slider li').each(function(){
+    var he = $(this).find('.des.read-more-review').innerHeight();
+    console.log('he',he)
+    if(he <= 143){
+      $(this).find('.read-more-review-btn').hide();
+    }
+  })
+  $('.read-more-review-btn').on('click', function (e) {
+    e.preventDefault();
+    var read_m = $(this).text();
+    if(read_m == 'Read more'){
+      $(this).text('Read less');
+    }else{
+      $(this).text('Read more');
+    }
+    $(this).parents('.home-review').toggleClass('active');
+  })
 });
 
 

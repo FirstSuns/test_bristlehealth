@@ -1,0 +1,451 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cd9b555b-82b5-4fa6-a9ac-25b9f58a7150": {
+      "type": "banner-with-as-seen-on",
+      "disabled": true,
+      "settings": {
+        "img": "shopify:\/\/shop_images\/629e16497121d413485e0a46_background_image.webp",
+        "title": "Take the guesswork out of your oral health",
+        "subtext": "Get insight into the root cause of bad breath, tooth decay, gum inflammation, and other conditions with an at-home oral microbiome test. Receive personalized product, hygiene, and diet recommendations to start improving your health.",
+        "btn_label": "Improve your oral health",
+        "btn_link": "",
+        "heading": "",
+        "icons": ""
+      }
+    },
+    "d97a4145-9d50-4c8a-af66-a83023cd3466": {
+      "type": "sales-img-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_45.png",
+        "title": "<span class=\"red-color\">Identify and treat <\/span><br>the root cause of <br>bad breath",
+        "desc": "Test your saliva to identify the root-cause of bad breath. Get 1:1 coaching and a personalized care plan to get rid of it for good - all from home.",
+        "btn_title": "Fix your bad breath",
+        "btn_link": "#"
+      }
+    },
+    "68e41c7a-bb7f-41b4-a860-7712414e5d12": {
+      "type": "sales-text-img-grid",
+      "blocks": {
+        "9145a827-ebb5-4f38-bd11-4da5883e95f2": {
+          "type": "Text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icons_Color.png",
+            "title": "",
+            "desc": "Specific bacteria in your mouth or throat release byproducts that cause bad breath."
+          }
+        },
+        "e8cc13bc-2536-4c2c-b956-4afaa992ed87": {
+          "type": "Text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon-Color_Targeted_1.png",
+            "title": "",
+            "desc": "Our test identifies and measures these bacteria to help you understand exactly what's causing it."
+          }
+        },
+        "119920eb-c591-484b-ba28-6ea5bc58333a": {
+          "type": "Text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon-Color_Pesonalized_1.png",
+            "title": "",
+            "desc": "Receive data-backed diet, hygiene and product recommendations based on your results plus 1:1 coaching with our certified team for questions or support along the way."
+          }
+        }
+      },
+      "block_order": [
+        "9145a827-ebb5-4f38-bd11-4da5883e95f2",
+        "e8cc13bc-2536-4c2c-b956-4afaa992ed87",
+        "119920eb-c591-484b-ba28-6ea5bc58333a"
+      ],
+      "settings": {
+        "title": "Meet the <span class=\"red-color\">next generation<\/span> of oral health",
+        "sub_title": "Bristle is the first and only comprehensive salivary test to analyze the entire oral microbiome, including all 700+ unique species of bacteria found in the mouth identifying the root cause of bad breath.",
+        "image": "shopify:\/\/shop_images\/Group_279473_1_2.png",
+        "image_mob": "shopify:\/\/shop_images\/Group_279473_1_2_b1555272-6f27-49bb-858c-41fc84ff4202.png",
+        "btn_title": "Learn the science",
+        "btn_link": "#"
+      }
+    },
+    "2e62226f-1a05-4798-ace2-b71b6f2450f1": {
+      "type": "sales-real-improvement",
+      "settings": {
+        "desc": "Bristle takes the guesswork out of bad breath to help you<span class=\"red-color\"> feel confident again<\/span>",
+        "image": "shopify:\/\/shop_images\/image_43.png",
+        "title": "Meet<span class=\"red-color\"> Olivia<\/span>",
+        "left_desc": "“Bristle has been such an incredible resource to help me better understand the source of bad breath and my overall health. I have been struggling to combat bad breath for over a decade and was unable to find a solution. After visits with my dentist, G.I. Specialist, and ENT, I was left feeling lost and helpless. After sending in my sample to Bristle, they provided me with a care plan that finally corrected the problem…I also have a better understanding of how my overall health plays such an important part. I am so grateful for Bristle and the positive influence it has made for me!” - Olivia, 35",
+        "btn_title": "Learn the science",
+        "btn_title_mobile": "Read full story",
+        "btn_link": "#"
+      }
+    },
+    "7df3d422-2331-41b0-945b-1edefe19e821": {
+      "type": "home-how-it-works",
+      "blocks": {
+        "82a7ea69-3b04-452f-a648-370425214691": {
+          "type": "Text",
+          "settings": {
+            "full_width_section": false,
+            "top_title": "Take your saliva test",
+            "top_desc": "Get an in-depth report detailing the bacteria in your mouth and its impact to your health.",
+            "title": "Get started with our at-home saliva test",
+            "desc": "<p>Dental checkups only look for existing problems like cavities or gum disease. Instead of looking for symptoms to treat, Bristle analyzes your saliva to identify the bacteria in your mouth that cause those symptoms. By detecting these bacteria at the earliest stages we can help you prevent the onset of disease.<br\/><br\/>Our test was developed from the ground-up using clinical research and your results are compared against thousands of other samples.<\/p>",
+            "image": "shopify:\/\/shop_images\/6038189_1.png",
+            "img_position": "left",
+            "image_text": "",
+            "blog": "",
+            "btn_title_01": "Get started",
+            "btn_link_01": "#",
+            "btn_title_02": "",
+            "btn_link_02": ""
+          }
+        },
+        "5b190655-3d90-4f7b-b14f-6c7e445dadc0": {
+          "type": "Text",
+          "settings": {
+            "full_width_section": false,
+            "top_title": "Get your care plan",
+            "top_desc": "Receive personalized oral care and diet recommendations based on your results.",
+            "title": "Turn insights into action with a personalized program",
+            "desc": "<p>Science shows that just “brushing and flossing” doesn’t work the same for everyone. If it did, why would cavities and gum disease still be the most common conditions on the planet? <br\/><br\/>We’ll show you the right hygiene techniques, dietary choices, and oral products to use based on your test results and goals. <\/p>",
+            "img_position": "left",
+            "image_text": "",
+            "blog": "podcast",
+            "btn_title_01": "Get started",
+            "btn_link_01": "#",
+            "btn_title_02": "See a sample report",
+            "btn_link_02": "#"
+          }
+        },
+        "962a25c2-d4e3-40dd-a708-c84860874cda": {
+          "type": "Text",
+          "settings": {
+            "full_width_section": false,
+            "top_title": "Meet your coach",
+            "top_desc": "Review your program and access ongoing support through our team of hygienists.",
+            "title": "Reach your goals with ongoing support from your Bristle coach",
+            "desc": "<p>Don’t wait 6 months for your next checkup. Review your results, ask questions, and stay accountable with dedicated oral health specialists and licensed hygienists. <br\/><br\/>We’re here for you 24\/7.<\/p>",
+            "image": "shopify:\/\/shop_images\/Ellipse_5.png",
+            "img_position": "right",
+            "image_text": "<p>Iman is a licensed oral health expert who’s here to support you along the way. She will:<\/p>\n<ul>\n<li>Review your progress<\/li>\n<li>Answer oral health questions<\/li>\n<li>Explain your microbial results in the context of your unique goals and symptoms<\/li>\n<\/ul>\n<p>We’ll reach out after you receive your results to coordinate your complimentary 1:1 consultation. In the meantime, you can reach out to Iman with questions anytime. <\/p>",
+            "blog": "",
+            "btn_title_01": "Get started",
+            "btn_link_01": "#",
+            "btn_title_02": "",
+            "btn_link_02": ""
+          }
+        },
+        "c9b18a9c-2169-47c2-aa5a-3d6a514d7558": {
+          "type": "Text",
+          "settings": {
+            "full_width_section": false,
+            "top_title": "Measure your progress",
+            "top_desc": "Watch your results measurably improve throughout the year by testing every 3 or 6 months.",
+            "title": "Measure your progress and optimize your routine",
+            "desc": "<p>At the end of the program you’ll re-test your oral microbiome to see your improvement! We’ll update your care plan based on your individual response to different recommendations.<\/p>",
+            "image": "shopify:\/\/shop_images\/Group_279489_1.jpg",
+            "img_position": "left",
+            "image_text": "",
+            "blog": "",
+            "btn_title_01": "Get started",
+            "btn_link_01": "#",
+            "btn_title_02": "",
+            "btn_link_02": ""
+          }
+        }
+      },
+      "block_order": [
+        "82a7ea69-3b04-452f-a648-370425214691",
+        "5b190655-3d90-4f7b-b14f-6c7e445dadc0",
+        "962a25c2-d4e3-40dd-a708-c84860874cda",
+        "c9b18a9c-2169-47c2-aa5a-3d6a514d7558"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "How it works"
+      }
+    },
+    "4856c792-9cec-4615-8f63-1b7511f4899e": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-1": {
+          "type": "title",
+          "settings": {
+            "title": "Ready to get  started?",
+            "heading_size": "h1"
+          }
+        },
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "98c085eb-3606-4846-ae56-78da32cd8f64": {
+          "type": "description",
+          "settings": {}
+        },
+        "421a815c-5586-47b3-9904-ae6ee92f1cd4": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-2": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-4": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-1",
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-0",
+        "98c085eb-3606-4846-ae56-78da32cd8f64",
+        "421a815c-5586-47b3-9904-ae6ee92f1cd4",
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-2",
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-3",
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-4",
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-5",
+        "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-6"
+      ],
+      "settings": {
+        "custom_class": "featured-product-main-new",
+        "product": "copy-of-ready-to-get-started",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "right",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "5f60b75c-5f4f-422a-9a31-a3b7e6a90203": {
+      "type": "sales-author-slider",
+      "blocks": {
+        "72ae9f1b-931e-4108-a119-3d04d45266ab": {
+          "type": "Text",
+          "settings": {
+            "title": "Dr. Staci Whitman, DDS | Pediatric Dentist",
+            "sub_title": "NoPo Kids Dentistry",
+            "desc": "“Since adding Bristle testing to my practice and my Oral Microbiome Reset Program, I have seen tremendous results. Patients have more information and data, which can be very motivating, and we now have metrics to determine if our treatments and protocols are actually shifting things toward health and balance in their children. I am so excited to see where Oral Microbiome research is headed, and Bristle is certainly paving the way toward better patient outcomes and understanding root cause issues within our patients.”",
+            "logo": "shopify:\/\/shop_images\/image_27.png",
+            "image": "shopify:\/\/shop_images\/image_47.png"
+          }
+        },
+        "4a54de33-eb9b-40f6-ba70-68bb4b99a942": {
+          "type": "Text",
+          "settings": {
+            "title": "Dr. Jen Chiang, DDS | General Dentist",
+            "sub_title": "Jennifer Chiang DDS",
+            "desc": "“Bristle is the future of oral health care. With a simple noninvasive saliva test, we can assess patients' periodontal and caries risk rather than just waiting for bone loss and decay. Why wait for a heart attack or stroke to treat cardiovascular diseases if you see elevated biomarkers in blood tests? The same should be true in the future for dental care.”",
+            "image": "shopify:\/\/shop_images\/imgpsh_fullsize_anim.jpg"
+          }
+        },
+        "d7fcf6d0-51d2-4e3f-99a6-c036c40a1901": {
+          "type": "Text",
+          "settings": {
+            "title": "Dr. Chris Strandburg, DDS | General Dentist",
+            "sub_title": "Vision Dental",
+            "desc": "“Most of my patients are timid when talking about bad breath. The Bristle Oral Health Test has helped patients identify the underlying issue of their symptoms and devise treatment solutions that will work best for them.”",
+            "logo": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_8.png",
+            "image": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_1.jpg"
+          }
+        },
+        "b11d2803-1786-415b-af0d-d2ff105d93e9": {
+          "type": "Text",
+          "settings": {
+            "title": "Dr. Mark Burhenne, DDS | General and Family Dentist",
+            "sub_title": "",
+            "desc": "“If you make one investment in your health this entire year, let this be it. The mouth is the gateway to your body and oral bacteria have been associated with a higher risk for systemic conditions including Alzheimer’s, diabetes, cardiovascular disease, and poor pregnancy outcomes. You can’t be healthy without a healthy mouth. And what you don't measure, you cannot manage.”",
+            "image": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "72ae9f1b-931e-4108-a119-3d04d45266ab",
+        "4a54de33-eb9b-40f6-ba70-68bb4b99a942",
+        "d7fcf6d0-51d2-4e3f-99a6-c036c40a1901",
+        "b11d2803-1786-415b-af0d-d2ff105d93e9"
+      ],
+      "settings": {
+        "title": "Hear from <span class=\"red-color\">dentists<\/span> using Bristle"
+      }
+    },
+    "94044604-2064-4658-9b47-25453a9da18b": {
+      "type": "home-result-icon-text",
+      "blocks": {
+        "c295dc57-deaf-41c6-a34c-c6cf9a668532": {
+          "type": "Icon",
+          "settings": {
+            "title": "CLIA Certified Lab",
+            "desc": "Our lab is CLIA-certified (Clinical Laboratory Improvement Amendments). This means they have to meet high standards to obtain both state and federal certifications and submit themselves to regular inspections.",
+            "image": "shopify:\/\/shop_images\/image_14_2.png"
+          }
+        },
+        "35f8cb59-2814-4974-bf57-f23c1f92f6e8": {
+          "type": "Icon",
+          "settings": {
+            "title": "Backed by Science",
+            "desc": "Our test was developed through a research study with the University of Pacific School of Dentistry under an independent review board, and our science is backed by decades of research and over 200 scientific studies.",
+            "image": "shopify:\/\/shop_images\/image_15_3.png"
+          }
+        },
+        "3b56c3ce-15d1-4b35-be77-882e949e1ddb": {
+          "type": "Icon",
+          "settings": {
+            "title": "Secure Data",
+            "desc": "Bristle is HIPAA compliant and we take extensive measures to keep your data 100% secure. We use state-of-the-art encryption to ensure your data is stored securely, and give you control over your personal data.",
+            "image": "shopify:\/\/shop_images\/image_16_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "c295dc57-deaf-41c6-a34c-c6cf9a668532",
+        "35f8cb59-2814-4974-bf57-f23c1f92f6e8",
+        "3b56c3ce-15d1-4b35-be77-882e949e1ddb"
+      ],
+      "settings": {
+        "title": "Results you can <span class=\"red-color\">trust<\/span>"
+      }
+    },
+    "b0082979-5fc3-48c4-88eb-cffec8926af9": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-1": {
+          "type": "title",
+          "settings": {
+            "title": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "82f30c37-8d99-4d40-937d-5dd46669658e": {
+          "type": "description",
+          "settings": {}
+        },
+        "f65c4cd2-9e19-4a5e-95a9-d3c4fefdb866": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-2": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-4": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-1",
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-0",
+        "82f30c37-8d99-4d40-937d-5dd46669658e",
+        "f65c4cd2-9e19-4a5e-95a9-d3c4fefdb866",
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-2",
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-3",
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-4",
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-5",
+        "template--15989163622557__b0082979-5fc3-48c4-88eb-cffec8926af9-16702301435c3a4975-6"
+      ],
+      "settings": {
+        "custom_class": "featured-product-main-new transparent-sec",
+        "product": "copy-of-ready-to-get-started",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "right",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c41df34a-c063-4d7b-93cf-9a9c262b8de0": {
+      "type": "sales-img",
+      "settings": {
+        "custom_class": "",
+        "narrow_sec": true,
+        "image": "shopify:\/\/shop_images\/portrait-beautiful-smiling-blond-model-dressed-summer-hipster-clothes_2.png",
+        "title": "The future of Bristle <br>\nis <span class=\"red-color\">bright<\/span>",
+        "title_mob": "Good health starts with a <span class=\"red-color\">healthy mouth<\/span>",
+        "desc": "Start today and experience consistently better<br> breath within 30 days of getting test results",
+        "desc_mob": "Join us in our mission to reinvent oral health: patient-first, prevention-focused and personalized.",
+        "btn_title": "Learn more about Our Test",
+        "btn_link": "shopify:\/\/pages\/about-us"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cd9b555b-82b5-4fa6-a9ac-25b9f58a7150",
+    "d97a4145-9d50-4c8a-af66-a83023cd3466",
+    "68e41c7a-bb7f-41b4-a860-7712414e5d12",
+    "2e62226f-1a05-4798-ace2-b71b6f2450f1",
+    "7df3d422-2331-41b0-945b-1edefe19e821",
+    "4856c792-9cec-4615-8f63-1b7511f4899e",
+    "5f60b75c-5f4f-422a-9a31-a3b7e6a90203",
+    "94044604-2064-4658-9b47-25453a9da18b",
+    "b0082979-5fc3-48c4-88eb-cffec8926af9",
+    "c41df34a-c063-4d7b-93cf-9a9c262b8de0"
+  ]
+}

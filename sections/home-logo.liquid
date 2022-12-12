@@ -13,18 +13,18 @@
           <img
                       id="Thumbnail-{{ section.id }}-0"
                       srcset="
-                        {% if block.settings.logo.width >= 140 %}{{ block.settings.logo | image_url: width: 140 }} 140w,{% endif %}
-                        {% if block.settings.logo.width >= 374 %}{{ block.settings.logo | image_url: width: 374 }} 374w,{% endif %}
-                        {% if block.settings.logo.width >= 404 %}{{ block.settings.logo | image_url: width: 404 }} 404w,{% endif %}
-                        {% if block.settings.logo.width >= 562 %}{{ block.settings.logo | image_url: width: 562 }} 562w,{% endif %}
-    {% if block.settings.logo.width >= 1400 %}{{ block.settings.logo | image_url: width: 1400 }} 1400w,{% endif %}
-    {% if block.settings.logo.width >= 1200 %}{{ block.settings.logo | image_url: width: 1200 }} 1200w,{% endif %}
-    {% if block.settings.logo.width >= 900 %}{{ block.settings.logo | image_url: width: 900 }} 900w,{% endif %}
-                        {% if block.settings.logo.width >= 1608 %}{{ block.settings.logo | image_url: width: 1608 }} 1608w,{% endif %}
-                        {% if block.settings.logo.width >= 1824 %}{{ block.settings.logo | image_url: width: 1824 }} 1824w,{% endif %}
-                        {% if block.settings.logo.width >= 1916 %}{{ block.settings.logo | image_url: width: 1916 }} 1916w,{% endif %},
-                        {{ block.settings.logo | image_url }} {{ block.settings.logo.width }}w"
-                      src="{{ block.settings.logo | image_url: 'master' }}"
+                        {% if block.settings.logo.width >= 140 %}{{ block.settings.logo | img_url: 'master' }} 140w,{% endif %}
+                        {% if block.settings.logo.width >= 374 %}{{ block.settings.logo | img_url: 'master' }} 374w,{% endif %}
+                        {% if block.settings.logo.width >= 404 %}{{ block.settings.logo | img_url: 'master' }} 404w,{% endif %}
+                        {% if block.settings.logo.width >= 562 %}{{ block.settings.logo | img_url: 'master' }} 562w,{% endif %}
+    {% if block.settings.logo.width >= 1400 %}{{ block.settings.logo | img_url: 'master' }} 1400w,{% endif %}
+    {% if block.settings.logo.width >= 1200 %}{{ block.settings.logo | img_url: 'master' }} 1200w,{% endif %}
+    {% if block.settings.logo.width >= 900 %}{{ block.settings.logo | img_url: 'master' }} 900w,{% endif %}
+                        {% if block.settings.logo.width >= 1608 %}{{ block.settings.logo | img_url: 'master' }} 1608w,{% endif %}
+                        {% if block.settings.logo.width >= 1824 %}{{ block.settings.logo | img_url: 'master' }} 1824w,{% endif %}
+                        {% if block.settings.logo.width >= 1916 %}{{ block.settings.logo | img_url: 'master' }} 1916w,{% endif %},
+                        {{ block.settings.logo | img_url: 'master' }} {{ block.settings.logo.width }}w"
+                      src="{{ block.settings.logo | img_url: 'master' }}"
                       alt="{{ block.settings.logo.alt | escape }}"
                       loading="lazy">
           {%- if block.settings.link != blank -%}

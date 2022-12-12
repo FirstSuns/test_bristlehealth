@@ -6,7 +6,7 @@
         "custom_class": "healthy-smile",
         "narrow_sec": false,
         "image": "shopify:\/\/shop_images\/Mask_group_4.png",
-        "title": "The<span class=\"red-color\"> science<\/span> of a healthy smile",
+        "title": "The<span class=\"red-color\"> science<\/span> of a healthy<br> smile",
         "desc": "",
         "btn_title": "Get started",
         "btn_link": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4"
@@ -16,12 +16,12 @@
       "type": "new-science-img-text-bg",
       "settings": {
         "custom_class": "its-biology",
-        "image": "shopify:\/\/shop_images\/Iphone_Mockup_04-1.png",
-        "image_mob": "shopify:\/\/shop_images\/Iphone_Mockup_04_1_1.png",
-        "title": "Oral health isn’t rocket science-<span class=\"red-color\"> it’s biology<\/span>",
+        "image": "shopify:\/\/shop_images\/newnew.png",
+        "image_mob": "shopify:\/\/shop_images\/Iphone_Mockup_04_1_1_121e24b3-2f91-490e-b909-8dc232ef645f.png",
+        "title": "Oral health isn’t rocket science- <span class=\"red-color\">it’s biology<\/span>",
         "desc": "<p>The oral microbiome is the collection of all the microbes that live in your mouth. Some microbes help break down food, fight off infection, and keep our teeth and gums healthy, while others cause damage to our mouths and bodies. When your oral microbiome is out of balance, it leads to conditions like bad breath, tooth decay and gum disease.<br\/><br\/>The oral microbiome also affects overall health. Oral conditions like gum disease are risk factors for conditions like cardiovascular disease and diabetes.<br\/><br\/>Making small changes to your diet, hygiene and oral products based on your unique biology helps you achieve better oral health through a balanced oral microbiome!<\/p>",
         "btn_title": "Learn the science",
-        "btn_link": "#"
+        "btn_link": "shopify:\/\/pages\/our-about"
       }
     },
     "7a0a22ef-508f-45f6-bf80-e478dddce825": {
@@ -30,24 +30,24 @@
         "69940cfc-6835-4de4-8633-08195f47aece": {
           "type": "Text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bacteria.png",
-            "title": "Our mouths are home to trillions of microbes, known as our <span>oral microbiome<\/span>",
+            "image": "shopify:\/\/shop_images\/x38.png",
+            "title": "Our mouths are home to trillions of microbes, known as our <span class=\"red-color\">oral microbiome<\/span>",
             "desc": "These microbes include a variety of bacteria, viruses, and fungi. Decades of research have shown that most are beneficial and keep us healthy, but others are harmful and cause diseases like cavities and gum disease."
           }
         },
         "ec352df2-d4de-4950-866c-cf77606a81fa": {
           "type": "Text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dna.png",
-            "title": "We use <span>genomics <\/span>to measure the good and harmful bacteria in your saliva",
+            "image": "shopify:\/\/shop_images\/x39.png",
+            "title": "We use <span class=\"red-color\">genomics <\/span>to measure the good and harmful bacteria in your saliva",
             "desc": "Get a complete overview of the good and bad bacteria in your mouth."
           }
         },
         "75956008-257e-408a-88a8-0c7c391774d0": {
           "type": "Text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/atom.png",
-            "title": "We match <span>your unique risk profile <\/span>with our recommendations to help optimize your health",
+            "image": "shopify:\/\/shop_images\/x31_0.png",
+            "title": "We match<span class=\"red-color\"> your unique risk profile<\/span> with our recommendations to help optimize your health",
             "desc": "We've compiled research and consulted with a team of oral health experts to curate the most effective diet, lifestyle, hygiene, and oral care product recommendations for improving your overall health."
           }
         }
@@ -59,7 +59,7 @@
       ],
       "settings": {
         "btn_title": "Check out our Latest Article",
-        "btn_link": "#"
+        "btn_link": "shopify:\/\/blogs\/podcast"
       }
     },
     "ceefde84-ef1a-4154-82b6-68f172aa8a6d": {
@@ -68,25 +68,25 @@
         "529fc6d8-d77f-40b8-9032-832f7c907ade": {
           "type": "Grid",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Good_1.png",
-            "title": "The good: How do good bacteria help us?",
-            "desc": "There are different types of bacteria in our mouth that play critical roles in keeping us healthy and functioning at our best— these are the \"good\" ones."
+            "image": "shopify:\/\/shop_images\/Illustrations_Good.png",
+            "title": "The good bacteria: heroes for a healthy mouth",
+            "desc": "Certain beneficial bacteria help us digest food by breaking down proteins and sugars in the foods we eat. The good ones also stimulate saliva, which is our body’s natural healer and cleanser — it contains minerals that help repair the surface of our teeth through remineralization. It’s important to nurture these good bacteria to keep us healthy and functioning at our best. Examples of these species include Lactobacillus reuteri and Neisseria mucosa."
           }
         },
         "1cd23bef-7633-41dd-9e0d-c40bd2e622af": {
           "type": "Grid",
           "settings": {
-            "image": "shopify:\/\/shop_images\/UGLY_1.png",
-            "title": "The bad: What is the result of bad bacteria?",
-            "desc": "Bad bacteria in our mouths convert sugar from the foods and drinks we consume into acid that erodes our teeth and the surrounding gums. An acidic environment in our mouth supports plaque buildup, a sticky coating on our teeth called biofilm. As plaque hardens on and around our teeth, it becomes tartar, weakening our teeth and gums."
+            "image": "shopify:\/\/shop_images\/Illustrations_Bad.png",
+            "title": "The bad bacteria: drivers of oral disease",
+            "desc": "Harmful bacteria can wreak havoc in our mouth and cause numerous oral health issues like bad breath and gum disease. These bacteria feed on sugar from our diet and produce acid that erodes our teeth, leading to decay and cavities. They can also build up around the gum line and cause bleeding, inflammation, and recession of the gums. Examples of these species include Streptococcus mutans and Tannerella forsythia."
           }
         },
         "b2a2b333-827d-4a69-ab1b-0ec61055ead8": {
           "type": "Grid",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BAD_1.png",
-            "title": "The ugly: The downstream effects of poor oral health?",
-            "desc": "The connection between our mouths and the rest of our bodies go far beyond chewing, swallowing, and digesting food. The bad bacteria in our oral cavity can travel throughout the rest of our body."
+            "image": "shopify:\/\/shop_images\/Illustrations_Ugly.png",
+            "title": "The ugly bacteria: villains to whole-body health",
+            "desc": "The connection between our mouths and the rest of our bodies go far beyond chewing, swallowing, and digesting food. Certain bacteria in our oral cavity can travel throughout our body and have been associated to conditions including Alzheimer’s disease, adverse pregnancy outcomes, diabetes, cardiovascular disease, and gut disorders. Examples of these species include Fusobacterium nucleatum and Porphyromonas gingivalis."
           }
         }
       },
@@ -96,9 +96,9 @@
         "b2a2b333-827d-4a69-ab1b-0ec61055ead8"
       ],
       "settings": {
-        "title": "The good, the bad, and<span class=\"red-color\"> the ugly.<\/span>",
-        "btn_title": "Purchase",
-        "btn_link": "#"
+        "title": "The good, the bad, and <span class=\"red-color\">the ugly.<\/span>",
+        "btn_title": "Get started",
+        "btn_link": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4"
       }
     },
     "86bed344-b3b6-447d-a127-0b482250826f": {
@@ -107,7 +107,7 @@
         "30e869e3-de39-4180-9b30-52508aee74a1": {
           "type": "Text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/001-ruler.png",
+            "image": "shopify:\/\/shop_images\/x36__1.png",
             "title": "Measure",
             "desc": "By measuring the number of good and bad bacteria we have in our oral microbiome, we can gain insights into our unique microbiome and understand our oral health status."
           }
@@ -115,7 +115,7 @@
         "cacb64aa-a573-4aea-9032-47d834fd2eca": {
           "type": "Text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_15_1.png",
+            "image": "shopify:\/\/shop_images\/x31_2.png",
             "title": "Track",
             "desc": "Poor oral health can be the result of diet, poor hygiene, medications, and other lifestyle decisions. Once we understand our oral health we can create a plan to optimize it."
           }
@@ -123,7 +123,7 @@
         "42173679-b952-45fd-b0fd-8c646cc337bb": {
           "type": "Text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/002-like.png",
+            "image": "shopify:\/\/shop_images\/x31_3.png",
             "title": "Improve",
             "desc": "Not all oral health tips and products are effective at fighting off bad bacteria. With Bristle, you can measure your risk for disease over time and see what actually works."
           }
@@ -137,8 +137,8 @@
       "settings": {
         "title": "Spit happens.",
         "sub_title": "What can we do about it?",
-        "image": "shopify:\/\/shop_images\/Group_279473_1_1.png",
-        "image_mob": "shopify:\/\/shop_images\/Group_279473_1_1_2a306f9a-0276-4139-9b1d-ac6ecbbedfed.png"
+        "image": "shopify:\/\/shop_images\/Phone.png",
+        "image_mob": "shopify:\/\/shop_images\/Group_279473_1_5a34f688-a989-49ed-9c21-14b125c459b3.png"
       }
     },
     "6d1b033b-755c-48ab-b730-69e08b768929": {
@@ -152,7 +152,7 @@
             "top_desc": "Get an in-depth report detailing the bacteria in your mouth and its impact to your health.",
             "title": "Get started with our at-home saliva test",
             "desc": "<p>Dental checkups only look for existing problems like cavities or gum disease. Instead of looking for symptoms to treat, Bristle analyzes your saliva to identify the bacteria in your mouth that cause those symptoms. By detecting these bacteria at the earliest stages we can help you prevent the onset of disease.<br\/><br\/>Our test was developed from the ground-up using clinical research and your results are compared against thousands of other samples.<\/p>",
-            "image": "shopify:\/\/shop_images\/new1.png",
+            "image": "shopify:\/\/shop_images\/Group_279492_1_1.png",
             "img_position": "right",
             "image_text": "",
             "blog": "",
@@ -176,7 +176,7 @@
             "btn_title_01": "Get started",
             "btn_link_01": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4",
             "btn_title_02": "See a sample report",
-            "btn_link_02": "#"
+            "btn_link_02": "shopify:\/\/pages\/sample-report"
           }
         },
         "1a3e78cb-35be-4f58-bf13-334392d9a276": {
@@ -205,7 +205,7 @@
             "top_desc": "Watch your results measurably improve throughout the year by testing every 3 or 6 months.",
             "title": "Measure your progress and optimize your routine",
             "desc": "<p>At the end of the program you’ll re-test your oral microbiome to see your improvement! We’ll update your care plan based on your individual response to different recommendations.<\/p>",
-            "image": "shopify:\/\/shop_images\/Group_279489_1.png",
+            "image": "shopify:\/\/shop_images\/Group_279489_1.jpg",
             "img_position": "left",
             "image_text": "",
             "blog": "",
@@ -223,6 +223,7 @@
         "56f4a3fa-ba57-46a2-a0ee-eb2ba598fbc1"
       ],
       "settings": {
+        "custom_class": "",
         "title": "How it works"
       }
     },
@@ -232,6 +233,7 @@
         "template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4-1668236944503ece31-1": {
           "type": "title",
           "settings": {
+            "title": "Ready to get  started?",
             "heading_size": "h1"
           }
         },
@@ -313,8 +315,8 @@
         "image": "shopify:\/\/shop_images\/Group_279524.png",
         "title": "Good health starts with a <span class=\"red-color\">healthy mouth<\/span>",
         "desc": "Join us in our mission to reinvent oral health: patient-first, prevention-focused and personalized.",
-        "btn_title": "Check out our Latest Article",
-        "btn_link": "#"
+        "btn_title": "Learn more about Our Test",
+        "btn_link": "shopify:\/\/pages\/our-about"
       }
     },
     "88e8466c-76b9-444a-93c0-6d5974cb86ea": {
@@ -323,6 +325,7 @@
         "e9daa88a-5b76-4c22-b291-66ed4481ec18": {
           "type": "Image",
           "settings": {
+            "blog": "",
             "image": "shopify:\/\/shop_images\/2_d9316c33-c796-4177-aeba-c92a3b9b448f.png",
             "title": "Can bacteria in the oral microbiome cause IBD?",
             "btn_title": "Read more",
@@ -332,6 +335,7 @@
         "954515bc-32dc-485c-b9de-b413c042483c": {
           "type": "Image",
           "settings": {
+            "blog": "",
             "image": "shopify:\/\/shop_images\/1_6e54f9d1-17fb-4c88-a6b9-fc1cea1e8c6c.png",
             "title": "A guide to oral probiotics and dental probiotics",
             "btn_title": "Read more",
@@ -341,6 +345,7 @@
         "5154c9b7-938a-456c-b5bf-ecc3423cde20": {
           "type": "Image",
           "settings": {
+            "blog": "",
             "image": "shopify:\/\/shop_images\/3_141d3d98-fc30-4347-a8fb-cd0d7418d32f.png",
             "title": "Halitosis (bad breath) – causes and treatments",
             "btn_title": "Read more",
@@ -353,7 +358,12 @@
         "954515bc-32dc-485c-b9de-b413c042483c",
         "5154c9b7-938a-456c-b5bf-ecc3423cde20"
       ],
-      "settings": {}
+      "settings": {
+        "title": "",
+        "btn_title": "",
+        "btn_link": "",
+        "blog": "podcast"
+      }
     }
   },
   "order": [

@@ -1,4 +1,4 @@
-<div class="home-how-it-works-section dddddd">
+<div class="home-how-it-works-section {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %} ">
   
     {%- if section.settings.title != blank -%}
       <div class="container">
@@ -32,18 +32,18 @@
                <img
                       id="Thumbnail-{{ section.id }}-0"
                       srcset="
-                        {% if block.settings.image.width >= 254 %}{{ block.settings.image | image_url: width: 254 }} 254w,{% endif %}
-                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | image_url: width: 374 }} 374w,{% endif %}
-                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | image_url: width: 404 }} 404w,{% endif %}
-                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | image_url: width: 562 }} 562w,{% endif %}
-    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
-    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
-    {% if block.settings.image.width >= 900 %}{{ block.settings.image | image_url: width: 900 }} 900w,{% endif %}
-                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
-                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
-                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
-                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
-                      src="{{ block.settings.image | image_url: 'master' }}"
+                        {% if block.settings.image.width >= 254 %}{{ block.settings.image | img_url: 'master' }} 254w,{% endif %}
+                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | img_url: 'master' }} 374w,{% endif %}
+                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | img_url: 'master' }} 404w,{% endif %}
+                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | img_url: 'master' }} 562w,{% endif %}
+    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | img_url: 'master' }} 1400w,{% endif %}
+    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | img_url: 'master' }} 1200w,{% endif %}
+    {% if block.settings.image.width >= 900 %}{{ block.settings.image | img_url: 'master' }} 900w,{% endif %}
+                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | img_url: 'master' }} 1608w,{% endif %}
+                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | img_url: 'master' }} 1824w,{% endif %}
+                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | img_url: 'master' }} 1916w,{% endif %},
+                        {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | img_url: 'master' }}"
                       alt="{{ block.settings.image.alt | escape }}"
                       loading="lazy">
               {%- endif -%}
@@ -86,8 +86,9 @@
               
             </div>
             <div class="mobile_show home-how-it-works-left home-how-it-works-image   {% if block.settings.image_text != blank %} image-with-text-main-sec{% endif %}">
-         <div class="home-how-it-works-image-inner">
-           <h4><span class="h4-text-main">View full report</span><span class="h4-text-new">Hide full report</span> <span>{% render 'down-arrow' %}</span></h4>
+         {% if block.settings.image != blank %}
+          <div class="home-how-it-works-image-inner">
+           {% comment %} <h4><span class="h4-text-main">View full report</span><span class="h4-text-new"></span>Hide full report<span>{% render 'down-arrow' %}</span></h4> {% endcomment %}
               <div class="view-report-data">
           <img
                       id="Thumbnail-{{ section.id }}-0"
@@ -111,7 +112,7 @@
                 {{ block.settings.image_text }}
               </div>
               {%- endif -%}</div>
-            </div>  </div>
+            </div> {% endif %} </div>
             <div class="home-how-it-works-right home-how-it-works-text">
               {%- if block.settings.title != blank -%}
               <h2>{{ block.settings.title }}</h2>
@@ -211,6 +212,11 @@ $(document).ready(function(){
   {
     "name": "Home How It Works",
     "settings": [
+      {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
       {
         "type": "text",
         "id": "title",

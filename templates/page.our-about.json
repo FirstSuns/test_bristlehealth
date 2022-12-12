@@ -1,0 +1,570 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cd9b555b-82b5-4fa6-a9ac-25b9f58a7150": {
+      "type": "banner-with-as-seen-on",
+      "disabled": true,
+      "settings": {
+        "img": "shopify:\/\/shop_images\/629e16497121d413485e0a46_background_image.webp",
+        "title": "Take the guesswork out of your oral health",
+        "subtext": "Get insight into the root cause of bad breath, tooth decay, gum inflammation, and other conditions with an at-home oral microbiome test. Receive personalized product, hygiene, and diet recommendations to start improving your health.",
+        "btn_label": "Improve your oral health",
+        "btn_link": "",
+        "heading": "",
+        "icons": ""
+      }
+    },
+    "30816601-71bc-4eac-9f16-ae50f4610578": {
+      "type": "science-img-text",
+      "settings": {
+        "custom_class": "behind-test",
+        "narrow_sec": true,
+        "image": "shopify:\/\/shop_images\/Bristle_-_Product_Shoot_-_September_2022_-_Lead_Wolf_Studio_-_-49_1_1_1.png",
+        "title": "<span class=\"red-color\">The tech<\/span> behind the test",
+        "desc": "We developed the world’s first and most advanced oral health test to help you easily and effectively improve your health. Learn about it 👇",
+        "btn_title": "Get started",
+        "btn_link": "#"
+      }
+    },
+    "8783acea-3b03-43b2-aa6b-572da8b645d6": {
+      "type": "our-about-text-grid",
+      "blocks": {
+        "250cf307-b960-4b2c-8532-8fc10a902739": {
+          "type": "Text",
+          "settings": {
+            "title": "$130B",
+            "sub_title": "US annual spend on dental care",
+            "desc": "Today’s dental care is ineffective and only detects and treats existing disease, instead of preventing it."
+          }
+        },
+        "d70b07f3-e5d5-4912-9c71-3054f08345c5": {
+          "type": "Text",
+          "settings": {
+            "title": "50%",
+            "sub_title": "of US Adults have some form of gum disease",
+            "desc": "Oral diseases are the most prevalent chronic condition on the planet - despite being almost entirely preventable."
+          }
+        },
+        "cb733ad2-9ec5-4544-8a5d-8f5a019fc829": {
+          "type": "Text",
+          "settings": {
+            "title": "$1,000\/yr",
+            "sub_title": "average American cost dental care",
+            "desc": "This leads to expensive out-of-pocket costs and procedures, and an increased risk of chronic diseases like diabetes, heart disease, and cognitive decline."
+          }
+        }
+      },
+      "block_order": [
+        "250cf307-b960-4b2c-8532-8fc10a902739",
+        "d70b07f3-e5d5-4912-9c71-3054f08345c5",
+        "cb733ad2-9ec5-4544-8a5d-8f5a019fc829"
+      ],
+      "settings": {
+        "title": "Good health starts with a <span class=\"red-color\">healthy mouth<\/span>",
+        "desc": "But the industry hasn’t been treating it that way"
+      }
+    },
+    "e935e028-ccac-4234-bb81-747bc06894f1": {
+      "type": "home-icon-text",
+      "blocks": {
+        "05245598-4837-4440-b8b8-cdad0ceab90f": {
+          "type": "Icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/x32.png",
+            "title": "Preventive",
+            "desc": "Identify the root-cause of conditions and understand your risk before they become problems"
+          }
+        },
+        "9fa29c59-b93c-4b93-968d-11c9cc965aa9": {
+          "type": "Icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_3.png",
+            "title": "Precise",
+            "desc": "Take the guesswork out of your oral care with targeted recommendations that make an immediate impact."
+          }
+        },
+        "f463cb24-aef9-47de-bad1-5333d9cd0704": {
+          "type": "Icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/x34.png",
+            "title": "Personalized",
+            "desc": "Get a tailored program based on your test results & personal preference along with 1:1 coaching."
+          }
+        }
+      },
+      "block_order": [
+        "05245598-4837-4440-b8b8-cdad0ceab90f",
+        "9fa29c59-b93c-4b93-968d-11c9cc965aa9",
+        "f463cb24-aef9-47de-bad1-5333d9cd0704"
+      ],
+      "settings": {
+        "title": "This is the way it should be",
+        "btn_title": "Get started",
+        "btn_link": "#"
+      }
+    },
+    "9dc62569-3f1c-4b09-b551-b7c5bdd8cfbb": {
+      "type": "home-real-improvement",
+      "settings": {
+        "custom_class": "about-its-biology",
+        "title": "Oral health isn’t rocket science - <span class=\"red-color\">it’s biology<\/span>",
+        "desc": "",
+        "image": "shopify:\/\/shop_images\/Mask_group_15.png",
+        "left_desc": "<h2>Oral health isn’t rocket science - <span class=\"red-color\">it’s biology<\/span>\n<\/h2>\n<p>The oral microbiome is the collection of all the microbes that live in your mouth. Some microbes help break down food, fight off infection, and keep our teeth and gums healthy, while others cause damage to our mouths and bodies. When your oral microbiome is out of balance, it leads to conditions like bad breath, tooth decay and gum disease.<\/p>\n<p>The oral microbiome also affects overall health. Oral conditions like gum disease are risk factors for conditions like cardiovascular disease and diabetes.<\/p>\n<p>Making small changes to your diet, hygiene and oral products based on your unique biology helps you achieve better oral health through a balanced oral microbiome!<\/p>",
+        "btn_title": "Learn the science",
+        "btn_link": "shopify:\/\/pages\/new-science"
+      }
+    },
+    "c6b3d23d-c3b9-4ce6-a280-b33c91670174": {
+      "type": "home-real-improvement",
+      "settings": {
+        "custom_class": "about-through-science no-margin",
+        "title": "Improving health through <span class=\"red-color\">science<\/span>",
+        "desc": "",
+        "image": "shopify:\/\/shop_images\/Iphone_Mockup_04_1_3.png",
+        "left_desc": "<h3>There are <i>thousands<\/i> of microbes associated with your oral microbiome. <\/h3>\n<h4>We developed the world’s first test that analyzes all of them.  <\/h4>\n<p>We use shotgun metagenomic sequencing to identify all of the microbes in your mouth and data from thousands of samples to provide insights into your health - all from a single saliva sample.<\/p>",
+        "btn_title": "Learn about our study",
+        "btn_link": "#"
+      }
+    },
+    "597c5d80-227b-4179-9bf9-636995ad419b": {
+      "type": "home-real-improvement",
+      "settings": {
+        "custom_class": "retain-biology",
+        "title": "",
+        "desc": "",
+        "image": "shopify:\/\/shop_images\/Group_279596.png",
+        "left_desc": "<h3>Oral health takes<i> more than brushing and flossing<\/i>\n<\/h3>\n<h2>Retrain your biology to improve your oral health<\/h2>\n<p>We go way beyond the same advice you constantly hear and take a holistic approach to improving oral health at the biological level... something something something<\/p>",
+        "btn_title": "",
+        "btn_link": ""
+      }
+    },
+    "a4515a40-0a4b-498a-895b-7954ee03eda0": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "f331d4a2-2eb8-465a-bb5f-f58f0751cb4a": {
+          "type": "caption",
+          "settings": {
+            "caption": "Oral health takes more than brushing and flossing",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "template--15989246558365__a4515a40-0a4b-498a-895b-7954ee03eda0-1670474026bd1b90ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Retrain your biology to improve your oral health",
+            "heading_size": "h1"
+          }
+        },
+        "template--15989246558365__a4515a40-0a4b-498a-895b-7954ee03eda0-1670474026bd1b90ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We go way beyond the same advice you constantly hear and take a holistic approach to improving oral health at the biological level... something something something<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "f331d4a2-2eb8-465a-bb5f-f58f0751cb4a",
+        "template--15989246558365__a4515a40-0a4b-498a-895b-7954ee03eda0-1670474026bd1b90ad-0",
+        "template--15989246558365__a4515a40-0a4b-498a-895b-7954ee03eda0-1670474026bd1b90ad-1"
+      ],
+      "settings": {
+        "custom_class": "retain-biology",
+        "image": "shopify:\/\/shop_images\/Group_279596.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    },
+    "6381c212-474e-41c3-8fab-f5bf91d0a739": {
+      "type": "oral-health-text",
+      "settings": {
+        "desc": "<h2>Retrain your biology to <span class=\"red-color\">improve your oral health<\/span> <span class=\"next-block\">(FYI: it takes more than brushing and flossing)<\/span>\n<\/h2>\n<p>We go way beyond the same advice you constantly hear and take a holistic approach to <span>improving oral <br>health<\/span> at the biological level... something something something<\/p>"
+      }
+    },
+    "6ed5b418-8e5d-4f6d-89e0-0dee68742609": {
+      "type": "home-how-it-works",
+      "blocks": {
+        "ea56a5a1-b655-4e30-941e-cbb0839040a4": {
+          "type": "Text",
+          "settings": {
+            "full_width_section": false,
+            "top_title": "Step 1",
+            "top_desc": "Curate the latest scientific literature and research",
+            "title": "",
+            "desc": "<p>Our first step in vetting a new product or treatment is to look at the scientific literature, which usually starts at PubMed Central (PMC). This is an archive of biomedical and life science journal literature created by the National Institutes of Health and National Library of Medicine and serves as a \"Google for scientific literature\". For this example, let's search \"nano-hydroxyapatite toothpaste\" which is a toothpaste ingredient that has recently grown in popularity. We get these results.<br\/><\/p>",
+            "image": "shopify:\/\/shop_images\/image_46_1.png",
+            "img_position": "left",
+            "image_text": "",
+            "blog": "",
+            "btn_title_01": "",
+            "btn_link_01": "",
+            "btn_title_02": "",
+            "btn_link_02": ""
+          }
+        },
+        "06408972-913f-46f9-932f-cf15e997bb88": {
+          "type": "Text",
+          "settings": {
+            "full_width_section": false,
+            "top_title": "Step 2",
+            "top_desc": "Vet the journal \nand authors",
+            "title": "",
+            "desc": "<p>Our first step in vetting a new product or treatment is to look at the scientific literature, which usually starts at PubMed Central (PMC). This is an archive of biomedical and life science journal literature created by the National Institutes of Health and National Library of Medicine and serves as a \"Google for scientific literature\". For this example, let's search \"nano-hydroxyapatite toothpaste\" which is a toothpaste ingredient that has recently grown in popularity. We get these results.<br\/><\/p>",
+            "image": "shopify:\/\/shop_images\/image_49_b71bc9f8-c6e0-406e-a26f-4bbcae568404.png",
+            "img_position": "left",
+            "image_text": "",
+            "blog": "",
+            "btn_title_01": "",
+            "btn_link_01": "",
+            "btn_title_02": "",
+            "btn_link_02": ""
+          }
+        },
+        "60d3e780-245a-48ee-80b7-743ffb0c08ea": {
+          "type": "Text",
+          "settings": {
+            "full_width_section": false,
+            "top_title": "Step 3",
+            "top_desc": "Evaluate the study design",
+            "title": "",
+            "desc": "<p>Our first step in vetting a new product or treatment is to look at the scientific literature, which usually starts at PubMed Central (PMC). This is an archive of biomedical and life science journal literature created by the National Institutes of Health and National Library of Medicine and serves as a \"Google for scientific literature\". For this example, let's search \"nano-hydroxyapatite toothpaste\" which is a toothpaste ingredient that has recently grown in popularity. We get these results.<br\/><\/p>",
+            "image": "shopify:\/\/shop_images\/image_46_1.png",
+            "img_position": "left",
+            "image_text": "",
+            "blog": "",
+            "btn_title_01": "",
+            "btn_link_01": "",
+            "btn_title_02": "",
+            "btn_link_02": ""
+          }
+        },
+        "18e62a54-4d7a-4bca-bcfe-1bcfad96eb58": {
+          "type": "Text",
+          "settings": {
+            "full_width_section": false,
+            "top_title": "Step 4",
+            "top_desc": "Consult our expert \nnetwork",
+            "title": "",
+            "desc": "<p>Our first step in vetting a new product or treatment is to look at the scientific literature, which usually starts at PubMed Central (PMC). This is an archive of biomedical and life science journal literature created by the National Institutes of Health and National Library of Medicine and serves as a \"Google for scientific literature\". For this example, let's search \"nano-hydroxyapatite toothpaste\" which is a toothpaste ingredient that has recently grown in popularity. We get these results.<br\/><\/p>",
+            "image": "shopify:\/\/shop_images\/image_49_b71bc9f8-c6e0-406e-a26f-4bbcae568404.png",
+            "img_position": "left",
+            "image_text": "",
+            "blog": "",
+            "btn_title_01": "",
+            "btn_link_01": "",
+            "btn_title_02": "",
+            "btn_link_02": ""
+          }
+        }
+      },
+      "block_order": [
+        "ea56a5a1-b655-4e30-941e-cbb0839040a4",
+        "06408972-913f-46f9-932f-cf15e997bb88",
+        "60d3e780-245a-48ee-80b7-743ffb0c08ea",
+        "18e62a54-4d7a-4bca-bcfe-1bcfad96eb58"
+      ],
+      "settings": {
+        "custom_class": "no-margin",
+        "title": ""
+      }
+    },
+    "bf330e36-c3a0-4668-a759-ef8e906cf014": {
+      "type": "new-science-img-text-grid-blog",
+      "blocks": {
+        "c53239dd-03a2-493a-a344-5943506758c5": {
+          "type": "Image",
+          "settings": {
+            "blog": "",
+            "image": "shopify:\/\/shop_images\/Rectangle_144432515_3.png",
+            "title": "Can bacteria in the oral microbiome cause IBD?",
+            "btn_title": "Read more",
+            "btn_url": "#"
+          }
+        },
+        "e51844ed-c428-480f-8bc4-baaad4aa8417": {
+          "type": "Image",
+          "settings": {
+            "blog": "",
+            "image": "shopify:\/\/shop_images\/Rectangle_144432516_1.png",
+            "title": "A guide to oral probiotics and dental probiotics",
+            "btn_title": "Read more",
+            "btn_url": "#"
+          }
+        },
+        "18c4c41d-e19f-4567-919a-cd956e7e7081": {
+          "type": "Image",
+          "settings": {
+            "blog": "",
+            "image": "shopify:\/\/shop_images\/Rectangle_16_1.png",
+            "title": "Halitosis (bad breath) – causes and treatments",
+            "btn_title": "Read more",
+            "btn_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "c53239dd-03a2-493a-a344-5943506758c5",
+        "e51844ed-c428-480f-8bc4-baaad4aa8417",
+        "18c4c41d-e19f-4567-919a-cd956e7e7081"
+      ],
+      "settings": {
+        "title": "Read about our latest discoveries",
+        "btn_title": "Check out our Latest Article",
+        "btn_link": "shopify:\/\/blogs\/podcast",
+        "blog": "podcast"
+      }
+    },
+    "4ae3621f-fb54-499c-b728-1df4f964ec5c": {
+      "type": "sales-author-slider",
+      "blocks": {
+        "a1d15799-7b19-4ed7-bd86-461cf17121e4": {
+          "type": "Text",
+          "settings": {
+            "title": "Dr. Staci Whitman, DDS | Pediatric Dentist",
+            "sub_title": "NoPo Kids Dentistry",
+            "desc": "“Since adding Bristle testing to my practice and my Oral Microbiome Reset Program, I have seen tremendous results. Patients have more information and data, which can be very motivating, and we now have metrics to determine if our treatments and protocols are actually shifting things toward health and balance in their children. I am so excited to see where Oral Microbiome research is headed, and Bristle is certainly paving the way toward better patient outcomes and understanding root cause issues within our patients.”",
+            "logo": "shopify:\/\/shop_images\/image_27.png",
+            "image": "shopify:\/\/shop_images\/image_47.png"
+          }
+        },
+        "59bcf33d-c9b5-47fe-b6ff-b885e302c3c4": {
+          "type": "Text",
+          "settings": {
+            "title": "Dr. Jen Chiang, DDS | General Dentist",
+            "sub_title": "Jennifer Chiang DDS",
+            "desc": "“Bristle is the future of oral health care. With a simple noninvasive saliva test, we can assess patients' periodontal and caries risk rather than just waiting for bone loss and decay. Why wait for a heart attack or stroke to treat cardiovascular diseases if you see elevated biomarkers in blood tests? The same should be true in the future for dental care.”",
+            "image": "shopify:\/\/shop_images\/imgpsh_fullsize_anim.jpg"
+          }
+        },
+        "14d68390-35c4-4a05-b2aa-3ed534fb04de": {
+          "type": "Text",
+          "settings": {
+            "title": "Dr. Chris Strandburg, DDS | General Dentist",
+            "sub_title": "Vision Dental ( Image and logo attached)",
+            "desc": "“Most of my patients are timid when talking about bad breath. The Bristle Oral Health Test has helped patients identify the underlying issue of their symptoms and devise treatment solutions that will work best for them.”",
+            "logo": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_8.png",
+            "image": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_1.jpg"
+          }
+        },
+        "e4536fcc-b220-408b-9f04-8986c1289734": {
+          "type": "Text",
+          "settings": {
+            "title": "Dr. Mark Burhenne, DDS | General and Family Dentist",
+            "sub_title": "",
+            "desc": "“If you make one investment in your health this entire year, let this be it. The mouth is the gateway to your body and oral bacteria have been associated with a higher risk for systemic conditions including Alzheimer’s, diabetes, cardiovascular disease, and poor pregnancy outcomes. You can’t be healthy without a healthy mouth. And what you don't measure, you cannot manage.”",
+            "image": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a1d15799-7b19-4ed7-bd86-461cf17121e4",
+        "59bcf33d-c9b5-47fe-b6ff-b885e302c3c4",
+        "14d68390-35c4-4a05-b2aa-3ed534fb04de",
+        "e4536fcc-b220-408b-9f04-8986c1289734"
+      ],
+      "settings": {
+        "title": "Hear from <span class=\"red-color\">dentists<\/span> using Bristle"
+      }
+    },
+    "cbb958ca-7589-4992-b11e-a30384d1e15b": {
+      "type": "home-real-improvement",
+      "settings": {
+        "custom_class": "real-people",
+        "title": "Real people, <span class=\"red-color\">real improvements<\/span>",
+        "desc": "Our mission is to improve oral health - and we’re doing a pretty really good job 😀",
+        "image": "shopify:\/\/shop_images\/image_43_3.png",
+        "left_desc": "\"To say that Bristle changed the course of my health for the better would be a total understatement.\"",
+        "btn_title": "Read full story",
+        "btn_link": "#"
+      }
+    },
+    "d8bba8bc-47e3-4f7b-a127-de867e24a195": {
+      "type": "home-review",
+      "blocks": {
+        "4c5abc6b-f201-4aff-8255-eb47eea0d19c": {
+          "type": "Review",
+          "settings": {
+            "title": "Langford",
+            "sub_title": "Los Angeles, CA",
+            "desc_title": "I'm thrilled to have discovered them.",
+            "desc": "I found Bristle while taking steps to fix some recurring gut issues, I wasn't aware of how connected your mouth flora and gut flora are until I began following the Bristle regiment and now my overall digestive and oral health are better than I even thought possible"
+          }
+        },
+        "c6c3b95e-56aa-4d75-9efd-2c514d4323f5": {
+          "type": "Review",
+          "settings": {
+            "title": "Donna",
+            "sub_title": "Los Angeles, CA",
+            "desc_title": "I absolutely love Bristle, it's a game changer.",
+            "desc": "I absolutely love Bristle, it's a game changer. My test results gave me detailed results with actionable easy steps to take to get my oral health back on track. The entire team is very helpful, responsive and kind!"
+          }
+        },
+        "0394d5b3-f2a7-445a-83f3-35060777b417": {
+          "type": "Review",
+          "settings": {
+            "title": "Olivia",
+            "sub_title": "Los Angeles, CA",
+            "desc_title": "I am so grateful for Bristle",
+            "desc": "Bristle has been such an incredible resource to help me better understand the source of bad breath and my overall health. I have been struggling to combat bad breath for over a decade and was unable to find a solution. After visits with my dentist, G.I. Specialist, and ENT"
+          }
+        }
+      },
+      "block_order": [
+        "4c5abc6b-f201-4aff-8255-eb47eea0d19c",
+        "c6c3b95e-56aa-4d75-9efd-2c514d4323f5",
+        "0394d5b3-f2a7-445a-83f3-35060777b417"
+      ],
+      "settings": {}
+    },
+    "1670476875fda8c96e": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "acb67c49-13be-45bd-8e1a-f18cd8a97c41": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "acb67c49-13be-45bd-8e1a-f18cd8a97c41"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-1": {
+          "type": "title",
+          "settings": {
+            "title": "Ready to get  started?",
+            "heading_size": "h1"
+          }
+        },
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-0": {
+          "type": "text",
+          "settings": {
+            "text": "Join Bristle",
+            "text_style": "uppercase"
+          }
+        },
+        "807e935e-399a-4424-8158-a127d60fcb96": {
+          "type": "description",
+          "settings": {}
+        },
+        "b1886370-5c23-4391-9dd8-bcc23ec3ca99": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-2": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-4": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-1",
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-0",
+        "807e935e-399a-4424-8158-a127d60fcb96",
+        "b1886370-5c23-4391-9dd8-bcc23ec3ca99",
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-2",
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-3",
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-4",
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-5",
+        "template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46-1670476927fc7769e9-6"
+      ],
+      "settings": {
+        "custom_class": "",
+        "product": "copy-of-ready-to-get-started",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "right",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "68c690b9-fc51-4b63-8a12-947244bb2f2e": {
+      "type": "science-img-text",
+      "settings": {
+        "custom_class": "healthy-mouth",
+        "narrow_sec": true,
+        "image": "shopify:\/\/shop_images\/portrait-beautiful-smiling-blond-model-dressed-summer-hipster-clothes_2_1.png",
+        "title": "The future of Bristle \nis<span class=\"red-color\"> bright<\/span>",
+        "desc": "<p>Bristle continues to focus on ways to make personalized dental care more available to everyone. By prioritizing simplicity and science, we can ensure that our in-depth reporting empowers both patients and dental professionals to make better decisions for both preventative care and ongoing treatment.<\/p>\n<h6>Want to get your dentist involved? Send them to our providers page.<\/h6>",
+        "btn_title": "Leran more!",
+        "btn_link": "#"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cd9b555b-82b5-4fa6-a9ac-25b9f58a7150",
+    "30816601-71bc-4eac-9f16-ae50f4610578",
+    "8783acea-3b03-43b2-aa6b-572da8b645d6",
+    "e935e028-ccac-4234-bb81-747bc06894f1",
+    "9dc62569-3f1c-4b09-b551-b7c5bdd8cfbb",
+    "c6b3d23d-c3b9-4ce6-a280-b33c91670174",
+    "597c5d80-227b-4179-9bf9-636995ad419b",
+    "a4515a40-0a4b-498a-895b-7954ee03eda0",
+    "6381c212-474e-41c3-8fab-f5bf91d0a739",
+    "6ed5b418-8e5d-4f6d-89e0-0dee68742609",
+    "bf330e36-c3a0-4668-a759-ef8e906cf014",
+    "4ae3621f-fb54-499c-b728-1df4f964ec5c",
+    "cbb958ca-7589-4992-b11e-a30384d1e15b",
+    "d8bba8bc-47e3-4f7b-a127-de867e24a195",
+    "1670476875fda8c96e",
+    "b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46",
+    "68c690b9-fc51-4b63-8a12-947244bb2f2e"
+  ]
+}

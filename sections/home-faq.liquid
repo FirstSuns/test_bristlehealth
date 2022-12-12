@@ -1,0 +1,116 @@
+<div class="home-faq-section">
+  <div class="container">
+    {% if section.settings.title != blank %}
+    <div class="home-faq-title">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+    {% endif %}
+    <div class="home-faq">
+      {% for block in section.blocks %}
+      <div class="home-faq-wrap">
+        {% if block.settings.question != blank %}
+        <h4><span class="text">{{ block.settings.question }}</span> <span class="icon"></span></h4>
+        {% endif %}
+        {% if block.settings.answer != blank %}
+        <div class="home-faq-desc">
+          <p>{{ block.settings.answer }}</p>
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <div class="home-faq-title-bottom">
+      {% if section.settings.sub_title != blank %}
+      <h3>{{ section.settings.sub_title }}</h3>
+      {% endif %}
+      <div class="home-faq-title-bottom-btn">
+        {% if section.settings.btn_link_01 != blank and section.settings.btn_title_01 != blank %}
+        <a class="btn btn-secondary btn-large" href="{{ section.settings.btn_link_01 }}">{{ section.settings.btn_title_01 }}</a>
+        {% endif %}
+        {% if section.settings.btn_link_02 != blank and section.settings.btn_title_02 != blank %}
+        <a class="btn btn-primary btn-large" href="{{ section.settings.btn_link_02 }}">{{ section.settings.btn_title_02 }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $('.home-faq-wrap h4').on('click', function(e){
+    e.preventDefault();
+    if($(this).parents('.home-faq-wrap').hasClass('active')){
+      $(this).parents('.home-faq-wrap').removeClass('active')
+    }else{
+      $('.home-faq-wrap').removeClass('active')
+      $(this).parents('.home-faq-wrap').addClass('active')
+    }
+  })
+</script>
+
+{% schema %}
+  {
+    "name": "Home FAQ",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Sub Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title_01",
+        "label": "Button Heading 01"
+      },
+      {
+        "type": "url",
+        "id": "btn_link_01",
+        "label": "Button Link 01"
+      },
+      {
+        "type": "text",
+        "id": "btn_title_02",
+        "label": "Button Heading 02"
+      },
+      {
+        "type": "url",
+        "id": "btn_link_02",
+        "label": "Button Link 02"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "FAQ",
+        "name": "FAQ",
+        "settings": [
+          {
+            "type": "text",
+            "id": "question",
+            "label": "Questions"
+          },
+          {
+            "type": "textarea",
+            "id": "answer",
+            "label": "Answer"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Home FAQ",
+        "category": "FAQ"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

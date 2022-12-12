@@ -1,36 +1,47 @@
+{%- if section.settings.blog != blank -%}
 <div class="new-science-img-text-grid-blog-section">
-  <div class="container-large">
+  <div class="container">
+    {% if section.settings.title != blank %}
+    <div class="new-science-img-text-grid-blog-title">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+      {% endif %}
     <div class="new-science-img-text-grid-blog">
-      {%- for block in section.blocks -%}
+        {% assign blog = blogs[section.settings.blog] %}
+        {% for article in blog.articles limit:3 %}
       <div class="new-science-img-text-grid-blog-wrap">
-        {%- if block.settings.image != blank -%}
+        {%- if article.image != blank -%}
         <img
                       id="Thumbnail-{{ section.id }}-0"
                       srcset="
-                        {% if block.settings.image.width >= 254 %}{{ block.settings.image | image_url: width: 254 }} 254w,{% endif %}
-                        {% if block.settings.image.width >= 374 %}{{ block.settings.image | image_url: width: 374 }} 374w,{% endif %}
-                        {% if block.settings.image.width >= 404 %}{{ block.settings.image | image_url: width: 404 }} 404w,{% endif %}
-                        {% if block.settings.image.width >= 562 %}{{ block.settings.image | image_url: width: 562 }} 562w,{% endif %}
-    {% if block.settings.image.width >= 1400 %}{{ block.settings.image | image_url: width: 1400 }} 1400w,{% endif %}
-    {% if block.settings.image.width >= 1200 %}{{ block.settings.image | image_url: width: 1200 }} 1200w,{% endif %}
-    {% if block.settings.image.width >= 900 %}{{ block.settings.image | image_url: width: 900 }} 900w,{% endif %}
-                        {% if block.settings.image.width >= 1608 %}{{ block.settings.image | image_url: width: 1608 }} 1608w,{% endif %}
-                        {% if block.settings.image.width >= 1824 %}{{ block.settings.image | image_url: width: 1824 }} 1824w,{% endif %}
-                        {% if block.settings.image.width >= 1916 %}{{ block.settings.image | image_url: width: 1916 }} 1916w,{% endif %},
-                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
-                      src="{{ block.settings.image | image_url: 'master' }}"
-                      alt="{{ block.settings.image.alt | escape }}"
+                        {% if article.image.width >= 254 %}{{ article.image | img_url: 'master' }} 254w,{% endif %}
+                        {% if article.image.width >= 374 %}{{ article.image | img_url: 'master' }} 374w,{% endif %}
+                        {% if article.image.width >= 404 %}{{ article.image | img_url: 'master' }} 404w,{% endif %}
+                        {% if article.image.width >= 562 %}{{ article.image | img_url: 'master' }} 562w,{% endif %}
+    {% if article.image.width >= 1400 %}{{ article.image | img_url: 'master' }} 1400w,{% endif %}
+    {% if article.image.width >= 1200 %}{{ article.image | img_url: 'master' }} 1200w,{% endif %}
+    {% if article.image.width >= 900 %}{{ article.image | img_url: 'master' }} 900w,{% endif %}
+                        {% if article.image.width >= 1608 %}{{ article.image | img_url: 'master' }} 1608w,{% endif %}
+                        {% if article.image.width >= 1824 %}{{ article.image | img_url: 'master' }} 1824w,{% endif %}
+                        {% if article.image.width >= 1916 %}{{ article.image | img_url: 'master' }} 1916w,{% endif %},
+                        {{ article.image | img_url: 'master' }} {{ article.image.width }}w"
+                      src="{{ article.image | img_url: 'master' }}"
+                      alt="{{ article.image.alt | escape }}"
                       loading="lazy">
         {%- endif -%}
-        {%- if block.settings.title != blank -%}
-        <h4><a href="{{ block.settings.btn_url }}">{{ block.settings.title }}</a></h4>
+        {%- if article.title != blank -%}
+        <h4><a href="{{ article.url }}">{{ article.title }}</a></h4>
         {%- endif -%}
-        {%- if block.settings.btn_url != blank and block.settings.btn_title != blank -%}
-        <a class="link" href="{{ block.settings.btn_url }}">{{ block.settings.btn_title }}</a>
-        {%- endif -%}
+        <a class="link" href="{{ article.url }}">Read more</a>
       </div>
       {%- endfor -%}
+    
     </div>
+      {% if section.settings.btn_title != blank and section.settings.btn_link != blank %}
+    <div class="new-science-img-text-grid-blog-link">
+      <a class="btn btn-primary" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+    </div>
+      {% endif %}
   </div>
 </div>
 
@@ -47,15 +58,43 @@ $('.new-science-img-text-grid-blog-section .new-science-img-text-grid-blog').sli
 });
     }
   </script>
+{%- endif -%}
+  
 {% schema %}
   {
     "name": "New Science Img Grid Blog",
-    "settings": [],
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      },
+      {
+        "type": "blog",
+        "id": "blog",
+        "label": "Blog"
+      }
+    ],
     "blocks": [
       {
         "type": "Image",
         "name": "Image",
         "settings": [
+          {
+            "type": "blog",
+            "id": "blog",
+            "label": "Blog"
+          },
           {
             "type": "image_picker",
             "id": "image",

@@ -129,17 +129,38 @@
     font-style: italic;
     font-display: swap;
 }
+
+.home-how-it-works-section .home-how-it-works-for .home-how-it-works-bottom .home-how-it-works-image-text ul {
+    padding: 0;
+}
+.home-how-it-works-section .home-how-it-works-for .home-how-it-works-bottom .home-how-it-works-image-text ul li:before {
+    content: '';
+    position: absolute;
+    background: #000;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    left: 0;
+    top: 10px;
+}
+.home-how-it-works-section .home-how-it-works-for .home-how-it-works-bottom .home-how-it-works-image-text ul li {
+    padding-left: 20px;
+    position: relative;
+}
 .home-team-section .home-team-title h2 ,
 .home-team-section .home-team h4 ,
 .home-team-section .home-team h5{
     color: #303030;
 }
 .our-test-section table {
-  border-collapse: collapse;
-  width: 100%;
-  box-shadow: none;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,.15);
 }
-
+footer .bottom-footer-text-inner .bottom-footer-text-logo img {
+    width: 150px;
+}
 .our-test-section td, .our-test-section th {
     text-align: center;
     padding: 18px 8px;
@@ -147,6 +168,8 @@
 }
 .our-test-section table.our-test-section-table tbody tr td:nth-child(2), .our-test-section table.our-test-section-table tbody tr th:nth-child(2) {
     background: #F5F3EE;
+  font-weight: bold;
+
 }
 .our-test-section table.our-test-section-table tr{
     border-bottom: 1px solid rgba(0,0,0,.15);
@@ -154,6 +177,26 @@
 .our-test-section table.our-test-section-table tbody tr td:first-child {
     text-align: left;
     font-weight: 700;
+}
+.our-test-section table.our-test-section-table tr td:nth-child(3) ,
+.our-test-section table.our-test-section-table tr th:nth-child(3){
+    border-right: 1px solid rgba(0,0,0,.15);
+}
+.our-test-section table.our-test-section-table tr td:last-child ,
+.our-test-section table.our-test-section-table tbody tr:first-child th:last-child{
+    border-left: 1px solid rgba(0,0,0,.15);
+}
+.our-test-section table.our-test-section-table tbody tr th p {
+    margin: 0;
+}
+.our-test-section table.our-test-section-table tbody tr th p:not(:last-child) {
+    margin-bottom: 5px;
+}
+.our-test-section table.our-test-section-table tr:nth-child(2) {
+    border: none;
+}
+.our-test-section table.our-test-section-table tr:nth-child(3) td {
+    font-weight: bold;
 }
 .our-test-section table.our-test-section-table tbody tr td {
     font-size: 20px;
@@ -188,9 +231,9 @@
     object-fit: cover;
     border-radius: 10px;
 }
-.shopify-app-block .jdgm-carousel__arrows {
+/*.shopify-app-block .jdgm-carousel__arrows {
     display: none;
-}
+}*/
 .spit-happens-section h2 {
     padding-top: 50px;
 }
@@ -346,8 +389,8 @@ p a , .started_section li a {
 .our-test-section h2.title {
     text-align: center;
     margin: 0 0 80px 0;
-    font-size: 65px;
-    line-height: 65px;
+    font-size: 50px;
+    line-height: 50px;
     font-weight: 500;
     letter-spacing: 0;
 }
@@ -2808,11 +2851,14 @@ article.article-template.defaulttemp .article-template__content p:first-child {
     content: '';
     position: absolute;
     background: #303030;
-    width: 100%;
+    width: 80%;
     height: 100%;
     z-index: -1;
     border-radius: 9.875rem;
     right: 60%;
+}
+.about_us_bottom_sections_two .founders-grid {
+    gap:10px;
 }
 .about_us_bottom_sections_two .founders-card .card-image-wrapper {
     position: relative;
@@ -3187,7 +3233,7 @@ header.header.header--middle-left {
 header.header.header--middle-left .head-btn-list {
     display: flex;
     gap: 18px;
-    margin-left: 65px;
+    margin-left: 10px;
 }
 header.header .list-menu--inline {
     gap: 50px;
@@ -3213,8 +3259,8 @@ header.header a.header__menu-item span {
     font-size: 62px;
     line-height: 62px;
 }
-.index h2 {
-    font-size: 40px;
+.page-sales-landing .science-img-text-section .science-img-text-right h1 , .index h2 , .page-sales-landing h2 ,  .page-sales-landing .home-real-improvement-section .home-real-improvement-title h2 {
+    font-size: 38px;
     line-height: 46px;
 }
 .home-banner-section h1 {
@@ -3226,6 +3272,11 @@ header.header a.header__menu-item span {
 .home-banner-section h1 span {
     color: #F75F37;
 }
+.page-sales-landing .home-real-improvement-section .home-real-improvement-title {
+    max-width: 887px;
+    margin-left: auto;
+    margin-right: auto;
+}
 p {
     font-size: 16px;
     line-height: 24px;
@@ -3236,7 +3287,7 @@ p {
     margin: 0;
 }
 .home-banner-section .home-banner-left p {
-    max-width: 443px;
+    max-width: 390px;
     width: 100%;
     margin: 0 0 50px 0;
 }
@@ -3292,7 +3343,7 @@ main#MainContent .shopify-section {
     line-height: 20px;
     font-weight: 700;
     letter-spacing: 0;
-    margin: 32px 0 36px 0;
+    margin: 32px 0 26px 0;
 }
 .home-icon-text-section .home-icon-text p {
     margin: 0;
@@ -3406,8 +3457,8 @@ span.line-through {
 }
 .home-how-it-works .home-how-it-works-btn .home-how-it-works-btn-inner {
     display: flex;
-    gap: 40px;
-  flex-wrap: wrap;
+    gap: 10px;
+  /* flex-wrap: wrap; */
 }
 .home-how-it-works-section .home-how-it-works-products .home-how-it-works-products-wrap .home-how-it-works-products-wrap-inner p a{
     color: rgba(36, 88, 255, 1);
@@ -3582,7 +3633,7 @@ main#MainContent .shopify-section > .no-margin {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .home-how-it-works-image-inner .view-report-data {
-    display: none;
+    /* display: none; */
     padding: 1rem 0;
 }
 .home-how-it-works-section .home-how-it-works-for .home-how-it-works-bottom .home-how-it-works-image-inner h4 svg {
@@ -3629,6 +3680,8 @@ main#MainContent .shopify-section > .no-margin {
     font-weight: 300;
     margin: 0 0 43px 0;
   letter-spacing: 0;
+  font-size: 35px;
+  line-height: 35px;
 }
 .home-real-improvement-section .home-real-improvement-title p {
     margin: 0;
@@ -3673,11 +3726,11 @@ main#MainContent .shopify-section > .no-margin {
     text-align: center;
 }
 .home-icon-text-section .home-icon-text-title h2 span {
-    font-weight: 700;
+    font-weight: 500;
 }
 .home-team-section .home-team h5 {
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
     letter-spacing: 0;
 }
@@ -3708,14 +3761,14 @@ footer .footer-block ul.footer-block__details-content li a.link.link--text {
     line-height: initial;
     padding: 0 0 10px 0;
   color: #303030;
-    font-weight: 500;
+    font-weight: 400;
 }
 footer .footer__blocks-wrapper .footer-block:first-child ul.footer-block__details-content {
     column-count: 2;
 }
 footer .footer__blocks-wrapper .footer-block.footer-block--menu {
     border-right: 1px solid #ddd;
-    padding-right: 70px;
+    padding-right: 20px;
 }
 .footer__content-top .grid {
     gap: 0;
@@ -3778,7 +3831,7 @@ footer .footer__blocks-wrapper .footer-block.footer-block--menu {
 }
 footer .bottom-footer-text {
     border-top: 1px solid #ddd;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 footer .bottom-footer-text-inner {
     display: grid;
@@ -3788,7 +3841,7 @@ footer .bottom-footer-text-inner {
 }
 footer .bottom-footer-text-inner .bottom-footer-text-desc p {
     margin: 0;
-    font-size: 16px;
+    font-size: 12px;
     line-height: initial;
     font-style: italic;
 }
@@ -3873,10 +3926,10 @@ footer .bottom-footer-text-inner .bottom-footer-text-desc p {
 }
 .shopify-app-block  .jdgm-carousel-wrapper {
     width: 100%;
-}
+}/*
 .index .shopify-app-block .jdgm-carousel-wrapper .jdgm-carousel-title-and-link {
     display: none;
-}
+}*/
 .shopify-app-block .jdgm-carousel-wrapper section.jdgm-widget {
     margin: 0 auto;
 }
@@ -3923,14 +3976,14 @@ footer .bottom-footer-text-inner .bottom-footer-text-desc p {
 .featured-product.product .product-form__submit.button {
     margin: 0;
     min-height: auto;
-}
+}/*
 .shopify-app-block .jdgm-carousel-wrapper section.jdgm-widget .jdgm-carousel-item .jdgm-carousel-item__reviewer-name-wrapper {
     margin: 15px 0 15px 0;
   display:none;
 }
 .shopify-app-block .jdgm-carousel-wrapper section.jdgm-widget .jdgm-carousel-item a.jdgm-carousel-item__product{
   display:none;
-}
+}*/
 .shopify-app-block .jdgm-carousel-wrapper section.jdgm-widget .jdgm-carousel-item .jdgm-carousel-item__reviewer-name-wrapper .jdgm-carousel-item__reviewer-name {
     padding: 0 0 10px 0;
 }
@@ -3953,8 +4006,8 @@ main#MainContent .shopify-section:last-child {
     margin: 0 0 59px 0;
 }
 .page-providers .image-with-text-main .image-with-text__heading.h0 {
-    font-size: 72px;
-    line-height: 75px;
+    font-size: 62px;
+    line-height: 65px;
 }
 .page-providers .image-with-text-main .image-with-text__text.rte {
     margin: 0 0 56px 0;
@@ -4013,8 +4066,8 @@ main#MainContent .shopify-section:last-child {
 .image-with-text-main h2.top_heading {
     margin: 0 0 34px 0;
     font-family: 'Lora', serif;
-    font-size: 65px;
-    line-height: 65px;
+    font-size: 50px;
+    line-height: 56px;
     letter-spacing: 0;
     font-weight: 500;
 }
@@ -4105,7 +4158,7 @@ main#MainContent .shopify-section:last-child {
 .page-providers .image-with-text__grid_full_main.getting-start .image-with-text__text-item .image-with-text__content .image-with-text__heading {
     font-size: 40px;
     line-height: 40px;
-    font-weight: 700;
+    font-weight: 500;
     font-family: 'Lora', serif;
     letter-spacing: 0;
   margin: 0 0 22px 0;
@@ -4230,7 +4283,7 @@ main#MainContent .shopify-section:last-child {
     align-items: center;
 }
 .image-with-text-main.best-in-tech .image-with-text__text-item a.btn-custom-list-wc {
-    margin-left: 90px;
+    margin-left: 116px;
 }
 .image-with-text-main.good-health {
     background: #F7FCFB;
@@ -4265,9 +4318,10 @@ main#MainContent .shopify-section:last-child {
 }
 .science-img-text.grid-new h1 {
     margin: 0 0 39px 0;
-    font-size: 72px;
-    line-height: 72px;
+    font-size: 62px;
+    line-height: 62px;
   font-weight: 500;
+  /* max-width: 490px; */
 }
 .science-img-text-section.science-img-text-section-new h2 ,
 .new-science-grid-section .new-science-grid-title h2 ,
@@ -4283,9 +4337,9 @@ main#MainContent .shopify-section:last-child {
     width: 100%;
     display: block;
 }
-.page-new-science h2 {
-    font-size: 65px;
-    line-height: 65px;
+.page-new-science h2 , .sales-author-slider-section .sales-author-slider-title h2 {
+        font-size: 40px;
+    line-height: 46px;
 }
 .page-new-science h2 span {
     color: #F75F37;
@@ -4331,8 +4385,8 @@ main#MainContent .shopify-section:last-child {
     margin-bottom: 50px;
 }
 .news-science-text-list-section .news-science-text-list .news-science-text-list-wrap h4 {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 24px;
     margin: 0 0 25px 0;
     font-weight: 700;
 }
@@ -4446,8 +4500,8 @@ main#MainContent .shopify-section:last-child {
     grid-template-columns: 5fr 7fr;
 }
 .healthy-mouth .science-img-text.grid-new h1 {
-    font-size: 65px;
-    line-height: 65px;
+    font-size: 58px;
+    line-height:58px;
 }
 .healthy-mouth  a.btn {
     width: 389px;
@@ -5381,7 +5435,744 @@ span.blue-color {
 } 
 .index .section-featured-product .featured-product {
     align-items: center;
-    : ;
+}
+.our-test-section-tb-inner .scroller-icon svg {
+    width: 25px;
+}
+.our-test-section-tb-inner .scroller-icon {
+    position: absolute;
+    top: 6%;
+    left: 2%;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(70deg);
+  }
+  100% {
+    transform: rotate(-70deg);
+  }
+}
+.our-test-section-tb-inner {
+    position: relative;
+}
+.page-carrie main#MainContent .shopify-section:first-child ,
+.page-about-us main#MainContent .shopify-section:first-child ,
+.collection.collection main#MainContent .shopify-section:first-child ,
+.blog-podcast main#MainContent .shopify-section:first-child{
+    margin: 0 ;
+}
+.page-sales-landing div#shopify-section-header .header-wrapper {
+    background: #F5F3EE;
+}
+.page-sales-landing .sales-image-text-section {
+    background: #F5F3EE;
+    padding: 50px 0;
+}
+.sales-image-text-section .sales-image-text {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.sales-image-text-section .sales-image-text .sales-image-text-left img {
+    display: block;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.sales-image-text-section .sales-image-text h2 {
+    margin: 0;
+}
+.sales-image-text-section .sales-image-text .sales-image-text-right {
+    max-width: 692px;
+    width: 100%;
+}
+.sales-image-text-section .sales-image-text .sales-image-text-right h2 {
+    font-size: 62px;
+    line-height: 62px;
+    color: #303030;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+.sales-image-text-section .sales-image-text .sales-image-text-right p {
+    font-family: 'Lora', serif;
+    margin: 32px 0;
+    color: #303030;
+}
+.page-sales-landing h2 {
+    font-weight: 500;
+}
+.new-sales-text-img-grid-section .new-sales-text-img-grid-wrap {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 46px 1fr;
+}
+.new-sales-text-img-grid-title {
+    margin-bottom: 35px;
+}
+.new-sales-text-img-grid-section .new-sales-text-img-grid-wrap p {
+    margin: 0;
+}
+.new-sales-text-img-grid-section .new-sales-text-img-grid-wrap:not(:last-child) {
+    margin-bottom: 30px;
+}
+.new-sales-text-img-grid-section p {
+    margin: 0;
+}
+.new-sales-text-img-grid-section .new-sales-text-img-grid .new-sales-text-img-grid-left img {
+    width: 392px;
+    margin: 0 auto;
+}
+.new-sales-text-img-grid-section .new-sales-text-img-grid {
+    align-items: center;
+}
+.page-sales-landing .home-real-improvement-section {
+    background: #F7FCFB;
+    padding: 65px 0;
+}
+.new-sales-text-img-grid-title h2 {
+    margin-top: 0;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement-title h2 {
+    font-weight: 300;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement-title h2 span {
+    font-weight: 700;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement {
+    grid-template-columns: 6fr 6fr;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement .home-real-improvement-left {
+    order: 2;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement-right h2 {
+    font-family: 'Lora', serif;
+    margin: 0 0 30px 0;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement-right p {
+    margin: 0 0 30px 0;
+}
+.page-sales-landing .home-how-it-works-section {
+    background: transparent;
+    padding: 0;
+}
+.page-sales-landing section.featured-product-main-new {
+    background: #F5F3EE;
+}
+.page-sales-landing section.featured-product-main-new .featured-product {
+    background: transparent;
+}
+.page-sales-landing .home-result-icon-text-section {
+    background: #F7FCFB;
+    padding: 60px 0;
+}
+.page-sales-landing .science-img-text-section {
+    background: #F7FCFB;
+    padding: 60px 0;
+}
+.page-sales-landing .science-img-text-section .science-img-text-left img {
+    border-radius: 20px;
+}
+.page-sales-landing section.featured-product-main-new.transparent-sec {
+    background: transparent;
+}
+.page-sales-landing .science-img-text-section p {
+    margin: 0;
+    font-weight: 700;
+}
+.page-sales-landing section.featured-product-main-new .featured-product {
+    align-items: center;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement figure {
+    margin: 0;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement img {
+    display: block;
+}
+.page-sales-landing footer.footer {
+    margin-top: 0;
+}
+.home-faq-section {
+    background: #F7FCFB;
+    padding: 60px 0;
+}
+.home-faq-section .home-faq-title {
+    text-align: center;
+}
+.home-faq-section .home-faq-title h2 {
+    margin: 0 0 50px 0;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+.home-faq-section .home-faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+}
+.home-faq-section .home-faq .home-faq-wrap .home-faq-desc p {
+    margin: 0;
+    padding-top: 20px;
+}
+.home-faq-section .home-faq-title-bottom {
+    text-align: center;
+    margin-top: 50px;
+}
+.home-faq-section .home-faq-title-bottom .home-faq-title-bottom-btn {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.home-faq-section .home-faq-title-bottom h3 {
+    margin: 0 0 30px 0;
+    font-family: 'Lora', serif;
+    color: #303030;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.home-faq-section .home-faq h4 {
+    margin: 0;
+    color: #303030;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.home-faq-section .home-faq h4 span.icon:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 6px;
+    background: #2458FF;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+  transition: .5s;
+    transform: translate(-50%,-50%);
+}
+.home-faq-section .home-faq h4 span.icon:after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 6px;
+    background: #2458FF;
+    border-radius: 6px;
+  top: 50%;
+  transition: .5s;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.home-faq-section .home-faq .home-faq-wrap.active h4 span::before {
+    opacity: 0;
+}
+.home-faq-section .home-faq .home-faq-wrap.active h4 span::after {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+.home-faq-section .home-faq h4 span.icon {
+    width: 69px;
+    height: 69px;
+    background: rgba(245, 243, 238, 0.4);
+    border-radius: 10px;
+    position: relative;
+    display: block;
+}
+.home-faq-section .home-faq .home-faq-wrap {
+    background: #fff;
+    border-radius: 20px;
+    padding: 22px;
+}
+.home-faq-section .home-faq .home-faq-wrap .home-faq-desc {
+    display: none;
+}
+.home-faq-section .home-faq .home-faq-wrap.active .home-faq-desc {
+    display: block;
+}
+.home-faq-section .home-faq h4 span.text {
+    width: calc(100% - 99px);
+}
+.science-img-text-section-main.home-img-left-side .science-img-text .science-img-text-left {
+    order: 1;
+}
+.science-img-text-section-main.home-img-left-side .science-img-text  .science-img-text-right {
+    order: 2;
+}
+.full-section .container {
+    max-width: 100%;
+    padding: 0;
+  width: 100%;
+}
+.home-img-text-section.full-section .home-img-text {
+    background: #F7FCFB;
+}
+.home-icon-text-section .home-icon-text .home-icon-text-wrap img {
+    height: 77px;
+    object-fit: contain;
+}
+.home-real-improvement .home-real-improvement-right h4 {
+    color: #F75F37;
+    font-weight: 700;
+}
+.sales-author-slider-section .sales-author-slider-title {
+    text-align: center;
+}
+.sales-author-slider-section .sales-author-slider-title h2 {
+    font-family: 'Lora', serif;
+    margin: 0 0 60px 0;
+}
+.sales-author-slider-section ul.slick-dots {
+    position: static;
+    margin-top: 30px;
+}
+.sales-author-slider-section .sales-author-slider-part {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    align-items: center;
+    gap: 60px;
+}
+.sales-author-slider-section ul.sales-author-slider {
+    margin: 0;
+    padding: 0;
+}
+.sales-author-slider-section .sales-author-slider-part p {
+    margin: 0;
+}
+.sales-author-slider-section .sales-author-slider-part h4 {
+    margin: 13px 0 35px 0;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.sales-author-slider-section .sales-author-slider-part h3 {
+    margin: 40px 0 0 0px;
+    color: #303030;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.sales-author-slider-section .sales-author-slider-part .sales-author-slider-right img {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.page-providers .enhance-care {
+    padding-top: 80px;
+}
+   .page-providers .enhance-care img {
+    border-radius: 50px;
+}
+.next-generation .image-with-text__text-item h6 {
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+}
+.next-generation .image-with-text__grid .image-with-text__text-item .image-with-text__text.rte.body p img {
+    width: 45px;
+}
+.next-generation .image-with-text__grid .image-with-text__text-item .image-with-text__text.rte.body p {
+    align-items: flex-start;
+}
+.next-generation .image-with-text__grid .image-with-text__text-item .image-with-text__text.rte.body p span {
+    width: calc(100% - 62px);
+}
+.next-generation .image-with-text__grid {
+    align-items: center;
+}
+.sales-author-slider-section {
+    background: #F7FCFB;
+    padding: 60px 0;
+}
+
+.getting-start .image-with-text__media {
+    min-height: 0;
+}
+.getting-start .image-with-text__grid {
+    align-items: center;
+}
+.getting-start .image-with-text__grid img {
+    border-radius: 10px;
+    border: none;
+}
+.getting-start .image-with-text__grid .image-with-text__media {
+    border: none;
+}
+.getting-start .image-with-text__grid .image-with-text__content a.button:before,
+.getting-start .image-with-text__grid .image-with-text__content a.button:after{
+  display:none;
+}
+.getting-start .image-with-text__grid .image-with-text__content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.getting-start .image-with-text__grid .image-with-text__content a.button{
+    min-height: auto;
+  letter-spacing: 0;
+}
+.image-with-text-main.best-in-tech .image-with-text__text.rte ul li img {
+    height: 80px;
+    object-fit: contain;
+  width: 80px;
+}
+.image-with-text-main.best-in-tech .image-with-text__text.rte ul li .li-right {
+    width: calc(100% - 116px);
+}
+.page-providers h2 , .page-providers .home-icon-text-section h1 {
+    font-size: 40px !important;
+    line-height: 46px !important;
+}
+.page-providers .image-with-text-main.normal-text .image-with-text__heading {
+    font-size: 25px !important;
+    line-height: 25px !important;
+}
+.next-generation .image-with-text__grid .image-with-text__text-item .image-with-text__text.rte.body p {
+    font-size: 16px;
+
+  line-height: initial;
+}
+.sales-author-slider-section .sales-author-slider-title h2 {
+    font-weight: 500;
+}
+.next-generation .image-with-text__grid {
+    align-items: flex-start;
+}
+.mobile-arrows {
+    display: none;
+}
+.mobile-arrows .slick-arrow {
+    width: 49px;
+    height: 49px;
+    border: 1px solid #2458FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sales-author-slider-section .mobile-arrows {
+    margin-top: 40px;
+}
+.mobile-arrows {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.new-sales-text-img-grid-wrap-main {
+    display: block;
+    width: 100%;
+}
+.page-sales-landing .home-real-improvement-section .home-real-improvement-title h2 {
+    font-weight: 300 !important;
+    font-family: 'Aeonik' !important;
+    letter-spacing: 0;
+}
+.page-sales-landing .science-img-text-section h1 {
+    max-width: 100%;
+}
+.sales-author-slider-section .sales-author-slider-left img {
+    max-width: 300px;
+}
+.sales-author-slider-section .sales-author-slider-left img {
+    margin: 20px auto 0;
+}
+.sales-author-slider-section .sales-author-slider-part .sales-read-more a {
+    text-decoration: none;
+    color: #2458FF;
+    cursor: pointer;
+}
+.science-img-text-section-main.behind-test h1 {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.science-img-text-section-main.behind-test p {
+    font-family: 'Lora', serif;
+    color: #303030;
+    margin: 0;
+    max-width: 400px;
+}
+.science-img-text-section-main.behind-test a.btn {
+    margin-top: 30px;
+}
+.science-img-text-section-main.behind-test .science-img-text-left img {
+    border-radius: 20px;
+}
+.science-img-text-section-main.behind-test .science-img-text h1 span {
+    font-weight: 500;
+}
+.page-our-about .our-about-text-grid-section {
+    background: #F7FCFB;
+    padding: 60px 0;
+}
+.our-about-text-grid-section .our-about-text-grid-title {
+    text-align: center;
+    margin: 0 0 80px 0;
+}
+.our-about-text-grid-section .our-about-text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 29px;
+    text-align: center;
+}
+.our-about-text-grid-section .our-about-text-grid .our-about-text-grid-part .our-about-text-grid-part-inner {
+    background: #F5F3EE;
+    border-radius: 30px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+}
+.our-about-text-grid-section .our-about-text-grid .our-about-text-grid-part h2 {
+    margin: 0 0 30px;
+    font-family: 'Lora', serif;
+    color: #2458FF;
+}
+.our-about-text-grid-section .our-about-text-grid .our-about-text-grid-part h4 {
+    margin:0 0 30px;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    line-height: initial;
+    color: #303030;
+    font-weight: 500;
+}
+.our-about-text-grid-section .our-about-text-grid .our-about-text-grid-part p {
+    margin: 0;
+}
+.our-about-text-grid-section .our-about-text-grid-title h2 {
+    margin: 0 0 24px 0;
+}
+.our-about-text-grid-section .our-about-text-grid-title p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+.iframe-wrapper {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+.iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.page-our-about .home-real-improvement-section {
+    padding: 60px 0;
+}
+.page-our-about .home-real-improvement-section.about-its-biology {
+    background: #F5F3EE;
+}
+.page-our-about .home-real-improvement-section.about-through-science {
+    background: #F7FCFB;
+}
+.page-our-about .home-real-improvement-section figure {
+    margin: 0;
+}
+
+.page-our-about .home-real-improvement {
+    grid-template-columns: 6fr 6fr;
+}
+.home-real-improvement-section.about-through-science .home-real-improvement-right h3 {
+    font-size: 26px;
+    line-height: initial;
+    letter-spacing: 0;
+    font-weight: 300;
+    margin: 0 0 20px;
+}
+.home-real-improvement-section.about-through-science .home-real-improvement-right h3 i {
+    font-weight: 400;
+}
+.home-real-improvement-section.about-through-science .home-real-improvement-right h4 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: initial;
+    color: #303030;
+    letter-spacing: 0;
+    margin: 0 0 30px;
+}
+.home-real-improvement-section.about-through-science .home-real-improvement-right p {
+    margin: 0;
+}
+.home-real-improvement-section.about-through-science .home-real-improvement-right .btn {
+    margin-top: 30px;
+}
+.image-with-text-main.retain-biology .image-with-text__grid {
+    align-items: center;
+}
+.image-with-text-main.retain-biology .image-with-text__grid .image-with-text__content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.home-real-improvement-section.retain-biology {
+    padding: 0;
+}
+.home-real-improvement-section.retain-biology .home-real-improvement .home-real-improvement-left {
+    order: 2;
+}
+.home-real-improvement-section.retain-biology .home-real-improvement h3 {
+    margin: 0 0 30px;
+    font-size: 26px;
+    line-height: initial;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+.home-real-improvement-section.retain-biology .home-real-improvement h3 i {
+    font-weight: 700;
+}
+.home-real-improvement-section.retain-biology .home-real-improvement-right h2 {
+    font-size: 38px;
+    line-height: 45px;
+}
+.home-real-improvement-section.retain-biology .home-real-improvement-right p {
+    margin: 0;
+}
+.page-our-about .oral-health-text-section-main h2 {
+    margin: 0 0 50px 0;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-align: left;
+}
+.page-our-about .oral-health-text-section-main p {
+    margin: 0;
+    font-family: Aeonik!important;
+    text-align: left;
+}
+.page-our-about .oral-health-text-section-main h2 span.red-color {
+    font-weight: 700;
+}
+.page-our-about .oral-health-text-section-main {
+    background: #F5F3EE;
+    padding: 60px 0 0;
+}
+.page-our-about .home-how-it-works-section {
+    background: #F5F3EE;
+}
+.page-our-about .new-science-img-text-grid-blog-section .new-science-img-text-grid-blog-title h2 {
+    text-align: center;
+    font-family: Lora,serif;
+    letter-spacing: 0;
+}
+.new-science-img-text-grid-blog-section .new-science-img-text-grid-blog-link {
+    text-align: center;
+    margin: 50px 0px 0;
+}/*
+.page-our-about .shopify-app-block .jdgm-carousel-title-and-link {
+    display: none;
+}*/
+.page-our-about .section-featured-product section.color-background-1 {
+    background: #F7FCFB;
+    padding: 60px 0;
+}
+.page-our-about .section-featured-product  .featured-product {
+    background: transparent;
+}
+.page-our-about .healthy-mouth {
+    background: transparent;
+    padding: 0;
+}
+.page-our-about .healthy-mouth .science-img-text.grid-new h1 {
+    max-width: 100%;
+}
+.page-our-about .healthy-mouth .science-img-text-right h6 {
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: initial;
+}
+.page-our-about .healthy-mouth .science-img-text-left img {
+    border-radius: 20px;
+}
+.jdgm-carousel-wrapper .jdgm-carousel__item-wrapper {
+    height: auto;
+}
+.jdgm-carousel-wrapper .jdgm-carousel-title-and-link ,
+.jdgm-carousel-wrapper .jdgm-carousel-item__reviewer-name-wrapper ,
+.jdgm-carousel-wrapper a.jdgm-carousel-item__product.jdgm--shop-review-has-image ,
+.jdgm-carousel-wrapper .jdgm-carousel__arrows{
+    display: none;
+}
+.page-our-about .home-real-improvement-section.real-people ,
+.page-our-about .home-real-improvement-section.retain-biology{
+    padding: 0;
+}
+.home-review-section .home-review-slider {
+/*     display: grid; */
+    gap: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.home-review-section .home-review-slider .home-review-list.review-stars svg {
+    width: 28px;
+    height: auto;
+}
+.home-review-section .home-review-slider .home-review-list .main-title {
+    margin: 30px 0 13px 0;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.home-review-section ul.slick-dots {
+    position: static;
+    margin-top: 50px;
+}
+.home-review-section .home-review-slider .home-review-list .des {
+    margin: 20px 0 0;
+}
+.home-review-section .home-review-slider .home-review-list .place {
+    margin: 0 0 30px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #303030;
+}
+.home-review-section .home-review-slider .home-review-list .sub-title {
+    margin: 0;
+    font-size: 18px;
+    line-height: initial;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.home-review-section .home-review-slider .home-review-list {
+    background: #F5F3EE;
+    border-radius: 59px;
+    padding: 45px 30px;
+}
+.home-review-section .home-review-slider .home-review-list .review-stars {
+    margin: 0;
+    display: flex;
+    gap: 8px;
+}
+.home-review-section .home-review-slider {
+    display: block;
+    width: 100%;
+}
+.home-review-section .home-review-slider .home-review-list .des .read-more {
+    color: #2458FF;
+}
+.home-review-section .home-review-slider .slick-list .slick-track {
+    display: flex;
+    gap: 25px;
+}
+.home-review-section .home-review-slider .home-review-list .read-more-review-btn.read-more p {
+    margin: 0;
+}
+.home-review-section .home-review-slider .home-review-list .read-more-review-btn.read-more {
+    color: #2458ff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
 }
 /************* Media Css *************/
 @media screen and (min-width: 750px) {
@@ -5439,6 +6230,37 @@ body.blog-podcast div#shopify-section-footer footer.footer {
 }
 
 @media screen and (min-width: 769px) {
+  .home-real-improvement-section.about-its-biology .home-real-improvement .home-real-improvement-right h2 {
+    display: none;
+}
+ .page-our-about .healthy-mouth .grid-new {
+    grid-template-columns: 6fr 6fr;
+}
+  .sales-author-slider-section .sales-author-slider-left img {
+    margin: 20px 0 0;
+}
+  .mobile-arrows {
+    display: none;
+}
+  .new-sales-text-img-grid-section .sec-btn {
+    margin-top: 40px;
+}
+.page-sales-landing  .sales-author-slider-section .mobile-arrows {
+    display: none;
+}
+ .page-sales-landing .sales-author-slider-section {
+    background: transparent;
+    padding: 0;
+}
+  .page-sales-landing .science-img-text-section a.btn {
+    display: none !important;
+}
+  .mobile-heading , .desk-hide {
+    display: none;
+}
+ .our-test-section .scroller-icon {
+    display: none;
+}
   .home-how-it-works-section .home-how-it-works-nav li.active .home-how-it-works-top {
     border-color: #f75f37;
 }
@@ -5448,6 +6270,9 @@ body.blog-podcast div#shopify-section-footer footer.footer {
   .home-how-it-works ul.home-how-it-works-for li.active {
     display: block;
 }
+  .home-how-it-works ul.home-how-it-works-for li.active .home-how-it-works-image-text ul li{
+    display:block;
+  }
   .home-how-it-works-section .home-how-it-works-nav li {
     cursor: pointer;
 }
@@ -5462,7 +6287,7 @@ body.blog-podcast div#shopify-section-footer footer.footer {
 
 }
   .science-img-text.grid-new h1 span {
-    font-weight: 700;
+    font-weight: 500;
 }
  .its-biology .science-img-text.grid-new {
     grid-template-columns: 5fr 7fr;
@@ -5497,8 +6322,9 @@ body.blog-podcast div#shopify-section-footer footer.footer {
 
 }
 @media screen and (min-width: 990px) {
-  footer .bottom-footer-text-inner .bottom-footer-text-desc {
-    max-width: 80%;
+.index .section-featured-product .featured-product 
+ h2.product__title {
+    max-width: 330px;
 }
  .custom-richtext-home .rich-text__blocks {
     max-width: 80%;
@@ -5508,10 +6334,11 @@ body.blog-podcast div#shopify-section-footer footer.footer {
   .home-text-section .home-text h2 ,
   .home-team-section .home-team-title h2 ,
   .featured-product.product .product__title ,
-  .page-providers .home-icon-text-section h1 ,
-  .how-use .rich-text__heading , .image-with-text-main.good-health .image-with-text__heading{
-    font-size: 60px;
-    line-height: 60px;
+  .page-providers .home-icon-text-section h1 , .page-our-about h2,
+  .how-use .rich-text__heading , .image-with-text-main.good-health .image-with-text__heading ,
+  .page-our-about .healthy-mouth .science-img-text.grid-new h1{
+    font-size: 56px;
+    line-height:56px;
 }
   
 .page-carrie .featured-product:not(.product--no-media)>.product__info-wrapper {
@@ -5523,6 +6350,33 @@ body.blog-podcast div#shopify-section-footer footer.footer {
 
 
 @media screen and (min-width: 1200px) {
+  .page-our-about .jdgm-carousel--done .jdgm-carousel__item-wrapper {
+    display: flex;
+    gap: 25px;
+    height: auto;
+}
+  .page-our-about .section-featured-product h2.product__title {
+    max-width: 395px;
+}
+   .page-our-about  .new-science-img-text-grid-blog-section .new-science-img-text-grid-blog-link a.btn {
+    width: 389px;
+}
+  .page-our-about .oral-health-text-section-main p {
+    font-size: 18px;
+}
+  .page-our-about .oral-health-text-section-main .oral-health-desc {
+    max-width: 1023px;
+    margin: 0 auto;
+}
+  .page-sales-landing .sales-image-text-section a.btn {
+    width: 300px;
+}
+  .next-generation .image-with-text__grid .image-with-text__media-item {
+    width: 40%;
+}
+  .next-generation .image-with-text__grid .image-with-text__text-item {
+    width: 60%;
+}
   .home-text-section .home-text p {
     margin: 0 0 34px 0;
 }
@@ -5613,6 +6467,9 @@ body.blog-podcast div#shopify-section-footer footer.footer {
 }
 
 @media screen and (min-width: 1280px) {
+   .about_us_banner .hero-content-wrapper .hero-3-text {
+    font-size: 1.5rem;
+}
   .container , .index .page-width{
     max-width: 75rem;
 }
@@ -5646,6 +6503,9 @@ body.blog-podcast div#shopify-section-footer footer.footer {
 }
 
 @media screen and (min-width: 1440px) {
+  .page-our-about .oral-health-text-section-main h2 {
+    font-size: 48px;
+}
     .blogstopics h6 {
     font-size: 1.1875rem;
 }
@@ -5661,20 +6521,95 @@ body.blog-podcast div#shopify-section-footer footer.footer {
 
 
 @media screen and (max-width: 1400px) {
+  .home-real-improvement .home-real-improvement-right h2 {
+    margin: 0 0 33px 0;
+    font-size: 30px;
+    line-height: 30px;
+}
+  .shopify-app-block .jdgm-carousel-wrapper section.jdgm-widget .jdgm-carousel-item .jdgm-carousel-item__review .jdgm-carousel-item__review-content {
+    margin: 20px 0 0 0;
+}
+  .shopify-app-block .jdgm-carousel-wrapper section.jdgm-widget .jdgm-carousel-item .jdgm-carousel-item__review .jdgm-carousel-item__review-content .jdgm-carousel-item__review-title {
+    margin: 0 0  18px 0;
+}
+  .shopify-app-block .jdgm-carousel-wrapper section.jdgm-widget .jdgm-carousel-item {
+    padding: 30px;
+    border-radius: 39px;
+}
+  .featured-product.product p.product__text.caption-with-letter-spacing {
+    font-size: 22px;
+    line-height: 22px;
+}
+  .featured-product.product .product__title {
+    margin: 0 0 45px 0;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-right h2 {
+    font-size: 52px;
+    line-height: 52px;
+}
+  .home-team-section .home-team h4 {
+    font-size: 18px;
+}
+  .about_us_bottom_sections_two .founders-grid {
+    gap: 10px;
+}
+  .about_us_bottom_sections .custom-block .we-believe-wrapper p {
+    font-size: 1.5rem;
+}
+  .about_us_bottom_sections_two .founders-card .card-text-background:before {
+    width: 80%;
+    right: 50%;
+}
+  .about_us_bottom_sections .custom-block .we-believe-wrapper {
+    padding: 2.375rem 11.375rem 2.375rem 22rem;
+}
+  .about_us_bottom_sections .custom-block .we-believe-wrapper p {
+    font-size: 2rem;
+}
+  .about_us_banner .hero-content-wrapper .hero-3-text {
+    width: 39.5rem;
+    padding: 11.625rem 5.75rem 9.125rem 9rem;
+}
+  .about_us_banner .container-hero-grid {
+    grid-template-columns: 5fr 7fr;
+}
+  .about_us_banner .hero-content-wrapper svg {
+    width: 100%;
+}
+  .about_us_banner .hero-3-text {
+    font-size: 2rem;
+}
+  .about_us_banner h1 {
+    font-size: 3.5rem;
+}
+  header.header.header--middle-left .head-btn-list {
+    margin-left: 10px;
+}
+  header.header.header--middle-left .head-btn-list .btn {
+    height: 45px;
+    font-size: 16px;
+    width: 180px;
+}
+  header.header .list-menu--inline {
+    gap: 20px;
+}
+  header.header a.header__menu-item span {
+    font-size: 16px;
+}
   .home-icon-text-section .home-icon-text h4 {
     font-size: 18px;
     line-height: 18px;
         margin: 25px 0 28px;
 }
-  .home-result-icon-text-section .home-result-icon-text-title h2, .home-real-improvement-section .home-real-improvement-title h2, .home-text-section .home-text h2, .home-team-section .home-team-title h2, .featured-product.product .product__title, .page-providers .home-icon-text-section h1, .how-use .rich-text__heading, .image-with-text-main.good-health .image-with-text__heading {
-    font-size: 56px;
-    line-height: 56px;
+.page-our-about .healthy-mouth .science-img-text.grid-new h1 , .page-our-about h2 , .home-result-icon-text-section .home-result-icon-text-title h2, .home-real-improvement-section .home-real-improvement-title h2, .home-text-section .home-text h2, .home-team-section .home-team-title h2, .featured-product.product .product__title, .page-providers .home-icon-text-section h1, .how-use .rich-text__heading, .image-with-text-main.good-health .image-with-text__heading {
+    font-size: 48px;
+    line-height: 48px;
 }
   .home-how-it-works-section .home-how-it-works-title h2 {
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 48px;
+    line-height:48px;
 }
-  .index h2 {
+.page-sales-landing .science-img-text-section .science-img-text-right h1 ,  .index h2 , .page-sales-landing h2 , .page-sales-landing .home-real-improvement-section .home-real-improvement-title h2 {
     font-size: 38px;
     line-height: 44px;
 }
@@ -5683,7 +6618,7 @@ body.blog-podcast div#shopify-section-footer footer.footer {
     line-height: 58px;
 }
   .our-test-section table.our-test-section-table tbody tr th {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
 }
 footer .footer-block .footer-block__heading {
@@ -5692,6 +6627,14 @@ footer .footer-block .footer-block__heading {
 }
 footer .footer-block ul.footer-block__details-content li a.link.link--text {
     font-size: 16px;
+}
+  .our-test-section table.our-test-section-table tbody tr td {
+    font-size: 16px;
+    line-height: 24px;
+}
+  .image-with-text__grid_full_main.getting-start .button.button--primary {
+    letter-spacing: 0;
+    min-height: 55px;
 }
 }
 
@@ -5705,6 +6648,10 @@ footer .footer-block ul.footer-block__details-content li a.link.link--text {
 }
 
 @media screen and (max-width: 1199px) {
+  .page-providers .image-with-text-main .image-with-text__heading.h1, .page-providers .dentist_wrap h2.title {
+    font-size: 55px;
+    line-height: 55px;
+}
   .our-test-section h2.title {
     font-size: 50px;
     line-height: 50px;
@@ -5724,9 +6671,9 @@ footer .footer-block ul.footer-block__details-content li a.link.link--text {
     font-size: 50px;
     line-height: 50px;
 }
-  .page-new-science h2 {
-    font-size: 50px;
-    line-height: 50px;
+  .page-new-science h2 , .sales-author-slider-section .sales-author-slider-title h2 {
+    font-size: 38px;
+    line-height: 44px;
 }
   .science-img-text.grid-new h1 {
     font-size: 45px;
@@ -5786,7 +6733,7 @@ footer .footer-block ul.footer-block__details-content li a.link.link--text {
     margin: 0 0 28px;
 }
   header.header.header--middle-left .head-btn-list {
-    margin-left: 25px;
+    margin-left:10px;
 }
   .page-science .science-image-text-section .container {
     padding: 0 1rem;
@@ -5806,6 +6753,25 @@ footer .footer-block ul.footer-block__details-content li a.link.link--text {
 }
 
 @media screen and (max-width: 1024px) {
+    .sales-author-slider-section .sales-author-slider-part {
+    grid-template-columns: 1fr 250px;
+          gap: 30px;
+}
+  .sales-author-slider-section .sales-author-slider-part .sales-author-slider-right img {
+    width: 250px;
+    height: 250px;
+}
+  .home-img-text-section.full-section .home-img-text-right.home-img-text-text {
+    padding-top: 28px;
+    padding-bottom: 32px;
+}
+  .page-sales-landing section.featured-product-main-new .featured-product .grid__item {
+    width: 100%;
+}
+  .page-sales-landing section.featured-product-main-new .featured-product {
+    flex-direction: column;
+    gap: 30px;
+}
   .index .section-featured-product .featured-product .grid__item {
     width: 100%;
 }
@@ -5929,7 +6895,7 @@ footer .footer-block ul.footer-block__details-content li a.link.link--text {
 
 
 @media screen and (max-width: 991px) {
-  .home-result-icon-text-section .home-result-icon-text-title h2, .home-real-improvement-section .home-real-improvement-title h2, .home-text-section .home-text h2, .home-team-section .home-team-title h2, .featured-product.product .product__title, .page-providers .home-icon-text-section h1, .how-use .rich-text__heading, .image-with-text-main.good-health .image-with-text__heading, .home-how-it-works-section .home-how-it-works-title h2 {
+.page-our-about .healthy-mouth .science-img-text.grid-new h1 , .page-our-about h2 ,  .home-result-icon-text-section .home-result-icon-text-title h2, .home-real-improvement-section .home-real-improvement-title h2, .home-text-section .home-text h2, .home-team-section .home-team-title h2, .featured-product.product .product__title, .page-providers .home-icon-text-section h1, .how-use .rich-text__heading, .image-with-text-main.good-health .image-with-text__heading, .home-how-it-works-section .home-how-it-works-title h2 {
     font-size: 30px;
     line-height: 30px;
 }
@@ -6166,6 +7132,37 @@ footer .footer-block ul.footer-block__details-content li a.link.link--text {
 }
 
 @media screen and (max-width: 989px) {
+  .science-img-text.grid-new .btn {
+    width: auto;
+}
+  .home-faq-section .home-faq {
+    grid-template-columns: unset;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-right p {
+    margin: 26px 0;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-right h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
+  div#menu-drawer .menu-drawer__inner-container ul.list.list-social li.list-social__item:FIRST-CHILD a.list-social__link.link {
+    PADDING-LEFT: 0;
+}
+ 
+  div#menu-drawer .menu-drawer__inner-container a.menu-drawer__account {
+    display: flex;
+}
+div#menu-drawer .menu-drawer__inner-container nav.menu-drawer__navigation ,
+  div#menu-drawer .menu-drawer__inner-container  a.menu-drawer__account ,
+   div#menu-drawer .menu-drawer__inner-container ul.list.list-social{
+    max-width: 85%;
+    margin: 0 auto;
+         width: 100%;
+    padding: 0 0.9375rem;
+}
+ .its-biology .btn.btn-medium {
+    width: 191px;
+}
   .footer__content-top .grid .footer-block form#ContactFooter {
     margin-left: 0;
 }
@@ -6236,7 +7233,7 @@ footer .footer__blocks-wrapper .footer-block.footer-block--menu {
     font-size: 16px;
     line-height: 22px;
 }
-  .index h1 , .index h2 {
+.page-sales-landing .science-img-text-section .science-img-text-right h1 ,  .index h1 , .index h2 , .page-sales-landing h2 ,  .page-sales-landing .home-real-improvement-section .home-real-improvement-title h2{
     font-size: 30px;
     line-height: 30px;
 }
@@ -6253,6 +7250,367 @@ footer .footer__blocks-wrapper .footer-block.footer-block--menu {
 }
 
 @media screen and (max-width: 768px) {
+  .home-review-section ul.slick-dots {
+    margin-top: 30px;
+}
+  .home-review-section .home-review-slider .home-review-list .des {
+    margin: 15px 0 0;
+    font-size: 14px;
+}
+  .home-review-section .home-review-slider .home-review-list .sub-title {
+    font-size: 16px;
+}
+  .home-review-section .home-review-slider .home-review-list .place {
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+  .home-review-section .home-review-slider .home-review-list .main-title {
+    margin: 15px 0 10px;
+    font-size: 18px;
+}
+  .home-review-section .home-review-slider .home-review-list {
+    border-radius: 0;
+    padding: 10px 10px;
+    background: transparent;
+}
+ .home-review-section .home-review-slider .home-review-list .home-review {
+    border-radius: 30px;
+    padding: 25px 20px;
+    box-shadow: 0 8px 10px #0000000d;
+       background: #F5F3EE;
+}
+  .home-review-section .home-review-slider .home-review-list .review-stars svg {
+    width: 20px;
+}
+
+  .page-our-about .behind-test a.btn {
+    width: 181px;
+}
+  .page-our-about .behind-test {
+    padding-top: 20px;
+}
+  .page-our-about .oral-health-text-section-main h2 {
+    text-align: center;
+}
+ .page-our-about .home-how-it-works-section .home-how-it-works-nav li .home-how-it-works-top h4 {
+    margin: 0 0 7px;
+}
+.page-our-about  .home-how-it-works-section .home-how-it-works-nav li .home-how-it-works-top {
+    flex-direction: column;
+}
+.page-our-about  .home-how-it-works-section .home-how-it-works-nav p {
+    display: block;
+}
+  .page-our-about .healthy-mouth .science-img-text-right h6 {
+    font-size: 20px;
+}
+  .page-our-about .healthy-mouth .science-img-text-right  h1 {
+    width: 266px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .page-our-about .healthy-mouth .science-img-text-right a.btn {
+    width: 300px;
+}
+ .page-our-about .new-science-img-text-grid-blog-section .new-science-img-text-grid-blog-title {
+    display: none;
+}
+  .home-how-it-works-section {
+    padding: 48px 0;
+}
+  .home-real-improvement-section.retain-biology .home-real-improvement-right h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+  .home-real-improvement-section.retain-biology .home-real-improvement-right h3, .home-real-improvement-section.retain-biology .home-real-improvement-right h2 {
+    text-align: left;
+}
+  .home-real-improvement-section.about-through-science .home-real-improvement-right h4 {
+    font-size: 30px;
+}
+  .home-real-improvement-section.about-through-science .home-real-improvement-right h3 {
+    font-size: 22px;
+}
+  .home-real-improvement-section.about-through-science .home-real-improvement-right h3, .home-real-improvement-section.about-through-science .home-real-improvement-right h4, .home-real-improvement-section.about-through-science .home-real-improvement-right p {
+    text-align: left;
+}
+  .page-our-about .home-real-improvement-section {
+    padding: 48px 0;
+}
+  .home-real-improvement-section.about-its-biology .home-real-improvement-right .btn {
+    margin-top: 20px;
+}
+  .home-real-improvement-section.about-its-biology .home-real-improvement-right h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: Lora,serif;
+}
+  .home-real-improvement-section.about-its-biology .home-real-improvement-title {
+    display: none;
+}
+ .page-our-about  .home-real-improvement .home-real-improvement-right a.btn {
+    width: auto;
+}
+ .page-our-about .home-real-improvement .home-real-improvement-right  p{
+    text-align: left;
+}
+  .page-our-about .home-real-improvement-section figure img {
+    display: block;
+}
+  .page-our-about .home-real-improvement {
+    grid-template-columns: unset;
+}
+ .page-our-about .home-icon-text-section .home-icon-text-title {
+    max-width: 245px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .our-about-text-grid-section .our-about-text-grid-title p {
+    max-width: 226px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+  .our-about-text-grid-section .our-about-text-grid-title h2 {
+    max-width: 261px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .our-about-text-grid-section .our-about-text-grid-part {
+    padding: 0 10px;
+}
+  .our-about-text-grid-section .our-about-text-grid .our-about-text-grid-part .our-about-text-grid-part-inner {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+  .our-about-text-grid-section .our-about-text-grid-title {
+    margin: 0 0 40px;
+}
+  .our-about-text-grid-section .our-about-text-grid-title p {
+    font-size: 16px;
+}
+  .our-about-text-grid-section .our-about-text-grid {
+    grid-template-columns: unset;
+    margin: 0;
+}
+  .page-sales-landing .science-img-text-section .btn {
+    margin-top: 30px;
+}
+  .page-sales-landing .science-img-text-section p {
+    font-weight: normal;
+}
+  .page-sales-landing .science-img-text-section .science-img-text .science-img-text-right h1 {
+    max-width: 266px;
+    margin: 0 auto 27px;
+}
+ .page-sales-landing .science-img-text-section .science-img-text .science-img-text-right {
+    order: 2;
+    text-align: center;
+}
+ .page-sales-landing .sales-author-slider-section {
+    background: transparent;
+    padding: 0;
+}
+  .page-sales-landing .home-real-improvement-section .home-real-improvement-right p {
+    text-align: left;
+}
+  .page-sales-landing .home-real-improvement-section .home-real-improvement-title h2 {
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+  .page-sales-landing .home-real-improvement-section .home-real-improvement .home-real-improvement-right {
+    order: 2;
+}
+  .new-sales-text-img-grid-title {
+    margin-top: 30px;
+}
+  .new-sales-text-img-grid-wrap-main ul.slick-dots {
+    position: static;
+    margin-top: 30px;
+}
+  .new-sales-text-img-grid-section .sec-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+  .new-sales-text-img-grid-section .new-sales-text-img-grid-wrap:not(:last-child) {
+    margin-bottom: 0;
+}
+ .new-sales-text-img-grid-section .new-sales-text-img-grid-wrap img {
+    width: 50px;
+    margin: 0 auto 10px;
+}
+  .new-sales-text-img-grid-section .new-sales-text-img-grid-wrap {
+    grid-template-columns: unset;
+    text-align: center;
+}
+  .new-sales-text-img-grid-section .new-sales-text-img-grid {
+    display: block;
+}
+  .new-sales-text-img-grid-section .new-sales-text-img-grid .new-sales-text-img-grid-left img {
+       width: auto;
+}
+.new-sales-text-img-grid-section .new-sales-text-img-grid .mobile-heading {
+    max-width: 244px;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+  .desktop-heading , .mobile-hide {
+    display: none;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-left {
+    order: 2;
+    margin-left: auto;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-left img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+  .sales-author-slider-section .sales-author-slider-title h2 {
+    margin: 0 0 40px 0;
+}
+  .sales-author-slider-section .sales-author-slider-title {
+    text-align: left;
+}
+  .image-with-text-main.best-in-tech .image-with-text__text.rte ul li .li-right {
+    width: 100%;
+    text-align: center;
+}
+  .page-providers .image-with-text-main.normal-text .image-with-text__heading {
+    font-size: 18px !important;
+    line-height: 18px !important;
+}
+  .page-providers h2, .page-providers .home-icon-text-section h1 {
+    font-size: 30px !important;
+    line-height: 36px !important;
+}
+  .page-providers .enhance-care {
+    padding-top: 20px;
+}
+  .page-new-science  .home-how-it-works-section {
+    display: none;
+}
+ .page-new-science .new-science-text-img-grid-section {
+    padding-bottom: 48px;
+}
+.index  .science-img-text-section-main.home-img-left-side .science-img-text  .science-img-text-right {
+    text-align: center;
+}
+.index .science-img-text-section-main.home-img-left-side .science-img-text .science-img-text-right h1, .index .science-img-text-section-main.home-img-left-side .science-img-text .science-img-text-right p {
+    text-align: left;
+}
+  .sales-author-slider-section .sales-author-slider-part h4 {
+    font-size: 16px;
+    line-height: 16px;
+}
+  .sales-author-slider-section .sales-author-slider-part h3 {
+    margin: 30px 0 0 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+  .sales-author-slider-section .sales-author-slider-part .sales-author-slider-right img {
+    margin: 0 auto;
+}
+  .sales-author-slider-section .sales-author-slider-part .sales-author-slider-right {
+    text-align: center;
+}
+  .sales-author-slider-section .sales-author-slider-part .sales-author-slider-left {
+    order: 2;
+}
+  .sales-author-slider-section .sales-author-slider-part {
+    grid-template-columns: unset;
+}
+
+  .new-science-img-text-grid-blog-section .new-science-img-text-grid-blog a.link {
+    border-bottom: 1px solid #1E1E1E;
+}
+  .new-science-img-text-grid-blog-section .new-science-img-text-grid-blog h4 ,
+  .new-science-img-text-grid-blog-section .slick-slide{
+    text-align: center;
+}
+  .page-new-science .news-science-text-list-section .news-science-text-list-btn a {
+    width: auto;
+}
+  .page-new-science  .new-science-grid-section .new-science-grid-btn {
+    display: block;
+        margin: 35px 0 0 0;
+}
+ .page-new-science .news-science-text-list-section .news-science-text-list-btn {
+    display: block;
+       margin-top: 35px;
+}
+  .home-faq-section {
+    padding: 48px 0;
+}
+  .home-faq-section .home-faq-title h2 {
+    margin: 0 0 35px 0;
+}
+  .home-faq-section .home-faq-title-bottom {
+    margin-top: 40px;
+}
+  .home-faq-section .home-faq-title-bottom .home-faq-title-bottom-btn {
+    gap: 10px;
+}
+  .home-faq-section .home-faq-title-bottom h3 {
+    font-size: 25px;
+    line-height: 25px;
+}
+  .home-faq-section .home-faq h4 {
+    gap: 15px;
+}
+  .home-faq-section .home-faq h4 span.text {
+    width: calc(100% - 64px);
+}
+  .home-faq-section .home-faq h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+  .home-faq-section .home-faq h4 span.icon {
+    width: 40px;
+    height: 40px;
+}
+  .home-faq-section .home-faq h4 span.icon:before {
+    width: 16px;
+    height: 4px;
+}
+  .home-faq-section .home-faq h4 span.icon:after {
+    height: 16px;
+    width: 4px;
+}
+  .page-sales-landing .home-real-improvement-section {
+    padding: 30px 0;
+}
+  .page-sales-landing .home-real-improvement-section .home-real-improvement .btn {
+    width: auto;
+}
+  .page-sales-landing .home-real-improvement-section .home-real-improvement {
+    grid-template-columns: unset;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-left {
+    width: 85%;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-right {
+    width: 85%;
+    margin: 0 auto;
+}
+  .sales-image-text-section .sales-image-text {
+    grid-template-columns: unset;
+    gap: 30px;
+}
+  .about_us_bottom_sections .content-grid .text-collect-wrapper_mobile_only {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+  .about_us_bottom_sections .custom-block .we-believe-wrapper p {
+    font-size: 1.125rem;
+}
+  .about_us_bottom_sections .custom-block .we-believe-wrapper {
+    padding: 2rem 2rem;
+}
   .home-team-section .home-team h4 {
     font-size: 18px;
     line-height: 18px;
@@ -6619,7 +7977,7 @@ footer .footer__blocks-wrapper .footer-block.footer-block--menu {
     margin-left: auto !important;
     margin-right: auto !important;
 }
-  .page-new-science h2 {
+  .page-new-science h2 , .sales-author-slider-section .sales-author-slider-title h2 {
     font-size: 30px;
     line-height: 30px;
 }
@@ -7183,7 +8541,7 @@ footer .footer__blocks-wrapper .footer-block.footer-block--menu {
     gap: 26px;
 }
   main#MainContent .shopify-section > .no-margin {
-    margin-top: -48px;
+    margin-top: -48px !important;
 }
 .home-icon-text-section  .slick-dots li {
     margin: 0 14px;
@@ -7767,6 +9125,11 @@ article.article-template.defaulttemp .top-header .article-template__hero-contain
 }
 }
 
+@media screen and (max-width: 766px) {
+.mobile-arrows {
+    display: flex;
+}
+}
 @media screen and (max-width: 749px) {
   footer .bottom-footer-text-inner {
     gap: 15px;
@@ -7793,7 +9156,6 @@ article.article-template.defaulttemp .top-header .article-template__hero-contain
     column-count: 1;
 }
   footer .footer__blocks-wrapper .footer-block.footer-block--menu {
-    padding-right: 30px;
 }
   footer .bottom-footer-text-inner {
     grid-template-columns: unset;
@@ -7953,6 +9315,9 @@ article.article-template.defaulttemp .top-header .article-template__hero-contain
         padding: 0 0 30px 0;
 }
   
+  .home-banner-section .home-banner-left p{
+    max-width: 290px;
+  }
 }
 
 
@@ -8119,6 +9484,117 @@ article.article-template.defaulttemp .top-header .article-template__hero-contain
 }
 
 @media screen and (max-width: 480px) {
+  .sales-image-text-section .sales-image-text .sales-image-text-right .btn {
+    width: 289px;
+}
+  .sales-author-slider-section .sales-author-slider-left img {
+    margin: 20px auto 0;
+    width: 100px;
+}
+  .sales-author-slider-section .sales-author-slider-part .sales-author-slider-right img {
+    width: 150px;
+    height: 150px;
+}
+ .page-new-science .healthy-mouth .science-img-text.grid-new h1 {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .science-img-text-section.science-img-text-section-new h2 {
+    max-width: 263px;
+}
+  .science-img-text-section.healthy-smile .science-img-text-section-inner h1 br ,
+  .science-img-text-section.science-img-text-section-new h2 br{
+    display: none;
+}
+  .home-img-text-section.full-section .home-img-text-part .container-large {
+    padding: 0 1rem;
+}
+  .home-img-text-section .home-img-text h2 br {
+    display: none;
+}
+  .home-img-text-section.full-section .home-img-text-right.home-img-text-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+  .page-sales-landing .home-result-icon-text-section {
+    padding: 48px 0;
+}
+  .new-sales-text-img-grid-section .new-sales-text-img-grid-wrap {
+    gap: 15px;
+}
+ 
+   .page-sales-landing  .section-featured-product .featured-product .product__info-wrapper.grid__item {
+    padding: 0;
+}
+  .page-sales-landing .sales-image-text-section {
+    padding: 30px 0;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-right {
+    width: 100%;
+    padding: 0 1rem;
+}
+  .sales-image-text-section .sales-image-text .sales-image-text-left {
+    width: 95%;
+}
+  .home-img-text-section .home-img-text .home-img-text-text {
+    padding: 28px 0 0;
+}
+  .home-img-text-section .home-img-text-part .container-large {
+    padding: 0;
+}
+ .index .jdgm-star {
+    font-size: 14px;
+}
+  .jdgm-carousel-item__review-body>p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+  .home-team-section .home-team .home-team-wrap {
+    margin: 0;
+}
+  .home-team-section .home-team {
+    margin-right: 0;
+}
+  .home-team-section .home-team .slick-list {
+    padding-left: 0!important;
+    padding-right: 0 !important;
+}
+  .home-real-improvement .home-real-improvement-right h2 {
+    margin: 0 0 28px;
+    line-height: initial;
+    font-size: 22px;
+}
+  .custom-richtext-home .rich-text__wrapper {
+    width: 100%;
+    padding: 0 1rem;
+}
+  .custom-richtext-home .rich-text .rich-text__buttons {
+    margin-top: 28px;
+}
+  .custom-richtext-home h2.rich-text__heading.rte {
+    font-size: 20px;
+    line-height: initial;
+}
+ 
+  div#menu-drawer .menu-drawer__inner-container nav.menu-drawer__navigation, div#menu-drawer .menu-drawer__inner-container  a.menu-drawer__account, div#menu-drawer .menu-drawer__inner-container ul.list.list-social {
+    max-width: 100%;
+    padding: 0;
+}
+  footer .bottom-footer-text-inner img {
+    max-width: 60px;
+}
+  .page-terms-of-service  .text-hero-content {
+    padding-top: 0.375rem;
+    padding-bottom: 0.625rem;
+}
+  .page-providers .home-team-section .home-team .home-team-wrap h5, .page-providers .home-team-section .home-team .home-team-wrap h4 {
+    max-width: 100%;
+}
+  .image-with-text-main.best-in-tech .image-with-text__text.rte ul li:not(:last-child) {
+    margin: 0 0 21px 0;
+}
   .home-how-it-works-section .home-how-it-works-nav li .home-how-it-works-top h4 {
     font-size: 16px;
     line-height: 20px;
@@ -8318,6 +9794,26 @@ article.article-template.defaulttemp .top-header .article-template__hero-contain
 }
 
 @media screen and (max-width: 420px) {
+  .about_us_bottom_sections .text-collect-wrapper p span.span-28 {
+    font-size: 1.5rem;
+}
+  .about_us_bottom_sections_two .founders-grid {
+    margin-top: 2.5rem;
+}
+  .about_us_bottom_sections_two {
+    padding: 2rem 0;
+}
+  .about_us_bottom_sections .content-grid .text-collect-wrapper_mobile_only {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+  .about_us_bottom_sections .content-grid {
+    gap: 2rem;
+    padding-top: 3rem;
+}
+  .about_us_banner .container-hero-grid {
+    padding: 0;
+}
   .sciene-banner-sec .science-hero .hero-heading-wrapper-sci {
     width: 60%;
     right: 0px;
@@ -8326,7 +9822,7 @@ article.article-template.defaulttemp .top-header .article-template__hero-contain
     padding: 2rem 1rem;
 }
   .about_us_bottom_sections_two .founders-card .card-text-background:before {
-    right: 30%;
+    right: 40%;
 }
   .about_us_bottom_sections_two .founders-card.align-right .card-text-background:before {
     left: 30%;

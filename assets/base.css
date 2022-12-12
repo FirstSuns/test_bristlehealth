@@ -3054,6 +3054,8 @@ details-disclosure > details {
 .desktop_hide{display:none !important;}
 .mobile_hide{display:block !important;}
 
+.read-more-dots,.sales-read-more{display:none;}
+
 /* .new-science-text-img-grid-left img{max-width:395px;margin:0 auto;width:100%;}
 
 @media(max-width:767px){
@@ -3063,10 +3065,15 @@ details-disclosure > details {
 @media(max-width:767px){
   .desktop_hide{display:block !important;}
 .mobile_hide{display:none !important;}
+  .sale-author-desc-list{height:60px;overflow:hidden;}
+.sales-author-slider-left.active .sale-author-desc-list{height:auto;overflow:inherit;}
+  .sales-read-more{width:100%;}
+  .read-more-dots,.sales-read-more{display:inline-block;}
 }
 
+.provider-img-text-small .image-with-text__media{max-width:350px;margin:0 auto;}
+.provider-img-text-small .image-with-text__media img{object-fit:contain;}
 
-
-
-
+.read-more-review{max-height:144px;overflow:hidden;line-height:23px;}
+.home-review.active .read-more-review{max-height:inherit;overflow:inherit;}
 
