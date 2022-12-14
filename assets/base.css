@@ -3077,3 +3077,6 @@ details-disclosure > details {
 .read-more-review{max-height:144px;overflow:hidden;line-height:23px;}
 .home-review.active .read-more-review{max-height:inherit;overflow:inherit;}
 
+@media(max-width:575px){
+ .read-more-review{} 
+}

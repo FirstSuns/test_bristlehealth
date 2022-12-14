@@ -96,7 +96,7 @@
         "b2a2b333-827d-4a69-ab1b-0ec61055ead8"
       ],
       "settings": {
-        "title": "The good, the bad, and <span class=\"red-color\">the ugly.<\/span>",
+        "title": "The good, the bad,<br> and <span class=\"red-color\">the ugly.<\/span>",
         "btn_title": "Get started",
         "btn_link": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4"
       }
@@ -227,8 +227,89 @@
         "title": "How it works"
       }
     },
+    "05381fc2-cc9f-4c75-a949-9710fc8a1af9": {
+      "type": "featured-product-2",
+      "blocks": {
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-1": {
+          "type": "title",
+          "settings": {
+            "title": "Ready to get  started?",
+            "heading_size": "h1"
+          }
+        },
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "762fe420-3d8f-4fa6-8a5d-6bb79939d408": {
+          "type": "description",
+          "settings": {}
+        },
+        "238ae961-26e4-4813-9144-25ef840225af": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"#\">What you’ll recieve<\/a>"
+          }
+        },
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-2": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-4": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-1",
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-0",
+        "762fe420-3d8f-4fa6-8a5d-6bb79939d408",
+        "238ae961-26e4-4813-9144-25ef840225af",
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-2",
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-3",
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-4",
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-5",
+        "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-6"
+      ],
+      "settings": {
+        "custom_class": "featured-product-main-new no-margin",
+        "product": "copy-of-oral-microbiome-test-2",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_position": "right",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "50546778-b9a2-41c2-8f08-e2037cffacd4": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4-1668236944503ece31-1": {
           "type": "title",
@@ -373,6 +454,7 @@
     "ceefde84-ef1a-4154-82b6-68f172aa8a6d",
     "86bed344-b3b6-447d-a127-0b482250826f",
     "6d1b033b-755c-48ab-b730-69e08b768929",
+    "05381fc2-cc9f-4c75-a949-9710fc8a1af9",
     "50546778-b9a2-41c2-8f08-e2037cffacd4",
     "2dcf788a-0b48-4469-af49-48b6f2139a69",
     "88e8466c-76b9-444a-93c0-6d5974cb86ea"

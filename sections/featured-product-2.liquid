@@ -262,26 +262,25 @@
                             >
                             <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                               <h5>{{ value }}</h5>
-                            {%- if value == 'One-time Oral Microbiome Test' -%}
-                            <p>1X Oral Microbiome Test 
-                              <br>1X Personalized Care Plan</p>
-                              {%- elsif value == 'Oral Microbiome Reset Program' -%}
-                            <p>Everything included above + One more follow-up test 6 months later + 2X Coaching calls + Ongoing accountability, advice & Support</p>
+                            {%- if value == 'Measure your oral health' -%}
+                            <p>Test your oral microbiome & get your improvement plan</p>
+                              {%- elsif value == 'Reset your oral microbiome' -%}
+                            <p>Test -> improve -> retest with coaching along the way</p>
                               {%- endif -%}
                             </label>
-                             {%- if value == 'One-time Oral Microbiome Test' -%}
+                             {%- if value == 'Measure your oral health' -%}
                             <div class="featured-price-var">
                             {%- for variant in product.variants -%}
-                              {%- if variant.title == 'One-time Oral Microbiome Test' -%}
+                              {%- if variant.title == 'Measure your oral health' -%}
                             {{ variant.price | money }}
                                 {%- endif -%}
                               {%- endfor -%}
                             </div>
                                {%- endif -%}
-                            {%- if value == 'Oral Microbiome Reset Program' -%}
+                            {%- if value == 'Reset your oral microbiome' -%}
                             <div class="featured-price-var">
                             {%- for variant in product.variants -%}
-                              {%- if variant.title == 'Oral Microbiome Reset Program' -%}
+                              {%- if variant.title == 'Reset your oral microbiome' -%}
                             {{ variant.price | money }}
                                 {%- endif -%}
                               {%- endfor -%}
@@ -734,7 +733,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.featured-product.name",
+  "name": "Featured Product 2",
   "tag": "section",
   "class": "section section-featured-product",
   "blocks": [

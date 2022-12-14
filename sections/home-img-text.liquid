@@ -23,18 +23,23 @@
       </div>
         {%- endif -%}
       <div class="home-img-text-right home-img-text-text">
+	  <div class="home-img-text-right-inner">
         {%- if section.settings.title != blank -%}
-        <h2>{{ section.settings.title }}</h2>
+        <h3 >{{ section.settings.title }}</h3>
         {%- endif -%}
         {%- if section.settings.desc != blank -%}
         {{ section.settings.desc }}
         {%- endif -%}
-      </div>
+{%- if section.settings.btn_title_main != blank -%}
+       <div class="main-sec-btn"> <a href="{{ section.settings.btn_title_main_url }}" class="btn btn-primary">{{ section.settings.btn_title_main }}</a></div>
+        {%- endif -%}
+      </div></div>
     </div>
+    {%- if section.settings.bottom_title != blank -%}
     <div class="home-img-text-part">
        <div class="container-large">
       {%- if section.settings.bottom_title != blank -%}
-      <h2>{{ section.settings.bottom_title }}</h2>
+      <h3>{{ section.settings.bottom_title }}</h3>
       {%- endif -%}
       {%- if section.settings.btn_link != blank and section.settings.btn_title != blank -%}
         <div class="mobile_hide">
@@ -50,6 +55,7 @@
            <a class="btn btn-primary btn-large" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
       {%- endif -%}
     </div> </div>
+      {%- endif -%}
   </div>
 </div>
 
@@ -80,11 +86,22 @@
         "id": "desc",
         "label": "Description"
       },
+       {
+        "type": "text",
+        "id": "btn_title_main",
+        "label": "Main Section Button"
+      },
+       {
+        "type": "url",
+        "id": "btn_title_main_url",
+        "label": "Main Section Button Link"
+      },
       {
         "type": "text",
         "id": "bottom_title",
         "label": "Bottom Heading"
       },
+     
       {
         "type": "text",
         "id": "btn_title",

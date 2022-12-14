@@ -5,13 +5,25 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_279467.png",
         "title": "Better oral care, based on your<span> biology<\/span>",
-        "desc": "Solve your oral health issues like halitosis, gum inflammation, and tooth decay with root cause testing and personalized coaching and care.",
+        "desc": "Prevent and solve issues like bad breath, gum disease, and cavities with oral health testing, coaching and care.",
+        "btn_title": "Get started",
+        "btn_link": "#shopify-section-template--15935262064797__3edec089-d01c-490d-8df4-dca04199ae98"
+      }
+    },
+    "aac57206-12e0-4129-9764-ee90786ffa47": {
+      "type": "new-home-image-text",
+      "settings": {
+        "custom_class": "guesswork",
+        "title": "Take the <span class=\"red-color\">guesswork<\/span> out of oral health",
+        "image": "shopify:\/\/shop_images\/Group_279672.png",
+        "desc": "<ul>\n<li>\n<div class=\"li-left\">\n<span class=\"number\">1<\/span>\n<\/div>\n<div class=\"li-right\">\n<h4>Take your oral health test<\/h4>\n<p>Measure the levels of bacteria in your mouth that cause conditions including cavities, gum disease and bad breath.<\/p>\n<\/div>\n<\/li>\n<li>\n<div class=\"li-left\">\n<span class=\"number\">2<\/span>\n<\/div>\n<div class=\"li-right\">\n<h4>Get your personalized care plan<\/h4>\n<p>Understand which products, diet, and hygiene routines will work best for you. Everyone is unique!<\/p>\n<\/div>\n<\/li>\n<li>\n<div class=\"li-left\">\n<span class=\"number\">3<\/span>\n<\/div>\n<div class=\"li-right\">\n<h4>Meet your coach<\/h4>\n<p>Review your plan and access ongoing support from our team of hygienists.<\/p>\n<\/div>\n<\/li>\n<li>\n<div class=\"li-left\">\n<span class=\"number\">4<\/span>\n<\/div>\n<div class=\"li-right\">\n<h4>Track your progress<\/h4>\n<p>Measure your improvement to see what’s working and improve your care plan.<\/p>\n<\/div>\n<\/li>\n<\/ul>",
         "btn_title": "Get started",
         "btn_link": "#shopify-section-template--15935262064797__3edec089-d01c-490d-8df4-dca04199ae98"
       }
     },
     "fc0414f6-28e2-4030-b26f-ad4030ea61fe": {
       "type": "home-logo",
+      "disabled": true,
       "blocks": {
         "e439de7e-9680-4f4e-8e9a-35a86ce9d46e": {
           "type": "Logo",
@@ -46,13 +58,14 @@
     },
     "06188e47-d4b8-452e-aced-eb260017b269": {
       "type": "home-icon-text",
+      "disabled": true,
       "blocks": {
         "347c9283-e02c-476e-a037-c3c5c759f3d2": {
           "type": "Icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/Icons_Color_557475da-692b-484c-868e-0e9199f227f9.png",
             "title": "Preventive",
-            "desc": "Identify the root-cause of conditions and understand your risk before they become problems"
+            "desc": "Identify the root-cause of conditions and understand your risk before they become problems."
           }
         },
         "5503b7d0-722a-4945-8aa8-f12393025b39": {
@@ -85,6 +98,7 @@
     },
     "5d6bc317-5aa0-4e54-91fc-33341d0ac7ba": {
       "type": "home-how-it-works",
+      "disabled": true,
       "blocks": {
         "2dcee56c-6e85-478d-bcca-a55b533e1205": {
           "type": "Text",
@@ -171,6 +185,7 @@
     },
     "bf31430c-9868-44bc-8f84-858155a223c7": {
       "type": "sales-img",
+      "disabled": true,
       "settings": {
         "custom_class": "home-img-left-side",
         "narrow_sec": true,
@@ -186,14 +201,16 @@
     "ba38051d-258f-4568-9c9e-100d34a52a6b": {
       "type": "home-img-text",
       "settings": {
-        "custom_class": "full-section",
+        "custom_class": "full-section no-margin",
         "image": "shopify:\/\/shop_images\/Group_8_dedcae3b-ab83-4e67-8362-95bbbd866c8c.jpg",
-        "title": "Identify and treat the root<br> cause of conditions, including:",
-        "desc": "<ul>\n<li>Chronic bad breath<\/li>\n<li>Tooth decay<\/li>\n<li>Inflamed gums<\/li>\n<li>Gut dysbiosis<\/li>\n<li>Gum recession<\/li>\n<li>Oral thrush<\/li>\n<li>Tonsil stones<\/li>\n<li>Burning mouth syndrome<\/li>\n<\/ul>",
-        "bottom_title": "Explore the oral microbiome’s impact on your oral and overall health",
+        "title": "Identify and treat the root cause of <br>conditions, including:",
+        "desc": "<ul>\n<li><p>Chronic bad breath<\/p><\/li>\n<li><p>Tooth decay<\/p><\/li>\n<li><p>Inflamed gums<\/p><\/li>\n<li><p>Gut dysbiosis<\/p><\/li>\n<li><p>Gum recession<\/p><\/li>\n<li><p>Oral thrush<\/p><\/li>\n<li><p>Tonsil stones<\/p><\/li>\n<li><p>Burning mouth syndrome<\/p><\/li>\n<\/ul>",
+        "btn_title_main": "Learn more",
+        "btn_title_main_url": "",
+        "bottom_title": "",
         "btn_title": "Learn more",
-        "btn_title_mob": "Get started",
-        "btn_link": "shopify:\/\/pages\/our-about"
+        "btn_title_mob": "Learn more",
+        "btn_link": "shopify:\/\/blogs\/blogs"
       }
     },
     "1ea09545-73f7-4513-b588-28275ef7f05c": {
@@ -202,7 +219,7 @@
         "template--15935262064797__1ea09545-73f7-4513-b588-28275ef7f05c-166788111167bc9848-1": {
           "type": "title",
           "settings": {
-            "title": "Ready to get  started?",
+            "title": "Get started",
             "heading_size": "h1"
           }
         },
@@ -265,7 +282,7 @@
         "template--15935262064797__1ea09545-73f7-4513-b588-28275ef7f05c-166788111167bc9848-6"
       ],
       "settings": {
-        "custom_class": "",
+        "custom_class": "no-margin",
         "product": "copy-of-ready-to-get-started",
         "color_scheme": "background-2",
         "secondary_background": false,
@@ -292,6 +309,18 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "2f7cc631-d3d9-4c46-b8d3-9d167791f9f8": {
+      "type": "sales-img-text",
+      "settings": {
+        "narrow_sec": true,
+        "custom_class": "rocket_science",
+        "image": "shopify:\/\/shop_images\/Illustrations_Ugly_244a9576-0963-41c1-bbbc-7476e1967b99.png",
+        "title": "Oral health isn’t rocket science -<span class=\"red-color\"> it’s biology<\/span>",
+        "desc": "<p>Bacteria, fungi and viruses live in your mouth! Some keep our teeth and gums healthy, while others cause damage. Bad bacteria cause conditions like bad breath, tooth decay and gum disease. They are also linked to conditions like heart disease, Alzheimer’s and diabetes.<\/p>\n<p>We help you identify and eliminate the harmful bacteria in your mouth to improve your oral and overall health.<\/p>",
+        "btn_title": "Learn the science",
+        "btn_link": "#"
       }
     },
     "9bab4bf5-a779-4fdf-9206-3a3a5490f760": {
@@ -330,10 +359,14 @@
         "1174e09e-7cba-49e8-a059-2c066cedab39",
         "47b4d5d3-bcc0-4609-8231-aad8f8cddd27"
       ],
-      "settings": {}
+      "settings": {
+        "title": "Real people, <span class=\"red-color\">real improvements<\/span>",
+        "desc": "Join thousands of people taking control of their oral health with Bristle"
+      }
     },
     "c3a2b8d7-e3db-4c72-ba2a-c215153d1a3f": {
       "type": "home-result-icon-text",
+      "disabled": true,
       "blocks": {
         "07d648f3-d9e1-4ff6-9808-6da2bded5498": {
           "type": "Icon",
@@ -371,6 +404,7 @@
     },
     "95ef0b99-1000-4c87-8597-68ab0c6dcd5a": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15935262064797__95ef0b99-1000-4c87-8597-68ab0c6dcd5a-1667970067f13f5594-0": {
           "type": "heading",
@@ -417,16 +451,17 @@
       "type": "home-real-improvement",
       "settings": {
         "custom_class": "",
-        "title": "Real people, <span class=\"red-color\">real improvements<\/span>",
-        "desc": "We're committed to helping you improve your oral health.",
+        "title": "",
+        "desc": "",
         "image": "shopify:\/\/shop_images\/image_43_1.png",
-        "left_desc": "“When I took my second Bristle test six months later, my jaw dropped. I haven’t had to have any work done at the dentist since I started down this new path, just cleanings! It’s unbelievable!! I honestly can’t thank Bristle enough.”\n<h4>Wendy, 48<\/h4>",
+        "left_desc": "“When I took my second Bristle test six months later, my jaw dropped. I haven’t had to have any work done at the dentist since I started down this new path, just cleanings! It’s unbelievable!! I honestly can’t thank Bristle enough.”\n<h5 class=\"red-color name\">Wendy, 48<\/h5>",
         "btn_title": "Read full story",
-        "btn_link": "shopify:\/\/pages\/our-about"
+        "btn_link": "https:\/\/shop.bristlehealth.com\/blogs\/news\/wendy-s-journey-with-bristle"
       }
     },
     "f6dd1848-429a-4db6-bfda-8a5e081da65f": {
       "type": "home-text",
+      "disabled": true,
       "settings": {
         "title_01": "80%",
         "desc_01": "Of Bristle members make changes to their oral products based on their test results and care plan",
@@ -477,70 +512,7 @@
         "4bb6453f-0cfa-4c1a-ab9b-0daa13cbd840"
       ],
       "settings": {
-        "title": "Recommended by <span class=\"red-color\">leaders <\/span><br> in the industry"
-      }
-    },
-    "3d755c21-f508-4a11-971f-6def3b3f47b3": {
-      "type": "home-faq",
-      "blocks": {
-        "20f90b55-d772-4418-881e-9e31f4b1b8a2": {
-          "type": "FAQ",
-          "settings": {
-            "question": "What does the Bristle test look for?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-          }
-        },
-        "4b06a3b6-dd56-4ce1-a839-5ccf42a1d352": {
-          "type": "FAQ",
-          "settings": {
-            "question": "How long does it take to get my results once I return my sample?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-          }
-        },
-        "17db6c88-69a6-471f-bf5c-1746808131f2": {
-          "type": "FAQ",
-          "settings": {
-            "question": "How do I collect my sample?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-          }
-        },
-        "504fad50-1587-49f6-b65a-afff0a961be4": {
-          "type": "FAQ",
-          "settings": {
-            "question": "Can I share the results with my dentist or doctor?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-          }
-        },
-        "a907eb25-a957-4265-b0d9-3282cdc6b39b": {
-          "type": "FAQ",
-          "settings": {
-            "question": "When will I receive my test?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-          }
-        },
-        "5538dbe8-0c62-46f5-9f1c-5335a1cb2e8c": {
-          "type": "FAQ",
-          "settings": {
-            "question": "Can I use my FSA or HSA for payment?",
-            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-          }
-        }
-      },
-      "block_order": [
-        "20f90b55-d772-4418-881e-9e31f4b1b8a2",
-        "4b06a3b6-dd56-4ce1-a839-5ccf42a1d352",
-        "17db6c88-69a6-471f-bf5c-1746808131f2",
-        "504fad50-1587-49f6-b65a-afff0a961be4",
-        "a907eb25-a957-4265-b0d9-3282cdc6b39b",
-        "5538dbe8-0c62-46f5-9f1c-5335a1cb2e8c"
-      ],
-      "settings": {
-        "title": "FAQ",
-        "sub_title": "Still have questions?",
-        "btn_title_01": "View full FAQ",
-        "btn_link_01": "shopify:\/\/pages\/faq",
-        "btn_title_02": "Get in touch",
-        "btn_link_02": "shopify:\/\/pages\/contact-us"
+        "title": "Recommended by <span class=\"red-color\">dentists<\/span>"
       }
     },
     "3edec089-d01c-490d-8df4-dca04199ae98": {
@@ -549,7 +521,7 @@
         "template--15935262064797__3edec089-d01c-490d-8df4-dca04199ae98-166789760600513294-1": {
           "type": "title",
           "settings": {
-            "title": "Ready to get  started?",
+            "title": "Get started",
             "heading_size": "h1"
           }
         },
@@ -612,7 +584,7 @@
         "template--15935262064797__3edec089-d01c-490d-8df4-dca04199ae98-166789760600513294-6"
       ],
       "settings": {
-        "custom_class": "no-margin",
+        "custom_class": "",
         "product": "copy-of-ready-to-get-started",
         "color_scheme": "background-2",
         "secondary_background": false,
@@ -622,10 +594,75 @@
         "padding_top": 52,
         "padding_bottom": 52
       }
+    },
+    "3d755c21-f508-4a11-971f-6def3b3f47b3": {
+      "type": "home-faq",
+      "blocks": {
+        "20f90b55-d772-4418-881e-9e31f4b1b8a2": {
+          "type": "FAQ",
+          "settings": {
+            "question": "What does the Bristle test look for?",
+            "answer": "Bristle profiles your oral microbiome - the makeup of bacteria, fungi, and viruses in your mouth. Some of these bacteria are beneficial to our health, while others are harmful and can increase our risk or cause disease."
+          }
+        },
+        "4b06a3b6-dd56-4ce1-a839-5ccf42a1d352": {
+          "type": "FAQ",
+          "settings": {
+            "question": "How long does it take to get my results once I return my sample?",
+            "answer": "Results will typically be returned to you in 2 - 3 weeks from when we receive your kit to our lab."
+          }
+        },
+        "17db6c88-69a6-471f-bf5c-1746808131f2": {
+          "type": "FAQ",
+          "settings": {
+            "question": "How do I collect my sample?",
+            "answer": "Bristle profiles your oral microbiome by using a sample of your saliva. To provide your sample, you spit into a small tube containing a clear liquid solution that functions to stabilize your saliva. You mail back the tube to Bristle's laboratory using the prepaid envelope provided and results are returned online. Detailed step-by-step instructions of the sample collection process are included in each test kit and also available through your account dashboard after registering your kit."
+          }
+        },
+        "504fad50-1587-49f6-b65a-afff0a961be4": {
+          "type": "FAQ",
+          "settings": {
+            "question": "Can I share the results with my dentist or doctor?",
+            "answer": "Yes! We encourage you to discuss your results with your medical provider."
+          }
+        },
+        "a907eb25-a957-4265-b0d9-3282cdc6b39b": {
+          "type": "FAQ",
+          "settings": {
+            "question": "When will I receive my test?",
+            "answer": "Orders ship within 1-2 days from purchase, and shipping usually takes 3 - 5 business days for delivery. We will provide you with updates on your order via email and you can track the shipment in your dashboard by clicking on the \"My Orders\" tab."
+          }
+        },
+        "5538dbe8-0c62-46f5-9f1c-5335a1cb2e8c": {
+          "type": "FAQ",
+          "settings": {
+            "question": "Can I use my FSA or HSA for payment?",
+            "answer": "Bristle tests are eligible for reimbursement by most FSA and HSA plans. Since every plan is different, we advise that you check with your plan to confirm that the Bristle test is eligible. Contact us at support@bristlehealth.com to obtain an itemized receipt."
+          }
+        }
+      },
+      "block_order": [
+        "20f90b55-d772-4418-881e-9e31f4b1b8a2",
+        "4b06a3b6-dd56-4ce1-a839-5ccf42a1d352",
+        "17db6c88-69a6-471f-bf5c-1746808131f2",
+        "504fad50-1587-49f6-b65a-afff0a961be4",
+        "a907eb25-a957-4265-b0d9-3282cdc6b39b",
+        "5538dbe8-0c62-46f5-9f1c-5335a1cb2e8c"
+      ],
+      "settings": {
+        "custom_class": "no-margin",
+        "title": "FAQ",
+        "sub_title": "Still have questions?",
+        "btn_title_01": "View full FAQ",
+        "btn_link_01": "shopify:\/\/pages\/faq",
+        "btn_title_02": "Get in touch",
+        "btn_link_02": "shopify:\/\/pages\/contact-us"
+      }
     }
   },
   "order": [
     "cfa8fcc9-c9ee-48d9-970f-25a5a085c9c1",
+    "aac57206-12e0-4129-9764-ee90786ffa47",
     "fc0414f6-28e2-4030-b26f-ad4030ea61fe",
     "06188e47-d4b8-452e-aced-eb260017b269",
     "5d6bc317-5aa0-4e54-91fc-33341d0ac7ba",
@@ -633,13 +670,14 @@
     "ba38051d-258f-4568-9c9e-100d34a52a6b",
     "1ea09545-73f7-4513-b588-28275ef7f05c",
     "166807277272ab05a6",
+    "2f7cc631-d3d9-4c46-b8d3-9d167791f9f8",
     "9bab4bf5-a779-4fdf-9206-3a3a5490f760",
     "c3a2b8d7-e3db-4c72-ba2a-c215153d1a3f",
     "95ef0b99-1000-4c87-8597-68ab0c6dcd5a",
     "40183385-697e-4148-a4f4-0ce394595359",
     "f6dd1848-429a-4db6-bfda-8a5e081da65f",
     "25b59fb1-230e-46f4-8215-19d3fe4bad16",
-    "3d755c21-f508-4a11-971f-6def3b3f47b3",
-    "3edec089-d01c-490d-8df4-dca04199ae98"
+    "3edec089-d01c-490d-8df4-dca04199ae98",
+    "3d755c21-f508-4a11-971f-6def3b3f47b3"
   ]
 }

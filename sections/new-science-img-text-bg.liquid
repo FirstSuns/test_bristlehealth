@@ -1,7 +1,7 @@
 <div class="science-img-text-section science-img-text-section-new {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
   <div class="container">
      {%- if section.settings.title != blank -%}
-        <h2 class="lora-font desktop_hide">{{ section.settings.title }}</h2>
+        <h2 class="main-title lora-font desktop_hide">{{ section.settings.title }}</h2>
         {%- endif -%}
     <div class="science-img-text grid-new">
       {%- if section.settings.image != blank -%}
@@ -43,7 +43,7 @@
       {%- endif -%}
       <div class="science-img-text-right grid-item-new">
         {%- if section.settings.title != blank -%}
-        <h2 class="lora-font mobile_hide">{{ section.settings.title }}</h2>
+        <h2 class="main-title lora-font mobile_hide">{{ section.settings.title }}</h2>
         {%- endif -%}
         {{ section.settings.desc }}
         {%- if section.settings.btn_title != blank and section.settings.btn_link != blank -%}

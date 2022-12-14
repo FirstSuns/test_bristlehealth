@@ -2,7 +2,7 @@
   <div class="container">
     <div class="home-team-title">
       {%- if section.settings.title != blank -%}
-      <h2>{{ section.settings.title }}</h2>
+      <h2 class="main-title">{{ section.settings.title }}</h2>
       {%- endif -%}
     </div>
     <div class="home-team">
@@ -31,7 +31,7 @@
         <h4>{{ block.settings.title }}</h4>
         {%- endif -%}
         {%- if block.settings.sub_title != blank -%}
-        <h5>{{ block.settings.sub_title }}</h5>
+        <p>{{ block.settings.sub_title }}</p>
         {%- endif -%}
       </div>
       {%- endfor -%}
@@ -89,7 +89,7 @@ function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
     "name": "Home Team",
     "settings": [
       {
-        "type": "text",
+        "type": "html",
         "id": "title",
         "label": "Heading"
       }

@@ -1,0 +1,77 @@
+<div class="new-home-image-text-section {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
+  <div class="container">
+    <div class="new-home-image-text">
+      {% if section.settings.title != blank %}
+      <h2 class="main-title lora-font">{{ section.settings.title }}</h2>
+      {% endif %}
+      <div class="new-home-image-text-part">
+      {% if section.settings.desc != blank %}
+      <div class="new-home-image-text-left">
+        {{ section.settings.desc }}
+      </div>
+      {% endif %}
+      {% if section.settings.image != blank %}
+      <div class="new-home-image-text-right">
+      <img src="{{ section.settings.image | img_url: 'master' }}" />
+      </div>
+      {% endif %}
+      </div>
+      <div class="new-home-image-text-btn">
+        {% if section.settings.btn_title != blank and section.settings.btn_link != blank %}
+        <a class="btn btn-primary" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "New Home Image Text",
+    "settings": [
+      {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "html",
+        "id": "desc",
+        "label": "Description"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "Button Heading"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Button Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "New Home Image Text",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

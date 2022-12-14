@@ -230,7 +230,7 @@
         "template--15968824754333__7bc29cd5-aaa1-4014-ae33-b4f9795da92a-166807696925c284f8-1": {
           "type": "text",
           "settings": {
-            "text": "Follow these steps to create your account with Bristle and implement oral microbiome testing:\n<ul>\n<li>Create your account by clicking the button below - it's free to sign up.\n<\/li>\n<li>Order kits at discounted pricing through your portal.\n<\/li>\n<li>Register kits online before collecting a sample.\n<\/li>\n<li>Collect a 0.5mL saliva sample and send it back to our lab using a prepaid envelope.\n<\/li>\n<li>Receive results online in 2 weeks.\n<\/li>\n<\/ul>",
+            "text": "<h4>Follow these steps to create your account with Bristle and implement oral microbiome testing:<\/h4>\n<ul>\n<li>\n<p>Create your account by clicking the button below - it's free to sign up.<\/p>\n<\/li>\n<li>\n<p>Order kits at discounted pricing through your portal.<\/p>\n<\/li>\n<li>\n<p>Register kits online before collecting a sample.<\/p>\n<\/li>\n<li>\n<p>Collect a 0.5mL saliva sample and send it back to our lab using a prepaid envelope.<\/p>\n<\/li>\n<li>\n<p>Receive results online in 2 weeks.<\/p>\n<\/li>\n<\/ul>",
             "text_style": "body"
           }
         },
@@ -504,7 +504,7 @@
         "template--15968824754333__702cd3b6-566b-4a98-8099-36350bb0ce3f-1668139442f6c0e712-1": {
           "type": "text",
           "settings": {
-            "text": "<ul class=\"main-ul-text mbslides\">\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x36__2.png?v=1670318208\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_32_1.png?v=1668139572\" loading=\"lazy\">\n<div class=\"li-right\"> <b>Backed by science<\/b><p>Our test was developed through research with the University of Pacific Dugoni School of Dentistry under an independent review board. Our science is backed by decades of research and over 200 scientific studies.\n<\/p>\n<\/div>\n<\/li>\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x35__1.png?v=1670318219\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x35__1.png?v=1670318219\" loading=\"lazy\"><div class=\"li-right\"> <b>Clinical grade quality<\/b><p>Testing is performed in a U.S. CLIA-certified laboratory to ensure accuracy and validity of results.\n<\/p>\n<\/div>\n<\/li>\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x31_8.png?v=1670318228\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x31_8.png?v=1670318228\" loading=\"lazy\"><div class=\"li-right\"> <b>Accessible &amp; effective testing<\/b><p>Testing is as simple as spitting in a tube and mailing it back to our lab. Our report is patient-friendly with clear results and our pricing allows for recurrent testing to monitor over time &amp; assess treatment efficacy.\n<\/p>\n<\/div>\n<\/li>\n<\/ul>",
+            "text": "<ul class=\"main-ul-text mbslides\">\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x36__2.png?v=1670318208\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/image_32_1.png?v=1668139572\" loading=\"lazy\">\n<div class=\"li-right\"> <h4>Backed by science<\/h4>\n<p>Our test was developed through research with the University of Pacific Dugoni School of Dentistry under an independent review board. Our science is backed by decades of research and over 200 scientific studies.\n<\/p>\n<\/div>\n<\/li>\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x35__1.png?v=1670318219\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x35__1.png?v=1670318219\" loading=\"lazy\"><div class=\"li-right\"> <h4>Clinical grade quality<\/h4>\n<p>Testing is performed in a U.S. CLIA-certified laboratory to ensure accuracy and validity of results.\n<\/p>\n<\/div>\n<\/li>\n<li>\n<img srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x31_8.png?v=1670318228\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0527\/7574\/7741\/files\/x31_8.png?v=1670318228\" loading=\"lazy\"><div class=\"li-right\"> <h4>Accessible &amp; effective testing<\/h4>\n<p>Testing is as simple as spitting in a tube and mailing it back to our lab. Our report is patient-friendly with clear results and our pricing allows for recurrent testing to monitor over time &amp; assess treatment efficacy.\n<\/p>\n<\/div>\n<\/li>\n<\/ul>",
             "text_style": "body"
           }
         },
@@ -522,7 +522,7 @@
       ],
       "settings": {
         "custom_class": "best-in-tech",
-        "title": "Best in class <span class=\"red-color\">technology<\/span>",
+        "title": "Best in class technology",
         "video": "",
         "image": "shopify:\/\/shop_images\/image_35.png",
         "height": "adapt",
@@ -545,7 +545,7 @@
         "template--15968824754333__b6da2979-4f8f-4575-8afa-5b8c1a57ce05-166813999396a8b39e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Good health starts with a  healthy mouth",
+            "heading": "Good health starts with a  <span class=\"red-color\">healthy mouth<\/span>",
             "heading_size": "h2"
           }
         },
@@ -639,7 +639,7 @@
         "1bd3b723-684d-4e82-b9c5-3fba06771242"
       ],
       "settings": {
-        "title": "Recommended by leaders in the industry"
+        "title": "Recommended by <span class=\"red-color\">leaders<\/span> in the industry"
       }
     }
   },

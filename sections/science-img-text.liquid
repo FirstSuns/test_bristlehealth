@@ -1,4 +1,4 @@
-<div class="science-img-text-section science-img-text-section-main {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
+<div class="ff science-img-text-section science-img-text-section-main {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
  
 {% if section.settings.narrow_sec != blank  %}   <div class="container"> {% endif %}
   <div class="science-img-text-section-inner">
@@ -6,7 +6,7 @@
       
       <div class="science-img-text-right grid-item-new">
         {%- if section.settings.title != blank -%}
-        <h1 class="lora-font">{{ section.settings.title }}</h1>
+        <h2 class="main-title lora-font">{{ section.settings.title }}</h2>
         {%- endif -%}
         {%- if section.settings.desc != blank -%}
         <p>{{ section.settings.desc }}</p>

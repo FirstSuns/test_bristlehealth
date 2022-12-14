@@ -30,7 +30,7 @@
         "title": "<span class=\"red-color\">The tech<\/span> behind the test",
         "desc": "We developed the world’s first and most advanced oral health test to help you easily and effectively improve your health. Learn about it 👇",
         "btn_title": "Get started",
-        "btn_link": "#"
+        "btn_link": "#ProductInfo-template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46"
       }
     },
     "8783acea-3b03-43b2-aa6b-572da8b645d6": {
@@ -105,9 +105,9 @@
         "f463cb24-aef9-47de-bad1-5333d9cd0704"
       ],
       "settings": {
-        "title": "This is the way it should be",
+        "title": "We believe in a better way to take care of your mouth",
         "btn_title": "Get started",
-        "btn_link": "#"
+        "btn_link": "#ProductInfo-template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46"
       }
     },
     "9dc62569-3f1c-4b09-b551-b7c5bdd8cfbb": {
@@ -131,7 +131,7 @@
         "image": "shopify:\/\/shop_images\/Iphone_Mockup_04_1_3.png",
         "left_desc": "<h3>There are <i>thousands<\/i> of microbes associated with your oral microbiome. <\/h3>\n<h4>We developed the world’s first test that analyzes all of them.  <\/h4>\n<p>We use shotgun metagenomic sequencing to identify all of the microbes in your mouth and data from thousands of samples to provide insights into your health - all from a single saliva sample.<\/p>",
         "btn_title": "Learn about our study",
-        "btn_link": "#"
+        "btn_link": "https:\/\/shop.bristlehealth.com\/blogs\/david-lin\/bristle-oral-health-test-white-paper"
       }
     },
     "597c5d80-227b-4179-9bf9-636995ad419b": {
@@ -141,7 +141,7 @@
         "title": "",
         "desc": "",
         "image": "shopify:\/\/shop_images\/Group_279596.png",
-        "left_desc": "<h3>Oral health takes<i> more than brushing and flossing<\/i>\n<\/h3>\n<h2>Retrain your biology to improve your oral health<\/h2>\n<p>We go way beyond the same advice you constantly hear and take a holistic approach to improving oral health at the biological level... something something something<\/p>",
+        "left_desc": "<h3>Oral health takes<i> more than brushing and flossing<\/i>\n<\/h3>\n<h2>Retrain your biology to improve your oral health<\/h2>\n<p>We go way beyond the same advice you constantly hear and take a holistic approach to improving oral health at the biological level.<\/p>",
         "btn_title": "",
         "btn_link": ""
       }
@@ -198,7 +198,7 @@
     "6381c212-474e-41c3-8fab-f5bf91d0a739": {
       "type": "oral-health-text",
       "settings": {
-        "desc": "<h2>Retrain your biology to <span class=\"red-color\">improve your oral health<\/span> <span class=\"next-block\">(FYI: it takes more than brushing and flossing)<\/span>\n<\/h2>\n<p>We go way beyond the same advice you constantly hear and take a holistic approach to <span>improving oral <br>health<\/span> at the biological level... something something something<\/p>"
+        "desc": "<h2 class=\"main-title\">Curated care: <span class=\"red-color\">created for you<\/span> <span class=\"next-block\"><\/span>\n<\/h2>\n<p>We do the legwork so you don’t have to.<\/p>"
       }
     },
     "6ed5b418-8e5d-4f6d-89e0-0dee68742609": {
@@ -395,7 +395,7 @@
         "image": "shopify:\/\/shop_images\/image_43_3.png",
         "left_desc": "\"To say that Bristle changed the course of my health for the better would be a total understatement.\"",
         "btn_title": "Read full story",
-        "btn_link": "#"
+        "btn_link": "https:\/\/shop.bristlehealth.com\/blogs\/news\/wendy-s-journey-with-bristle"
       }
     },
     "d8bba8bc-47e3-4f7b-a127-de867e24a195": {
@@ -434,7 +434,10 @@
         "c6c3b95e-56aa-4d75-9efd-2c514d4323f5",
         "0394d5b3-f2a7-445a-83f3-35060777b417"
       ],
-      "settings": {}
+      "settings": {
+        "title": "",
+        "desc": ""
+      }
     },
     "1670476875fda8c96e": {
       "type": "apps",
@@ -540,9 +543,9 @@
         "custom_class": "healthy-mouth",
         "narrow_sec": true,
         "image": "shopify:\/\/shop_images\/portrait-beautiful-smiling-blond-model-dressed-summer-hipster-clothes_2_1.png",
-        "title": "The future of Bristle \nis<span class=\"red-color\"> bright<\/span>",
-        "desc": "<p>Bristle continues to focus on ways to make personalized dental care more available to everyone. By prioritizing simplicity and science, we can ensure that our in-depth reporting empowers both patients and dental professionals to make better decisions for both preventative care and ongoing treatment.<\/p>\n<h6>Want to get your dentist involved? Send them to our providers page.<\/h6>",
-        "btn_title": "Leran more!",
+        "title": "Smile: the future with Bristle \nis<span class=\"red-color\"> bright<\/span>",
+        "desc": "<p>Bristle focuses making personalized oral care available to everyone. By prioritizing simplicity and science, we can ensure that our in-depth reporting empowers both patients and dental professionals to make better decisions for preventative care and ongoing health.<\/p>\n<h4>Want to get your dentist involved? Send them to our providers page!<\/h4>",
+        "btn_title": "Learn more!",
         "btn_link": "#"
       }
     }

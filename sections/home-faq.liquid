@@ -1,8 +1,8 @@
-<div class="home-faq-section">
+<div class="home-faq-section {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
   <div class="container">
     {% if section.settings.title != blank %}
     <div class="home-faq-title">
-      <h2>{{ section.settings.title }}</h2>
+      <h2 class="main-title">{{ section.settings.title }}</h2>
     </div>
     {% endif %}
     <div class="home-faq">
@@ -21,7 +21,7 @@
     </div>
     <div class="home-faq-title-bottom">
       {% if section.settings.sub_title != blank %}
-      <h3>{{ section.settings.sub_title }}</h3>
+      <h4>{{ section.settings.sub_title }}</h4>
       {% endif %}
       <div class="home-faq-title-bottom-btn">
         {% if section.settings.btn_link_01 != blank and section.settings.btn_title_01 != blank %}
@@ -51,6 +51,11 @@
   {
     "name": "Home FAQ",
     "settings": [
+      {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
       {
         "type": "text",
         "id": "title",

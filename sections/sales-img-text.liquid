@@ -1,5 +1,5 @@
-<div class="sales-image-text-section">
-  <div class="">
+<div class="sales-image-text-section {% if section.settings.custom_class != blank  %} {{ section.settings.custom_class }} {% endif %}">
+  {%- if section.settings.narrow_sec != blank -%} <div class="container">{%- endif -%}
     <div class="sales-image-text">
       <div class="sales-image-text-left">
       {%- if section.settings.image != blank -%}
@@ -24,7 +24,7 @@
       </div>
       <div class="sales-image-text-right">
         {%- if section.settings.title != blank -%}
-        <h2>{{ section.settings.title }}</h2>
+        <h2 class="main-title">{{ section.settings.title }}</h2>
         {%- endif -%}
         {%- if section.settings.desc != blank -%}
         <p>{{ section.settings.desc }}</p>
@@ -34,7 +34,7 @@
         {%- endif -%}
       </div>
     </div>
-  </div>
+  {%- if section.settings.narrow_sec != blank -%} </div>{%- endif -%}  
 </div>
 
 
@@ -44,12 +44,22 @@
     "name": "Sales Image Text",
     "settings": [
       {
+    "type":"checkbox",
+    "id":"narrow_sec",
+    "label":"Narrow Section"
+  },
+      {
+    "type":"text",
+    "id":"custom_class",
+    "label":"Add Custom class"
+  },
+      {
         "type": "image_picker",
         "id": "image",
         "label": "Image"
       },
       {
-        "type": "text",
+        "type": "html",
         "id": "title",
         "label": "Heading"
       },

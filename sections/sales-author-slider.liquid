@@ -2,7 +2,7 @@
   <div class="container">
     {% if section.settings.title != blank %}
     <div class="sales-author-slider-title">
-      <h2>{{ section.settings.title }}</h2>
+      <h2 class="main-title">{{ section.settings.title }}</h2>
     </div>
       {% endif %}
     <ul class="sales-author-slider">
@@ -11,15 +11,15 @@
         <div class="sales-author-slider-part">
           <div class="sales-author-slider-left">
             {% if block.settings.desc != blank %}
-            <p><div class="sale-author-desc-list">{{ block.settings.desc }}</div><span class="read-more-dots">...</span></p>
+            <p><div class="sale-author-desc-list"><p>{{ block.settings.desc }}</p></div><span class="read-more-dots">...</span></p>
               
             <div class="sales-read-more"><a href="#">Read More</a></div>
               {% endif %}
               {% if block.settings.title != blank %}
-            <h3>{{ block.settings.title }}</h3>
+            <h4>{{ block.settings.title }}</h4>
               {% endif %}
               {% if block.settings.sub_title != blank %}
-            <h4>{{ block.settings.sub_title }}</h4>
+            <h5>{{ block.settings.sub_title }}</h5>
               {% endif %}
               {% if block.settings.logo != blank %}
             <img src="{{ block.settings.logo | img_url: 'master' }}" />

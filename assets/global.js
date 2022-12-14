@@ -1015,15 +1015,15 @@ $(window).on('load',function(){
     {
       breakpoint: 769,
       settings: {
-        slidesToShow: 2
+        slidesToShow: 2,
+        arrows: false,
       }
     }
     ]
  });
-   if ($(window).width() < 769) {
 
   $('.slide-for').slick('unslick').slick('reinit').slick();
-  }
+
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 

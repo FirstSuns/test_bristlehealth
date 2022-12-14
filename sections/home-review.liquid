@@ -1,5 +1,15 @@
 <div class="home-review-section">
   <div class="container">
+    {% if section.settings.desc != blank or section.settings.title != blank %}
+    <div class="home-review-header">
+      {% if section.settings.title != blank %}
+      <h2 class="main-title lora-font">{{ section.settings.title }}</h2>
+      {% endif %}
+      {% if section.settings.desc != blank %}
+      <p>{{ section.settings.desc }}</p>
+      {% endif %}
+    </div>
+    {% endif %}
     <ul class="home-review-slider">
       {%- for block in section.blocks -%}
       <li class="home-review-list">
@@ -12,7 +22,7 @@
           <h6 class="place">{{ block.settings.sub_title }}</h6>
           {%- endif -%}
           {%- if block.settings.desc_title != blank -%}
-          <h3 class="sub-title">{{ block.settings.desc_title }}</h3>
+          <h5 class="sub-title">{{ block.settings.desc_title }}</h5>
           {%- endif -%}
           {%- if block.settings.desc != blank -%}
        <p class="des read-more-review">{{ block.settings.desc }}</p><a href="#" class="read-more-review-btn read-more"><p>Read more</p></a>
@@ -39,7 +49,18 @@
 {% schema %}
   {
     "name": "Home Review",
-    "settings": [],
+    "settings": [
+      {
+        "type": "html",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "desc",
+        "label": "Description"
+      }
+    ],
     "blocks": [
       {
         "type": "Review",

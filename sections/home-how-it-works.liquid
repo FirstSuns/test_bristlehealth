@@ -3,7 +3,7 @@
     {%- if section.settings.title != blank -%}
       <div class="container">
     <div class="home-how-it-works-title">
-      <h2>{{ section.settings.title }}</h2>
+      <h2 class="main-title">{{ section.settings.title }}</h2>
     </div></div>
       {%- endif -%}
     <div class="home-how-it-works">
@@ -115,7 +115,7 @@
             </div> {% endif %} </div>
             <div class="home-how-it-works-right home-how-it-works-text">
               {%- if block.settings.title != blank -%}
-              <h2>{{ block.settings.title }}</h2>
+              <h3>{{ block.settings.title }}</h3>
               {%- endif -%}
               {{ block.settings.desc }}
           <div class="home-how-it-works-btn desktop_show">
