@@ -48,7 +48,7 @@
           "type": "Text",
           "settings": {
             "title": "50%",
-            "sub_title": "of US Adults have some form of gum disease",
+            "sub_title": "of US Adults have some form of<br>gum disease",
             "desc": "Oral diseases are the most prevalent chronic condition on the planet - despite being almost entirely preventable."
           }
         },

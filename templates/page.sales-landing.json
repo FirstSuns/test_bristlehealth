@@ -122,7 +122,7 @@
             "btn_title_01": "Get started",
             "btn_link_01": "#shopify-section-template--15989163622557__0c35ed34-6578-4405-9471-788da0fac4a6",
             "btn_title_02": "See a sample report",
-            "btn_link_02": "#ProductInfo-template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e"
+            "btn_link_02": "\/pages\/sample-report"
           }
         },
         "962a25c2-d4e3-40dd-a708-c84860874cda": {
@@ -175,6 +175,7 @@
     },
     "0c35ed34-6578-4405-9471-788da0fac4a6": {
       "type": "featured-product-2",
+      "disabled": true,
       "blocks": {
         "template--15989163622557__0c35ed34-6578-4405-9471-788da0fac4a6-1671043365eefb821f-1": {
           "type": "title",
@@ -255,7 +256,6 @@
     },
     "4856c792-9cec-4615-8f63-1b7511f4899e": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e-1670228300d0a531e3-1": {
           "type": "title",

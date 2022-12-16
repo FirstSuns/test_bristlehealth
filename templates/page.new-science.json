@@ -229,6 +229,7 @@
     },
     "05381fc2-cc9f-4c75-a949-9710fc8a1af9": {
       "type": "featured-product-2",
+      "disabled": true,
       "blocks": {
         "template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9-16710421915bdfbc4a-1": {
           "type": "title",
@@ -309,7 +310,6 @@
     },
     "50546778-b9a2-41c2-8f08-e2037cffacd4": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4-1668236944503ece31-1": {
           "type": "title",

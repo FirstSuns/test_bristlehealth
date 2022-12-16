@@ -1034,7 +1034,7 @@ $(window).on('load',function(){
   $('.home-review-slider li').each(function(){
     var he = $(this).find('.des.read-more-review').innerHeight();
     console.log('he',he)
-    if(he <= 143){
+    if(he <= 141){
       $(this).find('.read-more-review-btn').hide();
     }
   })
