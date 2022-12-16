@@ -6,10 +6,10 @@
         "custom_class": "healthy-smile",
         "narrow_sec": false,
         "image": "shopify:\/\/shop_images\/Mask_group_4.png",
-        "title": "The<span class=\"red-color\"> science<\/span> of a healthy<br> smile",
+        "title": "The<span class=\"red-color\"> science<\/span> of a healthy smile",
         "desc": "",
         "btn_title": "Get started",
-        "btn_link": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4"
+        "btn_link": "#shopify-section-template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9"
       }
     },
     "f09c3e30-04a8-4838-84d2-dad4c1c09f68": {
@@ -20,7 +20,7 @@
         "image_mob": "shopify:\/\/shop_images\/Iphone_Mockup_04_1_1_121e24b3-2f91-490e-b909-8dc232ef645f.png",
         "title": "Oral health isn’t rocket science- <span class=\"red-color\">it’s biology<\/span>",
         "desc": "<p>The oral microbiome is the collection of all the microbes that live in your mouth. Some microbes help break down food, fight off infection, and keep our teeth and gums healthy, while others cause damage to our mouths and bodies. When your oral microbiome is out of balance, it leads to conditions like bad breath, tooth decay and gum disease.<br\/><br\/>The oral microbiome also affects overall health. Oral conditions like gum disease are risk factors for conditions like cardiovascular disease and diabetes.<br\/><br\/>Making small changes to your diet, hygiene and oral products based on your unique biology helps you achieve better oral health through a balanced oral microbiome!<\/p>",
-        "btn_title": "Learn the science",
+        "btn_title": "About our test",
         "btn_link": "shopify:\/\/pages\/our-about"
       }
     },
@@ -58,8 +58,8 @@
         "75956008-257e-408a-88a8-0c7c391774d0"
       ],
       "settings": {
-        "btn_title": "Check out our Latest Article",
-        "btn_link": "shopify:\/\/blogs\/podcast"
+        "btn_title": "Check out our latest articles",
+        "btn_link": "shopify:\/\/pages\/blog"
       }
     },
     "ceefde84-ef1a-4154-82b6-68f172aa8a6d": {
@@ -98,7 +98,7 @@
       "settings": {
         "title": "The good, the bad,<br> and <span class=\"red-color\">the ugly.<\/span>",
         "btn_title": "Get started",
-        "btn_link": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4"
+        "btn_link": "#shopify-section-template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9"
       }
     },
     "86bed344-b3b6-447d-a127-0b482250826f": {
@@ -157,7 +157,7 @@
             "image_text": "",
             "blog": "",
             "btn_title_01": "Get started",
-            "btn_link_01": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4",
+            "btn_link_01": "#shopify-section-template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9",
             "btn_title_02": "",
             "btn_link_02": ""
           }
@@ -174,7 +174,7 @@
             "image_text": "",
             "blog": "product",
             "btn_title_01": "Get started",
-            "btn_link_01": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4",
+            "btn_link_01": "#shopify-section-template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9",
             "btn_title_02": "See a sample report",
             "btn_link_02": "shopify:\/\/pages\/sample-report"
           }
@@ -192,7 +192,7 @@
             "image_text": "<p>Iman is a licensed oral health expert who’s here to support you along the way. She will:<\/p>\n<ul>\n<li>Review your progress<\/li>\n<li>Answer oral health questions<\/li>\n<li>Explain your microbial results in the context of your unique goals and symptoms<\/li>\n<\/ul>\n<p>We’ll reach out after you receive your results to coordinate your complimentary 1:1 consultation. In the meantime, you can reach out to Iman with questions anytime. <\/p>",
             "blog": "",
             "btn_title_01": "Get started",
-            "btn_link_01": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4",
+            "btn_link_01": "#shopify-section-template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9",
             "btn_title_02": "",
             "btn_link_02": ""
           }
@@ -210,7 +210,7 @@
             "image_text": "",
             "blog": "",
             "btn_title_01": "Get started",
-            "btn_link_01": "#shopify-section-template--15968788545693__50546778-b9a2-41c2-8f08-e2037cffacd4",
+            "btn_link_01": "#shopify-section-template--15968788545693__05381fc2-cc9f-4c75-a949-9710fc8a1af9",
             "btn_title_02": "",
             "btn_link_02": ""
           }
@@ -396,7 +396,7 @@
         "image": "shopify:\/\/shop_images\/Group_279524.png",
         "title": "Good health starts with a <span class=\"red-color\">healthy mouth<\/span>",
         "desc": "Join us in our mission to reinvent oral health: patient-first, prevention-focused and personalized.",
-        "btn_title": "Learn more about Our Test",
+        "btn_title": "Learn more about our test",
         "btn_link": "shopify:\/\/pages\/our-about"
       }
     },
@@ -443,7 +443,7 @@
         "title": "",
         "btn_title": "",
         "btn_link": "",
-        "blog": "podcast"
+        "blog": "david-lin"
       }
     }
   },

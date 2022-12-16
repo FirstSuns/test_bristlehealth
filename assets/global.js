@@ -1047,7 +1047,8 @@ $(window).on('load',function(){
       $(this).text('Read more');
     }
     $(this).parents('.home-review').toggleClass('active');
-  })
+  });
+  $('.loader').addClass('loader-active');
 });
 
 

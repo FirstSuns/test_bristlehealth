@@ -266,7 +266,10 @@
                             <p>1X Oral Microbiome Test 
                               <br>1X Personalized Care Plan</p>
                               {%- elsif value == 'Oral Microbiome Reset Program' -%}
-                            <p>Everything included above + One more follow-up test 6 months later + 2X Coaching calls + Ongoing accountability, advice & Support</p>
+                            <p>2X Oral Microbiome Tests<br>
+                            2X Personalized Care Plan<br>
+                            2X Coaching calls<br>
+                            Ongoing accountability, advice & support</p>
                               {%- endif -%}
                             </label>
                              {%- if value == 'One-time Oral Microbiome Test' -%}
@@ -400,7 +403,7 @@
                           <button
                             type="submit"
                             name="add"
-                            class="btn btn-primary btn-large product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+                            class="btn btn-primary btn-medium product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
                             {% if product.selected_or_first_available_variant.available == false %}
                               disabled
                             {% endif %}>

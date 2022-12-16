@@ -47,7 +47,9 @@
         {%- endif -%}
         {{ section.settings.desc }}
         {%- if section.settings.btn_title != blank and section.settings.btn_link != blank -%}
+        <div class="fs-btn-div-mob-center">
         <a class="btn btn-primary btn-medium" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+        </div>
         {%- endif -%}
       </div>
     </div>

@@ -3077,6 +3077,10 @@ details-disclosure > details {
 .read-more-review{max-height:144px;overflow:hidden;line-height:23px;}
 .home-review.active .read-more-review{max-height:inherit;overflow:inherit;}
 
+.loader{width:100%;height:100%;position:fixed;top:0;left:0;zoom:99;display:block !important;background:#fff;}
+.loader.loader-active{display:none !important;}
+
+
 @media(max-width:575px){
  .read-more-review{} 
 }

@@ -3,6 +3,7 @@
     <div class="sales-image-text">
       <div class="sales-image-text-left">
       {%- if section.settings.image != blank -%}
+      
      <img
                       id="Thumbnail-{{ section.id }}-0"
                       srcset="
@@ -30,7 +31,9 @@
         <p>{{ section.settings.desc }}</p>
         {%- endif -%}
         {%- if section.settings.btn_title != blank -%}
-        <a class="btn btn-primary" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+        <div class="fs-btn-div-mob-center">
+        <a class="btn btn-primary btn-medium" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+        </div>
         {%- endif -%}
       </div>
     </div>

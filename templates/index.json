@@ -12,6 +12,7 @@
     },
     "aac57206-12e0-4129-9764-ee90786ffa47": {
       "type": "new-home-image-text",
+      "disabled": true,
       "settings": {
         "custom_class": "guesswork",
         "title": "Take the <span class=\"red-color\">guesswork<\/span> out of oral health",
@@ -200,21 +201,23 @@
     },
     "ba38051d-258f-4568-9c9e-100d34a52a6b": {
       "type": "home-img-text",
+      "disabled": true,
       "settings": {
         "custom_class": "full-section no-margin",
         "image": "shopify:\/\/shop_images\/Group_8_dedcae3b-ab83-4e67-8362-95bbbd866c8c.jpg",
-        "title": "Identify and treat the root cause of <br>conditions, including:",
+        "title": "Identify and treat the root cause of conditions, including:",
         "desc": "<ul>\n<li><p>Chronic bad breath<\/p><\/li>\n<li><p>Tooth decay<\/p><\/li>\n<li><p>Inflamed gums<\/p><\/li>\n<li><p>Gut dysbiosis<\/p><\/li>\n<li><p>Gum recession<\/p><\/li>\n<li><p>Oral thrush<\/p><\/li>\n<li><p>Tonsil stones<\/p><\/li>\n<li><p>Burning mouth syndrome<\/p><\/li>\n<\/ul>",
         "btn_title_main": "Learn more",
-        "btn_title_main_url": "",
+        "btn_title_main_url": "https:\/\/shop.bristlehealth.com\/pages\/our-about",
         "bottom_title": "",
         "btn_title": "Learn more",
         "btn_title_mob": "Learn more",
-        "btn_link": "shopify:\/\/blogs\/blogs"
+        "btn_link": "https:\/\/shop.bristlehealth.com\/pages\/our-about"
       }
     },
     "1ea09545-73f7-4513-b588-28275ef7f05c": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--15935262064797__1ea09545-73f7-4513-b588-28275ef7f05c-166788111167bc9848-1": {
           "type": "title",
@@ -237,7 +240,7 @@
         "70ecf420-ddb9-4270-a032-780b6a75cfc7": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"#\">What you’ll recieve<\/a>"
+            "custom_liquid": "<a href=\"https:\/\/shop.bristlehealth.com\/pages\/sample-report\">What you’ll receive<\/a>"
           }
         },
         "template--15935262064797__1ea09545-73f7-4513-b588-28275ef7f05c-166788111167bc9848-2": {
@@ -313,6 +316,7 @@
     },
     "2f7cc631-d3d9-4c46-b8d3-9d167791f9f8": {
       "type": "sales-img-text",
+      "disabled": true,
       "settings": {
         "narrow_sec": true,
         "custom_class": "rocket_science",
@@ -320,11 +324,12 @@
         "title": "Oral health isn’t rocket science -<span class=\"red-color\"> it’s biology<\/span>",
         "desc": "<p>Bacteria, fungi and viruses live in your mouth! Some keep our teeth and gums healthy, while others cause damage. Bad bacteria cause conditions like bad breath, tooth decay and gum disease. They are also linked to conditions like heart disease, Alzheimer’s and diabetes.<\/p>\n<p>We help you identify and eliminate the harmful bacteria in your mouth to improve your oral and overall health.<\/p>",
         "btn_title": "Learn the science",
-        "btn_link": "#"
+        "btn_link": "https:\/\/shop.bristlehealth.com\/pages\/new-science"
       }
     },
     "9bab4bf5-a779-4fdf-9206-3a3a5490f760": {
       "type": "home-review",
+      "disabled": true,
       "blocks": {
         "b7b9a0f8-6b6f-4289-b118-b325ac8731ad": {
           "type": "Review",
@@ -449,6 +454,7 @@
     },
     "40183385-697e-4148-a4f4-0ce394595359": {
       "type": "home-real-improvement",
+      "disabled": true,
       "settings": {
         "custom_class": "",
         "title": "",
@@ -471,6 +477,7 @@
     },
     "25b59fb1-230e-46f4-8215-19d3fe4bad16": {
       "type": "home-team",
+      "disabled": true,
       "blocks": {
         "098b4248-3bf0-43a1-95ad-d2eaaaceca90": {
           "type": "Team",
@@ -517,6 +524,7 @@
     },
     "3edec089-d01c-490d-8df4-dca04199ae98": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--15935262064797__3edec089-d01c-490d-8df4-dca04199ae98-166789760600513294-1": {
           "type": "title",
@@ -539,7 +547,7 @@
         "f177faf8-2100-4a15-b7f8-6db484a413ce": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"#\">What you’ll recieve<\/a>"
+            "custom_liquid": "<a href=\"https:\/\/shop.bristlehealth.com\/pages\/sample-report\">What you’ll receive<\/a>"
           }
         },
         "template--15935262064797__3edec089-d01c-490d-8df4-dca04199ae98-166789760600513294-2": {
@@ -597,6 +605,7 @@
     },
     "3d755c21-f508-4a11-971f-6def3b3f47b3": {
       "type": "home-faq",
+      "disabled": true,
       "blocks": {
         "20f90b55-d772-4418-881e-9e31f4b1b8a2": {
           "type": "FAQ",
@@ -658,6 +667,10 @@
         "btn_title_02": "Get in touch",
         "btn_link_02": "shopify:\/\/pages\/contact-us"
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
     }
   },
   "order": [
@@ -678,6 +691,7 @@
     "f6dd1848-429a-4db6-bfda-8a5e081da65f",
     "25b59fb1-230e-46f4-8215-19d3fe4bad16",
     "3edec089-d01c-490d-8df4-dca04199ae98",
-    "3d755c21-f508-4a11-971f-6def3b3f47b3"
+    "3d755c21-f508-4a11-971f-6def3b3f47b3",
+    "pagefly-home"
   ]
 }

@@ -30,7 +30,7 @@
         "title": "<span class=\"red-color\">Identify and treat <\/span><br>the root cause of <br>bad breath",
         "desc": "Test your saliva to identify the root-cause of bad breath. Get 1:1 coaching and a personalized care plan to get rid of it for good - all from home.",
         "btn_title": "Fix your bad breath",
-        "btn_link": "#ProductInfo-template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e"
+        "btn_link": "#shopify-section-template--15989163622557__0c35ed34-6578-4405-9471-788da0fac4a6"
       }
     },
     "68e41c7a-bb7f-41b4-a860-7712414e5d12": {
@@ -82,8 +82,8 @@
         "image": "shopify:\/\/shop_images\/image_43.png",
         "title": "Meet Olivia",
         "left_desc": "“Bristle has been such an incredible resource to help me better understand the source of bad breath and my overall health. I have been struggling to combat bad breath for over a decade and was unable to find a solution. After visits with my dentist, G.I. Specialist, and ENT, I was left feeling lost and helpless. After sending in my sample to Bristle, they provided me with a care plan that finally corrected the problem…I also have a better understanding of how my overall health plays such an important part. I am so grateful for Bristle and the positive influence it has made for me!” - Olivia, 35",
-        "btn_title": "Learn the science",
-        "btn_title_mobile": "Read full story",
+        "btn_title": "",
+        "btn_title_mobile": "",
         "btn_link": "https:\/\/shop.bristlehealth.com\/pages\/our-abou"
       }
     },
@@ -98,12 +98,12 @@
             "top_desc": "Get an in-depth report detailing the bacteria in your mouth and its impact to your health.",
             "title": "Get started with our at-home saliva test",
             "desc": "<p>Dental checkups only look for existing problems like cavities or gum disease. Instead of looking for symptoms to treat, Bristle analyzes your saliva to identify the bacteria in your mouth that cause those symptoms. By detecting these bacteria at the earliest stages we can help you prevent the onset of disease.<br\/><br\/>Our test was developed from the ground-up using clinical research and your results are compared against thousands of other samples.<\/p>",
-            "image": "shopify:\/\/shop_images\/6038189_1.png",
-            "img_position": "left",
+            "image": "shopify:\/\/shop_images\/imgpsh_fullsize_anim_2.png",
+            "img_position": "right",
             "image_text": "",
             "blog": "",
             "btn_title_01": "Get started",
-            "btn_link_01": "#ProductInfo-template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e",
+            "btn_link_01": "#shopify-section-template--15989163622557__0c35ed34-6578-4405-9471-788da0fac4a6",
             "btn_title_02": "",
             "btn_link_02": ""
           }
@@ -120,7 +120,7 @@
             "image_text": "",
             "blog": "podcast",
             "btn_title_01": "Get started",
-            "btn_link_01": "#ProductInfo-template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e",
+            "btn_link_01": "#shopify-section-template--15989163622557__0c35ed34-6578-4405-9471-788da0fac4a6",
             "btn_title_02": "See a sample report",
             "btn_link_02": "#ProductInfo-template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e"
           }
@@ -138,7 +138,7 @@
             "image_text": "<p>Iman is a licensed oral health expert who’s here to support you along the way. She will:<\/p>\n<ul>\n<li>Review your progress<\/li>\n<li>Answer oral health questions<\/li>\n<li>Explain your microbial results in the context of your unique goals and symptoms<\/li>\n<\/ul>\n<p>We’ll reach out after you receive your results to coordinate your complimentary 1:1 consultation. In the meantime, you can reach out to Iman with questions anytime. <\/p>",
             "blog": "",
             "btn_title_01": "Get started",
-            "btn_link_01": "#ProductInfo-template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e",
+            "btn_link_01": "#shopify-section-template--15989163622557__0c35ed34-6578-4405-9471-788da0fac4a6",
             "btn_title_02": "",
             "btn_link_02": ""
           }
@@ -156,7 +156,7 @@
             "image_text": "",
             "blog": "",
             "btn_title_01": "Get started",
-            "btn_link_01": "#ProductInfo-template--15989163622557__4856c792-9cec-4615-8f63-1b7511f4899e",
+            "btn_link_01": "#shopify-section-template--15989163622557__0c35ed34-6578-4405-9471-788da0fac4a6",
             "btn_title_02": "",
             "btn_link_02": ""
           }
@@ -394,7 +394,7 @@
           "settings": {
             "title": "CLIA Certified Lab",
             "desc": "Our lab is CLIA-certified (Clinical Laboratory Improvement Amendments). This means they have to meet high standards to obtain both state and federal certifications and submit themselves to regular inspections.",
-            "image": "shopify:\/\/shop_images\/image_14_2.png"
+            "image": "shopify:\/\/shop_images\/Icon-Color_Certified_1.png"
           }
         },
         "35f8cb59-2814-4974-bf57-f23c1f92f6e8": {
@@ -402,7 +402,7 @@
           "settings": {
             "title": "Backed by Science",
             "desc": "Our test was developed through a research study with the University of Pacific School of Dentistry under an independent review board, and our science is backed by decades of research and over 200 scientific studies.",
-            "image": "shopify:\/\/shop_images\/image_15_3.png"
+            "image": "shopify:\/\/shop_images\/Icon-Color_Science_1.png"
           }
         },
         "3b56c3ce-15d1-4b35-be77-882e949e1ddb": {
@@ -410,7 +410,7 @@
           "settings": {
             "title": "Secure Data",
             "desc": "Bristle is HIPAA compliant and we take extensive measures to keep your data 100% secure. We use state-of-the-art encryption to ensure your data is stored securely, and give you control over your personal data.",
-            "image": "shopify:\/\/shop_images\/image_16_2.png"
+            "image": "shopify:\/\/shop_images\/Icon-Color_Secure_Data_1.png"
           }
         }
       },
@@ -420,7 +420,7 @@
         "3b56c3ce-15d1-4b35-be77-882e949e1ddb"
       ],
       "settings": {
-        "title": "Results you can <span class=\"red-color\">trust<\/span>"
+        "title": "Results you can trust"
       }
     },
     "b0082979-5fc3-48c4-88eb-cffec8926af9": {
@@ -513,8 +513,8 @@
         "title_mob": "Good health starts with a <span class=\"red-color\">healthy mouth<\/span>",
         "desc": "Start today and experience consistently better<br> breath within 30 days of getting test results",
         "desc_mob": "Join us in our mission to reinvent oral health: patient-first, prevention-focused and personalized.",
-        "btn_title": "Learn more about Our Test",
-        "btn_link": "shopify:\/\/pages\/about-us"
+        "btn_title": "Learn more about our test",
+        "btn_link": "shopify:\/\/pages\/our-about"
       }
     }
   },

@@ -27,7 +27,7 @@
         "custom_class": "behind-test",
         "narrow_sec": true,
         "image": "shopify:\/\/shop_images\/Bristle_-_Product_Shoot_-_September_2022_-_Lead_Wolf_Studio_-_-49_1_1_1.png",
-        "title": "<span class=\"red-color\">The tech<\/span> behind the test",
+        "title": "<span class=\"red-color\">The tech<\/span> behind<br>the test",
         "desc": "We developed the world’s first and most advanced oral health test to help you easily and effectively improve your health. Learn about it 👇",
         "btn_title": "Get started",
         "btn_link": "#ProductInfo-template--15989246558365__b3a8e9e9-6019-4ec8-96cd-8ac2a8b0bc46"
@@ -198,7 +198,7 @@
     "6381c212-474e-41c3-8fab-f5bf91d0a739": {
       "type": "oral-health-text",
       "settings": {
-        "desc": "<h2 class=\"main-title\">Curated care: <span class=\"red-color\">created for you<\/span> <span class=\"next-block\"><\/span>\n<\/h2>\n<p>We do the legwork so you don’t have to.<\/p>"
+        "desc": "<h2 class=\"main-title\">Retrain your biology to <span class=\"red-color\">improve your oral health<\/span> <br>(FYI: it takes more than brushing and flossing)<\/h2>\n<p>We go way beyond the same advice you constantly hear and take a holistic approach to improving oral health at the biological level... something something something<\/p>"
       }
     },
     "6ed5b418-8e5d-4f6d-89e0-0dee68742609": {
@@ -329,9 +329,9 @@
       ],
       "settings": {
         "title": "Read about our latest discoveries",
-        "btn_title": "Check out our Latest Article",
-        "btn_link": "shopify:\/\/blogs\/podcast",
-        "blog": "podcast"
+        "btn_title": "Check out our Latest Articles",
+        "btn_link": "shopify:\/\/blogs\/bristle-research",
+        "blog": "bristle-research"
       }
     },
     "4ae3621f-fb54-499c-b728-1df4f964ec5c": {
@@ -407,7 +407,7 @@
             "title": "Langford",
             "sub_title": "Los Angeles, CA",
             "desc_title": "I'm thrilled to have discovered them.",
-            "desc": "I found Bristle while taking steps to fix some recurring gut issues, I wasn't aware of how connected your mouth flora and gut flora are until I began following the Bristle regiment and now my overall digestive and oral health are better than I even thought possible"
+            "desc": "I found Bristle while taking steps to fix some recurring gut issues, I wasn't aware of how connected your mouth flora and gut flora are until I began following the Bristle regiment and now my overall digestive and oral health are better than I even thought possible!"
           }
         },
         "c6c3b95e-56aa-4d75-9efd-2c514d4323f5": {
@@ -425,7 +425,7 @@
             "title": "Olivia",
             "sub_title": "Los Angeles, CA",
             "desc_title": "I am so grateful for Bristle",
-            "desc": "Bristle has been such an incredible resource to help me better understand the source of bad breath and my overall health. I have been struggling to combat bad breath for over a decade and was unable to find a solution. After visits with my dentist, G.I. Specialist, and ENT"
+            "desc": "Bristle has been such an incredible resource to help me better understand the source of bad breath and my overall health. I have been struggling to combat bad breath for over a decade and was unable to find a solution."
           }
         }
       },
@@ -543,10 +543,10 @@
         "custom_class": "healthy-mouth",
         "narrow_sec": true,
         "image": "shopify:\/\/shop_images\/portrait-beautiful-smiling-blond-model-dressed-summer-hipster-clothes_2_1.png",
-        "title": "Smile: the future with Bristle \nis<span class=\"red-color\"> bright<\/span>",
+        "title": "Smile 😁 the future with Bristle \nis<span class=\"red-color\"> bright<\/span>",
         "desc": "<p>Bristle focuses making personalized oral care available to everyone. By prioritizing simplicity and science, we can ensure that our in-depth reporting empowers both patients and dental professionals to make better decisions for preventative care and ongoing health.<\/p>\n<h4>Want to get your dentist involved? Send them to our providers page!<\/h4>",
-        "btn_title": "Learn more!",
-        "btn_link": "#"
+        "btn_title": "Learn more",
+        "btn_link": "https:\/\/shop.bristlehealth.com\/pages\/providers?view=providers"
       }
     }
   },
