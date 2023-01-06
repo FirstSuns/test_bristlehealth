@@ -120,9 +120,12 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/621fba879a7423821ba5c89e_fav.png",
     "currency_code_enabled": true,
-    "cart_type": "page",
+    "cart_type": "notification",
     "show_vendor": false,
     "show_cart_note": false,
+    "cart_drawer_collection": "bristle-oral-health",
+    "checkout_body_background_color": "#f5f3ee",
+    "checkout_sidebar_background_color": "#ffffff",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

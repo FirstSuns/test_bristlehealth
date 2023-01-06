@@ -154,3 +154,19 @@ $(document).on('click','.subscription-radio',function () {
   
 })
 
+// MUSTAJAB
+
+$(function(){
+  $(".jdgm-carousel-item__product-title").text("read more");
+
+    if ($("form[data-productid='7648774258845'] .pf-option-swatches div[data-option-name='PFCombined'] label:contains(One-time Oral Microbiome Test)")){
+       $("form[data-productid='7648774258845'] .pf-option-swatches div[data-option-name='PFCombined']:contains(One-time Oral Microbiome Test)").append('<p>1X Oral Microbiome Test <br>1X Personalized Care Plan</p>')
+    }
+      
+    if ($("form[data-productid='7648774258845'] .pf-option-swatches div[data-option-name='PFCombined'] label:contains(Oral Microbiome Reset Program)")){
+       $("form[data-productid='7648774258845'] .pf-option-swatches div[data-option-name='PFCombined']:contains(Oral Microbiome Reset Program)").append('<p>2X Oral Microbiome Tests<br>2X Personalized Care Plan<br>2X Coaching calls<br>Ongoing accountability, advice &amp; support</p>')
+    }
+  
+});
+
+

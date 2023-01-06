@@ -152,6 +152,12 @@
 .home-team-section .home-team h5{
     color: #303030;
 }
+
+.our-test-section-new{
+ 
+font-family: 'Aeonik'; 
+}
+
 .our-test-section table {
     border-collapse: collapse;
     width: 100%;
@@ -2023,6 +2029,12 @@ header .header__icons .header__icon--cart {
 .header__icons {
     gap: 15px;
 }
+
+.header__icons .header__search,
+.header__icons .header__icon--account{
+display:none !important;
+}
+
 .header header-drawer {
     margin: 0;
 }
@@ -10035,3 +10047,176 @@ article.article-template.defaulttemp .top-header .article-template__hero-contain
 
 
 
+/* PAGEFLY GLOBAL CSS*/
+
+.review-slider .jdgm-carousel-wrapper{
+	padding:0;
+	width:100%;
+}
+.review-slider .jdgm-carousel-item {
+	background: #F5F3EE;
+	border-radius: 39px;
+	padding: 30px;
+}
+.review-slider .jdgm-carousel-item__review-rating, .review-slider .jdgm-carousel-item__review-content{
+	text-align: start;
+}
+.review-slider .jdgm-line-clamp {
+	-webkit-line-clamp: 5 !important;
+}
+.review-slider .jdgm-carousel-item__review-title{
+	margin: 20px 0;
+	font-family: 'Aeonik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+}
+.review-slider .jdgm-carousel-item__review-body{
+	font-family: 'Aeonik';
+	font-weight: 400;
+	font-size: 20px;
+}
+.review-slider .jdgm-carousel-item {
+	vertical-align: top;
+}
+
+.review-slider .jdgm-carousel-item__review-content{
+  margin-bottom:20px;
+}
+
+.oral-steps div[data-pf-type="TabsMenu"]{
+	gap: 12px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.blog-title a{
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.dentists-slider .pagination-style-2 button{
+	background: rgba(247, 95, 55, 0.4) !important;
+	border: none !important;
+	width: 13px !important;
+	height: 13px !important;
+}
+.dentists-slider .pagination-style-2 button.active{
+	background: var(--pf-color-6) !important;
+}
+.dentists-slider .pagination-style-2 button.active:before{
+	content:none;
+}
+.dentists-slider .pf-slider-next, .dentists-slider .pf-slider-prev{
+	border:1px solid var(--pf-primary-color)  !important;
+	background:transparent  !important;
+	top: 104%  !important;
+}
+.dentists-slider .pf-slider-next:hover, .dentists-slider .pf-slider-prev:hover{
+	background:transparent  !important;
+}
+.dentists-slider .pf-slider-next:after, .dentists-slider .pf-slider-next:before, .dentists-slider .pf-slider-prev:after, .dentists-slider .pf-slider-prev:before{
+	background:var(--pf-primary-color)  !important;
+}
+.dentists-slider .pf-slider-next{
+	left: 52%  !important;
+	right: initial  !important;
+}
+.dentists-slider .pf-slider-prev{
+	right: 52% !important;
+	left: initial  !important;
+}
+
+.search-blogs{
+  width: 233px;
+}
+
+.search-blogs form{
+ position:relative;
+}
+
+.search-blogs input[type="text"]{
+background: #F5F3EE;
+border-radius: 15px;
+width: 100%;
+height: 56px;
+border: none;
+padding: 20px;
+outline: none;
+color: #303030;
+font-weight: 700;
+font-size: 16px;
+line-height: 23px;
+font-family: var(--pf-4th-font);
+}
+
+.search-blogs button{
+width: 26px;
+height: 26px;
+background: none;
+border: none;
+padding: 0;
+position: absolute;
+right: 20px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.jdgm-carousel-item__product{
+  font-family: var(--pf-4th-font);
+  font-size: 18px;
+     color: #2458ff !important;
+  text-decoration:none;
+}
+
+
+
+
+.pf-option-swatches div[data-option-name='PFCombined']{
+	flex-wrap:wrap;
+	font-family: var(--pf-tertiary-font);
+	font-weight: 400;
+	background-color: var(--pf-color-8);
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: rgb(0 0 0 / 25%) 0 4px 4px;
+}
+.pf-option-swatches div[data-option-name='PFCombined'] p {
+	margin-left: calc(8px + 13px);
+	margin-bottom: 0;
+	line-height: 24px;
+	color: #303030;
+	font-family: var(--pf-4th-font);
+	font-size: 18px;
+	visibility: hidden;
+	height: 0;
+}
+.pf-option-swatches input[type='radio']:checked + label + p {
+	visibility: visible;
+	height: auto;
+}
+
+@media (min-width:768px){
+	.dentists-slider .pf-slider-prev,   .dentists-slider .pf-slider-next{
+	display:none;
+}
+
+  .review-slider .jdgm-carousel-item {
+	margin: 0 10px;
+}
+  
+} 
+@media (max-width:767px){
+	.dentists-slider .pf-slider-nav{
+	display:none !important;
+    } 
+}
+
+@media (min-width:991px){
+ 
+.review-slider .jdgm-carousel-item {
+	width: 32%;
+}
+} 

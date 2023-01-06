@@ -23,7 +23,6 @@
     },
     "fc0414f6-28e2-4030-b26f-ad4030ea61fe": {
       "type": "home-logo",
-      "disabled": true,
       "blocks": {
         "e439de7e-9680-4f4e-8e9a-35a86ce9d46e": {
           "type": "Logo",
@@ -58,7 +57,6 @@
     },
     "06188e47-d4b8-452e-aced-eb260017b269": {
       "type": "home-icon-text",
-      "disabled": true,
       "blocks": {
         "347c9283-e02c-476e-a037-c3c5c759f3d2": {
           "type": "Icon",
@@ -98,7 +96,6 @@
     },
     "5d6bc317-5aa0-4e54-91fc-33341d0ac7ba": {
       "type": "home-how-it-works",
-      "disabled": true,
       "blocks": {
         "2dcee56c-6e85-478d-bcca-a55b533e1205": {
           "type": "Text",
@@ -185,7 +182,6 @@
     },
     "bf31430c-9868-44bc-8f84-858155a223c7": {
       "type": "sales-img",
-      "disabled": true,
       "settings": {
         "custom_class": "home-img-left-side",
         "narrow_sec": true,
@@ -295,7 +291,6 @@
     },
     "166807277272ab05a6": {
       "type": "apps",
-      "disabled": true,
       "blocks": {
         "3cdf5358-983d-4170-9bd2-dba877e1eb21": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -326,6 +321,15 @@
     "9bab4bf5-a779-4fdf-9206-3a3a5490f760": {
       "type": "home-review",
       "blocks": {
+        "1174e09e-7cba-49e8-a059-2c066cedab39": {
+          "type": "Review",
+          "settings": {
+            "title": "Donna",
+            "sub_title": "Age: 42",
+            "desc_title": "I absolutely love Bristle, it's a game changer.",
+            "desc": "I absolutely love Bristle, it's a game changer. My test results gave me detailed results with actionable easy steps to take to get my oral health back on track. The entire team is very helpful, responsive and kind!"
+          }
+        },
         "b7b9a0f8-6b6f-4289-b118-b325ac8731ad": {
           "type": "Review",
           "settings": {
@@ -333,15 +337,6 @@
             "sub_title": "Los Angeles, CA",
             "desc_title": "I'm thrilled to have discovered them.",
             "desc": "I found Bristle while taking steps to fix some recurring gut issues, I wasn't aware of how connected your mouth flora and gut flora are until I began following the Bristle regiment and now my overall digestive and oral health are better than I even thought possible..."
-          }
-        },
-        "1174e09e-7cba-49e8-a059-2c066cedab39": {
-          "type": "Review",
-          "settings": {
-            "title": "Donna",
-            "sub_title": "Los Angeles, CA",
-            "desc_title": "I absolutely love Bristle, it's a game changer.",
-            "desc": "I absolutely love Bristle, it's a game changer. My test results gave me detailed results with actionable easy steps to take to get my oral health back on track. The entire team is very helpful, responsive and kind!"
           }
         },
         "47b4d5d3-bcc0-4609-8231-aad8f8cddd27": {
@@ -355,8 +350,8 @@
         }
       },
       "block_order": [
-        "b7b9a0f8-6b6f-4289-b118-b325ac8731ad",
         "1174e09e-7cba-49e8-a059-2c066cedab39",
+        "b7b9a0f8-6b6f-4289-b118-b325ac8731ad",
         "47b4d5d3-bcc0-4609-8231-aad8f8cddd27"
       ],
       "settings": {
@@ -366,7 +361,6 @@
     },
     "c3a2b8d7-e3db-4c72-ba2a-c215153d1a3f": {
       "type": "home-result-icon-text",
-      "disabled": true,
       "blocks": {
         "07d648f3-d9e1-4ff6-9808-6da2bded5498": {
           "type": "Icon",
@@ -404,7 +398,6 @@
     },
     "95ef0b99-1000-4c87-8597-68ab0c6dcd5a": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15935262064797__95ef0b99-1000-4c87-8597-68ab0c6dcd5a-1667970067f13f5594-0": {
           "type": "heading",
@@ -461,7 +454,6 @@
     },
     "f6dd1848-429a-4db6-bfda-8a5e081da65f": {
       "type": "home-text",
-      "disabled": true,
       "settings": {
         "title_01": "80%",
         "desc_01": "Of Bristle members make changes to their oral products based on their test results and care plan",
